@@ -1,0 +1,84 @@
+{"level":"info","message":"Generating categories for book: 675af1d267c607f402f3ac0b","timestamp":"2024-12-12T15:28:08.929Z"}
+{"bookId":"675af1d267c607f402f3ac0b","error":"TypeError: extractAndSaveText is not a function\n    at validateBookContent (/Users/marcolp/AI/CURSOR projects/Lose/backend/utils/bookUtils.js:32:29)\n    at exports.generateCategories (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:137:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","level":"error","message":"Error generating categories: extractAndSaveText is not a function","timestamp":"2024-12-12T15:28:09.874Z"}
+{"level":"info","message":"Generating categories for book: 675af1d267c607f402f3ac0b","timestamp":"2024-12-12T15:30:35.921Z"}
+{"level":"info","message":"Successfully generated categories for book 675af1d267c607f402f3ac0b","timestamp":"2024-12-12T15:30:39.689Z"}
+{"level":"info","message":"Generating keywords for book: 675af1d267c607f402f3ac0b","timestamp":"2024-12-12T15:30:54.288Z"}
+{"level":"info","message":"Successfully generated keywords for book 675af1d267c607f402f3ac0b","timestamp":"2024-12-12T15:30:57.172Z"}
+{"level":"info","message":"Generating scenes for book: 675af1d267c607f402f3ac0b","timestamp":"2024-12-12T15:32:17.398Z"}
+{"level":"info","message":"Successfully generated scenes for book 675af1d267c607f402f3ac0b","timestamp":"2024-12-12T15:32:23.709Z"}
+{"level":"info","message":"Generating cover images for book: 675af1d267c607f402f3ac0b","timestamp":"2024-12-12T15:32:23.730Z"}
+{"bookId":"675af1d267c607f402f3ac0b","level":"info","message":"Generating image for scene 1","sceneTitle":"L'Incontro Sospeso","timestamp":"2024-12-12T15:32:23.770Z"}
+{"bookId":"675af1d267c607f402f3ac0b","level":"info","message":"Generating image for scene 2","sceneTitle":"Il Viaggio Inaspettato","timestamp":"2024-12-12T15:32:23.770Z"}
+{"bookId":"675af1d267c607f402f3ac0b","level":"info","message":"Generating image for scene 3","sceneTitle":"L'Ultima Decisione","timestamp":"2024-12-12T15:32:23.770Z"}
+{"level":"info","message":"Successfully generated cover images for book 675af1d267c607f402f3ac0b","timestamp":"2024-12-12T15:32:38.124Z"}
+{"level":"info","message":"Generating categories for book: 675b0244a477b64b68c19eeb","timestamp":"2024-12-12T15:33:27.598Z"}
+{"level":"info","message":"Successfully generated categories for book 675b0244a477b64b68c19eeb","timestamp":"2024-12-12T15:33:29.003Z"}
+{"level":"info","message":"Generating keywords for book: 675b0244a477b64b68c19eeb","timestamp":"2024-12-12T15:33:32.116Z"}
+{"level":"info","message":"Successfully generated keywords for book 675b0244a477b64b68c19eeb","timestamp":"2024-12-12T15:33:33.069Z"}
+{"level":"info","message":"Generating categories for book: 675b0244a477b64b68c19eeb","timestamp":"2024-12-12T15:46:44.374Z"}
+{"level":"info","message":"Successfully generated categories for book 675b0244a477b64b68c19eeb","timestamp":"2024-12-12T15:46:57.602Z"}
+{"level":"info","message":"Generating keywords for book: 675b0244a477b64b68c19eeb","timestamp":"2024-12-12T15:47:16.367Z"}
+{"level":"info","message":"Successfully generated keywords for book 675b0244a477b64b68c19eeb","timestamp":"2024-12-12T15:47:19.021Z"}
+{"level":"info","message":"Generating categories for book: 675b059e1a253388caa09350","timestamp":"2024-12-12T15:47:53.717Z"}
+{"level":"info","message":"Successfully generated categories for book 675b059e1a253388caa09350","timestamp":"2024-12-12T15:47:55.640Z"}
+{"level":"info","message":"Generating keywords for book: 675b059e1a253388caa09350","timestamp":"2024-12-12T15:47:58.167Z"}
+{"level":"info","message":"Successfully generated keywords for book 675b059e1a253388caa09350","timestamp":"2024-12-12T15:47:59.593Z"}
+{"level":"info","message":"Generating categories for book: 675b059e1a253388caa09350","timestamp":"2024-12-12T15:50:33.273Z"}
+{"level":"info","message":"Successfully generated categories for book 675b059e1a253388caa09350","timestamp":"2024-12-12T15:50:35.149Z"}
+{"level":"info","message":"Generating keywords for book: 675b059e1a253388caa09350","timestamp":"2024-12-12T15:50:37.756Z"}
+{"level":"info","message":"Successfully generated keywords for book 675b059e1a253388caa09350","timestamp":"2024-12-12T15:50:38.870Z"}
+{"level":"info","message":"Generating categories for book: 675b059e1a253388caa09350","timestamp":"2024-12-12T15:53:46.596Z"}
+{"level":"info","message":"Successfully generated categories for book 675b059e1a253388caa09350","timestamp":"2024-12-12T15:53:48.133Z"}
+{"level":"info","message":"Generating categories for book: 675b059e1a253388caa09350","timestamp":"2024-12-12T15:53:50.373Z"}
+{"level":"info","message":"Successfully generated categories for book 675b059e1a253388caa09350","timestamp":"2024-12-12T15:53:51.839Z"}
+{"level":"info","message":"Generating categories for book: 675b059e1a253388caa09350","timestamp":"2024-12-12T15:56:41.400Z"}
+{"level":"info","message":"Successfully generated categories for book 675b059e1a253388caa09350","timestamp":"2024-12-12T15:56:43.399Z"}
+{"level":"info","message":"Generating keywords for book: 675b059e1a253388caa09350","timestamp":"2024-12-12T15:56:46.313Z"}
+{"level":"info","message":"Successfully generated keywords for book 675b059e1a253388caa09350","timestamp":"2024-12-12T15:56:47.165Z"}
+{"level":"info","message":"Generating categories for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T15:58:44.401Z"}
+{"level":"info","message":"Successfully generated categories for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T15:58:46.626Z"}
+{"level":"info","message":"Generating keywords for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T15:58:49.933Z"}
+{"level":"info","message":"Successfully generated keywords for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T15:58:51.381Z"}
+{"level":"info","message":"Generating scenes for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:04:42.911Z"}
+{"level":"info","message":"Successfully generated scenes for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:04:49.221Z"}
+{"level":"info","message":"Generating cover images for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:04:49.245Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 1","sceneTitle":"L'Arrivo alla Villa","timestamp":"2024-12-12T16:04:49.282Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 2","sceneTitle":"Lo Specchio Inquietante","timestamp":"2024-12-12T16:04:49.283Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 3","sceneTitle":"Il Ritual della Distruzione","timestamp":"2024-12-12T16:04:49.283Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","error":"Error: 400 This request has been blocked by our content filters.\n    at APIError.generate (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/error.js:45:20)\n    at OpenAI.makeStatusError (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:293:33)\n    at OpenAI.makeRequest (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:337:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateCoverImage (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:366:22)\n    at async /Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:235:25\n    at async Promise.all (index 2)\n    at async exports.generateCoverImages (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:247:20)","level":"error","message":"Error generating cover images: 400 This request has been blocked by our content filters.","timestamp":"2024-12-12T16:05:00.284Z"}
+{"level":"info","message":"Generating scenes for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:05:05.045Z"}
+{"level":"info","message":"Successfully generated scenes for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:05:11.606Z"}
+{"level":"info","message":"Generating cover images for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:05:11.610Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 1","sceneTitle":"LO_SPECCHIO_INQUIETANTE","timestamp":"2024-12-12T16:05:11.648Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 2","sceneTitle":"LA VILLA IN FIAMME","timestamp":"2024-12-12T16:05:11.648Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 3","sceneTitle":"L'OMBRA NEL RIFLESSO","timestamp":"2024-12-12T16:05:11.648Z"}
+{"level":"info","message":"Successfully generated cover images for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:05:25.806Z"}
+{"level":"info","message":"Generating scenes for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:13:41.163Z"}
+{"level":"info","message":"Successfully generated scenes for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:13:50.958Z"}
+{"level":"info","message":"Generating cover images for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:13:50.977Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 1","sceneTitle":"L'Arrivo alla Villa","timestamp":"2024-12-12T16:13:51.019Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 2","sceneTitle":"Il Misterioso Specchio","timestamp":"2024-12-12T16:13:51.020Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 3","sceneTitle":"Il Rituale Finale","timestamp":"2024-12-12T16:13:51.020Z"}
+{"level":"info","message":"Successfully generated cover images for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:14:08.575Z"}
+{"level":"info","message":"Generating scenes for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:14:43.127Z"}
+{"level":"info","message":"Successfully generated scenes for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:14:51.528Z"}
+{"level":"info","message":"Generating cover images for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:14:51.537Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 1","sceneTitle":"L'Arrivo alla Villa","timestamp":"2024-12-12T16:14:51.576Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 2","sceneTitle":"Il Rituale nel Salone","timestamp":"2024-12-12T16:14:51.577Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 3","sceneTitle":"Il Momento Finale","timestamp":"2024-12-12T16:14:51.577Z"}
+{"level":"info","message":"Successfully generated cover images for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:15:12.450Z"}
+{"level":"info","message":"Generating categories for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:15:22.676Z"}
+{"level":"info","message":"Successfully generated categories for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:15:25.941Z"}
+{"level":"info","message":"Generating categories for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:15:28.643Z"}
+{"level":"info","message":"Successfully generated categories for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:15:32.121Z"}
+{"level":"info","message":"Generating scenes for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:17:59.005Z"}
+{"level":"info","message":"Successfully generated scenes for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:18:07.537Z"}
+{"level":"info","message":"Generating cover images for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:18:07.555Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 1","sceneTitle":"L'Arrivo alla Villa","timestamp":"2024-12-12T16:18:07.597Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 2","sceneTitle":"Lo Specchio Inquietante","timestamp":"2024-12-12T16:18:07.597Z"}
+{"bookId":"675b0830f7a47311c7efb1bc","level":"info","message":"Generating image for scene 3","sceneTitle":"Il Ritual di Distruzione","timestamp":"2024-12-12T16:18:07.597Z"}
+{"level":"info","message":"Successfully generated cover images for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:18:22.582Z"}
+{"level":"info","message":"Generating categories for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:33:43.468Z"}
+{"level":"info","message":"Successfully generated categories for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:33:46.805Z"}
+{"level":"info","message":"Generating categories for book: 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:33:48.838Z"}
+{"level":"info","message":"Successfully generated categories for book 675b0830f7a47311c7efb1bc","timestamp":"2024-12-12T16:33:51.914Z"}

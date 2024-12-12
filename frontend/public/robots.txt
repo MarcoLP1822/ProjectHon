@@ -1,0 +1,10 @@
+# www.robotstxt.org/
+
+User-agent: *
+Allow: /
+
+# Disallow admin routes
+Disallow: /admin/
+
+# Sitemap (quando sarà disponibile)
+# Sitemap: https://tuodominio.com/sitemap.xml 

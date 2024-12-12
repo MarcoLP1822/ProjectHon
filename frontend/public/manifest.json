@@ -1,0 +1,31 @@
+{
+  "short_name": "Book Platform",
+  "name": "Book Publishing Platform",
+  "description": "Piattaforma per la generazione di metadati e copertine per libri con AI",
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#4B6BFB",
+  "background_color": "#F8F9FA",
+  "scope": "/",
+  "categories": ["productivity", "books", "ai"],
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Upload Book",
+      "url": "/",
+      "description": "Upload a new book"
+    },
+    {
+      "name": "Tasks",
+      "url": "/tasks",
+      "description": "View book tasks"
+    }
+  ]
+} 

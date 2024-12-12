@@ -1,0 +1,64 @@
+📁 book-publishing-platform/
+├── 📁 backend/
+│   ├── 📁 config/
+│   │   └── db.config.js
+│   ├── 📁 controllers/
+│   │   ├── auth.controller.js
+│   │   ├── book.controller.js
+│   │   ├── content.controller.js
+│   │   └── social.controller.js
+│   ├── 📁 middleware/
+│   │   ├── auth.middleware.js
+│   │   └── upload.middleware.js
+│   ├── 📁 models/
+│   │   ├── book.model.js
+│   │   ├── content.model.js
+│   │   └── user.model.js
+│   ├── 📁 routes/
+│   │   ├── auth.routes.js
+│   │   ├── book.routes.js
+│   │   ├── content.routes.js
+│   │   └── social.routes.js
+│   ├── package.json
+│   └── server.js
+│
+├── 📁 frontend/
+│   ├── 📁 public/
+│   │   ├── index.html
+│   │   └── assets/
+│   ├── 📁 src/
+│   │   ├── 📁 components/
+│   │   │   ├── 📁 auth/
+│   │   │   │   ├── Login.js
+│   │   │   │   └── Register.js
+│   │   │   ├── 📁 book/
+│   │   │   │   ├── BookUpload.js
+│   │   │   │   └── BookList.js
+│   │   │   ├── 📁 content/
+│   │   │   │   ├── Summary.js
+│   │   │   │   ├── BlogPost.js
+│   │   │   │   ├── PodcastScript.js
+│   │   │   │   └── SocialPost.js
+│   │   │   ├── 📁 dashboard/
+│   │   │   │   ├── MainDashboard.js
+│   │   │   │   └── TaskDashboard.js
+│   │   │   └── 📁 layout/
+│   │   │       ├── Header.js
+│   │   │       ├── Sidebar.js
+│   │   │       └── Footer.js
+│   │   ├── 📁 services/
+│   │   │   ├── auth.service.js
+│   │   │   ├── book.service.js
+│   │   │   ├── content.service.js
+│   │   │   └── social.service.js
+│   │   ├── 📁 utils/
+│   │   │   ├── api.js
+│   │   │   └── theme.js
+│   │   ├── 📁 context/
+│   │   │   └── AuthContext.js
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── README.md
+│
+└── README.md 
