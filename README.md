@@ -1,5 +1,5 @@
 # Book Platform Extraordinaire
-## Creato con sudore da Marco Luigi Palma
+## Creato con castime da Marco Luigi Palma
 
 Una piattaforma web per la generazione automatica di metadati e contenuti per libri utilizzando l'intelligenza artificiale.
 
