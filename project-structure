@@ -19,6 +19,8 @@
 │   │   ├── book.routes.js
 │   │   ├── content.routes.js
 │   │   └── social.routes.js
+│   ├── 📁 utils/
+│   │   └── errorMessages.js
 │   ├── package.json
 │   └── server.js
 │
@@ -33,7 +35,10 @@
 │   │   │   │   └── Register.js
 │   │   │   ├── 📁 book/
 │   │   │   │   ├── BookUpload.js
-│   │   │   │   └── BookList.js
+│   │   │   │   ├── BookList.js
+│   │   │   │   └── CategorySection.js
+│   │   │   ├── 📁 common/
+│   │   │   │   └── GenerativeSection.js
 │   │   │   ├── 📁 content/
 │   │   │   │   ├── Summary.js
 │   │   │   │   ├── BlogPost.js
@@ -50,9 +55,9 @@
 │   │   │   ├── auth.service.js
 │   │   │   ├── book.service.js
 │   │   │   ├── content.service.js
-│   │   │   └── social.service.js
+│   │   │   ├── social.service.js
+│   │   │   └── api.js
 │   │   ├── 📁 utils/
-│   │   │   ├── api.js
 │   │   │   └── theme.js
 │   │   ├── 📁 context/
 │   │   │   └── AuthContext.js
