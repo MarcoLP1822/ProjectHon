@@ -77,10 +77,13 @@ npm install
 
 3. **Configura le variabili d'ambiente**
 ```bash
-# Backend (.env)
-MONGODB_URI=your_mongodb_uri
-PORT=5002
-OPENAI_API_KEY=your_openai_api_key
+# Nel backend
+cd backend
+cp .env.example .env
+# Modifica il file .env con i tuoi valori reali:
+# - MONGODB_URI: il tuo URI MongoDB
+# - PORT: la porta per il server (default: 5002)
+# - OPENAI_API_KEY: la tua chiave API di OpenAI
 ```
 
 4. **Avvia l'applicazione**
