@@ -216,7 +216,7 @@ const generateKeywords = async (bookText) => {
       messages: [
         {
           role: "system",
-          content: `Sei un esperto SEO. Analizza il testo fornito e proponi quattro parole chiave rilevanti al contenuto del libro .
+          content: `Sei un esperto SEO. Analizza il testo fornito e proponi sette parole chiave rilevanti rispetto al contenuto del libro.
                    Le keywords devono essere DIVERSE tra loro e pertinenti al contenuto del libro.
                    Rispondi SOLO con un oggetto JSON con questa struttura: 
                    {
@@ -224,13 +224,16 @@ const generateKeywords = async (bookText) => {
                        "KEYWORD_1",
                        "KEYWORD_2",
                        "KEYWORD_3",
-                       "KEYWORD_4"
+                       "KEYWORD_4",
+                       "KEYWORD_5",
+                       "KEYWORD_6",
+                       "KEYWORD_7"
                      ]
                    }`
         },
         {
           role: "user",
-          content: `Analizza questo libro e suggerisci quattro keywords diverse tra loro. Testo del libro: ${truncatedText}`
+          content: `Analizza questo libro e suggerisci sette keywords diverse tra loro. Testo del libro: ${truncatedText}`
         }
       ],
       temperature: 1,

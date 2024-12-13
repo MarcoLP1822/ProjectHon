@@ -20,7 +20,7 @@ const validators = {
     validateResult: (result) => {
       return result && 
              Array.isArray(result.keywords) && 
-             result.keywords.length === 4 &&
+             result.keywords.length === 7 &&
              result.keywords.every(k => typeof k === 'string' && k.trim());
     }
   },
