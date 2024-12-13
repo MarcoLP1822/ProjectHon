@@ -26,3 +26,8 @@ yarn-error.log*
 ._*
 .Spotlight-V100
 .Trashes 
+
+# NON ignorare i favicon
+!public/*.ico
+!public/*.svg
+!public/*.png

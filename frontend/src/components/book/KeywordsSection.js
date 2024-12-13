@@ -1,5 +1,5 @@
 import React from 'react';
-import { Stack, Chip } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 import { useBooks } from '../../context/BookContext';
 import GenerativeSection from '../common/GenerativeSection';
 
@@ -17,18 +17,14 @@ const KeywordsSection = () => {
     if (!book?.metadata?.keywords?.keywords) return null;
 
     return (
-      <Stack direction="row" spacing={1} flexWrap="wrap" gap={1}>
+      <Stack direction="column" spacing={1}>
         {book.metadata.keywords.keywords.map((keyword, index) => (
-          <Chip
-            key={index}
-            label={keyword}
-            variant="outlined"
-            sx={{ 
-              borderRadius: '16px',
-              backgroundColor: 'rgba(0, 0, 0, 0.08)',
-              borderColor: 'transparent'
-            }}
-          />
+          <Typography 
+            key={index} 
+            variant="body2"
+          >
+            {keyword}
+          </Typography>
         ))}
       </Stack>
     );
