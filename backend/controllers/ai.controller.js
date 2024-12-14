@@ -80,8 +80,12 @@ exports.generateCategories = async (req, res, next) => {
     
     const book = await validateAndGetBook(bookId);
     const bookContent = await validateBookContent(book);
-    console.log('Book content length:', bookContent.length);
-    console.log('First 100 characters:', bookContent.substring(0, 100));
+    
+    logger.info(`Book content prepared for processing:`, {
+      hasChunks: !!bookContent.chunks,
+      numChunks: bookContent.chunks?.length,
+      hasStructure: !!bookContent.structure
+    });
     
     const categories = await generateCategories(bookContent);
     if (!validators.categories.validateResult(categories)) {
@@ -125,8 +129,11 @@ exports.generateKeywords = async (req, res, next) => {
     
     const book = await validateAndGetBook(bookId);
     const bookContent = await validateBookContent(book);
-    console.log('Book content length:', bookContent.length);
-    console.log('First 100 characters:', bookContent.substring(0, 100));
+    
+    logger.info(`Book content prepared for keywords generation:`, {
+      hasChunks: !!bookContent.chunks,
+      numChunks: bookContent.chunks?.length
+    });
     
     const keywords = await generateKeywords(bookContent);
     if (!validators.keywords.validateResult(keywords)) {
@@ -170,8 +177,6 @@ exports.generateScenes = async (req, res, next) => {
     
     const book = await validateAndGetBook(bookId);
     const bookContent = await validateBookContent(book);
-    console.log('Book content length:', bookContent.length);
-    console.log('First 100 characters:', bookContent.substring(0, 100));
     
     const scenes = await generateScenes(bookContent);
     if (!validators.scenes.validateScenes(scenes.scenes)) {
@@ -285,24 +290,19 @@ exports.generateCoverImages = async (req, res, next) => {
 exports.generateBackCover = async (req, res, next) => {
   try {
     const { bookId } = req.params;
+    logger.info(`Generating back cover for book: ${bookId}`);
 
-    if (!validators.isValidObjectId(bookId)) {
-      throw new ValidationError('Invalid book ID format');
-    }
-
-    const book = await Book.findById(bookId);
-    if (!book) {
-      throw new ValidationError('Book not found', 404);
-    }
-
-    const bookContent = await extractAndSaveText(book);
-    if (!validators.isValidExtractedText(bookContent)) {
-      throw new ValidationError('Invalid or empty book content');
-    }
+    const book = await validateAndGetBook(bookId);
+    const bookContent = await validateBookContent(book);
+    
+    logger.info(`Book content prepared for back cover generation:`, {
+      hasChunks: !!bookContent.chunks,
+      numChunks: bookContent.chunks?.length
+    });
 
     const backCover = await generateBackCover(bookContent);
     if (!validators.backCover.validateResult(backCover)) {
-      throw new ValidationError('Generated back cover is invalid or incomplete');
+      throw new ValidationError(errorMessages.INVALID_GENERATED_DATA('back cover'));
     }
 
     const updatedBook = await Book.findByIdAndUpdate(
@@ -312,11 +312,17 @@ exports.generateBackCover = async (req, res, next) => {
     );
 
     if (!updatedBook) {
-      throw new ValidationError('Failed to update book with back cover', 500);
+      logger.error(`Failed to update book ${bookId} with back cover`);
+      throw new ValidationError(errorMessages.UPDATE_FAILED, 500);
     }
 
+    logger.info(`Successfully generated back cover for book ${bookId}`);
     res.json(backCover);
   } catch (error) {
+    logger.error(`Error generating back cover: ${error.message}`, {
+      bookId: req.params.bookId,
+      error: error.stack
+    });
     next(error);
   }
 };
@@ -324,24 +330,19 @@ exports.generateBackCover = async (req, res, next) => {
 exports.generatePreface = async (req, res, next) => {
   try {
     const { bookId } = req.params;
+    logger.info(`Generating preface for book: ${bookId}`);
 
-    if (!validators.isValidObjectId(bookId)) {
-      throw new ValidationError('Invalid book ID format');
-    }
-
-    const book = await Book.findById(bookId);
-    if (!book) {
-      throw new ValidationError('Book not found', 404);
-    }
-
-    const bookContent = await extractAndSaveText(book);
-    if (!validators.isValidExtractedText(bookContent)) {
-      throw new ValidationError('Invalid or empty book content');
-    }
+    const book = await validateAndGetBook(bookId);
+    const bookContent = await validateBookContent(book);
+    
+    logger.info(`Book content prepared for preface generation:`, {
+      hasChunks: !!bookContent.chunks,
+      numChunks: bookContent.chunks?.length
+    });
 
     const preface = await generatePreface(bookContent);
     if (!validators.preface.validateResult(preface)) {
-      throw new ValidationError('Generated preface is invalid or incomplete');
+      throw new ValidationError(errorMessages.INVALID_GENERATED_DATA('preface'));
     }
 
     const updatedBook = await Book.findByIdAndUpdate(
@@ -351,11 +352,17 @@ exports.generatePreface = async (req, res, next) => {
     );
 
     if (!updatedBook) {
-      throw new ValidationError('Failed to update book with preface', 500);
+      logger.error(`Failed to update book ${bookId} with preface`);
+      throw new ValidationError(errorMessages.UPDATE_FAILED, 500);
     }
 
+    logger.info(`Successfully generated preface for book ${bookId}`);
     res.json(preface);
   } catch (error) {
+    logger.error(`Error generating preface: ${error.message}`, {
+      bookId: req.params.bookId,
+      error: error.stack
+    });
     next(error);
   }
 };
@@ -363,24 +370,19 @@ exports.generatePreface = async (req, res, next) => {
 exports.generateStoreDescription = async (req, res, next) => {
   try {
     const { bookId } = req.params;
+    logger.info(`Generating store description for book: ${bookId}`);
 
-    if (!validators.isValidObjectId(bookId)) {
-      throw new ValidationError('Invalid book ID format');
-    }
-
-    const book = await Book.findById(bookId);
-    if (!book) {
-      throw new ValidationError('Book not found', 404);
-    }
-
-    const bookContent = await extractAndSaveText(book);
-    if (!validators.isValidExtractedText(bookContent)) {
-      throw new ValidationError('Invalid or empty book content');
-    }
+    const book = await validateAndGetBook(bookId);
+    const bookContent = await validateBookContent(book);
+    
+    logger.info(`Book content prepared for store description generation:`, {
+      hasChunks: !!bookContent.chunks,
+      numChunks: bookContent.chunks?.length
+    });
 
     const storeDescription = await generateStoreDescription(bookContent);
     if (!validators.storeDescription.validateResult(storeDescription)) {
-      throw new ValidationError('Generated store description is invalid or incomplete');
+      throw new ValidationError(errorMessages.INVALID_GENERATED_DATA('store description'));
     }
 
     const updatedBook = await Book.findByIdAndUpdate(
@@ -390,11 +392,17 @@ exports.generateStoreDescription = async (req, res, next) => {
     );
 
     if (!updatedBook) {
-      throw new ValidationError('Failed to update book with store description', 500);
+      logger.error(`Failed to update book ${bookId} with store description`);
+      throw new ValidationError(errorMessages.UPDATE_FAILED, 500);
     }
 
+    logger.info(`Successfully generated store description for book ${bookId}`);
     res.json(storeDescription);
   } catch (error) {
+    logger.error(`Error generating store description: ${error.message}`, {
+      bookId: req.params.bookId,
+      error: error.stack
+    });
     next(error);
   }
 };
@@ -402,24 +410,19 @@ exports.generateStoreDescription = async (req, res, next) => {
 exports.generateSynopsis = async (req, res, next) => {
   try {
     const { bookId } = req.params;
+    logger.info(`Generating synopsis for book: ${bookId}`);
+
+    const book = await validateAndGetBook(bookId);
+    const bookContent = await validateBookContent(book);
     
-    if (!validators.isValidObjectId(bookId)) {
-      throw new ValidationError('Invalid book ID format');
-    }
-
-    const book = await Book.findById(bookId);
-    if (!book) {
-      throw new ValidationError('Book not found', 404);
-    }
-
-    const bookContent = await extractAndSaveText(book);
-    if (!validators.isValidExtractedText(bookContent)) {
-      throw new ValidationError('Invalid or empty book content');
-    }
+    logger.info(`Book content prepared for synopsis generation:`, {
+      hasChunks: !!bookContent.chunks,
+      numChunks: bookContent.chunks?.length
+    });
 
     const synopsis = await generateSynopsis(bookContent);
     if (!validators.synopsis.validateResult(synopsis)) {
-      throw new ValidationError('Generated synopsis is invalid or incomplete');
+      throw new ValidationError(errorMessages.INVALID_GENERATED_DATA('synopsis'));
     }
 
     const updatedBook = await Book.findByIdAndUpdate(
@@ -429,11 +432,17 @@ exports.generateSynopsis = async (req, res, next) => {
     );
 
     if (!updatedBook) {
-      throw new ValidationError('Failed to update book with synopsis', 500);
+      logger.error(`Failed to update book ${bookId} with synopsis`);
+      throw new ValidationError(errorMessages.UPDATE_FAILED, 500);
     }
 
+    logger.info(`Successfully generated synopsis for book ${bookId}`);
     res.json(synopsis);
   } catch (error) {
+    logger.error(`Error generating synopsis: ${error.message}`, {
+      bookId: req.params.bookId,
+      error: error.stack
+    });
     next(error);
   }
 }; 

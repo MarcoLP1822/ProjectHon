@@ -2,6 +2,7 @@ const Book = require('../models/book.model');
 const path = require('path');
 const fs = require('fs').promises;
 const pdf = require('pdf-parse');
+const { identifyStructure, createChunks } = require('../utils/chunkingUtils');
 
 // Utility functions
 const formatDate = (date) => {
@@ -86,6 +87,10 @@ exports.uploadBook = async (req, res, next) => {
       throw extractError;
     }
 
+    // Identifica la struttura e crea i chunks
+    const structure = identifyStructure(extractedText);
+    const chunks = createChunks(extractedText, structure);
+
     const book = new Book({
       title: path.parse(req.file.originalname).name,
       originalFilename: req.file.originalname,
@@ -95,16 +100,19 @@ exports.uploadBook = async (req, res, next) => {
       fileType: fileType,
       extractedText: extractedText,
       lastTextExtraction: new Date(),
+      chunks: chunks,
+      structure: structure,
       metadata: initialMetadata
     });
 
     await book.save();
     
     // Log dopo il salvataggio
-    console.log('Book saved with text:', {
+    console.log('Book saved with text and chunks:', {
       id: book._id,
       textLength: book.extractedText?.length,
-      textPreview: book.extractedText?.substring(0, 100)
+      numChunks: book.chunks?.length,
+      hasChapters: book.structure?.hasChapters
     });
 
     res.status(201).json({
@@ -119,11 +127,7 @@ exports.uploadBook = async (req, res, next) => {
 exports.getBooks = async (req, res, next) => {
   try {
     const books = await Book.find();
-    if (!books?.length) {
-      throw createError(404, 'No books found');
-    }
-
-    res.json(books.map(mapBookToResponse));
+    res.json(books?.length ? books.map(mapBookToResponse) : []);
   } catch (error) {
     next(error);
   }

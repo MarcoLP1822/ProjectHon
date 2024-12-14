@@ -1,75 +1,26 @@
 const OpenAI = require('openai');
 const { encoding_for_model } = require('@dqbd/tiktoken');
 const { validators } = require('../utils/validators');
+const { processRollingSummary, prepareChunksForProcessing } = require('../utils/chunkingUtils');
 
 // Costanti di configurazione
 const CONSTANTS = {
-  TOKEN_LIMIT: 8000,
-  CACHE_SIZE_LIMIT: 100,
+  MODEL: 'gpt-4o-mini',
   RETRY: {
     MAX_ATTEMPTS: 3,
-    INITIAL_DELAY: 1000, // in millisecondi
-  },
-  MODEL: 'gpt-4o-mini'
+    INITIAL_DELAY: 1000,
+  }
 };
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-const logGeneration = (type, tokens, truncated = false) => {
+const logGeneration = (type, tokens) => {
   console.log(`[${type.toUpperCase()}] Generation stats:`);
-  console.log(`- Original tokens: ${tokens}`);
-  if (truncated) {
-    console.log(`- Truncated to: ${CONSTANTS.TOKEN_LIMIT} tokens`);
-  }
+  console.log(`- Tokens processed: ${tokens}`);
   console.log(`- Model: ${CONSTANTS.MODEL}`);
   console.log('-------------------');
-};
-
-const truncationCache = new Map();
-
-const getCacheKey = (text, maxTokens, type) => {
-  return `${text.length}_${maxTokens}_${type}`;
-};
-
-const truncateToTokenLimit = (text, maxTokens = CONSTANTS.TOKEN_LIMIT, type = 'unknown') => {
-  const cacheKey = getCacheKey(text, maxTokens, type);
-  
-  if (truncationCache.has(cacheKey)) {
-    console.log(`[${type.toUpperCase()}] Using cached truncation`);
-    return truncationCache.get(cacheKey);
-  }
-  
-  try {
-    const enc = encoding_for_model(CONSTANTS.MODEL);
-    const tokens = enc.encode(text);
-    
-    logGeneration(type, tokens.length, tokens.length > maxTokens);
-    
-    let result;
-    if (tokens.length <= maxTokens) {
-      result = text;
-    } else {
-      const truncatedTokens = tokens.slice(0, maxTokens);
-      result = enc.decode(truncatedTokens);
-    }
-    
-    enc.free();
-    
-    truncationCache.set(cacheKey, result);
-    
-    if (truncationCache.size > CONSTANTS.CACHE_SIZE_LIMIT) {
-      const oldestKey = truncationCache.keys().next().value;
-      truncationCache.delete(oldestKey);
-    }
-    
-    return result;
-  } catch (error) {
-    console.error(`[${type.toUpperCase()}] Error in token counting:`, error);
-    const truncated = text.slice(0, maxTokens * 4);
-    return truncated;
-  }
 };
 
 const cleanJsonResponse = (response) => {
@@ -172,84 +123,196 @@ const validateResponse = (type, result) => {
   throw new Error(`Unknown validation type: ${type}`);
 };
 
-const generateCategories = async (bookText) => {
+const generateCategories = async (bookContent) => {
   return withRetry(async () => {
-    const truncatedText = truncateToTokenLimit(bookText, CONSTANTS.TOKEN_LIMIT, 'categories');
+    const { chunks } = bookContent;
     
-    const completion = await openai.chat.completions.create({
-      model: CONSTANTS.MODEL,
-      messages: [
-        {
-          role: "system",
-          content: `Sei un esperto di categorizzazione libri secondo il sistema BISAC. 
-                   Analizza attentamente il testo fornito e proponi tre categorie BISAC affini al contenuto.
-                   Rispondi SOLO con un oggetto JSON contenente le categorie con questa struttura: 
-                   {
-                     "mainCategory": "CATEGORIA_PRINCIPALE",
-                     "secondaryCategories": [
-                       "CATEGORIA_SECONDARIA_1",
-                       "CATEGORIA_SECONDARIA_2"
-                     ]
-                   }`
-        },
-        {
-          role: "user",
-          content: `Analizza questo libro e suggerisci tre categorie. Testo del libro: ${truncatedText}`
-        }
-      ],
-      temperature: 0.7,
-      max_tokens: 150
+    // Prepara i chunks e verifica che siano validi
+    const preparedChunks = prepareChunksForProcessing(chunks, 'categories');
+    
+    // Generiamo il rolling summary per il contesto generale
+    const summary = await processRollingSummary(preparedChunks);
+    
+    console.log('Rolling Summary Stats:', {
+      originalChunks: preparedChunks.length,
+      summaryLength: summary.summaryText.length,
+      processedChunks: summary.processedChunks
     });
 
-    const cleanResponse = cleanJsonResponse(completion.choices[0].message.content);
-    const result = JSON.parse(cleanResponse);
+    // Array per raccogliere tutte le categorie suggerite
+    let allCategories = [];
+    
+    // Processa ogni chunk individualmente
+    for (const chunk of preparedChunks) {
+      const completion = await openai.chat.completions.create({
+        model: CONSTANTS.MODEL,
+        messages: [
+          {
+            role: "system",
+            content: `Sei un esperto di categorizzazione libri secondo il sistema BISAC. 
+                     Analizza attentamente il testo fornito e proponi tre categorie BISAC affini al contenuto.
+                     Considera anche il contesto generale del libro fornito nel summary.
+                     Rispondi SOLO con un oggetto JSON contenente le categorie con questa struttura: 
+                     {
+                       "mainCategory": "CATEGORIA_PRINCIPALE",
+                       "secondaryCategories": [
+                         "CATEGORIA_SECONDARIA_1",
+                         "CATEGORIA_SECONDARIA_2"
+                       ]
+                     }`
+          },
+          {
+            role: "user",
+            content: `Contesto generale del libro:\n${summary.summaryText}\n\nAnalizza questa parte specifica e suggerisci tre categorie.\n\nContenuto:\n${chunk.text}`
+          }
+        ],
+        temperature: 0.7,
+        max_tokens: 150
+      });
 
-    return validateResponse('categories', result);
+      const cleanResponse = cleanJsonResponse(completion.choices[0].message.content);
+      const result = JSON.parse(cleanResponse);
+      allCategories.push(result);
+    }
+
+    // Analizza tutte le categorie suggerite e scegli le più frequenti
+    const finalCategories = combineCategories(allCategories);
+    
+    return validateResponse('categories', finalCategories);
   });
 };
 
-const generateKeywords = async (bookText) => {
+// Funzione helper per combinare le categorie
+const combineCategories = (categoriesList) => {
+  // Conta la frequenza di ogni categoria
+  const categoryCount = {};
+  
+  categoriesList.forEach(cat => {
+    // Conta la categoria principale
+    categoryCount[cat.mainCategory] = (categoryCount[cat.mainCategory] || 0) + 2; // peso maggiore
+    
+    // Conta le categorie secondarie
+    cat.secondaryCategories.forEach(secCat => {
+      categoryCount[secCat] = (categoryCount[secCat] || 0) + 1;
+    });
+  });
+  
+  // Ordina le categorie per frequenza
+  const sortedCategories = Object.entries(categoryCount)
+    .sort(([,a], [,b]) => b - a)
+    .map(([category]) => category);
+  
+  return {
+    mainCategory: sortedCategories[0],
+    secondaryCategories: [
+      sortedCategories[1],
+      sortedCategories[2]
+    ]
+  };
+};
+
+const generateKeywords = async (bookContent) => {
   return withRetry(async () => {
-    const truncatedText = truncateToTokenLimit(bookText, CONSTANTS.TOKEN_LIMIT, 'keywords');
-    const completion = await openai.chat.completions.create({
-      model: CONSTANTS.MODEL,
-      messages: [
-        {
-          role: "system",
-          content: `Sei un esperto SEO. Analizza il testo fornito e proponi sette parole chiave rilevanti rispetto al contenuto del libro.
-                   Le keywords devono essere DIVERSE tra loro e pertinenti al contenuto del libro.
-                   Rispondi SOLO con un oggetto JSON con questa struttura: 
-                   {
-                     "keywords": [
-                       "KEYWORD_1",
-                       "KEYWORD_2",
-                       "KEYWORD_3",
-                       "KEYWORD_4",
-                       "KEYWORD_5",
-                       "KEYWORD_6",
-                       "KEYWORD_7"
-                     ]
-                   }`
-        },
-        {
-          role: "user",
-          content: `Analizza questo libro e suggerisci sette keywords diverse tra loro. Testo del libro: ${truncatedText}`
-        }
-      ],
-      temperature: 1,
-      max_tokens: 250
+    const { chunks } = bookContent;
+    
+    // Prepara i chunks e verifica che siano validi
+    const preparedChunks = prepareChunksForProcessing(chunks, 'keywords');
+    
+    // Generiamo il rolling summary per il contesto generale
+    const summary = await processRollingSummary(preparedChunks);
+    
+    console.log('Rolling Summary Stats:', {
+      originalChunks: preparedChunks.length,
+      summaryLength: summary.summaryText.length,
+      processedChunks: summary.processedChunks
     });
 
-    const cleanResponse = cleanJsonResponse(completion.choices[0].message.content);
-    const result = JSON.parse(cleanResponse);
+    // Array per raccogliere tutte le keywords suggerite
+    let allKeywords = [];
+    
+    // Processa ogni chunk individualmente
+    for (const chunk of preparedChunks) {
+      const completion = await openai.chat.completions.create({
+        model: CONSTANTS.MODEL,
+        messages: [
+          {
+            role: "system",
+            content: `Sei un esperto SEO. Analizza il testo fornito e proponi sette parole chiave rilevanti rispetto al contenuto del libro.
+                     Le keywords devono essere DIVERSE tra loro e pertinenti al contenuto del libro.
+                     Considera anche il contesto generale del libro fornito nel summary.
+                     Rispondi SOLO con un oggetto JSON con questa struttura: 
+                     {
+                       "keywords": [
+                         "KEYWORD_1",
+                         "KEYWORD_2",
+                         "KEYWORD_3",
+                         "KEYWORD_4",
+                         "KEYWORD_5",
+                         "KEYWORD_6",
+                         "KEYWORD_7"
+                       ]
+                     }`
+          },
+          {
+            role: "user",
+            content: `Contesto generale del libro:\n${summary.summaryText}\n\nAnalizza questa parte specifica e suggerisci keywords.\n\nContenuto:\n${chunk.text}`
+          }
+        ],
+        temperature: 1,
+        max_tokens: 250
+      });
 
-    return validateResponse('keywords', result);
+      const cleanResponse = cleanJsonResponse(completion.choices[0].message.content);
+      const result = JSON.parse(cleanResponse);
+      allKeywords.push(result);
+    }
+
+    // Combina e seleziona le keywords più rilevanti
+    const finalKeywords = combineKeywords(allKeywords);
+    
+    return validateResponse('keywords', finalKeywords);
   });
 };
 
-const generateScenes = async (bookText) => {
+// Funzione helper per combinare le keywords
+const combineKeywords = (keywordsList) => {
+  // Conta la frequenza di ogni keyword
+  const keywordCount = {};
+  
+  keywordsList.forEach(result => {
+    result.keywords.forEach(keyword => {
+      keywordCount[keyword] = (keywordCount[keyword] || 0) + 1;
+    });
+  });
+  
+  // Ordina le keywords per frequenza e prendi le top 7
+  const topKeywords = Object.entries(keywordCount)
+    .sort(([,a], [,b]) => b - a)
+    .slice(0, 7)
+    .map(([keyword]) => keyword);
+  
+  return {
+    keywords: topKeywords
+  };
+};
+
+const generateScenes = async (bookContent) => {
   return withRetry(async () => {
-    const truncatedText = truncateToTokenLimit(bookText, CONSTANTS.TOKEN_LIMIT, 'scenes');
+    const { chunks } = bookContent;
+    
+    // Prepara i chunks e verifica che siano validi
+    const preparedChunks = prepareChunksForProcessing(chunks, 'scenes');
+    
+    // Generiamo il rolling summary per il contesto generale
+    const summary = await processRollingSummary(preparedChunks);
+    
+    console.log('Rolling Summary Stats:', {
+      originalChunks: preparedChunks.length,
+      summaryLength: summary.summaryText.length,
+      processedChunks: summary.processedChunks
+    });
+
+    // Per le scene usiamo solo il summary perché vogliamo una visione d'insieme
     const completion = await openai.chat.completions.create({
       model: CONSTANTS.MODEL,
       messages: [
@@ -278,7 +341,7 @@ const generateScenes = async (bookText) => {
         },
         {
           role: "user",
-          content: `Analizza questo libro e suggerisci tre scene per la copertina. Testo del libro: ${truncatedText}`
+          content: `Analizza questo libro e suggerisci tre scene per la copertina. Testo del libro: ${summary.summaryText}`
         }
       ],
       temperature: 0.7,
@@ -310,9 +373,23 @@ const generateCoverImage = async (sceneDescription) => {
   }
 };
 
-const generateBackCover = async (bookText) => {
+const generateBackCover = async (bookContent) => {
   return withRetry(async () => {
-    const truncatedText = truncateToTokenLimit(bookText, CONSTANTS.TOKEN_LIMIT, 'backcover');
+    const { chunks } = bookContent;
+    
+    // Prepara i chunks e verifica che siano validi
+    const preparedChunks = prepareChunksForProcessing(chunks, 'backcover');
+    
+    // Generiamo il rolling summary per il contesto generale
+    const summary = await processRollingSummary(preparedChunks);
+    
+    console.log('Rolling Summary Stats:', {
+      originalChunks: preparedChunks.length,
+      summaryLength: summary.summaryText.length,
+      processedChunks: summary.processedChunks
+    });
+
+    // Per la quarta di copertina usiamo solo il summary perché vogliamo una visione d'insieme
     const completion = await openai.chat.completions.create({
       model: CONSTANTS.MODEL,
       messages: [
@@ -332,7 +409,7 @@ const generateBackCover = async (bookText) => {
         },
         {
           role: "user",
-          content: `Analizza questo libro e crea una quarta di copertina efficace. Testo del libro: ${truncatedText}`
+          content: `Analizza questo libro e crea una quarta di copertina efficace. Testo del libro: ${summary.summaryText}`
         }
       ],
       temperature: 0.7,
@@ -346,9 +423,22 @@ const generateBackCover = async (bookText) => {
   });
 };
 
-const generatePreface = async (bookText) => {
+const generatePreface = async (bookContent) => {
   return withRetry(async () => {
-    const truncatedText = truncateToTokenLimit(bookText, CONSTANTS.TOKEN_LIMIT, 'preface');
+    const { chunks } = bookContent;
+    
+    // Prepara i chunks e verifica che siano validi
+    const preparedChunks = prepareChunksForProcessing(chunks, 'preface');
+    
+    // Generiamo il rolling summary per il contesto generale
+    const summary = await processRollingSummary(preparedChunks);
+    
+    console.log('Rolling Summary Stats:', {
+      originalChunks: preparedChunks.length,
+      summaryLength: summary.summaryText.length,
+      processedChunks: summary.processedChunks
+    });
+
     const completion = await openai.chat.completions.create({
       model: CONSTANTS.MODEL,
       messages: [
@@ -379,7 +469,7 @@ const generatePreface = async (bookText) => {
         },
         {
           role: "user",
-          content: `Analizza questo libro e crea una prefazione efficace. Testo del libro: ${truncatedText}`
+          content: `Analizza questo libro e crea una prefazione efficace. Testo del libro: ${summary.summaryText}`
         }
       ],
       temperature: 0.7,
@@ -393,9 +483,22 @@ const generatePreface = async (bookText) => {
   });
 };
 
-const generateStoreDescription = async (bookText) => {
+const generateStoreDescription = async (bookContent) => {
   return withRetry(async () => {
-    const truncatedText = truncateToTokenLimit(bookText, CONSTANTS.TOKEN_LIMIT, 'store');
+    const { chunks } = bookContent;
+    
+    // Prepara i chunks e verifica che siano validi
+    const preparedChunks = prepareChunksForProcessing(chunks, 'store');
+    
+    // Generiamo il rolling summary per il contesto generale
+    const summary = await processRollingSummary(preparedChunks);
+    
+    console.log('Rolling Summary Stats:', {
+      originalChunks: preparedChunks.length,
+      summaryLength: summary.summaryText.length,
+      processedChunks: summary.processedChunks
+    });
+
     const completion = await openai.chat.completions.create({
       model: CONSTANTS.MODEL,
       messages: [
@@ -418,7 +521,7 @@ const generateStoreDescription = async (bookText) => {
         },
         {
           role: "user",
-          content: `Analizza questo libro e crea una descrizione efficace per gli store online. Testo del libro: ${truncatedText}`
+          content: `Analizza questo libro e crea una descrizione efficace per gli store online. Testo del libro: ${summary.summaryText}`
         }
       ],
       temperature: 0.7,
@@ -432,9 +535,22 @@ const generateStoreDescription = async (bookText) => {
   });
 };
 
-const generateSynopsis = async (bookText) => {
+const generateSynopsis = async (bookContent) => {
   return withRetry(async () => {
-    const truncatedText = truncateToTokenLimit(bookText, CONSTANTS.TOKEN_LIMIT, 'synopsis');
+    const { chunks } = bookContent;
+    
+    // Prepara i chunks e verifica che siano validi
+    const preparedChunks = prepareChunksForProcessing(chunks, 'synopsis');
+    
+    // Generiamo il rolling summary per il contesto generale
+    const summary = await processRollingSummary(preparedChunks);
+    
+    console.log('Rolling Summary Stats:', {
+      originalChunks: preparedChunks.length,
+      summaryLength: summary.summaryText.length,
+      processedChunks: summary.processedChunks
+    });
+
     const completion = await openai.chat.completions.create({
       model: CONSTANTS.MODEL,
       messages: [
@@ -455,7 +571,7 @@ const generateSynopsis = async (bookText) => {
         },
         {
           role: "user",
-          content: `Analizza questo libro e crea una sinossi efficace. Testo del libro: ${truncatedText}`
+          content: `Analizza questo libro e crea una sinossi efficace. Testo del libro: ${summary.summaryText}`
         }
       ],
       temperature: 0.7,

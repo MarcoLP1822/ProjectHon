@@ -1,0 +1,98 @@
+Ecco una lista dettagliata degli step di implementazione:
+
+### 1. Creazione Nuovo Modulo di Chunking
+```
+backend/utils/chunkingUtils.js
+```
+- Implementare funzioni base di chunking
+- Gestire la detection dei capitoli
+- Implementare il rolling summary
+- Gestire la cache dei chunks
+
+### 2. Modifiche a bookUtils.js
+1. **Fase di Estrazione**:
+   - Modificare `extractAndSaveText` per supportare metadata dei chunks
+   - Aggiungere funzioni di detection della struttura del libro
+   - Implementare validazioni per i chunks
+
+2. **Fase di Validazione**:
+   - Aggiornare `validateBookContent` per gestire chunks
+   - Aggiungere validazioni specifiche per rolling summary
+
+### 3. Modifiche a openai.js
+1. **Sistema Base**:
+   - Modificare `truncateToTokenLimit` per supportare chunks
+   - Aggiornare la gestione della cache
+   - Implementare nuove funzioni per rolling summary
+
+2. **Funzioni di Generazione**:
+   - Modificare ogni funzione di generazione per supportare chunks:
+     - `generateKeywords`: aggregare keywords da tutti i chunks
+     - `generateCategories`: usare rolling summary
+     - `generateSynopsis`: implementare summarization progressiva
+     - `generateScenes`: analizzare punti chiave dai chunks
+     - `generateBackCover`: usare summary finale
+     - `generatePreface`: usare summary finale
+     - `generateStoreDescription`: usare summary finale
+
+### 4. Aggiornamento Routes e Controllers
+1. **Nuove Routes**:
+   - Endpoint per gestione chunks
+   - Endpoint per status processing
+   - Endpoint per rolling summary
+
+2. **Controllers**:
+   - Gestione asincrona del processing
+   - Progress tracking
+   - Error handling per chunks
+
+### 5. Modifiche al Database Schema
+1. **Book Model**:
+   - Aggiungere campi per chunks
+   - Aggiungere campi per rolling summary
+   - Aggiungere metadata della struttura
+
+### 6. Testing Plan
+1. **Unit Tests**:
+   - Test per chunking
+   - Test per rolling summary
+   - Test per token limits
+
+2. **Integration Tests**:
+   - Test completo del flusso
+   - Test di edge cases
+   - Test di performance
+
+### 7. Considerazioni di Implementazione
+1. **Gestione Errori**:
+   - Retry strategy per chunks
+   - Rollback mechanism
+   - Error reporting dettagliato
+
+2. **Performance**:
+   - Implementare processing asincrono
+   - Gestire memoria efficentemente
+   - Implementare caching intelligente
+
+3. **Logging**:
+   - Logging dettagliato per ogni chunk
+   - Tracking del progresso
+   - Metriche di performance
+
+### 8. Ordine di Implementazione
+1. Iniziare con `chunkingUtils.js`
+2. Modificare `bookUtils.js`
+3. Aggiornare schema database
+4. Modificare `openai.js`
+5. Implementare nuove routes
+6. Aggiungere tests
+7. Implementare logging
+8. Ottimizzare performance
+
+### 9. Punti di Attenzione
+- Mantenere backward compatibility
+- Gestire la migrazione dei dati esistenti
+- Documentare ogni nuovo componente
+- Implementare feature flags per rollback
+- Monitorare uso API e costi
+- Gestire timeout e limiti di memoria
