@@ -55,7 +55,7 @@ const GenerativeSection = ({
   if (!currentBook) return null;
 
   return (
-    <Box sx={{ p: 4 }}>
+    <Box sx={{ p: 10 }}>
       <Typography variant="h5" sx={{ mb: 3 }}>
         {title}
       </Typography>

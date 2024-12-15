@@ -27,7 +27,7 @@ const structureSchema = new mongoose.Schema({
 const bookSchema = new mongoose.Schema({
   title: String,
   filePath: String,
-  date: { type: Date, default: Date.now },
+  uploadDate: { type: Date, default: Date.now },
   extractedText: String,
   lastTextExtraction: Date,
   chunks: [chunkSchema],

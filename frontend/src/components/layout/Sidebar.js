@@ -8,6 +8,7 @@ import {
   ListItemButton,
   ListItemIcon,
   ListItemText,
+  Divider
 } from '@mui/material';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import DescriptionIcon from '@mui/icons-material/Description';
@@ -27,10 +28,32 @@ const Sidebar = () => {
   const [expandedBooks, setExpandedBooks] = useState({});
 
   const handleToggleBook = (bookId) => {
-    setExpandedBooks(prev => ({
-      ...prev,
-      [bookId]: !prev[bookId]
-    }));
+    setExpandedBooks(prev => {
+      if (!prev[bookId]) {
+        return {
+          [bookId]: true
+        };
+      } else {
+        return {
+          ...prev,
+          [bookId]: false
+        };
+      }
+    });
+  };
+
+  const closeAllBooks = () => {
+    setExpandedBooks({});
+  };
+
+  const handleNavigateToDashboard = () => {
+    closeAllBooks();
+    navigate('/');
+  };
+
+  const handleNavigateToAdmin = () => {
+    closeAllBooks();
+    navigate('/admin/storage');
   };
 
   const bookSections = [
@@ -69,7 +92,7 @@ const Sidebar = () => {
   return (
     <Box
       sx={{
-        width: 280,
+        width: 300,
         height: '100vh',
         borderRight: '1px solid #E0E0E0',
         backgroundColor: '#FFFFFF',
@@ -88,7 +111,7 @@ const Sidebar = () => {
         {/* Dashboard Button */}
         <ListItem disablePadding>
           <ListItemButton
-            onClick={() => navigate('/')}
+            onClick={handleNavigateToDashboard}
             selected={location.pathname === '/'}
             sx={{
               borderRadius: '8px',
@@ -117,7 +140,7 @@ const Sidebar = () => {
         {/* Admin Button */}
         <ListItem disablePadding>
           <ListItemButton
-            onClick={() => navigate('/admin/storage')}
+            onClick={handleNavigateToAdmin}
             selected={location.pathname.startsWith('/admin')}
             sx={{
               borderRadius: '8px',
@@ -142,6 +165,8 @@ const Sidebar = () => {
             />
           </ListItemButton>
         </ListItem>
+
+        <Divider sx={{ my: 2 }} />
 
         {/* Books with their sections */}
         {books.map((book) => (

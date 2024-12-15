@@ -7,6 +7,7 @@ const { identifyStructure, createChunks } = require('../utils/chunkingUtils');
 // Utility functions
 const formatDate = (date) => {
   return new Date(date).toLocaleString('en-US', { 
+    day: 'numeric',
     month: 'long', 
     year: 'numeric' 
   }).toUpperCase();

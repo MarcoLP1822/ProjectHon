@@ -195,3 +195,65 @@
 {"bookId":"675d3d81d11463f370132c6c","level":"info","message":"Generating image for scene 2","sceneTitle":"IL CAMBIAMENTO NEL MONDO DEL LAVORO","timestamp":"2024-12-14T10:53:16.332Z"}
 {"bookId":"675d3d81d11463f370132c6c","level":"info","message":"Generating image for scene 3","sceneTitle":"L'IMPORTANZA DELLA COMUNICAZIONE","timestamp":"2024-12-14T10:53:16.332Z"}
 {"level":"info","message":"Successfully generated cover images for book 675d3d81d11463f370132c6c","timestamp":"2024-12-14T10:54:08.971Z"}
+{"level":"info","message":"Generating categories for book: 675d805db0c3df67c5fea04d","timestamp":"2024-12-14T12:56:18.752Z"}
+{"hasStructure":true,"level":"info","message":"Book content ready for processing:","numChunks":28,"timestamp":"2024-12-14T12:56:20.111Z"}
+{"level":"info","message":"Successfully generated categories for book 675d805db0c3df67c5fea04d","timestamp":"2024-12-14T12:57:45.780Z"}
+{"level":"info","message":"Generating categories for book: 675d805db0c3df67c5fea04d","timestamp":"2024-12-14T12:57:52.086Z"}
+{"hasStructure":true,"level":"info","message":"Book content ready for processing:","numChunks":28,"timestamp":"2024-12-14T12:57:54.933Z"}
+{"level":"info","message":"Successfully generated categories for book 675d805db0c3df67c5fea04d","timestamp":"2024-12-14T12:59:21.845Z"}
+{"level":"info","message":"Generating keywords for book: 675d805db0c3df67c5fea04d","timestamp":"2024-12-14T12:59:40.489Z"}
+{"hasStructure":true,"level":"info","message":"Book content ready for keywords generation:","numChunks":28,"timestamp":"2024-12-14T12:59:43.840Z"}
+{"level":"info","message":"Successfully generated keywords for book 675d805db0c3df67c5fea04d","timestamp":"2024-12-14T13:01:42.778Z"}
+{"level":"info","message":"Generating categories for book: 675d8c0ea4d2924df9ba13bf","timestamp":"2024-12-14T13:46:11.014Z"}
+{"hasStructure":true,"level":"info","message":"Book content ready for processing:","numChunks":28,"timestamp":"2024-12-14T13:46:12.590Z"}
+{"level":"info","message":"Successfully generated categories for book 675d8c0ea4d2924df9ba13bf","timestamp":"2024-12-14T13:47:38.880Z"}
+{"level":"info","message":"Generating categories for book: 675e14e83b5b3b19064bda0e","timestamp":"2024-12-14T23:30:05.723Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":2,"timestamp":"2024-12-14T23:30:08.935Z"}
+{"level":"info","message":"Successfully generated categories for book 675e14e83b5b3b19064bda0e","timestamp":"2024-12-14T23:30:15.308Z"}
+{"level":"info","message":"Generating keywords for book: 675e14e83b5b3b19064bda0e","timestamp":"2024-12-14T23:30:20.086Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":2,"timestamp":"2024-12-14T23:30:21.601Z"}
+{"level":"info","message":"Successfully generated keywords for book 675e14e83b5b3b19064bda0e","timestamp":"2024-12-14T23:30:27.878Z"}
+{"level":"info","message":"Generating categories for book: 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:31:15.568Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-14T23:31:19.532Z"}
+{"level":"info","message":"Successfully generated categories for book 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:31:42.891Z"}
+{"level":"info","message":"Generating keywords for book: 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:31:47.751Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":8,"timestamp":"2024-12-14T23:31:50.873Z"}
+{"level":"info","message":"Successfully generated keywords for book 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:32:13.984Z"}
+{"level":"info","message":"Generating synopsis for book: 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:35:38.272Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":8,"timestamp":"2024-12-14T23:35:40.997Z"}
+{"level":"info","message":"Successfully generated synopsis for book 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:35:48.235Z"}
+{"level":"info","message":"Generating back cover for book: 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:35:51.754Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":8,"timestamp":"2024-12-14T23:35:54.651Z"}
+{"level":"info","message":"Successfully generated back cover for book 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:36:01.480Z"}
+{"level":"info","message":"Generating preface for book: 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:36:03.838Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":8,"timestamp":"2024-12-14T23:36:06.516Z"}
+{"level":"info","message":"Successfully generated preface for book 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:36:17.904Z"}
+{"level":"info","message":"Generating scenes for book: 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:36:21.738Z"}
+{"level":"info","message":"Successfully generated scenes for book 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:36:33.085Z"}
+{"level":"info","message":"Generating cover images for book: 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:36:33.109Z"}
+{"bookId":"675e153f59c063be5ccb03da","level":"info","message":"Generating image for scene 1","sceneTitle":"RIFLESSIONE E CRESCITA PERSONALE","timestamp":"2024-12-14T23:36:33.302Z"}
+{"bookId":"675e153f59c063be5ccb03da","level":"info","message":"Generating image for scene 2","sceneTitle":"LA FORZA DELLA COMUNICAZIONE","timestamp":"2024-12-14T23:36:33.302Z"}
+{"bookId":"675e153f59c063be5ccb03da","level":"info","message":"Generating image for scene 3","sceneTitle":"IL CAMBIAMENTO E LE OPPORTUNITÀ","timestamp":"2024-12-14T23:36:33.303Z"}
+{"level":"info","message":"Successfully generated cover images for book 675e153f59c063be5ccb03da","timestamp":"2024-12-14T23:36:50.580Z"}
+{"level":"info","message":"Generating categories for book: 675e1a852bbc8954ebe6e2f1","timestamp":"2024-12-14T23:54:13.933Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":14,"timestamp":"2024-12-14T23:54:16.870Z"}
+{"level":"info","message":"Successfully generated categories for book 675e1a852bbc8954ebe6e2f1","timestamp":"2024-12-14T23:55:01.460Z"}
+{"level":"info","message":"Generating categories for book: 675e153f59c063be5ccb03da","timestamp":"2024-12-15T00:21:17.855Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-15T00:21:22.452Z"}
+{"level":"info","message":"Successfully generated categories for book 675e153f59c063be5ccb03da","timestamp":"2024-12-15T00:21:54.870Z"}
+{"level":"info","message":"Generating back cover for book: 675e1be841c696ef31c3b7ad","timestamp":"2024-12-15T00:30:40.100Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":1,"timestamp":"2024-12-15T00:30:40.712Z"}
+{"level":"info","message":"Successfully generated back cover for book 675e1be841c696ef31c3b7ad","timestamp":"2024-12-15T00:30:43.713Z"}
+{"level":"info","message":"Generating preface for book: 675e1be841c696ef31c3b7ad","timestamp":"2024-12-15T00:31:19.498Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":1,"timestamp":"2024-12-15T00:31:20.122Z"}
+{"level":"info","message":"Successfully generated preface for book 675e1be841c696ef31c3b7ad","timestamp":"2024-12-15T00:31:37.301Z"}
+{"level":"info","message":"Generating scenes for book: 675e1be841c696ef31c3b7ad","timestamp":"2024-12-15T00:31:48.463Z"}
+{"level":"info","message":"Successfully generated scenes for book 675e1be841c696ef31c3b7ad","timestamp":"2024-12-15T00:31:53.834Z"}
+{"level":"info","message":"Generating cover images for book: 675e1be841c696ef31c3b7ad","timestamp":"2024-12-15T00:31:53.841Z"}
+{"bookId":"675e1be841c696ef31c3b7ad","level":"info","message":"Generating image for scene 1","sceneTitle":"AUTO SUL PAESE","timestamp":"2024-12-15T00:31:54.003Z"}
+{"bookId":"675e1be841c696ef31c3b7ad","level":"info","message":"Generating image for scene 2","sceneTitle":"CONTROLLI STRADALI","timestamp":"2024-12-15T00:31:54.004Z"}
+{"bookId":"675e1be841c696ef31c3b7ad","level":"info","message":"Generating image for scene 3","sceneTitle":"VIAGGIO INTERNAZIONALE","timestamp":"2024-12-15T00:31:54.004Z"}
+{"level":"info","message":"Successfully generated cover images for book 675e1be841c696ef31c3b7ad","timestamp":"2024-12-15T00:32:26.080Z"}
+{"level":"info","message":"Generating keywords for book: 675e153f59c063be5ccb03da","timestamp":"2024-12-15T00:46:02.782Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":8,"timestamp":"2024-12-15T00:46:06.491Z"}
+{"level":"info","message":"Successfully generated keywords for book 675e153f59c063be5ccb03da","timestamp":"2024-12-15T00:46:27.212Z"}
