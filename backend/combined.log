@@ -345,3 +345,6 @@
 {"level":"info","message":"Generating categories for book: 67617368260310b944604395","timestamp":"2024-12-17T15:53:54.829Z"}
 {"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":12,"timestamp":"2024-12-17T15:53:58.914Z"}
 {"level":"info","message":"Successfully generated categories for book 67617368260310b944604395","timestamp":"2024-12-17T15:55:17.920Z"}
+{"level":"info","message":"Generating keywords for book: 67617368260310b944604395","timestamp":"2024-12-17T22:32:41.970Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":12,"timestamp":"2024-12-17T22:32:45.201Z"}
+{"level":"info","message":"Successfully generated keywords for book 67617368260310b944604395","timestamp":"2024-12-17T22:33:28.558Z"}

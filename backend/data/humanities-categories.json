@@ -2918,5 +2918,2673 @@
   {
     "code": "LIT025050",
     "name": "CRITICA LETTERARIA / Argomenti e Temi / Donne"
+  },
+  {
+    "code": "COM000000",
+    "name": "COMPUTER / Generale"
+  },
+  {
+    "code": "COM004000",
+    "name": "COMPUTER / Intelligenza Artificiale e Semantica"
+  },
+  {
+    "code": "COM005000",
+    "name": "COMPUTER / Applicazioni Aziendali / Generale"
+  },
+  {
+    "code": "COM005030",
+    "name": "COMPUTER / Applicazioni Aziendali / Strumenti di Business Intelligence"
+  },
+  {
+    "code": "COM006000",
+    "name": "COMPUTER / Guide all'Acquisto"
+  },
+  {
+    "code": "COM007000",
+    "name": "COMPUTER / CAD-CAM"
+  },
+  {
+    "code": "COM008000",
+    "name": "COMPUTER / Calcolatori"
+  },
+  {
+    "code": "COM009000",
+    "name": "COMPUTER / Tecnologia CV-DVD"
+  },
+  {
+    "code": "COM010000",
+    "name": "COMPUTER / Compilatori"
+  },
+  {
+    "code": "COM011000",
+    "name": "COMPUTER / Architettura dei Sistemi / Generale"
+  },
+  {
+    "code": "COM012000",
+    "name": "COMPUTER / Computer Grafica"
+  },
+  {
+    "code": "COM012040",
+    "name": "COMPUTER / Programmazione / Giochi"
+  },
+  {
+    "code": "COM012050",
+    "name": "COMPUTER / Elaborazione Immagini"
+  },
+  {
+    "code": "COM013000",
+    "name": "COMPUTER / Alfabetizzazione Informatica"
+  },
+  {
+    "code": "COM014000",
+    "name": "COMPUTER / Informatica"
+  },
+  {
+    "code": "COM015000",
+    "name": "COMPUTER / Sicurezza / Virus"
+  },
+  {
+    "code": "COM016000",
+    "name": "COMPUTER / Visione Artificiale e Riconoscimento Oggetti"
+  },
+  {
+    "code": "COM017000",
+    "name": "COMPUTER / Cibernetica"
+  },
+  {
+    "code": "COM018000",
+    "name": "COMPUTER / Elaborazione Dati"
+  },
+  {
+    "code": "COM019000",
+    "name": "COMPUTER / Amministrazione del Sistema / Disaster e Ripristino"
+  },
+  {
+    "code": "COM020000",
+    "name": "COMPUTER / Sistemi di Trasmissione Dati / Generale"
+  },
+  {
+    "code": "COM020010",
+    "name": "COMPUTER / Sistemi di Trasmissione Dati / Interscambio Elettronico di Dati"
+  },
+  {
+    "code": "COM020020",
+    "name": "COMPUTER / Amministrazione del Sistema / Amministrazione E-mail"
+  },
+  {
+    "code": "COM020050",
+    "name": "COMPUTER / Sistemi di Trasmissione Dati / Banda Larga"
+  },
+  {
+    "code": "COM020090",
+    "name": "COMPUTER / Sistemi di Trasmissione Dati / Wireless"
+  },
+  {
+    "code": "COM021000",
+    "name": "COMPUTER / Gestione Database / Generale"
+  },
+  {
+    "code": "COM021030",
+    "name": "COMPUTER / Gestione Database / Estrazione Dati"
+  },
+  {
+    "code": "COM021040",
+    "name": "COMPUTER / Gestione Database / Immagazzinamento Dati"
+  },
+  {
+    "code": "COM022000",
+    "name": "COMPUTER / Digital Media / Desktop Publishing"
+  },
+  {
+    "code": "COM023000",
+    "name": "COMPUTER / Software Educativo"
+  },
+  {
+    "code": "COM025000",
+    "name": "COMPUTER / Sistemi Esperti"
+  },
+  {
+    "code": "COM027000",
+    "name": "COMPUTER / Applicazioni Desktop / Applicazioni di Finanza Personale"
+  },
+  {
+    "code": "COM030000",
+    "name": "COMPUTER / Amministrazione del Sistema / Archiviazione e Recupero Dati"
+  },
+  {
+    "code": "COM031000",
+    "name": "COMPUTER / Teoria dell'Informazione"
+  },
+  {
+    "code": "COM032000",
+    "name": "COMPUTER / Information Technology"
+  },
+  {
+    "code": "COM034000",
+    "name": "COMPUTER / Interactive e Multimedia"
+  },
+  {
+    "code": "COM035000",
+    "name": "COMPUTER / Digitazione"
+  },
+  {
+    "code": "COM036000",
+    "name": "COMPUTER / Logic Design"
+  },
+  {
+    "code": "COM037000",
+    "name": "COMPUTER / Teoria delle Macchine"
+  },
+  {
+    "code": "COM038000",
+    "name": "COMPUTER / Hardware / Mainframe e Minicomputer"
+  },
+  {
+    "code": "COM039000",
+    "name": "COMPUTER / Sistemi di Gestione delle Informazioni"
+  },
+  {
+    "code": "COM041000",
+    "name": "COMPUTER / Microprocessori"
+  },
+  {
+    "code": "COM042000",
+    "name": "COMPUTER / Elaborazione del Linguaggio Naturale"
+  },
+  {
+    "code": "COM043000",
+    "name": "COMPUTER / Networking / Generale"
+  },
+  {
+    "code": "COM043020",
+    "name": "COMPUTER / Networking / Reti LAN"
+  },
+  {
+    "code": "COM043040",
+    "name": "COMPUTER / Networking / Protocolli di Rete"
+  },
+  {
+    "code": "COM043050",
+    "name": "COMPUTER / Networking / Sicurezza"
+  },
+  {
+    "code": "COM043060",
+    "name": "COMPUTER / Networking / Specifiche per Operatore"
+  },
+  {
+    "code": "COM044000",
+    "name": "COMPUTER / Reti Neurali"
+  },
+  {
+    "code": "COM046000",
+    "name": "COMPUTER / Sistemi Operativi / Generale"
+  },
+  {
+    "code": "COM046020",
+    "name": "COMPUTER / Sistemi Operativi / Macintosh"
+  },
+  {
+    "code": "COM046030",
+    "name": "COMPUTER / Sistemi Operativi / UNIX"
+  },
+  {
+    "code": "COM046040",
+    "name": "COMPUTER / Sistemi Operativi / Windows Workstation"
+  },
+  {
+    "code": "COM046050",
+    "name": "COMPUTER / Sistemi Operativi / Windows Server e NT"
+  },
+  {
+    "code": "COM046060",
+    "name": "COMPUTER / Sistemi Operativi / DOS"
+  },
+  {
+    "code": "COM046070",
+    "name": "COMPUTER / Sistemi Operativi / Linux"
+  },
+  {
+    "code": "COM046080",
+    "name": "COMPUTER / Sistemi Operativi / Mainframe e Midrange"
+  },
+  {
+    "code": "COM046090",
+    "name": "COMPUTER / Sistemi Operativi / Virtualizzazione"
+  },
+  {
+    "code": "COM047000",
+    "name": "COMPUTER / Elaborazione Ottica dei Dati"
+  },
+  {
+    "code": "COM048000",
+    "name": "COMPUTER / Architettura dei Sistemi / Sistemi di Calcolo Distribuito e Compilazione"
+  },
+  {
+    "code": "COM049000",
+    "name": "COMPUTER / Hardware / Periferiche"
+  },
+  {
+    "code": "COM050000",
+    "name": "COMPUTER / Hardware / Personal Computer / Generale"
+  },
+  {
+    "code": "COM050010",
+    "name": "COMPUTER / Hardware / Personal Computer / PC"
+  },
+  {
+    "code": "COM050020",
+    "name": "COMPUTER / Hardware / Personal Computer / Macintosh"
+  },
+  {
+    "code": "COM051000",
+    "name": "COMPUTER / Programmazione / Generale"
+  },
+  {
+    "code": "COM051010",
+    "name": "COMPUTER / Linguaggi di Programmazione / Generale"
+  },
+  {
+    "code": "COM051020",
+    "name": "COMPUTER / Linguaggi di Programmazione / Ada"
+  },
+  {
+    "code": "COM051040",
+    "name": "COMPUTER / Linguaggi di Programmazione / Assembly"
+  },
+  {
+    "code": "COM051050",
+    "name": "COMPUTER / Linguaggi di Programmazione / BASIC"
+  },
+  {
+    "code": "COM051060",
+    "name": "COMPUTER / Linguaggi di Programmazione / C"
+  },
+  {
+    "code": "COM051070",
+    "name": "COMPUTER / Linguaggi di Programmazione / C++"
+  },
+  {
+    "code": "COM051080",
+    "name": "COMPUTER / Linguaggi di Programmazione / COBOL"
+  },
+  {
+    "code": "COM051090",
+    "name": "COMPUTER / Linguaggi di Programmazione / FORTRAN"
+  },
+  {
+    "code": "COM051100",
+    "name": "COMPUTER / Linguaggi di Programmazione / LISP"
+  },
+  {
+    "code": "COM051130",
+    "name": "COMPUTER / Linguaggi di Programmazione / Pascal"
+  },
+  {
+    "code": "COM051140",
+    "name": "COMPUTER / Linguaggi di Programmazione / Prolog"
+  },
+  {
+    "code": "COM051170",
+    "name": "COMPUTER / Linguaggi di Programmazione / SQL"
+  },
+  {
+    "code": "COM051200",
+    "name": "COMPUTER / Linguaggi di Programmazione / Visual BASIC"
+  },
+  {
+    "code": "COM051210",
+    "name": "COMPUTER / Programmazione / Orientata all'Oggetto"
+  },
+  {
+    "code": "COM051220",
+    "name": "COMPUTER / Programmazione / Parallela"
+  },
+  {
+    "code": "COM051230",
+    "name": "COMPUTER / Progettazione e Sviluppo Software / Generale"
+  },
+  {
+    "code": "COM051240",
+    "name": "COMPUTER / Progettazione e Sviluppo Software / Analisi e Progettazione di Sistemi"
+  },
+  {
+    "code": "COM051260",
+    "name": "COMPUTER / Linguaggi di Programmazione / JavaScript"
+  },
+  {
+    "code": "COM051270",
+    "name": "COMPUTER / Linguaggi di Programmazione / HTML"
+  },
+  {
+    "code": "COM051280",
+    "name": "COMPUTER / Linguaggi di Programmazione / Java"
+  },
+  {
+    "code": "COM051290",
+    "name": "COMPUTER / Linguaggi di Programmazione / RPG"
+  },
+  {
+    "code": "COM051300",
+    "name": "COMPUTER / Programmazione / Algoritmi"
+  },
+  {
+    "code": "COM051310",
+    "name": "COMPUTER / Linguaggi di Programmazione / C#"
+  },
+  {
+    "code": "COM051320",
+    "name": "COMPUTER / Linguaggi di Programmazione / XML"
+  },
+  {
+    "code": "COM051330",
+    "name": "COMPUTER / Progettazione e Sviluppo Software / Controllo e Assicurazione Qualità"
+  },
+  {
+    "code": "COM051350",
+    "name": "COMPUTER / Linguaggi di Programmazione / Perl"
+  },
+  {
+    "code": "COM051360",
+    "name": "COMPUTER / Linguaggi di Programmazione / Python"
+  },
+  {
+    "code": "COM051370",
+    "name": "COMPUTER / Programmazione / Programmazione Apple"
+  },
+  {
+    "code": "COM051380",
+    "name": "COMPUTER / Programmazione / Programmazione Microsoft"
+  },
+  {
+    "code": "COM051390",
+    "name": "COMPUTER / Programmazione / Open Source"
+  },
+  {
+    "code": "COM051400",
+    "name": "COMPUTER / Linguaggi di Programmazione / PHP"
+  },
+  {
+    "code": "COM051410",
+    "name": "COMPUTER / Linguaggi di Programmazione / Ruby"
+  },
+  {
+    "code": "COM051420",
+    "name": "COMPUTER / Linguaggi di Programmazione / VBScript"
+  },
+  {
+    "code": "COM051430",
+    "name": "COMPUTER / Progettazione e Sviluppo Software / Gestione Progetti"
+  },
+  {
+    "code": "COM051440",
+    "name": "COMPUTER / Progettazione e Sviluppo Software / Strumenti"
+  },
+  {
+    "code": "COM051460",
+    "name": "COMPUTER / Programmazione / Dispositivi Palmari"
+  },
+  {
+    "code": "COM052000",
+    "name": "COMPUTER / Riferimento"
+  },
+  {
+    "code": "COM053000",
+    "name": "COMPUTER / Sicurezza / Generale"
+  },
+  {
+    "code": "COM054000",
+    "name": "COMPUTER / Applicazioni Desktop / Fogli Elettronici"
+  },
+  {
+    "code": "COM055000",
+    "name": "COMPUTER / Guide alla Certificazione / Generale"
+  },
+  {
+    "code": "COM055010",
+    "name": "COMPUTER / Guide alla Certificazione / A+"
+  },
+  {
+    "code": "COM055020",
+    "name": "COMPUTER / Guide alla Certificazione / MCSE"
+  },
+  {
+    "code": "COM056000",
+    "name": "COMPUTER / Utility"
+  },
+  {
+    "code": "COM057000",
+    "name": "COMPUTER / Realtà Virtuale"
+  },
+  {
+    "code": "COM058000",
+    "name": "COMPUTER / Applicazioni Desktop / Elaborazione Testi"
+  },
+  {
+    "code": "COM059000",
+    "name": "COMPUTER / Ingegneria Informatica"
+  },
+  {
+    "code": "COM060000",
+    "name": "COMPUTER / Internet / Generale"
+  },
+  {
+    "code": "COM060010",
+    "name": "COMPUTER / Web / Browser"
+  },
+  {
+    "code": "COM060030",
+    "name": "COMPUTER / Networking / Intranet e Extranet"
+  },
+  {
+    "code": "COM060040",
+    "name": "COMPUTER / Internet / Sicurezza"
+  },
+  {
+    "code": "COM060070",
+    "name": "COMPUTER / Web / Directory di Siti Web"
+  },
+  {
+    "code": "COM060080",
+    "name": "COMPUTER / Web / Generale"
+  },
+  {
+    "code": "COM060090",
+    "name": "COMPUTER / Internet / Sviluppo Applicazioni"
+  },
+  {
+    "code": "COM060100",
+    "name": "COMPUTER / Web / Blog"
+  },
+  {
+    "code": "COM060110",
+    "name": "COMPUTER / Web / Podcasting e Webcasting"
+  },
+  {
+    "code": "COM060120",
+    "name": "COMPUTER / Web / Motori di Ricerca"
+  },
+  {
+    "code": "COM060130",
+    "name": "COMPUTER / Web / Progettazione Siti Web"
+  },
+  {
+    "code": "COM060140",
+    "name": "COMPUTER / Web / Social Networking"
+  },
+  {
+    "code": "COM060150",
+    "name": "COMPUTER / Web / Contenuti Utenti"
+  },
+  {
+    "code": "COM060160",
+    "name": "COMPUTER / Web / Programmazione Web"
+  },
+  {
+    "code": "COM061000",
+    "name": "COMPUTER / Client-Server Computing"
+  },
+  {
+    "code": "COM062000",
+    "name": "COMPUTER / Modellazione Dati e Design"
+  },
+  {
+    "code": "COM063000",
+    "name": "COMPUTER / Gestione Documenti"
+  },
+  {
+    "code": "COM064000",
+    "name": "COMPUTER / Commercio Elettronico (vedere anche titoli in BUSINESS ED ECONOMIA / E-Commerce)"
+  },
+  {
+    "code": "COM065000",
+    "name": "COMPUTER / Editoria Elettronica"
+  },
+  {
+    "code": "COM066000",
+    "name": "COMPUTER / Applicazioni Desktop / Software Collaborativo"
+  },
+  {
+    "code": "COM067000",
+    "name": "COMPUTER / Hardware / Generale"
+  },
+  {
+    "code": "COM069000",
+    "name": "COMPUTER / Servizi Online / Generale"
+  },
+  {
+    "code": "COM070000",
+    "name": "COMPUTER / Interfacce Utente"
+  },
+  {
+    "code": "COM071000",
+    "name": "COMPUTER / Digital Media / Video e Animazione"
+  },
+  {
+    "code": "COM072000",
+    "name": "COMPUTER / Simulazione al Computer"
+  },
+  {
+    "code": "COM073000",
+    "name": "COMPUTER / Elaborazione della Voce e Audio"
+  },
+  {
+    "code": "COM074000",
+    "name": "COMPUTER / Hardware / Dispositivi Palmari"
+  },
+  {
+    "code": "COM075000",
+    "name": "COMPUTER / Hardware / Hardware di Rete"
+  },
+  {
+    "code": "COM077000",
+    "name": "COMPUTER / Software Matematico e Statistico"
+  },
+  {
+    "code": "COM078000",
+    "name": "COMPUTER / Applicazioni Desktop / Software di Presentazione"
+  },
+  {
+    "code": "COM079000",
+    "name": "COMPUTER / Aspetti Sociali / Generale"
+  },
+  {
+    "code": "COM079010",
+    "name": "COMPUTER / Aspetti Sociali / Interazione Uomo-Computer"
+  },
+  {
+    "code": "COM080000",
+    "name": "COMPUTER / Storia"
+  },
+  {
+    "code": "COM081000",
+    "name": "COMPUTER / Applicazioni Desktop / Software di Gestione Progetti"
+  },
+  {
+    "code": "COM082000",
+    "name": "COMPUTER / Bioinformatica"
+  },
+  {
+    "code": "COM083000",
+    "name": "COMPUTER / Sicurezza / Crittografia"
+  },
+  {
+    "code": "COM084000",
+    "name": "COMPUTER / Applicazioni Desktop / Generale"
+  },
+  {
+    "code": "COM084010",
+    "name": "COMPUTER / Applicazioni Desktop / Database"
+  },
+  {
+    "code": "COM084020",
+    "name": "COMPUTER / Applicazioni Desktop / Client E-mail"
+  },
+  {
+    "code": "COM084030",
+    "name": "COMPUTER / Applicazioni Desktop / Suite"
+  },
+  {
+    "code": "COM085000",
+    "name": "COMPUTER / Documentazione e Scrittura Tecnica"
+  },
+  {
+    "code": "COM086000",
+    "name": "COMPUTER / Giochi e Intrattenimenti Domestici"
+  },
+  {
+    "code": "COM087000",
+    "name": "COMPUTER / Digital Media / Generale"
+  },
+  {
+    "code": "COM087010",
+    "name": "COMPUTER / Digital Media / Audio"
+  },
+  {
+    "code": "COM087020",
+    "name": "COMPUTER / Digital Media / Applicazioni Grafiche"
+  },
+  {
+    "code": "COM087030",
+    "name": "COMPUTER / Digital Media / Fotografia (vedere anche FOTOGRAFIA / Tecniche / Digitale)"
+  },
+  {
+    "code": "COM088000",
+    "name": "COMPUTER / Amministrazione del Sistema / Generale"
+  },
+  {
+    "code": "COM088010",
+    "name": "COMPUTER / Amministrazione del Sistema / Amministrazione Linux e UNIX"
+  },
+  {
+    "code": "COM088020",
+    "name": "COMPUTER / Amministrazione del Sistema / Amministrazione di Windows"
+  },
+  {
+    "code": "ARC000000",
+    "name": "ARCHITETTURA / Generale"
+  },
+  {
+    "code": "ARC001000",
+    "name": "ARCHITETTURA / Critica"
+  },
+  {
+    "code": "ARC002000",
+    "name": "ARCHITETTURA / Decorazioni e Ornamenti"
+  },
+  {
+    "code": "ARC003000",
+    "name": "ARCHITETTURA / Edifici / Residenziali"
+  },
+  {
+    "code": "ARC004000",
+    "name": "ARCHITETTURA / Progettazione, Bozza, Disegno e Presentazione\""
+  },
+  {
+    "code": "ARC005000",
+    "name": "ARCHITETTURA / Storia / Generale"
+  },
+  {
+    "code": "ARC005010",
+    "name": "ARCHITETTURA / Storia / Preistorica e Primitiva"
+  },
+  {
+    "code": "ARC005020",
+    "name": "ARCHITETTURA / Storia / Antica e Classica"
+  },
+  {
+    "code": "ARC005030",
+    "name": "ARCHITETTURA / Storia / Medievale"
+  },
+  {
+    "code": "ARC005040",
+    "name": "ARCHITETTURA / Storia / Rinascimento"
+  },
+  {
+    "code": "ARC005050",
+    "name": "ARCHITETTURA / Storia / Barocco e Rococò"
+  },
+  {
+    "code": "ARC005060",
+    "name": "ARCHITETTURA / Storia / Romanticismo"
+  },
+  {
+    "code": "ARC005070",
+    "name": "ARCHITETTURA / Storia / Moderna (dal tardo 19° Sec. al 1945)"
+  },
+  {
+    "code": "ARC005080",
+    "name": "ARCHITETTURA / Storia / Contemporanea (dal 1945)"
+  },
+  {
+    "code": "ARC006000",
+    "name": "ARCHITETTURA / Architetti Individuali e Studi Associati / Generale"
+  },
+  {
+    "code": "ARC006010",
+    "name": "ARCHITETTURA / Architetti Individuali e Studi Associati / Saggi"
+  },
+  {
+    "code": "ARC006020",
+    "name": "ARCHITETTURA / Architetti Individuali e Studi Associati / Monografie"
+  },
+  {
+    "code": "ARC007000",
+    "name": "ARCHITETTURA / Progettazione di Interni / Generale"
+  },
+  {
+    "code": "ARC007010",
+    "name": "ARCHITETTURA / Progettazione di Interni / Illuminazione"
+  },
+  {
+    "code": "ARC008000",
+    "name": "ARCHITETTURA / Paesaggi"
+  },
+  {
+    "code": "ARC009000",
+    "name": "ARCHITETTURA / Metodi e Materiali"
+  },
+  {
+    "code": "ARC010000",
+    "name": "ARCHITETTURA / Pianificazione Urbana e del Territorio"
+  },
+  {
+    "code": "ARC011000",
+    "name": "ARCHITETTURA / Edifici / Pubblici, Commerciali e Industriali\""
+  },
+  {
+    "code": "ARC012000",
+    "name": "ARCHITETTURA / Riferimento"
+  },
+  {
+    "code": "ARC013000",
+    "name": "ARCHITETTURA / Studio e Insegnamento"
+  },
+  {
+    "code": "ARC014000",
+    "name": "ARCHITETTURA / Conservazione Storica / Generale"
+  },
+  {
+    "code": "ARC014010",
+    "name": "ARCHITETTURA / Conservazione Storica / Tecniche di Restauro"
+  },
+  {
+    "code": "ARC015000",
+    "name": "ARCHITETTURA / Pratica Professionale"
+  },
+  {
+    "code": "ARC016000",
+    "name": "ARCHITETTURA / Edifici / Religiosi"
+  },
+  {
+    "code": "ARC017000",
+    "name": "ARCHITETTURA / Gestione Progetti"
+  },
+  {
+    "code": "ARC018000",
+    "name": "ARCHITETTURA / Sostenibilità e Progettazione del Verde"
+  },
+  {
+    "code": "ARC019000",
+    "name": "ARCHITETTURA / Codici e Standard"
+  },
+  {
+    "code": "ARC020000",
+    "name": "ARCHITETTURA / Regionale"
+  },
+  {
+    "code": "ARC021000",
+    "name": "ARCHITETTURA / Sicurezza"
+  },
+  {
+    "code": "ARC022000",
+    "name": "ARCHITETTURA / Ristrutturazione e Restauro"
+  },
+  {
+    "code": "ARC023000",
+    "name": "ARCHITETTURA / Annuari"
+  },
+  {
+    "code": "ARC024000",
+    "name": "ARCHITETTURA / Edifici / Generale"
+  },
+  {
+    "code": "ARC024010",
+    "name": "ARCHITETTURA / Edifici / Generale / Punti di Riferimento e Monumenti"
+  },
+  {
+    "code": "MAT000000",
+    "name": "MATEMATICA / Generale"
+  },
+  {
+    "code": "MAT002000",
+    "name": "MATEMATICA / Algebra / Generale"
+  },
+  {
+    "code": "MAT002010",
+    "name": "MATEMATICA / Algebra / Astratta"
+  },
+  {
+    "code": "MAT002030",
+    "name": "MATEMATICA / Algebra / Elementare"
+  },
+  {
+    "code": "MAT002040",
+    "name": "MATEMATICA / Algebra / Liv. Intermedio"
+  },
+  {
+    "code": "MAT002050",
+    "name": "MATEMATICA / Algebra / Lineare"
+  },
+  {
+    "code": "MAT003000",
+    "name": "MATEMATICA / Applicata"
+  },
+  {
+    "code": "MAT004000",
+    "name": "MATEMATICA / Aritmetica"
+  },
+  {
+    "code": "MAT005000",
+    "name": "MATEMATICA / Calcolo"
+  },
+  {
+    "code": "MAT006000",
+    "name": "MATEMATICA / Calcoli e Numerazione"
+  },
+  {
+    "code": "MAT007000",
+    "name": "MATEMATICA / Equazioni Differenziali"
+  },
+  {
+    "code": "MAT008000",
+    "name": "MATEMATICA / Matematica Discreta"
+  },
+  {
+    "code": "MAT009000",
+    "name": "MATEMATICA / Matematica Finita"
+  },
+  {
+    "code": "MAT011000",
+    "name": "MATEMATICA / Teoria dei Giochi"
+  },
+  {
+    "code": "MAT012000",
+    "name": "MATEMATICA / Geometria / Generale"
+  },
+  {
+    "code": "MAT012010",
+    "name": "MATEMATICA / Geometria / Algebrica"
+  },
+  {
+    "code": "MAT012020",
+    "name": "MATEMATICA / Geometria / Analitica"
+  },
+  {
+    "code": "MAT012030",
+    "name": "MATEMATICA / Geometria / Differenziale"
+  },
+  {
+    "code": "MAT012040",
+    "name": "MATEMATICA / Geometria / Non Euclidea"
+  },
+  {
+    "code": "MAT013000",
+    "name": "MATEMATICA / Metodi Grafici"
+  },
+  {
+    "code": "MAT014000",
+    "name": "MATEMATICA / Teoria dei Gruppi"
+  },
+  {
+    "code": "MAT015000",
+    "name": "MATEMATICA / Storia e Filosofia"
+  },
+  {
+    "code": "MAT016000",
+    "name": "MATEMATICA / Infinito"
+  },
+  {
+    "code": "MAT017000",
+    "name": "MATEMATICA / Programmazione Lineare"
+  },
+  {
+    "code": "MAT018000",
+    "name": "MATEMATICA / Logica"
+  },
+  {
+    "code": "MAT019000",
+    "name": "MATEMATICA / Matrici"
+  },
+  {
+    "code": "MAT020000",
+    "name": "MATEMATICA / Misurazione"
+  },
+  {
+    "code": "MAT021000",
+    "name": "MATEMATICA / Sistemi Numerici"
+  },
+  {
+    "code": "MAT022000",
+    "name": "MATEMATICA / Teoria dei Numeri"
+  },
+  {
+    "code": "MAT023000",
+    "name": "MATEMATICA / Precalcolo"
+  },
+  {
+    "code": "MAT025000",
+    "name": "MATEMATICA / Giochi e Svago"
+  },
+  {
+    "code": "MAT026000",
+    "name": "MATEMATICA / Riferimento"
+  },
+  {
+    "code": "MAT027000",
+    "name": "MATEMATICA / Ricerca"
+  },
+  {
+    "code": "MAT028000",
+    "name": "MATEMATICA / Teoria degli Insiemi"
+  },
+  {
+    "code": "MAT029000",
+    "name": "MATEMATICA / Probabilità e Statistica / Generale"
+  },
+  {
+    "code": "MAT029010",
+    "name": "MATEMATICA / Probabilità e Statistica / Analisi Bayesiana"
+  },
+  {
+    "code": "MAT029020",
+    "name": "MATEMATICA / Probabilità e Statistica / Analisi Multivariata"
+  },
+  {
+    "code": "MAT029030",
+    "name": "MATEMATICA / Probabilità e Statistica / Analisi Regressiva"
+  },
+  {
+    "code": "MAT030000",
+    "name": "MATEMATICA / Studio e Insegnamento"
+  },
+  {
+    "code": "MAT031000",
+    "name": "MATEMATICA / Trasformazioni"
+  },
+  {
+    "code": "MAT032000",
+    "name": "MATEMATICA / Trigonometria"
+  },
+  {
+    "code": "MAT033000",
+    "name": "MATEMATICA / Analisi Vettoriale"
+  },
+  {
+    "code": "MAT034000",
+    "name": "MATEMATICA / Analisi Matematica"
+  },
+  {
+    "code": "MAT036000",
+    "name": "MATEMATICA / Combinatoria"
+  },
+  {
+    "code": "MAT037000",
+    "name": "MATEMATICA / Analisi Funzionale"
+  },
+  {
+    "code": "MAT038000",
+    "name": "MATEMATICA / Topologia"
+  },
+  {
+    "code": "MAT039000",
+    "name": "MATEMATICA / Saggi"
+  },
+  {
+    "code": "MED000000",
+    "name": "MEDICO / Generale"
+  },
+  {
+    "code": "MED001000",
+    "name": "MEDICO / Agopuntura"
+  },
+  {
+    "code": "MED002000",
+    "name": "MEDICO / Somministrazione"
+  },
+  {
+    "code": "MED003000",
+    "name": "MEDICO / Servizi Sanitari Connessi / Generale"
+  },
+  {
+    "code": "MED003010",
+    "name": "MEDICO / Servizi Sanitari Connessi / Servizi Medici di Emergenza"
+  },
+  {
+    "code": "MED003020",
+    "name": "MEDICO / Servizi Sanitari Connessi / Ipnoterapia"
+  },
+  {
+    "code": "MED003030",
+    "name": "MEDICO / Servizi Sanitari Connessi / Assistenti Medici"
+  },
+  {
+    "code": "MED003040",
+    "name": "MEDICO / Servizi Sanitari Connessi / Tecnologia Medica"
+  },
+  {
+    "code": "MED003050",
+    "name": "MEDICO / Servizi Sanitari Connessi / Terapia Occupazionale"
+  },
+  {
+    "code": "MED003060",
+    "name": "MEDICO / Servizi Sanitari Connessi / Terapia Fisica"
+  },
+  {
+    "code": "MED003070",
+    "name": "MEDICO / Servizi Sanitari Connessi / Tecnologia Radiologica e degli Ultrasuoni"
+  },
+  {
+    "code": "MED003080",
+    "name": "MEDICO / Servizi Sanitari Connessi / Terapia Respiratoria"
+  },
+  {
+    "code": "MED003090",
+    "name": "MEDICO / Servizi Sanitari Connessi / Massaggioterapia*"
+  },
+  {
+    "code": "MED004000",
+    "name": "MEDICO / Medicina Alternativa"
+  },
+  {
+    "code": "MED005000",
+    "name": "MEDICO / Anatomia"
+  },
+  {
+    "code": "MED006000",
+    "name": "MEDICO / Anestesiologia"
+  },
+  {
+    "code": "MED007000",
+    "name": "MEDICO / Audiologia e Patologia del Linguaggio"
+  },
+  {
+    "code": "MED008000",
+    "name": "MEDICO / Biochimica"
+  },
+  {
+    "code": "MED009000",
+    "name": "MEDICO / Biotecnologia"
+  },
+  {
+    "code": "MED010000",
+    "name": "MEDICO / Cardiologia"
+  },
+  {
+    "code": "MED011000",
+    "name": "MEDICO / Assistenza Sanitaria"
+  },
+  {
+    "code": "MED012000",
+    "name": "MEDICO / Chemioterapia"
+  },
+  {
+    "code": "MED013000",
+    "name": "MEDICO / Chiropratica"
+  },
+  {
+    "code": "MED014000",
+    "name": "MEDICO / Medicina Clinica"
+  },
+  {
+    "code": "MED015000",
+    "name": "MEDICO / Rianimazione"
+  },
+  {
+    "code": "MED016000",
+    "name": "MEDICO / Odontoiatria / Generale"
+  },
+  {
+    "code": "MED016010",
+    "name": "MEDICO / Odontoiatria / Assistenza Odontoiatrica"
+  },
+  {
+    "code": "MED016020",
+    "name": "MEDICO / Odontoiatria / Igiene Dentale"
+  },
+  {
+    "code": "MED016030",
+    "name": "MEDICO / Odontoiatria / Ortodonzia"
+  },
+  {
+    "code": "MED016040",
+    "name": "MEDICO / Odontoiatria / Periodonzia"
+  },
+  {
+    "code": "MED016050",
+    "name": "MEDICO / Odontoiatria / Chirurgia Orale"
+  },
+  {
+    "code": "MED016090",
+    "name": "MEDICO / Odontoiatria / Gestione dello Studio Professionale"
+  },
+  {
+    "code": "MED017000",
+    "name": "MEDICO / Dermatologia"
+  },
+  {
+    "code": "MED018000",
+    "name": "MEDICO / Diagnosi"
+  },
+  {
+    "code": "MED019000",
+    "name": "MEDICO / Diagnostica per Immagini"
+  },
+  {
+    "code": "MED019010",
+    "name": "MEDICO / Diagnostica per Immagini / Radiologia"
+  },
+  {
+    "code": "MED020000",
+    "name": "MEDICO / Dizionari e Terminologia"
+  },
+  {
+    "code": "MED021000",
+    "name": "MEDICO / Terapia Dietetica"
+  },
+  {
+    "code": "MED022000",
+    "name": "MEDICO / Malattie"
+  },
+  {
+    "code": "MED022020",
+    "name": "MEDICO / AIDS e HIV"
+  },
+  {
+    "code": "MED022090",
+    "name": "MEDICO / Malattie Infettive"
+  },
+  {
+    "code": "MED023000",
+    "name": "MEDICO / Guide Farmacologiche"
+  },
+  {
+    "code": "MED024000",
+    "name": "MEDICO / Educazione e Formazione"
+  },
+  {
+    "code": "MED025000",
+    "name": "MEDICO / Embriologia"
+  },
+  {
+    "code": "MED026000",
+    "name": "MEDICO / Medicina d'Emergenza"
+  },
+  {
+    "code": "MED027000",
+    "name": "MEDICO / Endocrinologia e Metabolismo"
+  },
+  {
+    "code": "MED028000",
+    "name": "MEDICO / Epidemiologia"
+  },
+  {
+    "code": "MED029000",
+    "name": "MEDICO / Studio Medico di Base e di Medicina Generale"
+  },
+  {
+    "code": "MED030000",
+    "name": "MEDICO / Medicina Forense"
+  },
+  {
+    "code": "MED031000",
+    "name": "MEDICO / Gastroenterologia"
+  },
+  {
+    "code": "MED032000",
+    "name": "MEDICO / Geriatria"
+  },
+  {
+    "code": "MED033000",
+    "name": "MEDICO / Ginecologia e Ostetricia"
+  },
+  {
+    "code": "MED034000",
+    "name": "MEDICO / Guarigione"
+  },
+  {
+    "code": "MED035000",
+    "name": "MEDICO / Erogazione dell'Assistenza Sanitaria"
+  },
+  {
+    "code": "MED036000",
+    "name": "MEDICO / Politica Sanitaria"
+  },
+  {
+    "code": "MED037000",
+    "name": "MEDICO / Valutazione del Rischio Sanitario"
+  },
+  {
+    "code": "MED038000",
+    "name": "MEDICO / Ematologia"
+  },
+  {
+    "code": "MED039000",
+    "name": "MEDICO / Storia"
+  },
+  {
+    "code": "MED040000",
+    "name": "MEDICO / Medicina Olistica"
+  },
+  {
+    "code": "MED041000",
+    "name": "MEDICO / Cure Domiciliari"
+  },
+  {
+    "code": "MED042000",
+    "name": "MEDICO / Terapia Terminale"
+  },
+  {
+    "code": "MED043000",
+    "name": "MEDICO / Somministrazione e Cure Ospedaliere"
+  },
+  {
+    "code": "MED044000",
+    "name": "MEDICO / Immunologia"
+  },
+  {
+    "code": "MED045000",
+    "name": "MEDICO / Medicina Interna"
+  },
+  {
+    "code": "MED047000",
+    "name": "MEDICO / Medicina di Laboratorio"
+  },
+  {
+    "code": "MED048000",
+    "name": "MEDICO / Laser in Medicina"
+  },
+  {
+    "code": "MED049000",
+    "name": "MEDICO / Medicaid & Medicare"
+  },
+  {
+    "code": "MED050000",
+    "name": "MEDICO / Etica"
+  },
+  {
+    "code": "MED051000",
+    "name": "MEDICO / Anamnesi e Registri Medici"
+  },
+  {
+    "code": "MED052000",
+    "name": "MEDICO / Microbiologia"
+  },
+  {
+    "code": "MED055000",
+    "name": "MEDICO / Nefrologia"
+  },
+  {
+    "code": "MED056000",
+    "name": "MEDICO / Neurologia"
+  },
+  {
+    "code": "MED057000",
+    "name": "MEDICO / Neuroscienze"
+  },
+  {
+    "code": "MED058000",
+    "name": "MEDICO / Assistenza Infermieristica / Generale"
+  },
+  {
+    "code": "MED058010",
+    "name": "MEDICO / Assistenza Infermieristica / Anestesia"
+  },
+  {
+    "code": "MED058020",
+    "name": "MEDICO / Assistenza Infermieristica / Valutazione e Diagnosi"
+  },
+  {
+    "code": "MED058030",
+    "name": "MEDICO / Assistenza Infermieristica / Rianimazione e Terapia intensiva"
+  },
+  {
+    "code": "MED058040",
+    "name": "MEDICO / Assistenza Infermieristica / Emergenza"
+  },
+  {
+    "code": "MED058050",
+    "name": "MEDICO / Assistenza Infermieristica / Fondamenti e Competenze"
+  },
+  {
+    "code": "MED058060",
+    "name": "MEDICO / Assistenza Infermieristica / Gerontologia"
+  },
+  {
+    "code": "MED058070",
+    "name": "MEDICO / Assistenza Infermieristica / Assistenza Domiciliare e Territoriale"
+  },
+  {
+    "code": "MED058080",
+    "name": "MEDICO / Assistenza Infermieristica / Pediatrica e Neonatale"
+  },
+  {
+    "code": "MED058090",
+    "name": "MEDICO / Assistenza Infermieristica / Problematiche"
+  },
+  {
+    "code": "MED058100",
+    "name": "MEDICO / Assistenza Infermieristica / Infermieri LPN e LVN"
+  },
+  {
+    "code": "MED058110",
+    "name": "MEDICO / Assistenza Infermieristica / Gestione e Leadership"
+  },
+  {
+    "code": "MED058120",
+    "name": "MEDICO / Assistenza Infermieristica / Maternità, Perinatale, Salute della Donna\""
+  },
+  {
+    "code": "MED058130",
+    "name": "MEDICO / Assistenza Infermieristica / Igiene Mentale"
+  },
+  {
+    "code": "MED058140",
+    "name": "MEDICO / Assistenza Infermieristica / Infermiere e Paziente"
+  },
+  {
+    "code": "MED058150",
+    "name": "MEDICO / Assistenza Infermieristica / Nutrizione"
+  },
+  {
+    "code": "MED058160",
+    "name": "MEDICO / Assistenza Infermieristica / Oncologia e Cancro"
+  },
+  {
+    "code": "MED058170",
+    "name": "MEDICO / Assistenza Infermieristica / Farmacologia"
+  },
+  {
+    "code": "MED058180",
+    "name": "MEDICO / Assistenza Infermieristica / Psichiatrica"
+  },
+  {
+    "code": "MED058190",
+    "name": "MEDICO / Assistenza Infermieristica / Riferimento"
+  },
+  {
+    "code": "MED058200",
+    "name": "MEDICO / Assistenza Infermieristica / Ricerca e Teoria"
+  },
+  {
+    "code": "MED058210",
+    "name": "MEDICO / Assistenza Infermieristica / Preparazione al Test e Analisi"
+  },
+  {
+    "code": "MED058220",
+    "name": "MEDICO / Assistenza Infermieristica / Medica e Chirurgica"
+  },
+  {
+    "code": "MED059000",
+    "name": "MEDICO / Assistenza Infermieristica Domiciliare"
+  },
+  {
+    "code": "MED060000",
+    "name": "MEDICO / Nutrizione"
+  },
+  {
+    "code": "MED061000",
+    "name": "MEDICO / Medicina Industriale e Occupazionale"
+  },
+  {
+    "code": "MED062000",
+    "name": "MEDICO / Oncologia"
+  },
+  {
+    "code": "MED063000",
+    "name": "MEDICO / Oftalmologia"
+  },
+  {
+    "code": "MED064000",
+    "name": "MEDICO / Optometria"
+  },
+  {
+    "code": "MED065000",
+    "name": "MEDICO / Ortopedia"
+  },
+  {
+    "code": "MED066000",
+    "name": "MEDICO / Otorinolaringoiatria"
+  },
+  {
+    "code": "MED067000",
+    "name": "MEDICO / Patologia"
+  },
+  {
+    "code": "MED068000",
+    "name": "MEDICO / Patofisiologia"
+  },
+  {
+    "code": "MED069000",
+    "name": "MEDICO / Pediatria"
+  },
+  {
+    "code": "MED070000",
+    "name": "MEDICO / Perinatologia e Neonatologia"
+  },
+  {
+    "code": "MED071000",
+    "name": "MEDICO / Farmacologia"
+  },
+  {
+    "code": "MED072000",
+    "name": "MEDICO / Farmacia"
+  },
+  {
+    "code": "MED073000",
+    "name": "MEDICO / Medicina Fisica e Riabilitazione"
+  },
+  {
+    "code": "MED074000",
+    "name": "MEDICO / Medico e Paziente"
+  },
+  {
+    "code": "MED075000",
+    "name": "MEDICO / Fisiologia"
+  },
+  {
+    "code": "MED076000",
+    "name": "MEDICO / Medicina Preventiva"
+  },
+  {
+    "code": "MED077000",
+    "name": "MEDICO / Protesi"
+  },
+  {
+    "code": "MED078000",
+    "name": "MEDICO / Sanità Pubblica"
+  },
+  {
+    "code": "MED079000",
+    "name": "MEDICO / Medicina Polmonare e Toracica"
+  },
+  {
+    "code": "MED080000",
+    "name": "MEDICO / Radiologica e Medicina Nucleare"
+  },
+  {
+    "code": "MED081000",
+    "name": "MEDICO / Riferimento"
+  },
+  {
+    "code": "MED082000",
+    "name": "MEDICO / Medicina e Tecnologie della Riproduzione"
+  },
+  {
+    "code": "MED083000",
+    "name": "MEDICO / Reumatologia"
+  },
+  {
+    "code": "MED084000",
+    "name": "MEDICO / Medicina dello Sport"
+  },
+  {
+    "code": "MED085000",
+    "name": "MEDICO / Chirurgia / Generale"
+  },
+  {
+    "code": "MED085010",
+    "name": "MEDICO / Chirurgia / Neurochirurgia"
+  },
+  {
+    "code": "MED085020",
+    "name": "MEDICO / Chirurgia / Orale e Maxillo-Facciale"
+  },
+  {
+    "code": "MED085030",
+    "name": "MEDICO / Chirurgia / Plastica e Cosmetica"
+  },
+  {
+    "code": "MED085040",
+    "name": "MEDICO / Chirurgia / Toracica"
+  },
+  {
+    "code": "MED085050",
+    "name": "MEDICO / Chirurgia / Vascolare"
+  },
+  {
+    "code": "MED085060",
+    "name": "MEDICO / Chirurgia / Colon-Rettale"
+  },
+  {
+    "code": "MED086000",
+    "name": "MEDICO / Preparazione al Test e Analisi"
+  },
+  {
+    "code": "MED087000",
+    "name": "MEDICO / Trasporto"
+  },
+  {
+    "code": "MED088000",
+    "name": "MEDICO / Urologia"
+  },
+  {
+    "code": "MED089000",
+    "name": "MEDICO / Medicina Veterinaria / Generale"
+  },
+  {
+    "code": "MED089010",
+    "name": "MEDICO / Medicina Veterinaria / Equina"
+  },
+  {
+    "code": "MED089020",
+    "name": "MEDICO / Medicina Veterinaria / Alimentazione Animale"
+  },
+  {
+    "code": "MED089030",
+    "name": "MEDICO / Medicina Veterinaria / Piccoli Animali"
+  },
+  {
+    "code": "MED090000",
+    "name": "MEDICO / Biostatistica"
+  },
+  {
+    "code": "MED091000",
+    "name": "MEDICO / Nosologia"
+  },
+  {
+    "code": "MED092000",
+    "name": "MEDICO / Osteopatia"
+  },
+  {
+    "code": "MED093000",
+    "name": "MEDICO / Medicina del Dolore"
+  },
+  {
+    "code": "MED094000",
+    "name": "MEDICO / Emergenze Pediatriche"
+  },
+  {
+    "code": "MED095000",
+    "name": "MEDICO / Gestione dello Studio Professionale e Rimborsi"
+  },
+  {
+    "code": "MED096000",
+    "name": "MEDICO / Tossicologia"
+  },
+  {
+    "code": "MED097000",
+    "name": "MEDICO / Medicina Tropicale"
+  },
+  {
+    "code": "MED098000",
+    "name": "MEDICO / Ultrasonografia"
+  },
+  {
+    "code": "MED100000",
+    "name": "MEDICO / Podologia"
+  },
+  {
+    "code": "MED101000",
+    "name": "MEDICO / Atlanti"
+  },
+  {
+    "code": "MED102000",
+    "name": "MEDICO / Igiene Mentale"
+  },
+  {
+    "code": "MED103000",
+    "name": "MEDICO / Parassitologia"
+  },
+  {
+    "code": "MED104000",
+    "name": "MEDICO / Medici"
+  },
+  {
+    "code": "MED105000",
+    "name": "MEDICO / Psichiatria / Generale"
+  },
+  {
+    "code": "MED105010",
+    "name": "MEDICO / Psichiatria / Infanzia e Adolescenza"
+  },
+  {
+    "code": "MED105020",
+    "name": "MEDICO / Psichiatria / Psicofarmacologia"
+  },
+  {
+    "code": "MED106000",
+    "name": "MEDICO / Ricerca"
+  },
+  {
+    "code": "MED107000",
+    "name": "MEDICO / Genetica"
+  },
+  {
+    "code": "MED108000",
+    "name": "MEDICO / Strumenti e Forniture"
+  },
+  {
+    "code": "MED109000",
+    "name": "MEDICO / Saggi"
+  },
+  {
+    "code": "MED110000",
+    "name": "MEDICO / Istologia"
+  },
+  {
+    "code": "MED111000",
+    "name": "MEDICO / Bariatria"
+  },
+  {
+    "code": "MED112000",
+    "name": "MEDICO / Medicina Basata sull'Evidenza Clinica"
+  },
+  {
+    "code": "MED113000",
+    "name": "MEDICO / Cure di Lungo Termine"
+  },
+  {
+    "code": "HEA000000",
+    "name": "SALUTE E FITNESS / Generale"
+  },
+  {
+    "code": "HEA001000",
+    "name": "SALUTE E FITNESS / Agopressione e Agopuntura (vedere anche MEDICO / Agopuntura)"
+  },
+  {
+    "code": "HEA002000",
+    "name": "SALUTE E FITNESS / Aerobica"
+  },
+  {
+    "code": "HEA003000",
+    "name": "SALUTE E FITNESS / Bellezza e Cura della Persona"
+  },
+  {
+    "code": "HEA006000",
+    "name": "SALUTE E FITNESS / Diete"
+  },
+  {
+    "code": "HEA007000",
+    "name": "SALUTE E FITNESS / Esercizio"
+  },
+  {
+    "code": "HEA009000",
+    "name": "SALUTE E FITNESS / Guarigione"
+  },
+  {
+    "code": "HEA010000",
+    "name": "SALUTE E FITNESS / Vivere Sano"
+  },
+  {
+    "code": "HEA011000",
+    "name": "SALUTE E FITNESS / Medicine Erboristiche"
+  },
+  {
+    "code": "HEA012000",
+    "name": "SALUTE E FITNESS / Olismo"
+  },
+  {
+    "code": "HEA013000",
+    "name": "SALUTE E FITNESS / Macrobiotica"
+  },
+  {
+    "code": "HEA014000",
+    "name": "SALUTE E FITNESS / Massaggio e Riflessologia"
+  },
+  {
+    "code": "HEA015000",
+    "name": "SALUTE E FITNESS / Salute dell'Uomo"
+  },
+  {
+    "code": "HEA016000",
+    "name": "SALUTE E FITNESS / Naturopatia"
+  },
+  {
+    "code": "HEA017000",
+    "name": "SALUTE E FITNESS / Nutrizione"
+  },
+  {
+    "code": "HEA018000",
+    "name": "SALUTE E FITNESS / Minorazioni Fisiche"
+  },
+  {
+    "code": "HEA019000",
+    "name": "SALUTE E FITNESS / Perdita di Peso"
+  },
+  {
+    "code": "HEA020000",
+    "name": "SALUTE E FITNESS / Riferimento"
+  },
+  {
+    "code": "HEA021000",
+    "name": "SALUTE E FITNESS / Sicurezza"
+  },
+  {
+    "code": "HEA023000",
+    "name": "SALUTE E FITNESS / Vitamine"
+  },
+  {
+    "code": "HEA024000",
+    "name": "SALUTE E FITNESS / Salute delle Donne"
+  },
+  {
+    "code": "HEA025000",
+    "name": "SALUTE E FITNESS / Yoga"
+  },
+  {
+    "code": "HEA027000",
+    "name": "SALUTE E FITNESS / Allergie"
+  },
+  {
+    "code": "HEA028000",
+    "name": "SALUTE E FITNESS / Problematiche dell'Assistenza Sanitaria"
+  },
+  {
+    "code": "HEA029000",
+    "name": "SALUTE E FITNESS / Aromaterapia"
+  },
+  {
+    "code": "HEA030000",
+    "name": "SALUTE E FITNESS / Omeopatia"
+  },
+  {
+    "code": "HEA032000",
+    "name": "SALUTE E FITNESS / Terapie Alternative"
+  },
+  {
+    "code": "HEA033000",
+    "name": "SALUTE E FITNESS / Prima Assistenza"
+  },
+  {
+    "code": "HEA034000",
+    "name": "SALUTE E FITNESS / Guide al Contenuto dei Cibi"
+  },
+  {
+    "code": "HEA035000",
+    "name": "SALUTE E FITNESS / Udito e Parola"
+  },
+  {
+    "code": "HEA036000",
+    "name": "SALUTE E FITNESS / Terapia del Dolore"
+  },
+  {
+    "code": "HEA037000",
+    "name": "SALUTE E FITNESS / Vista"
+  },
+  {
+    "code": "HEA038000",
+    "name": "SALUTE E FITNESS / Salute sul Lavoro"
+  },
+  {
+    "code": "HEA039000",
+    "name": "SALUTE E FITNESS / Malattie / Generale"
+  },
+  {
+    "code": "HEA039010",
+    "name": "SALUTE E FITNESS / Malattie / Addominali"
+  },
+  {
+    "code": "HEA039020",
+    "name": "SALUTE E FITNESS / Malattie / AIDS e HIV"
+  },
+  {
+    "code": "HEA039030",
+    "name": "SALUTE E FITNESS / Malattie / Cancro"
+  },
+  {
+    "code": "HEA039040",
+    "name": "SALUTE E FITNESS / Malattie / Contagiose"
+  },
+  {
+    "code": "HEA039050",
+    "name": "SALUTE E FITNESS / Malattie / Diabete"
+  },
+  {
+    "code": "HEA039060",
+    "name": "SALUTE E FITNESS / Malattie / Genetiche"
+  },
+  {
+    "code": "HEA039070",
+    "name": "SALUTE E FITNESS / Malattie / Genito-Urinarie e a Trasmissione Sessuale"
+  },
+  {
+    "code": "HEA039080",
+    "name": "SALUTE E FITNESS / Malattie / Cuore"
+  },
+  {
+    "code": "HEA039090",
+    "name": "SALUTE E FITNESS / Malattie / Sistema Immunitario"
+  },
+  {
+    "code": "HEA039100",
+    "name": "SALUTE E FITNESS / Malattie / Muscolo-Scheletriche"
+  },
+  {
+    "code": "HEA039110",
+    "name": "SALUTE E FITNESS / Malattie / Sistema Nervoso (incl. Cervello)"
+  },
+  {
+    "code": "HEA039120",
+    "name": "SALUTE E FITNESS / Malattie / Respiratorie"
+  },
+  {
+    "code": "HEA039130",
+    "name": "SALUTE E FITNESS / Malattie / Pelle"
+  },
+  {
+    "code": "HEA039140",
+    "name": "SALUTE E FITNESS / Malattie / Alzheimer e Demenza"
+  },
+  {
+    "code": "HEA039150",
+    "name": "SALUTE E FITNESS / Malattie / Sindrome da Fatica Cronica"
+  },
+  {
+    "code": "HEA040000",
+    "name": "SALUTE E FITNESS / Igiene Orale"
+  },
+  {
+    "code": "HEA041000",
+    "name": "SALUTE E FITNESS / Gestazione e Parto"
+  },
+  {
+    "code": "HEA042000",
+    "name": "SALUTE E FITNESS / Sessualità"
+  },
+  {
+    "code": "HEA043000",
+    "name": "SALUTE E FITNESS / Sonno e Malattie del Sonno"
+  },
+  {
+    "code": "HEA044000",
+    "name": "SALUTE E FITNESS / Allattamento al Seno"
+  },
+  {
+    "code": "HEA045000",
+    "name": "SALUTE E FITNESS / Infertilità"
+  },
+  {
+    "code": "HEA046000",
+    "name": "SALUTE E FITNESS / Salute dei Bambini"
+  },
+  {
+    "code": "HEA048000",
+    "name": "SALUTE E FITNESS / Dieta e Nutrizione / Generale"
+  },
+  {
+    "code": "SCI000000",
+    "name": "SCIENZA / Generale"
+  },
+  {
+    "code": "SCI001000",
+    "name": "SCIENZA / Acustica e Audio"
+  },
+  {
+    "code": "SCI003000",
+    "name": "SCIENZA / Scienze Applicate"
+  },
+  {
+    "code": "SCI004000",
+    "name": "SCIENZA / Astronomia"
+  },
+  {
+    "code": "SCI005000",
+    "name": "SCIENZA / Astrofisica e Scienza dello Spazio"
+  },
+  {
+    "code": "SCI006000",
+    "name": "SCIENZA / Scienze della Vita / Batteriologia"
+  },
+  {
+    "code": "SCI007000",
+    "name": "SCIENZA / Scienze della Vita / Biochimica"
+  },
+  {
+    "code": "SCI008000",
+    "name": "SCIENZA / Scienze della Vita / Biologia / Generale"
+  },
+  {
+    "code": "SCI009000",
+    "name": "SCIENZA / Scienze della Vita / Biofisica"
+  },
+  {
+    "code": "SCI010000",
+    "name": "SCIENZA / Biotecnologia"
+  },
+  {
+    "code": "SCI011000",
+    "name": "SCIENZA / Scienze della Vita / Botanica"
+  },
+  {
+    "code": "SCI012000",
+    "name": "SCIENZA / Comportamento Caotico dei Sistemi"
+  },
+  {
+    "code": "SCI013000",
+    "name": "SCIENZA / Chimica / Generale"
+  },
+  {
+    "code": "SCI013010",
+    "name": "SCIENZA / Chimica / Analitica"
+  },
+  {
+    "code": "SCI013020",
+    "name": "SCIENZA / Chimica / Clinica"
+  },
+  {
+    "code": "SCI013030",
+    "name": "SCIENZA / Chimica / Inorganica"
+  },
+  {
+    "code": "SCI013040",
+    "name": "SCIENZA / Chimica / Organica"
+  },
+  {
+    "code": "SCI013050",
+    "name": "SCIENZA / Chimica / Fisica e Teorica"
+  },
+  {
+    "code": "SCI013060",
+    "name": "SCIENZA / Chimica / Industriale e Tecnica"
+  },
+  {
+    "code": "SCI013090",
+    "name": "SCIENZA / Chimica / Tossicologia"
+  },
+  {
+    "code": "SCI015000",
+    "name": "SCIENZA / Cosmologia"
+  },
+  {
+    "code": "SCI016000",
+    "name": "SCIENZA / Cristallografia"
+  },
+  {
+    "code": "SCI017000",
+    "name": "SCIENZA / Scienze della Vita / Citologia"
+  },
+  {
+    "code": "SCI018000",
+    "name": "SCIENZA / Meccanica / Dinamica / Generale"
+  },
+  {
+    "code": "SCI019000",
+    "name": "SCIENZA / Scienze della Terra / Generale"
+  },
+  {
+    "code": "SCI020000",
+    "name": "SCIENZA / Scienze della Vita / Ecologia"
+  },
+  {
+    "code": "SCI021000",
+    "name": "SCIENZA / Elettricità"
+  },
+  {
+    "code": "SCI022000",
+    "name": "SCIENZA / Elettromagnetismo"
+  },
+  {
+    "code": "SCI023000",
+    "name": "SCIENZA / Microscopi Elettronici e Microscopia"
+  },
+  {
+    "code": "SCI024000",
+    "name": "SCIENZA / Energia"
+  },
+  {
+    "code": "SCI025000",
+    "name": "SCIENZA / Scienze della Vita / Zoologia / Entomologia"
+  },
+  {
+    "code": "SCI026000",
+    "name": "SCIENZA / Scienze Ambientali"
+  },
+  {
+    "code": "SCI027000",
+    "name": "SCIENZA / Scienze della Vita / Evoluzione"
+  },
+  {
+    "code": "SCI028000",
+    "name": "SCIENZA / Esperimenti e Progetti"
+  },
+  {
+    "code": "SCI029000",
+    "name": "SCIENZA / Scienze della Vita / Genetica e Genomica"
+  },
+  {
+    "code": "SCI030000",
+    "name": "SCIENZA / Scienze della Terra / Geografia"
+  },
+  {
+    "code": "SCI031000",
+    "name": "SCIENZA / Scienze della Terra / Geologia"
+  },
+  {
+    "code": "SCI032000",
+    "name": "SCIENZA / Geofisica"
+  },
+  {
+    "code": "SCI033000",
+    "name": "SCIENZA / Gravità"
+  },
+  {
+    "code": "SCI034000",
+    "name": "SCIENZA / Storia"
+  },
+  {
+    "code": "SCI036000",
+    "name": "SCIENZA / Scienze della Vita / Anatomia e Fisiologia Umana"
+  },
+  {
+    "code": "SCI038000",
+    "name": "SCIENZA / Magnetismo"
+  },
+  {
+    "code": "SCI039000",
+    "name": "SCIENZA / Scienze della Vita / Biologia / Biologia Marina"
+  },
+  {
+    "code": "SCI040000",
+    "name": "SCIENZA / Fisica Matematica"
+  },
+  {
+    "code": "SCI041000",
+    "name": "SCIENZA / Meccanica / Generale"
+  },
+  {
+    "code": "SCI042000",
+    "name": "SCIENZA / Scienze della Terra / Meteorologia e Climatologia"
+  },
+  {
+    "code": "SCI043000",
+    "name": "SCIENZA / Ricerca e Metodologia"
+  },
+  {
+    "code": "SCI045000",
+    "name": "SCIENZA / Scienze della Vita / Biologia / Microbiologia"
+  },
+  {
+    "code": "SCI047000",
+    "name": "SCIENZA / Microscopi e Microscopia"
+  },
+  {
+    "code": "SCI048000",
+    "name": "SCIENZA / Scienze della Terra / Mineralogia"
+  },
+  {
+    "code": "SCI049000",
+    "name": "SCIENZA / Scienze della Vita / Biologia / Biologia Molecolare"
+  },
+  {
+    "code": "SCI050000",
+    "name": "SCIENZA / Nanostrutture"
+  },
+  {
+    "code": "SCI051000",
+    "name": "SCIENZA / Fisica Nucleare"
+  },
+  {
+    "code": "SCI052000",
+    "name": "SCIENZA / Scienze della Terra / Oceanografia"
+  },
+  {
+    "code": "SCI053000",
+    "name": "SCIENZA / Ottica"
+  },
+  {
+    "code": "SCI054000",
+    "name": "SCIENZA / Paleontologia"
+  },
+  {
+    "code": "SCI055000",
+    "name": "SCIENZA / Fisica"
+  },
+  {
+    "code": "SCI056000",
+    "name": "SCIENZA / Scienze della Vita / Anatomia e Fisiologia (vedi anche Scienze della Vita / Anatomia e Fisiologia Umana)"
+  },
+  {
+    "code": "SCI057000",
+    "name": "SCIENZA / Teoria Quantistica"
+  },
+  {
+    "code": "SCI058000",
+    "name": "SCIENZA / Radiazioni"
+  },
+  {
+    "code": "SCI059000",
+    "name": "SCIENZA / Radiologia"
+  },
+  {
+    "code": "SCI060000",
+    "name": "SCIENZA / Riferimento"
+  },
+  {
+    "code": "SCI061000",
+    "name": "SCIENZA / Relatività"
+  },
+  {
+    "code": "SCI063000",
+    "name": "SCIENZA / Studio e Insegnamento"
+  },
+  {
+    "code": "SCI064000",
+    "name": "SCIENZA / Teoria dei Sistemi"
+  },
+  {
+    "code": "SCI065000",
+    "name": "SCIENZA / Meccanica / Dinamica / Termodinamica"
+  },
+  {
+    "code": "SCI066000",
+    "name": "SCIENZA / Tempo"
+  },
+  {
+    "code": "SCI067000",
+    "name": "SCIENZA / Onde e Meccanica delle Onde"
+  },
+  {
+    "code": "SCI068000",
+    "name": "SCIENZA / Pesi e Misure"
+  },
+  {
+    "code": "SCI070000",
+    "name": "SCIENZA / Scienze della Vita / Zoologia / Generale"
+  },
+  {
+    "code": "SCI070010",
+    "name": "SCIENZA / Scienze della Vita / Zoologia / Ittiologia"
+  },
+  {
+    "code": "SCI070020",
+    "name": "SCIENZA / Scienze della Vita / Zoologia / Invertebrati"
+  },
+  {
+    "code": "SCI070030",
+    "name": "SCIENZA / Scienze della Vita / Zoologia / Mammiferi"
+  },
+  {
+    "code": "SCI070040",
+    "name": "SCIENZA / Scienze della Vita / Zoologia / Ornitologia"
+  },
+  {
+    "code": "SCI070050",
+    "name": "SCIENZA / Scienze della Vita / Zoologia / Primatologia"
+  },
+  {
+    "code": "SCI072000",
+    "name": "SCIENZA / Scienze della Vita / Biologia / Biologia dello Sviluppo"
+  },
+  {
+    "code": "SCI073000",
+    "name": "SCIENZA / Scienze della Vita / Orticoltura"
+  },
+  {
+    "code": "SCI074000",
+    "name": "SCIENZA / Fisica Molecolare"
+  },
+  {
+    "code": "SCI075000",
+    "name": "SCIENZA / Filosofia e Aspetti Sociali"
+  },
+  {
+    "code": "SCI076000",
+    "name": "SCIENZA / Strumenti Scientifici"
+  },
+  {
+    "code": "SCI077000",
+    "name": "SCIENZA / Fisica dello Stato Solido"
+  },
+  {
+    "code": "SCI078000",
+    "name": "SCIENZA / Spettroscopia e Analisi Spettrale"
+  },
+  {
+    "code": "SCI079000",
+    "name": "SCIENZA / Meccanica / Statica"
+  },
+  {
+    "code": "SCI080000",
+    "name": "SCIENZA / Saggi"
+  },
+  {
+    "code": "SCI081000",
+    "name": "SCIENZA / Scienze della Terra / Idrologia"
+  },
+  {
+    "code": "SCI082000",
+    "name": "SCIENZA / Scienze della Terra / Sismologia e Vulcanismo"
+  },
+  {
+    "code": "SCI083000",
+    "name": "SCIENZA / Limnologia"
+  },
+  {
+    "code": "SCI084000",
+    "name": "SCIENZA / Meccanica / Dinamica / Aerodinamica"
+  },
+  {
+    "code": "SCI085000",
+    "name": "SCIENZA / Meccanica / Dinamica / Fluidodinamica"
+  },
+  {
+    "code": "SCI086000",
+    "name": "SCIENZA / Scienze della Vita / Generale"
+  },
+  {
+    "code": "SCI087000",
+    "name": "SCIENZA / Scienze della Vita / Tassonomia"
+  },
+  {
+    "code": "SCI088000",
+    "name": "SCIENZA / Scienze della Vita / Biodiversità"
+  },
+  {
+    "code": "SCI089000",
+    "name": "SCIENZA / Scienze della Vita / Neuroscienze*"
+  },
+  {
+    "code": "TEC000000",
+    "name": "TECNOLOGIA E INGEGNERIA / Generale"
+  },
+  {
+    "code": "TEC001000",
+    "name": "TECNOLOGIA E INGEGNERIA / Acustica e Audio"
+  },
+  {
+    "code": "TEC002000",
+    "name": "TECNOLOGIA E INGEGNERIA / Aeronautica e Astronautica"
+  },
+  {
+    "code": "TEC003000",
+    "name": "TECNOLOGIA E INGEGNERIA / Agricoltura / Generale"
+  },
+  {
+    "code": "TEC003010",
+    "name": "TECNOLOGIA E INGEGNERIA / Agricoltura / Agricoltura Tropicale"
+  },
+  {
+    "code": "TEC003020",
+    "name": "TECNOLOGIA E INGEGNERIA / Agricoltura / Zootecnia"
+  },
+  {
+    "code": "TEC003030",
+    "name": "TECNOLOGIA E INGEGNERIA / Agricoltura / Agronomia / Scienza delle Coltivazioni"
+  },
+  {
+    "code": "TEC003040",
+    "name": "TECNOLOGIA E INGEGNERIA / Agricoltura / Silvicoltura"
+  },
+  {
+    "code": "TEC003050",
+    "name": "TECNOLOGIA E INGEGNERIA / Agricoltura / Irrigazione"
+  },
+  {
+    "code": "TEC003060",
+    "name": "TECNOLOGIA E INGEGNERIA / Agricoltura / Agronomia / Scienza del Suolo"
+  },
+  {
+    "code": "TEC003070",
+    "name": "TECNOLOGIA E INGEGNERIA / Agricoltura / Agricoltura Sostenibile"
+  },
+  {
+    "code": "TEC003080",
+    "name": "TECNOLOGIA E INGEGNERIA / Agricoltura / Agronomia / Generale"
+  },
+  {
+    "code": "TEC003090",
+    "name": "TECNOLOGIA E INGEGNERIA / Agricoltura / Biologico"
+  },
+  {
+    "code": "TEC003110",
+    "name": "TECNOLOGÍA E INGENIERÍA / Agricoltura / Enologia & Viticultura"
+  },
+  {
+    "code": "TEC004000",
+    "name": "TECNOLOGIA E INGEGNERIA / Automazione"
+  },
+  {
+    "code": "TEC005000",
+    "name": "TECNOLOGIA E INGEGNERIA / Edilizia / Generale"
+  },
+  {
+    "code": "TEC005010",
+    "name": "TECNOLOGIA E INGEGNERIA / Edilizia / Carpenteria"
+  },
+  {
+    "code": "TEC005020",
+    "name": "TECNOLOGIA E INGEGNERIA / Edilizia / Appalto"
+  },
+  {
+    "code": "TEC005030",
+    "name": "TECNOLOGIA E INGEGNERIA / Edilizia / Elettrica"
+  },
+  {
+    "code": "TEC005040",
+    "name": "TECNOLOGIA E INGEGNERIA / Edilizia / Stime"
+  },
+  {
+    "code": "TEC005050",
+    "name": "TECNOLOGIA E INGEGNERIA / Edilizia / Riscaldamento, Ventilazione e Condizionamento\""
+  },
+  {
+    "code": "TEC005060",
+    "name": "TECNOLOGIA E INGEGNERIA / Edilizia / Arte Muraria"
+  },
+  {
+    "code": "TEC005070",
+    "name": "TECNOLOGIA E INGEGNERIA / Edilizia / Idraulica"
+  },
+  {
+    "code": "TEC005080",
+    "name": "TECNOLOGIA E INGEGNERIA / Edilizia / Coperture"
+  },
+  {
+    "code": "TEC006000",
+    "name": "TECNOLOGIA E INGEGNERIA / Progettazione e Disegno Meccanico"
+  },
+  {
+    "code": "TEC007000",
+    "name": "TECNOLOGIA E INGEGNERIA / Elettrica"
+  },
+  {
+    "code": "TEC008000",
+    "name": "TECNOLOGIA E INGEGNERIA / Elettronica / Generale"
+  },
+  {
+    "code": "TEC008010",
+    "name": "TECNOLOGIA E INGEGNERIA / Elettronica / Circuiti / Generale"
+  },
+  {
+    "code": "TEC008020",
+    "name": "TECNOLOGIA E INGEGNERIA / Elettronica / Circuiti / Integrati"
+  },
+  {
+    "code": "TEC008030",
+    "name": "TECNOLOGIA E INGEGNERIA / Elettronica / Circuiti / Logici"
+  },
+  {
+    "code": "TEC008050",
+    "name": "TECNOLOGIA E INGEGNERIA / Elettronica / Circuiti / VLSI e ULSI"
+  },
+  {
+    "code": "TEC008060",
+    "name": "TECNOLOGIA E INGEGNERIA / Elettronica / Digitale"
+  },
+  {
+    "code": "TEC008070",
+    "name": "TECNOLOGIA E INGEGNERIA / Elettronica / Microelettronica"
+  },
+  {
+    "code": "TEC008080",
+    "name": "TECNOLOGIA E INGEGNERIA / Elettronica / Optoelettronica"
+  },
+  {
+    "code": "TEC008090",
+    "name": "TECNOLOGIA E INGEGNERIA / Elettronica / Semiconduttori"
+  },
+  {
+    "code": "TEC008100",
+    "name": "TECNOLOGIA E INGEGNERIA / Elettronica / Stato Solido"
+  },
+  {
+    "code": "TEC008110",
+    "name": "TECNOLOGIA E INGEGNERIA / Elettronica / Transistor"
+  },
+  {
+    "code": "TEC009000",
+    "name": "TECNOLOGIA E INGEGNERIA / Ingegneria (Generale)"
+  },
+  {
+    "code": "TEC009010",
+    "name": "TECNOLOGIA E INGEGNERIA / Chimica e Biochimica"
+  },
+  {
+    "code": "TEC009020",
+    "name": "TECNOLOGIA E INGEGNERIA / Civile / Generale"
+  },
+  {
+    "code": "TEC009060",
+    "name": "TECNOLOGIA E INGEGNERIA / Ingegneria Industriale"
+  },
+  {
+    "code": "TEC009070",
+    "name": "TECNOLOGIA E INGEGNERIA / Meccanica"
+  },
+  {
+    "code": "TEC009090",
+    "name": "TECNOLOGIA E INGEGNERIA / Automobilistico"
+  },
+  {
+    "code": "TEC009100",
+    "name": "TECNOLOGIA E INGEGNERIA / Civile / Ponti"
+  },
+  {
+    "code": "TEC009110",
+    "name": "TECNOLOGIA E INGEGNERIA / Civile / Dighe e Bacini Idrici"
+  },
+  {
+    "code": "TEC009120",
+    "name": "TECNOLOGIA E INGEGNERIA / Civile / Terremoto"
+  },
+  {
+    "code": "TEC009130",
+    "name": "TECNOLOGIA E INGEGNERIA / Civile / Controllo Inondazioni"
+  },
+  {
+    "code": "TEC009140",
+    "name": "TECNOLOGIA E INGEGNERIA / Civile / Strade Principali e Traffico"
+  },
+  {
+    "code": "TEC009150",
+    "name": "TECNOLOGIA E INGEGNERIA / Civile / Suolo e Roccia"
+  },
+  {
+    "code": "TEC009160",
+    "name": "TECNOLOGIA E INGEGNERIA / Civile / Trasporti"
+  },
+  {
+    "code": "TEC010000",
+    "name": "TECNOLOGIA E INGEGNERIA / Ambientale / Generale"
+  },
+  {
+    "code": "TEC010010",
+    "name": "TECNOLOGIA E INGEGNERIA / Ambientale / Controllo Inquinamento"
+  },
+  {
+    "code": "TEC010020",
+    "name": "TECNOLOGIA E INGEGNERIA / Ambientale / Gestione dei Rifiuti"
+  },
+  {
+    "code": "TEC010030",
+    "name": "TECNOLOGIA E INGEGNERIA / Ambientale / Approvvigionamento Idrico"
+  },
+  {
+    "code": "TEC011000",
+    "name": "TECNOLOGIA E INGEGNERIA / Fibre Ottiche"
+  },
+  {
+    "code": "TEC012000",
+    "name": "TECNOLOGIA E INGEGNERIA / Scienza dell'Alimentazione"
+  },
+  {
+    "code": "TEC013000",
+    "name": "TECNOLOGIA E INGEGNERIA / Meccanica della Frattura"
+  },
+  {
+    "code": "TEC014000",
+    "name": "TECNOLOGIA E INGEGNERIA / Idraulica"
+  },
+  {
+    "code": "TEC015000",
+    "name": "TECNOLOGIA E INGEGNERIA / Sistemi di Imaging"
+  },
+  {
+    "code": "TEC016000",
+    "name": "TECNOLOGIA E INGEGNERIA / Design Industriale / Generale"
+  },
+  {
+    "code": "TEC016010",
+    "name": "TECNOLOGIA E INGEGNERIA / Design Industriale / Imballaggio"
+  },
+  {
+    "code": "TEC016020",
+    "name": "TECNOLOGIA E INGEGNERIA / Design Industriale / Prodotto"
+  },
+  {
+    "code": "TEC017000",
+    "name": "TECNOLOGIA E INGEGNERIA / Salute e Sicurezza Industriale"
+  },
+  {
+    "code": "TEC018000",
+    "name": "TECNOLOGIA E INGEGNERIA / Tecnologia Industriale"
+  },
+  {
+    "code": "TEC019000",
+    "name": "TECNOLOGIA E INGEGNERIA / Laser e Fotonica"
+  },
+  {
+    "code": "TEC020000",
+    "name": "TECNOLOGIA E INGEGNERIA / Produzione"
+  },
+  {
+    "code": "TEC021000",
+    "name": "TECNOLOGIA E INGEGNERIA / Scienza dei Materiali"
+  },
+  {
+    "code": "TEC022000",
+    "name": "TECNOLOGIA E INGEGNERIA / Misurazione"
+  },
+  {
+    "code": "TEC023000",
+    "name": "TECNOLOGIA E INGEGNERIA / Metallurgia"
+  },
+  {
+    "code": "TEC024000",
+    "name": "TECNOLOGIA E INGEGNERIA / Microonde"
+  },
+  {
+    "code": "TEC025000",
+    "name": "TECNOLOGIA E INGEGNERIA / Scienza Militare"
+  },
+  {
+    "code": "TEC026000",
+    "name": "TECNOLOGIA E INGEGNERIA / Mineraria"
+  },
+  {
+    "code": "TEC027000",
+    "name": "TECNOLOGIA E INGEGNERIA / Nanotecnologia e MEMS"
+  },
+  {
+    "code": "TEC028000",
+    "name": "TECNOLOGIA E INGEGNERIA / Risorse Energetiche / Nucleare"
+  },
+  {
+    "code": "TEC029000",
+    "name": "TECNOLOGIA E INGEGNERIA / Ricerca Operativa"
+  },
+  {
+    "code": "TEC030000",
+    "name": "TECNOLOGIA E INGEGNERIA / Ottica"
+  },
+  {
+    "code": "TEC031000",
+    "name": "TECNOLOGIA E INGEGNERIA / Risorse Energetiche / Generale"
+  },
+  {
+    "code": "TEC031010",
+    "name": "TECNOLOGIA E INGEGNERIA / Risorse Energetiche / Alternative e Rinnovabili"
+  },
+  {
+    "code": "TEC031020",
+    "name": "TECNOLOGIA E INGEGNERIA / Risorse Energetiche / Elettrica"
+  },
+  {
+    "code": "TEC031030",
+    "name": "TECNOLOGIA E INGEGNERIA / Risorse Energetiche / Combustibili Fossili"
+  },
+  {
+    "code": "TEC032000",
+    "name": "TECNOLOGIA E INGEGNERIA / Controllo Qualità"
+  },
+  {
+    "code": "TEC033000",
+    "name": "TECNOLOGIA E INGEGNERIA / Radar"
+  },
+  {
+    "code": "TEC034000",
+    "name": "TECNOLOGIA E INGEGNERIA / Radio"
+  },
+  {
+    "code": "TEC035000",
+    "name": "TECNOLOGIA E INGEGNERIA / Riferimento"
+  },
+  {
+    "code": "TEC036000",
+    "name": "TECNOLOGIA E INGEGNERIA / Sistemi di Rilevamento a Distanza e Informativi Geografici"
+  },
+  {
+    "code": "TEC037000",
+    "name": "TECNOLOGIA E INGEGNERIA / Robotica"
+  },
+  {
+    "code": "TEC039000",
+    "name": "TECNOLOGIA E INGEGNERIA / Superconduttori e Superconducibilità"
+  },
+  {
+    "code": "TEC040000",
+    "name": "TECNOLOGIA E INGEGNERIA / Industrie e Attività Tecniche e Manifatturiere"
+  },
+  {
+    "code": "TEC041000",
+    "name": "TECNOLOGIA E INGEGNERIA / Telecomunicazioni"
+  },
+  {
+    "code": "TEC043000",
+    "name": "TECNOLOGIA E INGEGNERIA / Televisione e Video"
+  },
+  {
+    "code": "TEC044000",
+    "name": "TECNOLOGIA E INGEGNERIA / Scrittura Tecnica"
+  },
+  {
+    "code": "TEC045000",
+    "name": "TECNOLOGIA E INGEGNERIA / Scienza della Prevenzione Incendi"
+  },
+  {
+    "code": "TEC046000",
+    "name": "TECNOLOGIA E INGEGNERIA / Macchinari"
+  },
+  {
+    "code": "TEC047000",
+    "name": "TECNOLOGIA E INGEGNERIA / Petrolio"
+  },
+  {
+    "code": "TEC048000",
+    "name": "TECNOLOGIA E INGEGNERIA / Cartografia"
+  },
+  {
+    "code": "TEC049000",
+    "name": "TECNOLOGIA E INGEGNERIA / Pesca e Acquacoltura"
+  },
+  {
+    "code": "TEC050000",
+    "name": "TECNOLOGIA E INGEGNERIA / Olografia"
+  },
+  {
+    "code": "TEC052000",
+    "name": "TECNOLOGIA E INGEGNERIA / Aspetti sociali"
+  },
+  {
+    "code": "TEC054000",
+    "name": "TECNOLOGIA E INGEGNERIA / Indagini"
+  },
+  {
+    "code": "TEC055000",
+    "name": "TECNOLOGIA E INGEGNERIA / Tessuti e Polimeri"
+  },
+  {
+    "code": "TEC056000",
+    "name": "TECNOLOGIA E INGEGNERIA / Storia"
+  },
+  {
+    "code": "TEC057000",
+    "name": "TECNOLOGIA E INGEGNERIA / Invenzioni"
+  },
+  {
+    "code": "TEC058000",
+    "name": "TECNOLOGIA E INGEGNERIA / Controllo Infestanti"
+  },
+  {
+    "code": "TEC059000",
+    "name": "TECNOLOGIA E INGEGNERIA / Biomedica"
+  },
+  {
+    "code": "TEC060000",
+    "name": "TECNOLOGIA E INGEGNERIA / Marittima e Navale"
+  },
+  {
+    "code": "TEC061000",
+    "name": "TECNOLOGIA E INGEGNERIA / Comunicazioni Mobile e Wireless"
+  },
+  {
+    "code": "TEC062000",
+    "name": "TECNOLOGIA E INGEGNERIA / Gestione Progetti"
+  },
+  {
+    "code": "TEC063000",
+    "name": "TECNOLOGIA E INGEGNERIA / Strutturale"
+  },
+  {
+    "code": "TEC064000",
+    "name": "TECNOLOGIA E INGEGNERIA / Sensori*"
+  },
+  {
+    "code": "TEC065000",
+    "name": "TECNOLOGÍA E INGENIERÍA / Gestione emergenze"
+  },
+  {
+    "code": "TEC066000",
+    "name": "TECNOLOGIA E INGEGNERIA / Ricerca"
   }
 ]

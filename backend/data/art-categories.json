@@ -1030,5 +1030,1721 @@
   {
     "code": "PHO025000",
     "name": "FOTOGRAFIA / Annuari"
+  },
+  {
+    "code": "ANT000000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Generale"
+  },
+  {
+    "code": "ANT001000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Americano"
+  },
+  {
+    "code": "ANT002000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Arte"
+  },
+  {
+    "code": "ANT003000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Autografi"
+  },
+  {
+    "code": "ANT005000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Libri"
+  },
+  {
+    "code": "ANT006000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Bottiglie"
+  },
+  {
+    "code": "ANT007000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Bottoni e Spille"
+  },
+  {
+    "code": "ANT008000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Cura e Restauro"
+  },
+  {
+    "code": "ANT009000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Trasporti"
+  },
+  {
+    "code": "ANT010000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Orologi"
+  },
+  {
+    "code": "ANT011000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Monete, Valute e Medaglie\""
+  },
+  {
+    "code": "ANT012000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Fumetti"
+  },
+  {
+    "code": "ANT015000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Bambole"
+  },
+  {
+    "code": "ANT016000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Armi da Fuoco e Armi"
+  },
+  {
+    "code": "ANT017000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Arredamento"
+  },
+  {
+    "code": "ANT018000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Vetro e Articoli in Vetro"
+  },
+  {
+    "code": "ANT021000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Gioielli"
+  },
+  {
+    "code": "ANT022000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Utensili da Cucina"
+  },
+  {
+    "code": "ANT023000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Riviste e Giornali"
+  },
+  {
+    "code": "ANT024000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Militare"
+  },
+  {
+    "code": "ANT025000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Arti Rappresentative"
+  },
+  {
+    "code": "ANT028000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Cartoline Non Sportive"
+  },
+  {
+    "code": "ANT029000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Ephemera"
+  },
+  {
+    "code": "ANT031000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Politica"
+  },
+  {
+    "code": "ANT032000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Porcellane e Porcellane Cinesi"
+  },
+  {
+    "code": "ANT033000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Cartoline"
+  },
+  {
+    "code": "ANT034000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Poster"
+  },
+  {
+    "code": "ANT035000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Terracotta e Ceramiche"
+  },
+  {
+    "code": "ANT036000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Radio e Televisioni (vedi anche Arti Rappresentative)"
+  },
+  {
+    "code": "ANT037000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Dischi"
+  },
+  {
+    "code": "ANT038000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Riferimento"
+  },
+  {
+    "code": "ANT040000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Tappeti"
+  },
+  {
+    "code": "ANT041000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Argento, Oro e Altri Metalli\""
+  },
+  {
+    "code": "ANT042000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Cartoline Sportive / Generale"
+  },
+  {
+    "code": "ANT042010",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Cartoline Sportive / Baseball"
+  },
+  {
+    "code": "ANT043000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Sport (vedere anche titoli in Cartoline Sportive)"
+  },
+  {
+    "code": "ANT044000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Francobolli"
+  },
+  {
+    "code": "ANT045000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Orsacchiotti"
+  },
+  {
+    "code": "ANT047000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Costumi e Tessuti"
+  },
+  {
+    "code": "ANT049000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Animali Giocattolo"
+  },
+  {
+    "code": "ANT050000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Giocattoli"
+  },
+  {
+    "code": "ANT051000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Vino"
+  },
+  {
+    "code": "ANT052000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Cultura Popolare"
+  },
+  {
+    "code": "ANT053000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Statuette"
+  },
+  {
+    "code": "ANT054000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Canadese"
+  },
+  {
+    "code": "ANT055000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Prodotti Correlati al Tabacco"
+  },
+  {
+    "code": "CKB000000",
+    "name": "CUCINA / Generale"
+  },
+  {
+    "code": "CKB001000",
+    "name": "CUCINA / Regionale ed Etnica / Africana"
+  },
+  {
+    "code": "CKB002000",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Generale"
+  },
+  {
+    "code": "CKB002010",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stile California"
+  },
+  {
+    "code": "CKB002020",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stati Medio Atlantici"
+  },
+  {
+    "code": "CKB002030",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stati Atlantici Occidentali"
+  },
+  {
+    "code": "CKB002040",
+    "name": "CUCINA / Regionale ed Etnica / Americana / New England"
+  },
+  {
+    "code": "CKB002050",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stati Nord-Occidentali"
+  },
+  {
+    "code": "CKB002060",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stati Meridionali"
+  },
+  {
+    "code": "CKB002070",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stati Sud-Occidentali"
+  },
+  {
+    "code": "CKB002080",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stati Occidentali"
+  },
+  {
+    "code": "CKB003000",
+    "name": "CUCINA / Piatti e Portate / Antipasti"
+  },
+  {
+    "code": "CKB004000",
+    "name": "CUCINA / Metodi / Cottura al Forno"
+  },
+  {
+    "code": "CKB005000",
+    "name": "CUCINA / Metodi / Barbecue e Grill"
+  },
+  {
+    "code": "CKB006000",
+    "name": "CUCINA / Bevande / Barista"
+  },
+  {
+    "code": "CKB007000",
+    "name": "CUCINA / Bevande / Birra"
+  },
+  {
+    "code": "CKB008000",
+    "name": "CUCINA / Bevande / Analcoliche"
+  },
+  {
+    "code": "CKB009000",
+    "name": "CUCINA / Piatti e Portate / Pane"
+  },
+  {
+    "code": "CKB010000",
+    "name": "CUCINA / Piatti e Portate / Colazione"
+  },
+  {
+    "code": "CKB011000",
+    "name": "CUCINA / Regionale ed Etnica / Inglese, Scozzese e Gallese\""
+  },
+  {
+    "code": "CKB012000",
+    "name": "CUCINA / Piatti e Portate / Brunch"
+  },
+  {
+    "code": "CKB013000",
+    "name": "CUCINA / Regionale ed Etnica / Cajun e Creola"
+  },
+  {
+    "code": "CKB014000",
+    "name": "CUCINA / Piatti e Portate / Dolci"
+  },
+  {
+    "code": "CKB015000",
+    "name": "CUCINA / Metodi / Inscatolamento e Conservazione"
+  },
+  {
+    "code": "CKB016000",
+    "name": "CUCINA / Regionale ed Etnica / Caraibica e Indiana Occidentale"
+  },
+  {
+    "code": "CKB017000",
+    "name": "CUCINA / Regionale ed Etnica / Cinese"
+  },
+  {
+    "code": "CKB018000",
+    "name": "CUCINA / Piatti e Portate / Cioccolata"
+  },
+  {
+    "code": "CKB019000",
+    "name": "CUCINA / Bevande / Caffè e Tè"
+  },
+  {
+    "code": "CKB020000",
+    "name": "CUCINA / Metodi / Cucina per Uno"
+  },
+  {
+    "code": "CKB021000",
+    "name": "CUCINA / Portate e Piatti / Biscotti"
+  },
+  {
+    "code": "CKB023000",
+    "name": "CUCINA / Metodi / Generale"
+  },
+  {
+    "code": "CKB024000",
+    "name": "CUCINA / Portate e Piatti / Dessert"
+  },
+  {
+    "code": "CKB025000",
+    "name": "CUCINA / Salute e Guarigione / Diabetico e Senza Zucchero"
+  },
+  {
+    "code": "CKB026000",
+    "name": "CUCINA / Salute e Guarigione / Controllo del Peso"
+  },
+  {
+    "code": "CKB029000",
+    "name": "CUCINA / Intrattenimento"
+  },
+  {
+    "code": "CKB030000",
+    "name": "CUCINA / Saggi"
+  },
+  {
+    "code": "CKB031000",
+    "name": "CUCINA / Regionale ed Etnica / Generale"
+  },
+  {
+    "code": "CKB032000",
+    "name": "CUCINA / Ingredienti Specifici / Selvaggina"
+  },
+  {
+    "code": "CKB033000",
+    "name": "CUCINA / Metodi / Decorazione"
+  },
+  {
+    "code": "CKB034000",
+    "name": "CUCINA / Regionale ed Etnica / Francese"
+  },
+  {
+    "code": "CKB035000",
+    "name": "CUCINA / Ingredienti Specifici / Frutta"
+  },
+  {
+    "code": "CKB036000",
+    "name": "CUCINA / Regionale ed Etnica / Tedesca"
+  },
+  {
+    "code": "CKB037000",
+    "name": "CUCINA / Metodi / Gourmet"
+  },
+  {
+    "code": "CKB038000",
+    "name": "CUCINA / Regionale ed Etnica / Greca"
+  },
+  {
+    "code": "CKB039000",
+    "name": "CUCINA / Salute e Guarigione / Generale"
+  },
+  {
+    "code": "CKB040000",
+    "name": "CUCINA / Ingredienti Specifici / Erbe, Spezie, Condimenti\""
+  },
+  {
+    "code": "CKB041000",
+    "name": "CUCINA / Storia"
+  },
+  {
+    "code": "CKB042000",
+    "name": "CUCINA / Vacanze"
+  },
+  {
+    "code": "CKB043000",
+    "name": "CUCINA / Regionale ed Etnica / Ungherese"
+  },
+  {
+    "code": "CKB044000",
+    "name": "CUCINA / Regionale ed Etnica / Indiana e Sud-Asiatica"
+  },
+  {
+    "code": "CKB045000",
+    "name": "CUCINA / Regionale ed Etnica / Internazionale"
+  },
+  {
+    "code": "CKB046000",
+    "name": "CUCINA / Regionale ed Etnica / Irlandese"
+  },
+  {
+    "code": "CKB047000",
+    "name": "CUCINA / Regionale ed Etnica / Italiana"
+  },
+  {
+    "code": "CKB048000",
+    "name": "CUCINA / Regionale ed Etnica / Giapponese"
+  },
+  {
+    "code": "CKB049000",
+    "name": "CUCINA / Regionale ed Etnica / Ebraica e Kosher"
+  },
+  {
+    "code": "CKB050000",
+    "name": "CUCINA / Salute e Guarigione / Basso Contenuto di Colesterolo"
+  },
+  {
+    "code": "CKB051000",
+    "name": "CUCINA / Salute e Guarigione / Basso Contenuto di Grassi"
+  },
+  {
+    "code": "CKB052000",
+    "name": "CUCINA / Salute e Guarigione / Basso Contenuto di Sodio"
+  },
+  {
+    "code": "CKB054000",
+    "name": "CUCINA / Ingredienti Specifici / Carne"
+  },
+  {
+    "code": "CKB055000",
+    "name": "CUCINA / Regionale ed Etnica / Mediterranea"
+  },
+  {
+    "code": "CKB056000",
+    "name": "CUCINA / Regionale ed Etnica / Messicana"
+  },
+  {
+    "code": "CKB057000",
+    "name": "CUCINA / Metodi / Microonde"
+  },
+  {
+    "code": "CKB058000",
+    "name": "CUCINA / Regionale ed Etnica / Nativi Americani"
+  },
+  {
+    "code": "CKB059000",
+    "name": "CUCINA / Ingredienti Specifici / Cibi Naturali"
+  },
+  {
+    "code": "CKB060000",
+    "name": "CUCINA / Metodi / All'Aperto"
+  },
+  {
+    "code": "CKB061000",
+    "name": "CUCINA / Ingredienti Specifici / Pasta"
+  },
+  {
+    "code": "CKB062000",
+    "name": "CUCINA / Portate e Piatti / Pasta per Dolci"
+  },
+  {
+    "code": "CKB063000",
+    "name": "CUCINA / Portate e Piatti / Torte"
+  },
+  {
+    "code": "CKB064000",
+    "name": "CUCINA / Portate e Piatti / Pizza"
+  },
+  {
+    "code": "CKB065000",
+    "name": "CUCINA / Regionale ed Etnica / Polacca"
+  },
+  {
+    "code": "CKB066000",
+    "name": "CUCINA / Regionale ed Etnica / Portoghese"
+  },
+  {
+    "code": "CKB067000",
+    "name": "CUCINA / Ingredienti Specifici / Pollame"
+  },
+  {
+    "code": "CKB068000",
+    "name": "CUCINA / Metodi / Professionale"
+  },
+  {
+    "code": "CKB069000",
+    "name": "CUCINA / Metodi / Quantità"
+  },
+  {
+    "code": "CKB070000",
+    "name": "CUCINA / Metodi / Facile e Veloce"
+  },
+  {
+    "code": "CKB071000",
+    "name": "CUCINA / Riferimento"
+  },
+  {
+    "code": "CKB072000",
+    "name": "CUCINA / Regionale ed Etnica / Russa"
+  },
+  {
+    "code": "CKB073000",
+    "name": "CUCINA / Portate e Piatti / Insalate"
+  },
+  {
+    "code": "CKB074000",
+    "name": "CUCINA / Regionale ed Etnica / Scandinava"
+  },
+  {
+    "code": "CKB076000",
+    "name": "CUCINA / Ingredienti Specifici / Frutti di Mare"
+  },
+  {
+    "code": "CKB077000",
+    "name": "CUCINA / Di Stagione"
+  },
+  {
+    "code": "CKB078000",
+    "name": "CUCINA / Regionale ed Etnica / Soul Food"
+  },
+  {
+    "code": "CKB079000",
+    "name": "CUCINA / Portate e Piatti / Minestre e Stufati"
+  },
+  {
+    "code": "CKB080000",
+    "name": "CUCINA / Regionale ed Etnica / Spagnola"
+  },
+  {
+    "code": "CKB081000",
+    "name": "CUCINA / Metodi / Apparecchiature Speciali"
+  },
+  {
+    "code": "CKB082000",
+    "name": "CUCINA / Apparecchiare la Tavola"
+  },
+  {
+    "code": "CKB083000",
+    "name": "CUCINA / Regionale ed Etnica / Thai"
+  },
+  {
+    "code": "CKB084000",
+    "name": "CUCINA / Regionale ed Etnica / Turca"
+  },
+  {
+    "code": "CKB085000",
+    "name": "CUCINA / Ingredienti Specifici / Verdure"
+  },
+  {
+    "code": "CKB086000",
+    "name": "CUCINA / Vegetariana e Vegana"
+  },
+  {
+    "code": "CKB088000",
+    "name": "CUCINA / Bevande / Vini e Liquori"
+  },
+  {
+    "code": "CKB089000",
+    "name": "CUCINA / Metodi / Wok"
+  },
+  {
+    "code": "CKB090000",
+    "name": "CUCINA / Regionale ed Etnica / Asiatica"
+  },
+  {
+    "code": "CKB091000",
+    "name": "CUCINA / Regionale ed Etnica / Canadese"
+  },
+  {
+    "code": "CKB092000",
+    "name": "CUCINA / Regionale ed Etnica / Europea"
+  },
+  {
+    "code": "CKB093000",
+    "name": "CUCINA / Regionale ed Etnica / Medio-Orientale"
+  },
+  {
+    "code": "CKB094000",
+    "name": "CUCINA / Regionale ed Etnica / Vietnamita"
+  },
+  {
+    "code": "CKB095000",
+    "name": "CUCINA / Portate e Piatti / Pasticceria"
+  },
+  {
+    "code": "CKB096000",
+    "name": "CUCINA / Ingredienti Specifici / Latticini"
+  },
+  {
+    "code": "CKB097000",
+    "name": "CUCINA / Regionale ed Etnica / Paesi sulla Costa del Pacifico"
+  },
+  {
+    "code": "CKB098000",
+    "name": "CUCINA / Ingredienti Specifici / Riso e Cereali"
+  },
+  {
+    "code": "CKB099000",
+    "name": "CUCINA / Regionale ed Etnica / Centro-Americana e Sud-Americana"
+  },
+  {
+    "code": "CKB100000",
+    "name": "CUCINA / Bevande / Generale"
+  },
+  {
+    "code": "CKB101000",
+    "name": "CUCINA / Piatti e Portate / Generale"
+  },
+  {
+    "code": "CKB102000",
+    "name": "CUCINA / Portate e Piatti / Salse e Condimenti"
+  },
+  {
+    "code": "CKB103000",
+    "name": "CUCINA / Salute e Guarigione / Cancro"
+  },
+  {
+    "code": "CKB104000",
+    "name": "CUCINA / Salute e Guarigione / Cuore"
+  },
+  {
+    "code": "CKB105000",
+    "name": "CUCINA / Ingredienti Specifici / Generale"
+  },
+  {
+    "code": "CKB106000",
+    "name": "CUCINA / Salute e Guarigione / Allergie"
+  },
+  {
+    "code": "CKB107000",
+    "name": "CUCINA / Alimenti per l'Infanzia"
+  },
+  {
+    "code": "CKB108000",
+    "name": "CUCINA / Salute e Guarigione / Basso Contenuto di Carboidrati*"
+  },
+  {
+    "code": "CKB109000",
+    "name": "CUCINA / Metodi / Cottura Lenta*"
+  },
+  {
+    "code": "GAM000000",
+    "name": "GIOCHI / Generale"
+  },
+  {
+    "code": "GAM001000",
+    "name": "GIOCHI / Da Tavolo"
+  },
+  {
+    "code": "GAM001010",
+    "name": "GIOCHI / Backgammon"
+  },
+  {
+    "code": "GAM001030",
+    "name": "GIOCHI / Scacchi"
+  },
+  {
+    "code": "GAM002000",
+    "name": "GIOCHI / Giochi di Carte / Generale"
+  },
+  {
+    "code": "GAM002010",
+    "name": "GIOCHI / Giochi di Carte / Bridge"
+  },
+  {
+    "code": "GAM002030",
+    "name": "GIOCHI / Giochi di Carte / Blackjack"
+  },
+  {
+    "code": "GAM002040",
+    "name": "GIOCHI / Giochi di Carte / Poker"
+  },
+  {
+    "code": "GAM003000",
+    "name": "GIOCHI / Cruciverba / Generale"
+  },
+  {
+    "code": "GAM003040",
+    "name": "GIOCHI / Cruciverba / Dizionari"
+  },
+  {
+    "code": "GAM004000",
+    "name": "GIOCHI / Gioco d'Azzardo / Generale"
+  },
+  {
+    "code": "GAM004020",
+    "name": "GIOCHI / Gioco d'Azzardo / Lotterie"
+  },
+  {
+    "code": "GAM004030",
+    "name": "GIOCHI / Gioco d'Azzardo / Da Tavolo"
+  },
+  {
+    "code": "GAM004040",
+    "name": "GIOCHI / Gioco d'Azzardo / Scommesse alle Corse"
+  },
+  {
+    "code": "GAM004050",
+    "name": "GIOCHI / Gioco d'Azzardo / Sport"
+  },
+  {
+    "code": "GAM005000",
+    "name": "GIOCHI / Logica e Strizzacervello"
+  },
+  {
+    "code": "GAM006000",
+    "name": "GIOCHI / Magia"
+  },
+  {
+    "code": "GAM007000",
+    "name": "GIOCHI / Puzzle"
+  },
+  {
+    "code": "GAM008000",
+    "name": "GIOCHI / Quiz"
+  },
+  {
+    "code": "GAM009000",
+    "name": "GIOCHI / Riferimento"
+  },
+  {
+    "code": "GAM010000",
+    "name": "GIOCHI / Giochi di Ruolo e Fantasia"
+  },
+  {
+    "code": "GAM011000",
+    "name": "GIOCHI / Giochi da Viaggio"
+  },
+  {
+    "code": "GAM012000",
+    "name": "GIOCHI / Trivia"
+  },
+  {
+    "code": "GAM013000",
+    "name": "GIOCHI / Videogiochi e Giochi Elettronici"
+  },
+  {
+    "code": "GAM014000",
+    "name": "GIOCHI / Ricerca per Parola"
+  },
+  {
+    "code": "GAM016000",
+    "name": "GIOCHI / Sport di Fantasia"
+  },
+  {
+    "code": "GAM017000",
+    "name": "GIOCHI / Sudoku"
+  },
+  {
+    "code": "GAR000000",
+    "name": "GIARDINAGGIO / Generale"
+  },
+  {
+    "code": "GAR001000",
+    "name": "GIARDINAGGIO / Contenitori"
+  },
+  {
+    "code": "GAR002000",
+    "name": "GIARDINAGGIO / Saggi"
+  },
+  {
+    "code": "GAR004000",
+    "name": "GIARDINAGGIO / Fiori / Generale"
+  },
+  {
+    "code": "GAR004010",
+    "name": "GIARDINAGGIO / Fiori / Annuari"
+  },
+  {
+    "code": "GAR004030",
+    "name": "GIARDINAGGIO / Fiori / Bulbi"
+  },
+  {
+    "code": "GAR004040",
+    "name": "GIARDINAGGIO / Fiori / Orchidee"
+  },
+  {
+    "code": "GAR004050",
+    "name": "GIARDINAGGIO / Fiori / Perenni"
+  },
+  {
+    "code": "GAR004060",
+    "name": "GIARDINAGGIO / Fiori / Rose"
+  },
+  {
+    "code": "GAR004080",
+    "name": "GIARDINAGGIO / Fiori / Fiori selvatici"
+  },
+  {
+    "code": "GAR005000",
+    "name": "GIARDINAGGIO / Frutta"
+  },
+  {
+    "code": "GAR006000",
+    "name": "GIARDINAGGIO / Progettazione Giardini"
+  },
+  {
+    "code": "GAR007000",
+    "name": "GIARDINAGGIO / Arredamento da Giardino"
+  },
+  {
+    "code": "GAR008000",
+    "name": "GIARDINAGGIO / Serre"
+  },
+  {
+    "code": "GAR009000",
+    "name": "GIARDINAGGIO / Erbe"
+  },
+  {
+    "code": "GAR010000",
+    "name": "GIARDINAGGIO / Piante Domestiche e da Interni"
+  },
+  {
+    "code": "GAR013000",
+    "name": "GIARDINAGGIO / Giardini Giapponesi"
+  },
+  {
+    "code": "GAR014000",
+    "name": "GIARDINAGGIO / Paesaggi"
+  },
+  {
+    "code": "GAR015000",
+    "name": "GIARDINAGGIO / Prati"
+  },
+  {
+    "code": "GAR016000",
+    "name": "GIARDINAGGIO / Biologico"
+  },
+  {
+    "code": "GAR017000",
+    "name": "GIARDINAGGIO / Piante Ornamentali"
+  },
+  {
+    "code": "GAR018000",
+    "name": "GIARDINAGGIO / Riferimento"
+  },
+  {
+    "code": "GAR019000",
+    "name": "GIARDINAGGIO / Regionale / Generale"
+  },
+  {
+    "code": "GAR019010",
+    "name": "GIARDINAGGIO / Regionale / Canada"
+  },
+  {
+    "code": "GAR019020",
+    "name": "GIARDINAGGIO / Regionale / Medio Atlantico (DC, DE, MD, NJ, NY, PA)\""
+  },
+  {
+    "code": "GAR019030",
+    "name": "GIARDINAGGIO / Regionale / Midwest (IA, IL, IN, KS, MI, MN, MO, ND, NE, OH, SD, WI)\""
+  },
+  {
+    "code": "GAR019040",
+    "name": "GIARDINAGGIO / Regionale / New England (CT, MA, ME, NH, RI, VT)\""
+  },
+  {
+    "code": "GAR019050",
+    "name": "GIARDINAGGIO / Regionale / Nord-Ovest del Pacifico (OR, WA)\""
+  },
+  {
+    "code": "GAR019060",
+    "name": "GIARDINAGGIO / Regionale / Sud (AL, AR, FL, GA, KY, LA, MS, NC, SC, TN, VA, WV)\""
+  },
+  {
+    "code": "GAR019070",
+    "name": "GIARDINAGGIO / Regionale / Sud-Ovest (AZ, NM, OK, TX)\""
+  },
+  {
+    "code": "GAR019080",
+    "name": "GIARDINAGGIO / Regionale / Ovest (AK, CA, CO, HI, ID, MT, NV, UT, WY)\""
+  },
+  {
+    "code": "GAR020000",
+    "name": "GIARDINAGGIO / Ombra"
+  },
+  {
+    "code": "GAR021000",
+    "name": "GIARDINAGGIO / Arbusti"
+  },
+  {
+    "code": "GAR022000",
+    "name": "GIARDINAGGIO / Tecniche"
+  },
+  {
+    "code": "GAR023000",
+    "name": "GIARDINAGGIO / Topiarie"
+  },
+  {
+    "code": "GAR024000",
+    "name": "GIARDINAGGIO / Alberi"
+  },
+  {
+    "code": "GAR025000",
+    "name": "GIARDINAGGIO / Ortaggi"
+  },
+  {
+    "code": "GAR027000",
+    "name": "GIARDINAGGIO / Climatico / Generale"
+  },
+  {
+    "code": "GAR027010",
+    "name": "GIARDINAGGIO / Climatico / Deserto"
+  },
+  {
+    "code": "GAR027020",
+    "name": "GIARDINAGGIO / Climatico / Temperato"
+  },
+  {
+    "code": "GAR027030",
+    "name": "GIARDINAGGIO / Climatico / Tropicale"
+  },
+  {
+    "code": "GAR028000",
+    "name": "GIARDINAGGIO / Urbano"
+  },
+  {
+    "code": "HOM000000",
+    "name": "CASA E ABITAZIONE / Generale"
+  },
+  {
+    "code": "HOM001000",
+    "name": "CASA E ABITAZIONE / Fai da Te / Carpenteria"
+  },
+  {
+    "code": "HOM003000",
+    "name": "CASA E ABITAZIONE / Decorare"
+  },
+  {
+    "code": "HOM004000",
+    "name": "CASA E ABITAZIONE / Design e Costruzioni"
+  },
+  {
+    "code": "HOM005000",
+    "name": "CASA E ABITAZIONE / Fai da Te / Generale"
+  },
+  {
+    "code": "HOM006000",
+    "name": "CASA E ABITAZIONE / Fai da Te / Elettrico"
+  },
+  {
+    "code": "HOM008000",
+    "name": "CASA E ABITAZIONE / Arredamento"
+  },
+  {
+    "code": "HOM009000",
+    "name": "CASA E ABITAZIONE / Utensili Manuali"
+  },
+  {
+    "code": "HOM010000",
+    "name": "CASA E ABITAZIONE / Riparazione"
+  },
+  {
+    "code": "HOM011000",
+    "name": "CASA E ABITAZIONE / Progetti di Abitazioni"
+  },
+  {
+    "code": "HOM012000",
+    "name": "CASA E ABITAZIONE / Fai da Te / Arte Muraria"
+  },
+  {
+    "code": "HOM013000",
+    "name": "CASA E ABITAZIONE / Luoghi all'Aperto e Ricreativi"
+  },
+  {
+    "code": "HOM014000",
+    "name": "CASA E ABITAZIONE / Fai da Te / Idraulica"
+  },
+  {
+    "code": "HOM015000",
+    "name": "CASA E ABITAZIONE / Utensili Elettrici"
+  },
+  {
+    "code": "HOM016000",
+    "name": "CASA E ABITAZIONE / Riferimento"
+  },
+  {
+    "code": "HOM017000",
+    "name": "CASA E ABITAZIONE / Rifacimento e Ristrutturazione"
+  },
+  {
+    "code": "HOM018000",
+    "name": "CASA E ABITAZIONE / Lavorare il Legno"
+  },
+  {
+    "code": "HOM019000",
+    "name": "CASA E ABITAZIONE / Pulizia e Cura"
+  },
+  {
+    "code": "HOM020000",
+    "name": "CASA E ABITAZIONE / Attrezzatura, Apparecchi e Forniture\""
+  },
+  {
+    "code": "HOM021000",
+    "name": "CASA E ABITAZIONE / Sicurezza"
+  },
+  {
+    "code": "HOM022000",
+    "name": "CASA E ABITAZIONE / Vita Sostenibile"
+  },
+  {
+    "code": "SPO000000",
+    "name": "SPORT E SVAGO / Generale"
+  },
+  {
+    "code": "SPO001000",
+    "name": "SPORT E SVAGO / Sport Aerei"
+  },
+  {
+    "code": "SPO002000",
+    "name": "SPORT E SVAGO / Tiro con l'Arco"
+  },
+  {
+    "code": "SPO003000",
+    "name": "SPORT E SVAGO / Baseball / Generale"
+  },
+  {
+    "code": "SPO003010",
+    "name": "SPORT E SVAGO / Allenamento Sportivo / Baseball"
+  },
+  {
+    "code": "SPO003020",
+    "name": "SPORT E SVAGO / Baseball / Saggi e Articoli"
+  },
+  {
+    "code": "SPO003030",
+    "name": "SPORT E SVAGO / Baseball / Storia"
+  },
+  {
+    "code": "SPO003040",
+    "name": "SPORT E SVAGO / Baseball / Statistiche"
+  },
+  {
+    "code": "SPO004000",
+    "name": "SPORT E SVAGO / Pallacanestro"
+  },
+  {
+    "code": "SPO005000",
+    "name": "SPORT E SVAGO / Nautica"
+  },
+  {
+    "code": "SPO006000",
+    "name": "SPORT E SVAGO / Culturismo e Pesistica"
+  },
+  {
+    "code": "SPO007000",
+    "name": "SPORT E SVAGO / Bowling"
+  },
+  {
+    "code": "SPO008000",
+    "name": "SPORT E SVAGO / Pugilato"
+  },
+  {
+    "code": "SPO009000",
+    "name": "SPORT E SVAGO / Campeggio sportivo"
+  },
+  {
+    "code": "SPO010000",
+    "name": "SPORT E SVAGO / Canoa"
+  },
+  {
+    "code": "SPO011000",
+    "name": "SPORT E SVAGO / Ciclismo"
+  },
+  {
+    "code": "SPO012000",
+    "name": "SPORT E SVAGO / Saggi"
+  },
+  {
+    "code": "SPO014000",
+    "name": "SPORT E SVAGO / Pesca"
+  },
+  {
+    "code": "SPO015000",
+    "name": "SPORT E SVAGO / Football (americano)"
+  },
+  {
+    "code": "SPO016000",
+    "name": "SPORT E SVAGO / Golf"
+  },
+  {
+    "code": "SPO017000",
+    "name": "SPORT E SVAGO / Ginnastica"
+  },
+  {
+    "code": "SPO018000",
+    "name": "SPORT E SVAGO / Escursionismo"
+  },
+  {
+    "code": "SPO019000",
+    "name": "SPORT E SVAGO / Storia"
+  },
+  {
+    "code": "SPO020000",
+    "name": "SPORT E SVAGO / Hockey"
+  },
+  {
+    "code": "SPO021000",
+    "name": "SPORT E SVAGO / Corse Ippiche"
+  },
+  {
+    "code": "SPO022000",
+    "name": "SPORT E SVAGO / Caccia"
+  },
+  {
+    "code": "SPO023000",
+    "name": "SPORT E SVAGO / Pattinaggio su Ghiaccio e di Figura"
+  },
+  {
+    "code": "SPO024000",
+    "name": "SPORT E SVAGO / Giocoleria"
+  },
+  {
+    "code": "SPO025000",
+    "name": "SPORT E SVAGO / Kayak"
+  },
+  {
+    "code": "SPO026000",
+    "name": "SPORT E SVAGO / Lacrosse"
+  },
+  {
+    "code": "SPO027000",
+    "name": "SPORT E SVAGO / Arti Marziali e Autodifesa"
+  },
+  {
+    "code": "SPO028000",
+    "name": "SPORT E SVAGO / Sport Motoristici"
+  },
+  {
+    "code": "SPO029000",
+    "name": "SPORT E SVAGO / Alpinismo"
+  },
+  {
+    "code": "SPO030000",
+    "name": "SPORT E SVAGO / Attività all'Aria Aperta"
+  },
+  {
+    "code": "SPO031000",
+    "name": "SPORT E SVAGO / Sport con Racchette"
+  },
+  {
+    "code": "SPO032000",
+    "name": "SPORT E SVAGO / Racquetball"
+  },
+  {
+    "code": "SPO033000",
+    "name": "SPORT E SVAGO / Riferimento"
+  },
+  {
+    "code": "SPO034000",
+    "name": "SPORT E SVAGO / Pattinaggio a Rotelle e in Linea"
+  },
+  {
+    "code": "SPO035000",
+    "name": "SPORT E SVAGO / Corsa e Jogging"
+  },
+  {
+    "code": "SPO036000",
+    "name": "SPORT E SVAGO / Vela"
+  },
+  {
+    "code": "SPO037000",
+    "name": "SPORT E SVAGO / Tiro"
+  },
+  {
+    "code": "SPO038000",
+    "name": "SPORT E SVAGO / Skateboard"
+  },
+  {
+    "code": "SPO039000",
+    "name": "SPORT E SVAGO / Sci"
+  },
+  {
+    "code": "SPO040000",
+    "name": "SPORT E SVAGO / Calcio"
+  },
+  {
+    "code": "SPO041000",
+    "name": "SPORT E SVAGO / Psicologia dello Sport"
+  },
+  {
+    "code": "SPO042000",
+    "name": "SPORT E SVAGO / Squash"
+  },
+  {
+    "code": "SPO043000",
+    "name": "SPORT E SVAGO / Nuoto e Tuffi"
+  },
+  {
+    "code": "SPO044000",
+    "name": "SPORT E SVAGO / Tennis Tavolo"
+  },
+  {
+    "code": "SPO045000",
+    "name": "SPORT E SVAGO / Tennis"
+  },
+  {
+    "code": "SPO046000",
+    "name": "SPORT E SVAGO / Track & Field"
+  },
+  {
+    "code": "SPO047000",
+    "name": "SPORT E SVAGO / Allenamento"
+  },
+  {
+    "code": "SPO048000",
+    "name": "SPORT E SVAGO / Triathlon"
+  },
+  {
+    "code": "SPO049000",
+    "name": "SPORT E SVAGO / Pallavolo"
+  },
+  {
+    "code": "SPO050000",
+    "name": "SPORT E SVAGO / Passeggio"
+  },
+  {
+    "code": "SPO051000",
+    "name": "SPORT E SVAGO / Sport Acquatici"
+  },
+  {
+    "code": "SPO052000",
+    "name": "SPORT E SVAGO / Sport Invernali"
+  },
+  {
+    "code": "SPO053000",
+    "name": "SPORT E SVAGO / Wrestling"
+  },
+  {
+    "code": "SPO054000",
+    "name": "SPORT E SVAGO / Cricket"
+  },
+  {
+    "code": "SPO055000",
+    "name": "SPORT E SVAGO / Polo"
+  },
+  {
+    "code": "SPO056000",
+    "name": "SPORT E SVAGO / Rugby"
+  },
+  {
+    "code": "SPO057000",
+    "name": "SPORT E SVAGO / Equestre"
+  },
+  {
+    "code": "SPO058000",
+    "name": "SPORT E SVAGO / Olimpiadi"
+  },
+  {
+    "code": "SPO059000",
+    "name": "SPORT E SVAGO / Subacquea e Snorkeling"
+  },
+  {
+    "code": "SPO060000",
+    "name": "SPORT E SVAGO / Biliardo Americano, Biliardi, Biliardo Inglese\""
+  },
+  {
+    "code": "SPO061000",
+    "name": "SPORT E SVAGO / Allenamento Sportivo / Generale"
+  },
+  {
+    "code": "SPO061010",
+    "name": "SPORT E SVAGO / Allenamento Sportivo / Pallacanestro"
+  },
+  {
+    "code": "SPO061020",
+    "name": "SPORT E SVAGO / Allenamento Sportivo / Football (americano)"
+  },
+  {
+    "code": "SPO061030",
+    "name": "SPORT E SVAGO / Allenamento Sportivo / Calcio"
+  },
+  {
+    "code": "SPO062000",
+    "name": "SPORT E SVAGO / Corse di Cani"
+  },
+  {
+    "code": "SPO063000",
+    "name": "SPORT E SVAGO / Attrezzature e Forniture"
+  },
+  {
+    "code": "SPO064000",
+    "name": "SPORT E SVAGO / Sport Estremi"
+  },
+  {
+    "code": "SPO065000",
+    "name": "SPORT E SVAGO / Rodei"
+  },
+  {
+    "code": "SPO066000",
+    "name": "SPORT E SVAGO / Sociologia dello Sport"
+  },
+  {
+    "code": "SPO067000",
+    "name": "SPORT E SVAGO / Softball"
+  },
+  {
+    "code": "SPO068000",
+    "name": "SPORT E SVAGO / Aspetti Legati al Business"
+  },
+  {
+    "code": "SPO069000",
+    "name": "SPORT E SVAGO / Surf"
+  },
+  {
+    "code": "SPO070000",
+    "name": "SPORT E SVAGO / Cheerleading*"
+  },
+  {
+    "code": "SPO071000",
+    "name": "SPORT E SVAGO / Scherma*"
+  },
+  {
+    "code": "SPO072000",
+    "name": "SPORT E SVAGO / Snowboard*"
+  },
+  {
+    "code": "TRV000000",
+    "name": "VIAGGI / Generale"
+  },
+  {
+    "code": "TRV001000",
+    "name": "VIAGGI / Tematici / Avventura"
+  },
+  {
+    "code": "TRV002000",
+    "name": "VIAGGI / Africa / Generale"
+  },
+  {
+    "code": "TRV002010",
+    "name": "VIAGGI / Africa / Centrale"
+  },
+  {
+    "code": "TRV002020",
+    "name": "VIAGGI / Africa / Est"
+  },
+  {
+    "code": "TRV002030",
+    "name": "VIAGGI / Africa / Kenya"
+  },
+  {
+    "code": "TRV002040",
+    "name": "VIAGGI / Africa / Marocco"
+  },
+  {
+    "code": "TRV002050",
+    "name": "VIAGGI / Africa / Nord"
+  },
+  {
+    "code": "TRV002060",
+    "name": "VIAGGI / Africa / Repubblica Sud Africana"
+  },
+  {
+    "code": "TRV002070",
+    "name": "VIAGGI / Africa / Sud"
+  },
+  {
+    "code": "TRV002080",
+    "name": "VIAGGI / Africa / Ovest"
+  },
+  {
+    "code": "TRV003000",
+    "name": "VIAGGI / Asia / Generale"
+  },
+  {
+    "code": "TRV003010",
+    "name": "VIAGGI / Asia / Centrale"
+  },
+  {
+    "code": "TRV003020",
+    "name": "VIAGGI / Asia / Cina"
+  },
+  {
+    "code": "TRV003030",
+    "name": "VIAGGI / Asia / Estremo Oriente"
+  },
+  {
+    "code": "TRV003040",
+    "name": "VIAGGI / Asia / India"
+  },
+  {
+    "code": "TRV003050",
+    "name": "VIAGGI / Asia / Giappone"
+  },
+  {
+    "code": "TRV003060",
+    "name": "VIAGGI / Asia / Sud-Est"
+  },
+  {
+    "code": "TRV003070",
+    "name": "VIAGGI / Asia / Sud-Ovest"
+  },
+  {
+    "code": "TRV004000",
+    "name": "VIAGGI / Australia e Oceania"
+  },
+  {
+    "code": "TRV005000",
+    "name": "VIAGGI / Bed & Breakfast"
+  },
+  {
+    "code": "TRV006000",
+    "name": "VIAGGI / Canada / Generale"
+  },
+  {
+    "code": "TRV006010",
+    "name": "VIAGGI / Canada / Provincie Atlantiche (NB, NF, NS, PE)\""
+  },
+  {
+    "code": "TRV006020",
+    "name": "VIAGGI / Canada / Ontario (ON)"
+  },
+  {
+    "code": "TRV006030",
+    "name": "VIAGGI / Canada / Provincie delle Praterie (MB, SK)\""
+  },
+  {
+    "code": "TRV006040",
+    "name": "VIAGGI / Canada / Territori e Nunavut (NT, NU, YT)\""
+  },
+  {
+    "code": "TRV006050",
+    "name": "VIAGGI / Canada / Provincie Occidentali (AB, BC)\""
+  },
+  {
+    "code": "TRV006060",
+    "name": "VIAGGI / Canada / Quebec (QC)"
+  },
+  {
+    "code": "TRV007000",
+    "name": "VIAGGI / Indie Caraibiche e Occidentali"
+  },
+  {
+    "code": "TRV008000",
+    "name": "VIAGGI / America Centrale"
+  },
+  {
+    "code": "TRV009000",
+    "name": "VIAGGI / Europa / Generale"
+  },
+  {
+    "code": "TRV009010",
+    "name": "VIAGGI / Europa / Austria"
+  },
+  {
+    "code": "TRV009020",
+    "name": "VIAGGI / Europa / Paesi del Benelux (Belgio, Paesi Bassi, Lussemburgo)\""
+  },
+  {
+    "code": "TRV009030",
+    "name": "VIAGGI / Europa / Danimarca"
+  },
+  {
+    "code": "TRV009040",
+    "name": "VIAGGI / Europa / Orientale"
+  },
+  {
+    "code": "TRV009050",
+    "name": "VIAGGI / Europa / Francia"
+  },
+  {
+    "code": "TRV009060",
+    "name": "VIAGGI / Europa / Germania"
+  },
+  {
+    "code": "TRV009070",
+    "name": "VIAGGI / Europa / Gran Bretagna"
+  },
+  {
+    "code": "TRV009080",
+    "name": "VIAGGI / Europa / Grecia"
+  },
+  {
+    "code": "TRV009090",
+    "name": "VIAGGI / Europa / Islanda e Groenlandia"
+  },
+  {
+    "code": "TRV009100",
+    "name": "VIAGGI / Europa / Irlanda"
+  },
+  {
+    "code": "TRV009110",
+    "name": "VIAGGI / Europa / Italia"
+  },
+  {
+    "code": "TRV009120",
+    "name": "VIAGGI / Europa / Scandinavia"
+  },
+  {
+    "code": "TRV009130",
+    "name": "VIAGGI / Europa / Spagna e Portogallo"
+  },
+  {
+    "code": "TRV009140",
+    "name": "VIAGGI / Europa / Svizzera"
+  },
+  {
+    "code": "TRV009150",
+    "name": "VIAGGI / Europa / Occidentale"
+  },
+  {
+    "code": "TRV010000",
+    "name": "VIAGGI / Racconti e Documentari di Viaggio"
+  },
+  {
+    "code": "TRV011000",
+    "name": "VIAGGI / Tematici / Famiglia"
+  },
+  {
+    "code": "TRV012000",
+    "name": "VIAGGI / Ex Repubbliche Sovietiche"
+  },
+  {
+    "code": "TRV013000",
+    "name": "VIAGGI / Hotel, Locande e Ostelli\""
+  },
+  {
+    "code": "TRV014000",
+    "name": "VIAGGI / Messico"
+  },
+  {
+    "code": "TRV015000",
+    "name": "VIAGGI / Medio Oriente / Generale"
+  },
+  {
+    "code": "TRV015010",
+    "name": "VIAGGI / Medio Oriente / Egitto"
+  },
+  {
+    "code": "TRV015020",
+    "name": "VIAGGI / Medio Oriente / Israele"
+  },
+  {
+    "code": "TRV015030",
+    "name": "VIAGGI / Medio Oriente / Turchia*"
+  },
+  {
+    "code": "TRV016000",
+    "name": "VIAGGI / Musei, Tour, Punti di interesse\""
+  },
+  {
+    "code": "TRV018000",
+    "name": "VIAGGI / Parchi e Campeggi"
+  },
+  {
+    "code": "TRV019000",
+    "name": "VIAGGI / Illustrazioni (vedere anche FOTOGRAFIA / Argomenti e Temi / Regionale)"
+  },
+  {
+    "code": "TRV020000",
+    "name": "VIAGGI / Regioni Polari"
+  },
+  {
+    "code": "TRV021000",
+    "name": "VIAGGI / Riferimento"
+  },
+  {
+    "code": "TRV022000",
+    "name": "VIAGGI / Ristoranti"
+  },
+  {
+    "code": "TRV023000",
+    "name": "VIAGGI / Russia"
+  },
+  {
+    "code": "TRV024000",
+    "name": "VIAGGI / Sud America / Generale"
+  },
+  {
+    "code": "TRV024010",
+    "name": "VIAGGI / Sud America / Argentina"
+  },
+  {
+    "code": "TRV024020",
+    "name": "VIAGGI / Sud America / Brasile"
+  },
+  {
+    "code": "TRV024030",
+    "name": "VIAGGI / Sud America / Cile e Isola di Pasqua"
+  },
+  {
+    "code": "TRV024040",
+    "name": "VIAGGI / Sud America / Ecuador e Isole Galapagos"
+  },
+  {
+    "code": "TRV024050",
+    "name": "VIAGGI / Sud America / Perù"
+  },
+  {
+    "code": "TRV025000",
+    "name": "VIAGGI / Stati Uniti / Generale"
+  },
+  {
+    "code": "TRV025010",
+    "name": "VIAGGI / Stati Uniti / Midwest / Generale"
+  },
+  {
+    "code": "TRV025020",
+    "name": "VIAGGI / Stati Uniti / Midwest / East North Central (IL, IN, MI, OH, WI)\""
+  },
+  {
+    "code": "TRV025030",
+    "name": "VIAGGI / Stati Uniti / Midwest / West North Central (IA, KS, MN, MO, ND, NE, SD)\""
+  },
+  {
+    "code": "TRV025040",
+    "name": "VIAGGI / Stati Uniti / Northeast / Generale"
+  },
+  {
+    "code": "TRV025050",
+    "name": "VIAGGI / Stati Uniti / Northeast / Medio Atlantico (NJ, NY, PA)\""
+  },
+  {
+    "code": "TRV025060",
+    "name": "VIAGGI / Stati Uniti / Northeast / New England (CT, MA, ME, NH, RI, VT)\""
+  },
+  {
+    "code": "TRV025070",
+    "name": "VIAGGI / Stati Uniti / Sud / Generale"
+  },
+  {
+    "code": "TRV025080",
+    "name": "VIAGGI / Stati Uniti / Sud / East South Central (AL, KY, MS, TN)\""
+  },
+  {
+    "code": "TRV025090",
+    "name": "VIAGGI / Stati Uniti / Sud / Sud Atlantico (DC, DE, FL, GA, MD, NC, SC, VA, WV)\""
+  },
+  {
+    "code": "TRV025100",
+    "name": "VIAGGI / Stati Uniti / Sud / West South Central (AR, LA, OK, TX)\""
+  },
+  {
+    "code": "TRV025110",
+    "name": "VIAGGI / Stati Uniti / Ovest / Generale"
+  },
+  {
+    "code": "TRV025120",
+    "name": "VIAGGI / Stati Uniti / Ovest / Mountain (AZ, CO, ID, MT, NM, UT, WY)\""
+  },
+  {
+    "code": "TRV025130",
+    "name": "VIAGGI / Stati Uniti / Ovest / Pacifico (AK, CA, HI, NV, OR, WA)\""
+  },
+  {
+    "code": "TRV026000",
+    "name": "VIAGGI / Tematici / Generale"
+  },
+  {
+    "code": "TRV026010",
+    "name": "VIAGGI / Tematici / Affari"
+  },
+  {
+    "code": "TRV026020",
+    "name": "VIAGGI / Tematici / Ecoturismo"
+  },
+  {
+    "code": "TRV026030",
+    "name": "VIAGGI / Tematici / Disabili"
+  },
+  {
+    "code": "TRV026040",
+    "name": "VIAGGI / Tematici / Animali Domestici"
+  },
+  {
+    "code": "TRV026050",
+    "name": "VIAGGI / Tematici / Anziani"
+  },
+  {
+    "code": "TRV026060",
+    "name": "VIAGGI / Tematici / Religiosi"
+  },
+  {
+    "code": "TRV026070",
+    "name": "VIAGGI / Tematici / Gay e Lesbiche"
+  },
+  {
+    "code": "TRV026080",
+    "name": "VIAGGI / Tematici / Sport"
+  },
+  {
+    "code": "TRV026090",
+    "name": "VIAGGI / Tematici / Letterari*"
+  },
+  {
+    "code": "TRV026110",
+    "name": "VIAGGI / Tematici / Militare"
+  },
+  {
+    "code": "TRV027000",
+    "name": "VIAGGI / Mappe e Atlanti Stradali"
+  },
+  {
+    "code": "TRV028000",
+    "name": "VIAGGI / Crociere"
+  },
+  {
+    "code": "TRV029000",
+    "name": "VIAGGI / Parchi Divertimento e a Tema"
+  },
+  {
+    "code": "TRV030000",
+    "name": "VIAGGI / Resort e Spa"
+  },
+  {
+    "code": "TRV031000",
+    "name": "VIAGGI / Percorsi Stradali"
+  },
+  {
+    "code": "TRV032000",
+    "name": "VIAGGI / Shopping"
+  },
+  {
+    "code": "TRV033000",
+    "name": "VIAGGI / Economici*"
+  },
+  {
+    "code": "TRV034000",
+    "name": "VIAGGI / Escursioni e Passeggiate*"
+  },
+  {
+    "code": "TRV036000",
+    "name": "VIAGGI / Bed & Breakfast / Generale"
   }
 ]

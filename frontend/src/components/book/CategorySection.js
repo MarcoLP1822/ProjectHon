@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo, useCallback, useEffect } from 'react';
 import { Box, Typography, List, ListItem, ListItemButton, ListItemText, CircularProgress, TextField, IconButton, Tooltip } from '@mui/material';
 import { useBooks } from '../../context/BookContext';
 import GenerativeSection from '../common/GenerativeSection';
 import { useBisacCategories } from '../../hooks/useBisacCategories';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import debounce from 'lodash/debounce';
+import Fuse from 'fuse.js';
 
 const CategorySection = () => {
   const { generateCategories, updateBookMetadata } = useBooks();
@@ -13,10 +15,7 @@ const CategorySection = () => {
     humanities: null,
     juv: null,
     selfhelp: null,
-    stem: null,
-    religion: null,
     art: null,
-    svago: null,
     varie: null
   });
 
@@ -25,12 +24,25 @@ const CategorySection = () => {
     humanities: '',
     juv: '',
     selfhelp: '',
-    stem: '',
-    religion: '',
     art: '',
-    svago: '',
     varie: ''
   });
+
+  const [fuseInstances, setFuseInstances] = useState({});
+
+  useEffect(() => {
+    if (!loading && Object.keys(categories).length > 0) {
+      const instances = {};
+      Object.entries(categories).forEach(([type, categoryList]) => {
+        instances[type] = new Fuse(categoryList, {
+          keys: ['name'],
+          threshold: 0.3,
+          distance: 100
+        });
+      });
+      setFuseInstances(instances);
+    }
+  }, [categories, loading]);
 
   const handleGenerate = async (bookId) => {
     const result = await generateCategories(bookId);
@@ -51,16 +63,51 @@ const CategorySection = () => {
     }));
   };
 
+  const debouncedSearchChange = useCallback(
+    debounce((type, value) => {
+      setSearchTerms(prev => ({
+        ...prev,
+        [type]: value
+      }));
+    }, 300),
+    []
+  );
+
   const handleSearchChange = (type, value) => {
-    setSearchTerms(prev => ({
-      ...prev,
-      [type]: value
-    }));
+    const input = document.querySelector(`input[name="${type}-search"]`);
+    if (input) input.value = value;
+    
+    debouncedSearchChange(type, value);
   };
 
   const handleCopyCategory = (category) => {
     navigator.clipboard.writeText(category);
   };
+
+  const filteredCategories = useMemo(() => {
+    const result = {};
+    Object.keys(categories).forEach(type => {
+      if (!categories[type]) {
+        result[type] = [];
+        return;
+      }
+      
+      const searchTerm = searchTerms[type];
+      if (!searchTerm) {
+        result[type] = categories[type];
+        return;
+      }
+
+      if (fuseInstances[type]) {
+        result[type] = fuseInstances[type]
+          .search(searchTerm)
+          .map(result => result.item);
+      } else {
+        result[type] = [];
+      }
+    });
+    return result;
+  }, [categories, searchTerms, fuseInstances]);
 
   const renderCategoryBox = (type, title) => (
     <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
@@ -79,10 +126,11 @@ const CategorySection = () => {
       }}>
         <Box sx={{ p: 1, backgroundColor: 'white' }}>
           <TextField
+            name={`${type}-search`}
             size="small"
             fullWidth
             placeholder="Cerca..."
-            value={searchTerms[type]}
+            defaultValue={searchTerms[type]}
             onChange={(e) => handleSearchChange(type, e.target.value)}
             sx={{
               '& .MuiOutlinedInput-root': {
@@ -99,21 +147,16 @@ const CategorySection = () => {
             </Box>
           ) : (
             <List dense>
-              {categories[type]
-                ?.filter(category => 
-                  category.name.toLowerCase().includes(searchTerms[type].toLowerCase())
-                )
-                .map((category, index) => (
-                  <ListItem key={index} disablePadding>
-                    <ListItemButton 
-                      onClick={() => handleCategorySelect(type, category)}
-                      selected={selectedCategories[type]?.code === category.code}
-                    >
-                      <ListItemText primary={category.name} />
-                    </ListItemButton>
-                  </ListItem>
-                ))
-              }
+              {filteredCategories[type]?.map((category, index) => (
+                <ListItem key={index} disablePadding>
+                  <ListItemButton 
+                    onClick={() => handleCategorySelect(type, category)}
+                    selected={selectedCategories[type]?.code === category.code}
+                  >
+                    <ListItemText primary={category.name} />
+                  </ListItemButton>
+                </ListItem>
+              ))}
             </List>
           )}
         </Box>
@@ -176,13 +219,10 @@ const CategorySection = () => {
           width: '100%'
         }}>
           {renderCategoryBox('fiction', 'FICTION, POESIA, BIOGRAFIE, DRAMMI, FUMETTI')}
-          {renderCategoryBox('humanities', 'DISCIPLINE UMANISTICHE')}
+          {renderCategoryBox('humanities', 'DISCIPLINE UMANISTICHE E STEM')}
           {renderCategoryBox('juv', 'RAGAZZI')}
           {renderCategoryBox('selfhelp', 'SELF-HELP, PSICOLOGIA, FAMIGLIA E RELAZIONI')}
-          {renderCategoryBox('stem', 'STEM')}
-          {renderCategoryBox('religion', 'RELIGIONE')}
-          {renderCategoryBox('art', 'ARTE')}
-          {renderCategoryBox('svago', 'TEMPO LIBERO')}
+          {renderCategoryBox('art', 'ARTE E TEMPO LIBERO')}
           {renderCategoryBox('varie', 'VARIE')}
         </Box>
       </Box>

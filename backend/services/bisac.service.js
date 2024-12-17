@@ -17,17 +17,8 @@ class BisacService {
             const juvCategories = JSON.parse(
                 await fs.readFile(path.join(__dirname, '../data/juv-categories.json'), 'utf8')
             );
-            const stemCategories = JSON.parse(
-                await fs.readFile(path.join(__dirname, '../data/stem-categories.json'), 'utf8')
-            );
-            const religionCategories = JSON.parse(
-                await fs.readFile(path.join(__dirname, '../data/religion-categories.json'), 'utf8')
-            );
             const artCategories = JSON.parse(
                 await fs.readFile(path.join(__dirname, '../data/art-categories.json'), 'utf8')
-            );  
-            const svagoCategories = JSON.parse(
-                await fs.readFile(path.join(__dirname, '../data/svago-categories.json'), 'utf8')
             );  
             const varieCategories = JSON.parse(
                 await fs.readFile(path.join(__dirname, '../data/varie.json'), 'utf8')
@@ -38,10 +29,7 @@ class BisacService {
                 humanities: humanitiesCategories,
                 selfhelp: selfhelpCategories,
                 juv: juvCategories,
-                stem: stemCategories,
-                religion: religionCategories,
                 art: artCategories,
-                svago: svagoCategories,
                 varie: varieCategories
             };
         } catch (error) {
