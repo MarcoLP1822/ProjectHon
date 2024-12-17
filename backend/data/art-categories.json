@@ -1,0 +1,1034 @@
+[
+  {
+    "code": "ART000000",
+    "name": "ARTE / Generale"
+  },
+  {
+    "code": "ART002000",
+    "name": "ARTE / Tecniche / Aerografo"
+  },
+  {
+    "code": "ART003000",
+    "name": "ARTE / Tecniche / Calligrafia"
+  },
+  {
+    "code": "ART004000",
+    "name": "ARTE / Tecniche / Disegno Animato"
+  },
+  {
+    "code": "ART006000",
+    "name": "ARTE / Collezioni, Cataloghi, Esibizioni / Generale\""
+  },
+  {
+    "code": "ART006010",
+    "name": "ARTE / Collezioni, Cataloghi, Esibizioni / Mostre Collettive\""
+  },
+  {
+    "code": "ART006020",
+    "name": "ARTE / Collezioni, Cataloghi, Esibizioni / Collezioni Permanenti\""
+  },
+  {
+    "code": "ART007000",
+    "name": "ARTE / Teoria del Colore"
+  },
+  {
+    "code": "ART008000",
+    "name": "ARTE / Concettuale"
+  },
+  {
+    "code": "ART009000",
+    "name": "ARTE / Critica e Teoria"
+  },
+  {
+    "code": "ART010000",
+    "name": "ARTE / Tecniche / Disegno"
+  },
+  {
+    "code": "ART013000",
+    "name": "ARTE / Arte Folclorica e Grezza"
+  },
+  {
+    "code": "ART015000",
+    "name": "ARTE / Storia / Generale"
+  },
+  {
+    "code": "ART015010",
+    "name": "ARTE / Africana"
+  },
+  {
+    "code": "ART015020",
+    "name": "ARTE / Americana / Generale"
+  },
+  {
+    "code": "ART015030",
+    "name": "ARTE / Europea"
+  },
+  {
+    "code": "ART015040",
+    "name": "ARTE / Canadese"
+  },
+  {
+    "code": "ART015050",
+    "name": "ARTE / Storia / Preistorica e Primitiva"
+  },
+  {
+    "code": "ART015060",
+    "name": "ARTE / Storia / Antica e Classica"
+  },
+  {
+    "code": "ART015070",
+    "name": "ARTE / Storia / Medievale"
+  },
+  {
+    "code": "ART015080",
+    "name": "ARTE / Storia / Rinascimento"
+  },
+  {
+    "code": "ART015090",
+    "name": "ARTE / Storia / Barocco e Rococò"
+  },
+  {
+    "code": "ART015100",
+    "name": "ARTE / Storia / Moderna (dal tardo 19° sec. al 1945)"
+  },
+  {
+    "code": "ART015110",
+    "name": "ARTE / Storia / Contemporanea (dal 1945)"
+  },
+  {
+    "code": "ART015120",
+    "name": "ARTE / Storia / Romanticismo"
+  },
+  {
+    "code": "ART016000",
+    "name": "ARTE / Artisti Individuali / Generale"
+  },
+  {
+    "code": "ART016010",
+    "name": "ARTE / Artisti Individuali / Libri di Artisti"
+  },
+  {
+    "code": "ART016020",
+    "name": "ARTE / Artisti Individuali / Saggi"
+  },
+  {
+    "code": "ART016030",
+    "name": "ARTE / Artisti Individuali / Monografie"
+  },
+  {
+    "code": "ART017000",
+    "name": "ARTE / Tecniche Miste"
+  },
+  {
+    "code": "ART018000",
+    "name": "ARTE / Tecniche / Pittura a Olio"
+  },
+  {
+    "code": "ART019000",
+    "name": "ARTE / Asiatica"
+  },
+  {
+    "code": "ART020000",
+    "name": "ARTE / Tecniche / Pittura"
+  },
+  {
+    "code": "ART021000",
+    "name": "ARTE / Tecniche / Disegno a Pastello"
+  },
+  {
+    "code": "ART023000",
+    "name": "ARTE / Cultura Popolare"
+  },
+  {
+    "code": "ART024000",
+    "name": "ARTE / Tecniche / Realizzazione di Stampe"
+  },
+  {
+    "code": "ART025000",
+    "name": "ARTE / Riferimento"
+  },
+  {
+    "code": "ART026000",
+    "name": "ARTE / Scultura e Installazione"
+  },
+  {
+    "code": "ART027000",
+    "name": "ARTE / Studio e Insegnamento"
+  },
+  {
+    "code": "ART028000",
+    "name": "ARTE / Tecniche / Generale"
+  },
+  {
+    "code": "ART029000",
+    "name": "ARTE / Tecniche / Acquerelli"
+  },
+  {
+    "code": "ART031000",
+    "name": "ARTE / Tecniche / Pittura Acrilica"
+  },
+  {
+    "code": "ART033000",
+    "name": "ARTE / Tecniche / Disegno a Penna e Inchiostro"
+  },
+  {
+    "code": "ART034000",
+    "name": "ARTE / Tecniche / Disegno a Matita"
+  },
+  {
+    "code": "ART035000",
+    "name": "ARTE / Argomenti e Temi / Religioso"
+  },
+  {
+    "code": "ART037000",
+    "name": "ARTE / Arte e Politica"
+  },
+  {
+    "code": "ART038000",
+    "name": "ARTE / Americana / Afro-Americana"
+  },
+  {
+    "code": "ART039000",
+    "name": "ARTE / Americana / Asiatica-Americana"
+  },
+  {
+    "code": "ART040000",
+    "name": "ARTE / Americana / Ispano-Americana"
+  },
+  {
+    "code": "ART041000",
+    "name": "ARTE / Nativi Americani"
+  },
+  {
+    "code": "ART042000",
+    "name": "ARTE / Australiana e Oceanica"
+  },
+  {
+    "code": "ART043000",
+    "name": "ARTE / Aspetti Legati al Business"
+  },
+  {
+    "code": "ART044000",
+    "name": "ARTE / Caraibica e Latino-Americana"
+  },
+  {
+    "code": "ART045000",
+    "name": "ARTE / Ceramiche"
+  },
+  {
+    "code": "ART046000",
+    "name": "ARTE / Digitale"
+  },
+  {
+    "code": "ART047000",
+    "name": "ARTE / Medio-Orientale"
+  },
+  {
+    "code": "ART048000",
+    "name": "ARTE / Stampe"
+  },
+  {
+    "code": "ART049000",
+    "name": "ARTE / Russa ed Ex Unione Sovietica"
+  },
+  {
+    "code": "ART050000",
+    "name": "ARTE / Argomenti e Temi / Generale"
+  },
+  {
+    "code": "ART050010",
+    "name": "ARTE / Argomenti e Temi / Figura Umana"
+  },
+  {
+    "code": "ART050020",
+    "name": "ARTE / Argomenti e Temi / Paesaggi"
+  },
+  {
+    "code": "ART050030",
+    "name": "ARTE / Argomenti e Temi / Piante e Animali"
+  },
+  {
+    "code": "ART050040",
+    "name": "ARTE / Argomenti e Temi / Ritratti"
+  },
+  {
+    "code": "ART050050",
+    "name": "ARTE / Argomenti e Temi / Erotico"
+  },
+  {
+    "code": "ART050060",
+    "name": "ARTE / Argomenti e Temi / Fantascienza e Fantasy"
+  },
+  {
+    "code": "ART051000",
+    "name": "ARTE / Tecniche / Colore"
+  },
+  {
+    "code": "ART052000",
+    "name": "ARTE / Tecniche / Disegno dal Vivo"
+  },
+  {
+    "code": "ART053000",
+    "name": "ARTE / Tecniche / Scultura"
+  },
+  {
+    "code": "ART054000",
+    "name": "ARTE / Annuari"
+  },
+  {
+    "code": "ART055000",
+    "name": "ARTE / Arte del Corpo e Tatuaggio"
+  },
+  {
+    "code": "ART056000",
+    "name": "ARTE / Conservazione e Preservazione"
+  },
+  {
+    "code": "ART057000",
+    "name": "ARTE / Film e Video"
+  },
+  {
+    "code": "ART058000",
+    "name": "ARTE / Graffiti e Arte di Strada"
+  },
+  {
+    "code": "ART059000",
+    "name": "ARTE / Studi Museali"
+  },
+  {
+    "code": "ART060000",
+    "name": "ARTE / Spettacolo"
+  },
+  {
+    "code": "DES000000",
+    "name": "DESIGN / Generale"
+  },
+  {
+    "code": "DES001000",
+    "name": "DESIGN / Libro"
+  },
+  {
+    "code": "DES002000",
+    "name": "DESIGN / Clip Art"
+  },
+  {
+    "code": "DES003000",
+    "name": "DESIGN / Arti Decorative"
+  },
+  {
+    "code": "DES004000",
+    "name": "DESIGN / Saggi"
+  },
+  {
+    "code": "DES005000",
+    "name": "DESIGN / Moda"
+  },
+  {
+    "code": "DES006000",
+    "name": "DESIGN / Arredamento"
+  },
+  {
+    "code": "DES007000",
+    "name": "DESIGN / Arti Grafiche / Generale"
+  },
+  {
+    "code": "DES007010",
+    "name": "DESIGN / Arti Grafiche / Pubblicità"
+  },
+  {
+    "code": "DES007020",
+    "name": "DESIGN / Arti Grafiche / Progettazione Marchi e Loghi"
+  },
+  {
+    "code": "DES007030",
+    "name": "DESIGN / Arti Grafiche / Commerciale e Aziendale"
+  },
+  {
+    "code": "DES007040",
+    "name": "DESIGN / Arti Grafiche / Illustrazioni"
+  },
+  {
+    "code": "DES007050",
+    "name": "DESIGN / Arti Grafiche / Tipografia"
+  },
+  {
+    "code": "DES008000",
+    "name": "DESIGN / Storia e Critica"
+  },
+  {
+    "code": "DES009000",
+    "name": "DESIGN / Industriale"
+  },
+  {
+    "code": "DES010000",
+    "name": "DESIGN / Decorazione di Interni"
+  },
+  {
+    "code": "DES011000",
+    "name": "DESIGN / Prodotto"
+  },
+  {
+    "code": "DES012000",
+    "name": "DESIGN / Riferimento"
+  },
+  {
+    "code": "DES013000",
+    "name": "DESIGN / Stoffe e Costumi"
+  },
+  {
+    "code": "CRA000000",
+    "name": "HOBBY E CREATIVITÀ / Generale"
+  },
+  {
+    "code": "CRA001000",
+    "name": "HOBBY E CREATIVITÀ / Applique"
+  },
+  {
+    "code": "CRA002000",
+    "name": "HOBBY E CREATIVITÀ / Cesti"
+  },
+  {
+    "code": "CRA003000",
+    "name": "HOBBY E CREATIVITÀ / Intaglio"
+  },
+  {
+    "code": "CRA004000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Uncinetto"
+  },
+  {
+    "code": "CRA005000",
+    "name": "HOBBY E CREATIVITÀ / Decorazione"
+  },
+  {
+    "code": "CRA006000",
+    "name": "HOBBY E CREATIVITÀ / Impasto"
+  },
+  {
+    "code": "CRA007000",
+    "name": "HOBBY E CREATIVITÀ / Tintura"
+  },
+  {
+    "code": "CRA008000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Ricamo"
+  },
+  {
+    "code": "CRA009000",
+    "name": "HOBBY E CREATIVITÀ / Moda"
+  },
+  {
+    "code": "CRA010000",
+    "name": "HOBBY E CREATIVITÀ / Composizioni Floreali"
+  },
+  {
+    "code": "CRA011000",
+    "name": "HOBBY E CREATIVITÀ / Incorniciare"
+  },
+  {
+    "code": "CRA012000",
+    "name": "HOBBY E CREATIVITÀ / Vetro e Articoli in Vetro"
+  },
+  {
+    "code": "CRA014000",
+    "name": "HOBBY E CREATIVITÀ / Gioielleria"
+  },
+  {
+    "code": "CRA015000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Lavoro a Maglia"
+  },
+  {
+    "code": "CRA016000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Pizzi e Merletti"
+  },
+  {
+    "code": "CRA017000",
+    "name": "HOBBY E CREATIVITÀ / Oggetti in Metallo"
+  },
+  {
+    "code": "CRA018000",
+    "name": "HOBBY E CREATIVITÀ / Miniature"
+  },
+  {
+    "code": "CRA020000",
+    "name": "HOBBY E CREATIVITÀ / Modellismo"
+  },
+  {
+    "code": "CRA021000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Ricamo ad Ago"
+  },
+  {
+    "code": "CRA022000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Generale"
+  },
+  {
+    "code": "CRA023000",
+    "name": "HOBBY E CREATIVITÀ / Origami"
+  },
+  {
+    "code": "CRA024000",
+    "name": "HOBBY E CREATIVITÀ / Pittura"
+  },
+  {
+    "code": "CRA025000",
+    "name": "HOBBY E CREATIVITÀ / Oggetti di Carta"
+  },
+  {
+    "code": "CRA026000",
+    "name": "HOBBY E CREATIVITÀ / Patchwork"
+  },
+  {
+    "code": "CRA027000",
+    "name": "HOBBY E CREATIVITÀ / Potpourri"
+  },
+  {
+    "code": "CRA028000",
+    "name": "HOBBY E CREATIVITÀ / Terracotta e Ceramiche"
+  },
+  {
+    "code": "CRA029000",
+    "name": "HOBBY E CREATIVITÀ / Stampe"
+  },
+  {
+    "code": "CRA030000",
+    "name": "HOBBY E CREATIVITÀ / Burattini e Burattinaggio"
+  },
+  {
+    "code": "CRA031000",
+    "name": "HOBBY E CREATIVITÀ / Trapunte e Trapuntare"
+  },
+  {
+    "code": "CRA032000",
+    "name": "HOBBY E CREATIVITÀ / Riferimento"
+  },
+  {
+    "code": "CRA033000",
+    "name": "HOBBY E CREATIVITÀ / Tappeti"
+  },
+  {
+    "code": "CRA034000",
+    "name": "HOBBY E CREATIVITÀ / Stagionale"
+  },
+  {
+    "code": "CRA035000",
+    "name": "HOBBY E CREATIVITÀ / Cucito"
+  },
+  {
+    "code": "CRA036000",
+    "name": "HOBBY E CREATIVITÀ / Stencil"
+  },
+  {
+    "code": "CRA037000",
+    "name": "HOBBY E CREATIVITÀ / Animali Imbalsamati"
+  },
+  {
+    "code": "CRA039000",
+    "name": "HOBBY E CREATIVITÀ / Realizzazione di Giocattoli"
+  },
+  {
+    "code": "CRA040000",
+    "name": "HOBBY E CREATIVITÀ / Tessitura"
+  },
+  {
+    "code": "CRA041000",
+    "name": "HOBBY E CREATIVITÀ / Giocattoli in Legno"
+  },
+  {
+    "code": "CRA042000",
+    "name": "HOBBY E CREATIVITÀ / Oggetti in Legno"
+  },
+  {
+    "code": "CRA043000",
+    "name": "HOBBY E CREATIVITÀ / Creazioni per Bambini"
+  },
+  {
+    "code": "CRA044000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Punto Croce"
+  },
+  {
+    "code": "CRA045000",
+    "name": "HOBBY E CREATIVITÀ / Modellismo Ferroviario"
+  },
+  {
+    "code": "CRA046000",
+    "name": "HOBBY E CREATIVITÀ / Stampa e Rilegatura Libri"
+  },
+  {
+    "code": "CRA047000",
+    "name": "HOBBY E CREATIVITÀ / Folkcrafts"
+  },
+  {
+    "code": "CRA048000",
+    "name": "HOBBY E CREATIVITÀ / Beadwork"
+  },
+  {
+    "code": "CRA049000",
+    "name": "HOBBY E CREATIVITÀ / Realizzazione di Candele e Sapone"
+  },
+  {
+    "code": "CRA050000",
+    "name": "HOBBY E CREATIVITÀ / Pelletteria"
+  },
+  {
+    "code": "CRA051000",
+    "name": "HOBBY E CREATIVITÀ / Argilla Polimerica"
+  },
+  {
+    "code": "CRA052000",
+    "name": "HOBBY E CREATIVITÀ / Scrapbooking"
+  },
+  {
+    "code": "CRA053000",
+    "name": "HOBBY E CREATIVITÀ / Creazioni naturali"
+  },
+  {
+    "code": "CRA054000",
+    "name": "HOBBY E CREATIVITÀ / Tecniche Miste*"
+  },
+  {
+    "code": "MUS000000",
+    "name": "MUSICA / Generale"
+  },
+  {
+    "code": "MUS001000",
+    "name": "MUSICA / Istruzione e Studio / Apprezzamento"
+  },
+  {
+    "code": "MUS002000",
+    "name": "MUSICA / Generi e Stili / Balletto"
+  },
+  {
+    "code": "MUS003000",
+    "name": "MUSICA / Generi e Stili / Blues"
+  },
+  {
+    "code": "MUS004000",
+    "name": "MUSICA / Aspetti Legati al Business"
+  },
+  {
+    "code": "MUS005000",
+    "name": "MUSICA / Generi e Stili / Camera"
+  },
+  {
+    "code": "MUS006000",
+    "name": "MUSICA / Generi e Stili / Classica"
+  },
+  {
+    "code": "MUS007000",
+    "name": "MUSICA / Istruzione e Studio / Composizione"
+  },
+  {
+    "code": "MUS008000",
+    "name": "MUSICA / Istruzione e Studio / Conduzione"
+  },
+  {
+    "code": "MUS009000",
+    "name": "MUSICA / Religiosa / Cristiana Contemporanea"
+  },
+  {
+    "code": "MUS010000",
+    "name": "MUSICA / Generi e Stili / Country e Bluegrass"
+  },
+  {
+    "code": "MUS011000",
+    "name": "MUSICA / Generi e Stili / Dance"
+  },
+  {
+    "code": "MUS012000",
+    "name": "MUSICA / Discografie e Guide all'Acquisto"
+  },
+  {
+    "code": "MUS013000",
+    "name": "MUSICA / Generi e Stili / Elettronica"
+  },
+  {
+    "code": "MUS014000",
+    "name": "MUSICA / Etnica"
+  },
+  {
+    "code": "MUS015000",
+    "name": "MUSICA / Etnomusicologia"
+  },
+  {
+    "code": "MUS016000",
+    "name": "MUSICA / Istruzione e Studio / Esercizi"
+  },
+  {
+    "code": "MUS017000",
+    "name": "MUSICA / Generi e Stili / Folk e Tradizionale"
+  },
+  {
+    "code": "MUS018000",
+    "name": "MUSICA / Religiosa / Gospel"
+  },
+  {
+    "code": "MUS019000",
+    "name": "MUSICA / Generi e Stili / Heavy Metal"
+  },
+  {
+    "code": "MUS020000",
+    "name": "MUSICA / Storia e Critica"
+  },
+  {
+    "code": "MUS021000",
+    "name": "MUSICA / Religiosa / Inni"
+  },
+  {
+    "code": "MUS022000",
+    "name": "MUSICA / Istruzione e Studio / Generale"
+  },
+  {
+    "code": "MUS023000",
+    "name": "MUSICA / Strumenti Musicali / Generale"
+  },
+  {
+    "code": "MUS023010",
+    "name": "MUSICA / Strumenti Musicali / Ottone"
+  },
+  {
+    "code": "MUS023020",
+    "name": "MUSICA / Strumenti Musicali / A Percussione"
+  },
+  {
+    "code": "MUS023030",
+    "name": "MUSICA / Strumenti Musicali / Pianoforte e Tastiera"
+  },
+  {
+    "code": "MUS023040",
+    "name": "MUSICA / Strumenti Musicali / A Corde"
+  },
+  {
+    "code": "MUS023050",
+    "name": "MUSICA / Strumenti Musicali / A Fiato"
+  },
+  {
+    "code": "MUS023060",
+    "name": "MUSICA / Strumenti Musicali / Chitarra"
+  },
+  {
+    "code": "MUS024000",
+    "name": "MUSICA / Generi e Stili / Internazionale"
+  },
+  {
+    "code": "MUS025000",
+    "name": "MUSICA / Generi e Stili / Jazz"
+  },
+  {
+    "code": "MUS026000",
+    "name": "MUSICA / Generi e Stili / per Bambini"
+  },
+  {
+    "code": "MUS027000",
+    "name": "MUSICA / Generi e Stili / New Age"
+  },
+  {
+    "code": "MUS028000",
+    "name": "MUSICA / Generi e Stili / Opera"
+  },
+  {
+    "code": "MUS029000",
+    "name": "MUSICA / Generi e Stili / Pop Vocale"
+  },
+  {
+    "code": "MUS030000",
+    "name": "MUSICA / Generi e Stili / Punk"
+  },
+  {
+    "code": "MUS031000",
+    "name": "MUSICA / Generi e Stili / Rap e Hip Hop"
+  },
+  {
+    "code": "MUS032000",
+    "name": "MUSICA / Registrazione e Riproduzione*"
+  },
+  {
+    "code": "MUS033000",
+    "name": "MUSICA / Riferimento"
+  },
+  {
+    "code": "MUS035000",
+    "name": "MUSICA / Generi e Stili / Rock"
+  },
+  {
+    "code": "MUS036000",
+    "name": "MUSICA / Generi e Stili / Latina"
+  },
+  {
+    "code": "MUS037000",
+    "name": "MUSICA / Musica Stampata / Generale"
+  },
+  {
+    "code": "MUS037010",
+    "name": "MUSICA / Musica Stampata / Specifica per Artista*"
+  },
+  {
+    "code": "MUS037020",
+    "name": "MUSICA / Musica Stampata / Bande e Orchestre*"
+  },
+  {
+    "code": "MUS037030",
+    "name": "MUSICA / Musica Stampata / Corale*"
+  },
+  {
+    "code": "MUS037040",
+    "name": "MUSICA / Musica Stampata / Chitarra e Strumenti a Tasti*"
+  },
+  {
+    "code": "MUS037050",
+    "name": "MUSICA / Musica Stampata / Collezioni Varie*"
+  },
+  {
+    "code": "MUS037060",
+    "name": "MUSICA / Musica Stampata / Musical, Film e TV*\""
+  },
+  {
+    "code": "MUS037070",
+    "name": "MUSICA / Musica Stampata / Spartiti d'Opera e Musica Classica*"
+  },
+  {
+    "code": "MUS037080",
+    "name": "MUSICA / Musica Stampata / Percussioni*"
+  },
+  {
+    "code": "MUS037090",
+    "name": "MUSICA / Strumenti Musicali / Repertori Pianoforte e Tastiera*"
+  },
+  {
+    "code": "MUS037100",
+    "name": "MUSICA / Strumenti Musicali / Pianoforte-Vocale-Chitarra*"
+  },
+  {
+    "code": "MUS037110",
+    "name": "MUSICA / Musica Stampata / Vocale*"
+  },
+  {
+    "code": "MUS037120",
+    "name": "MUSICA / Musica Stampata / Ottone"
+  },
+  {
+    "code": "MUS037130",
+    "name": "MUSICA / Musica Stampata / A Corde"
+  },
+  {
+    "code": "MUS037140",
+    "name": "MUSICA / Musica Stampata / A Fiato"
+  },
+  {
+    "code": "MUS038000",
+    "name": "MUSICA / Istruzione e Studio / Componimento"
+  },
+  {
+    "code": "MUS039000",
+    "name": "MUSICA / Generi e Stili / Soul e R 'n B"
+  },
+  {
+    "code": "MUS040000",
+    "name": "MUSICA / Istruzione e Studio / Tecniche"
+  },
+  {
+    "code": "MUS041000",
+    "name": "MUSICA / Istruzione e Studio / Teoria"
+  },
+  {
+    "code": "MUS042000",
+    "name": "MUSICA / Istruzione e Studio / Voce"
+  },
+  {
+    "code": "MUS045000",
+    "name": "MUSICA / Generi e Stili / Militare e Marce"
+  },
+  {
+    "code": "MUS046000",
+    "name": "MUSICA / Generi e Stili / Musical"
+  },
+  {
+    "code": "MUS047000",
+    "name": "MUSICA / Generi e Stili / Reggae"
+  },
+  {
+    "code": "MUS048000",
+    "name": "MUSICA / Religiosa / Generale"
+  },
+  {
+    "code": "MUS048010",
+    "name": "MUSICA / Religiosa / Cristiana"
+  },
+  {
+    "code": "MUS048020",
+    "name": "MUSICA / Religiosa / Ebraica"
+  },
+  {
+    "code": "MUS048030",
+    "name": "MUSICA / Religiosa / Musulmana"
+  },
+  {
+    "code": "MUS049000",
+    "name": "MUSICA / Generi e Stili / Generale"
+  },
+  {
+    "code": "MUS050000",
+    "name": "MUSICA / Compositori e Musicisti Individuali"
+  },
+  {
+    "code": "MUS051000",
+    "name": "MUSICA / Generi e Stili / Corale"
+  },
+  {
+    "code": "MUS052000",
+    "name": "MUSICA / Lirica*"
+  },
+  {
+    "code": "PHO000000",
+    "name": "FOTOGRAFIA / Generale"
+  },
+  {
+    "code": "PHO001000",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Architettonico e Industriale"
+  },
+  {
+    "code": "PHO003000",
+    "name": "FOTOGRAFIA / Aspetti Legati al Business"
+  },
+  {
+    "code": "PHO004000",
+    "name": "FOTOGRAFIA / Collezioni, Cataloghi, Esibizioni / Generale\""
+  },
+  {
+    "code": "PHO004010",
+    "name": "FOTOGRAFIA / Collezioni, Cataloghi, Esibizioni / Mostre Collettive\""
+  },
+  {
+    "code": "PHO004020",
+    "name": "FOTOGRAFIA / Collezioni, Cataloghi, Esibizioni / Collezioni Permanenti\""
+  },
+  {
+    "code": "PHO005000",
+    "name": "FOTOGRAFIA / Critica"
+  },
+  {
+    "code": "PHO006000",
+    "name": "FOTOGRAFIA / Tecniche / Camera Oscura"
+  },
+  {
+    "code": "PHO007000",
+    "name": "FOTOGRAFIA / Tecniche / Attrezzatura"
+  },
+  {
+    "code": "PHO009000",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Moda"
+  },
+  {
+    "code": "PHO010000",
+    "name": "FOTOGRAFIA / Storia"
+  },
+  {
+    "code": "PHO011000",
+    "name": "FOTOGRAFIA / Fotografi Individuali / Generale"
+  },
+  {
+    "code": "PHO011010",
+    "name": "FOTOGRAFIA / Fotografi Individuali / Libri di Artisti"
+  },
+  {
+    "code": "PHO011020",
+    "name": "FOTOGRAFIA / Fotografi Individuali / Saggi"
+  },
+  {
+    "code": "PHO011030",
+    "name": "FOTOGRAFIA / Fotografi Individuali / Monografie"
+  },
+  {
+    "code": "PHO012000",
+    "name": "FOTOGRAFIA / Tecniche / Illuminazione"
+  },
+  {
+    "code": "PHO013000",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Piante e Animali"
+  },
+  {
+    "code": "PHO014000",
+    "name": "FOTOGRAFIA / Saggi Fotografici e Documentari"
+  },
+  {
+    "code": "PHO015000",
+    "name": "FOTOGRAFIA / Fotogiornalismo"
+  },
+  {
+    "code": "PHO016000",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Ritratti"
+  },
+  {
+    "code": "PHO017000",
+    "name": "FOTOGRAFIA / Riferimento"
+  },
+  {
+    "code": "PHO018000",
+    "name": "FOTOGRAFIA / Tecniche / Generale"
+  },
+  {
+    "code": "PHO019000",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Regionale (vedere anche VIAGGI / Illustrazioni)"
+  },
+  {
+    "code": "PHO020000",
+    "name": "FOTOGRAFIA / Tecniche / Colore"
+  },
+  {
+    "code": "PHO021000",
+    "name": "FOTOGRAFIA / Commerciale"
+  },
+  {
+    "code": "PHO022000",
+    "name": "FOTOGRAFIA / Tecniche / Cinematografia e Videografia"
+  },
+  {
+    "code": "PHO023000",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Generale"
+  },
+  {
+    "code": "PHO023010",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Aerei"
+  },
+  {
+    "code": "PHO023020",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Bambini"
+  },
+  {
+    "code": "PHO023030",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Erotico"
+  },
+  {
+    "code": "PHO023040",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Paesaggi"
+  },
+  {
+    "code": "PHO023050",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Nudi"
+  },
+  {
+    "code": "PHO023060",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Sport"
+  },
+  {
+    "code": "PHO023070",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Celebrazioni e Eventi"
+  },
+  {
+    "code": "PHO023080",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Celebrità"
+  },
+  {
+    "code": "PHO023090",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Stili di Vita"
+  },
+  {
+    "code": "PHO023100",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Storico*"
+  },
+  {
+    "code": "PHO024000",
+    "name": "FOTOGRAFIA / Tecniche / Digitale (vedere anche COMPUTER / Digital Media / Fotografia)"
+  },
+  {
+    "code": "PHO025000",
+    "name": "FOTOGRAFIA / Annuari"
+  }
+]

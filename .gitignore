@@ -10,6 +10,10 @@ backend/.env
 /build
 /dist
 
+# Upload directory
+backend/uploads/*
+!backend/uploads/.gitkeep
+
 # Logs
 *.log
 npm-debug.log*
@@ -24,7 +28,7 @@ yarn-error.log*
 
 # OS generated files
 .DS_Store
-.DS_Store?
+**/.DS_Store
 ._*
 .Spotlight-V100
 .Trashes 

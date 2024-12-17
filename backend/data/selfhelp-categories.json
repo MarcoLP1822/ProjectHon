@@ -1,0 +1,694 @@
+[
+  {
+    "name": "AUTO-AIUTO / Generale",
+    "code": "SEL000000"
+  },
+  {
+    "name": "AUTO-AIUTO / Abuso",
+    "code": "SEL001000"
+  },
+  {
+    "name": "AUTO-AIUTO / Adolescenti Abusatori di Sostanze",
+    "code": "SEL003000"
+  },
+  {
+    "name": "AUTO-AIUTO / Ammissioni",
+    "code": "SEL004000"
+  },
+  {
+    "name": "AUTO-AIUTO / Invecchiamento",
+    "code": "SEL005000"
+  },
+  {
+    "name": "AUTO-AIUTO / Abuso di Sostanze e Dipendenze / Alcolismo",
+    "code": "SEL006000"
+  },
+  {
+    "name": "AUTO-AIUTO / Codipendenza",
+    "code": "SEL008000"
+  },
+  {
+    "name": "AUTO-AIUTO / Creativit",
+    "code": "SEL009000"
+  },
+  {
+    "name": "AUTO-AIUTO / Morte, Lutto, Dolore",
+    "code": "SEL010000"
+  },
+  {
+    "name": "AUTO-AIUTO / Depressione",
+    "code": "SEL011000"
+  },
+  {
+    "name": "AUTO-AIUTO / Sogni",
+    "code": "SEL012000"
+  },
+  {
+    "name": "AUTO-AIUTO / Abuso di Sostanze e Dipendenze / Tossicodipendenza",
+    "code": "SEL013000"
+  },
+  {
+    "name": "AUTO-AIUTO / Disturbi del Comportamento Alimentare",
+    "code": "SEL014000"
+  },
+  {
+    "name": "AUTO-AIUTO / Analisi Grafologica",
+    "code": "SEL015000"
+  },
+  {
+    "name": "AUTO-AIUTO / Crescita Personale / Felicit",
+    "code": "SEL016000"
+  },
+  {
+    "name": "AUTO-AIUTO / Autoipnosi",
+    "code": "SEL017000"
+  },
+  {
+    "name": "AUTO-AIUTO / Bambino Interiore",
+    "code": "SEL018000"
+  },
+  {
+    "name": "AUTO-AIUTO / Meditazioni",
+    "code": "SEL019000"
+  },
+  {
+    "name": "AUTO-AIUTO / Disturbi dell'Umore",
+    "code": "SEL020000"
+  },
+  {
+    "name": "AUTO-AIUTO / Motivazionale e Ispirazionale",
+    "code": "SEL021000"
+  },
+  {
+    "name": "AUTO-AIUTO / Crescita Personale / Autostima",
+    "code": "SEL023000"
+  },
+  {
+    "name": "AUTO-AIUTO / Gestione dello Stress",
+    "code": "SEL024000"
+  },
+  {
+    "name": "AUTO-AIUTO / Abuso di Sostanze e Dipendenze / Generale",
+    "code": "SEL026000"
+  },
+  {
+    "name": "AUTO-AIUTO / Abuso di Sostanze e Dipendenze / Tabacco",
+    "code": "SEL026010"
+  },
+  {
+    "name": "AUTO-AIUTO / Crescita personale / Successo",
+    "code": "SEL027000"
+  },
+  {
+    "name": "AUTO-AIUTO / Programmi dei Dodici Passi",
+    "code": "SEL029000"
+  },
+  {
+    "name": "AUTO-AIUTO / Crescita Personale / Miglioramento della Memoria",
+    "code": "SEL030000"
+  },
+  {
+    "name": "AUTO-AIUTO / Crescita Personale / Generale",
+    "code": "SEL031000"
+  },
+  {
+    "name": "AUTO-AIUTO / Spirituale",
+    "code": "SEL032000"
+  },
+  {
+    "name": "AUTO-AIUTO / Gestione della Collera (vedere anche FAMIGLIA E RELAZIONI / Collera)",
+    "code": "SEL033000"
+  },
+  {
+    "name": "AUTO-AIUTO / Educazione Sessuale",
+    "code": "SEL034000"
+  },
+  {
+    "name": "AUTO-AIUTO / Gestione del Tempo",
+    "code": "SEL035000"
+  },
+  {
+    "name": "AUTO-AIUTO / Ansie e Fobie",
+    "code": "SEL036000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Generale",
+    "code": "OCC000000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Astrologia / Generale",
+    "code": "OCC002000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Canalizzazione",
+    "code": "OCC003000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Cristalli",
+    "code": "OCC004000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Divinazione / Generale",
+    "code": "OCC005000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Sogni",
+    "code": "OCC006000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Parapsicologia / ESP (Chiaroveggenza, Precognizione, Telepatia)",
+    "code": "OCC007000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Divinazione / Arte Divinatoria",
+    "code": "OCC008000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Astrologia / Oroscopi",
+    "code": "OCC009000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Meditazione",
+    "code": "OCC010000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Guarigione / Generale",
+    "code": "OCC011000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Guarigione / Energia (Chi Kung, Reiki, Polarit )",
+    "code": "OCC011010"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Guarigione / Preghiera e Spirituale",
+    "code": "OCC011020"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Misticismo",
+    "code": "OCC012000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Nuovo Pensiero",
+    "code": "OCC014000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Numerologia",
+    "code": "OCC015000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Occultismo",
+    "code": "OCC016000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Divinazione / Chiromanzia",
+    "code": "OCC017000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Parapsicologia / Generale",
+    "code": "OCC018000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Ispirazione e Crescita Personale",
+    "code": "OCC019000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Profezia",
+    "code": "OCC020000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Riferimento",
+    "code": "OCC021000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Reincarnazione",
+    "code": "OCC022000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Sovrannaturale",
+    "code": "OCC023000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Divinazione / Tarocchi",
+    "code": "OCC024000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / UFO ed Extraterrestri",
+    "code": "OCC025000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Stregoneria e Wicca",
+    "code": "OCC026000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Spiritualismo",
+    "code": "OCC027000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Studi di Magia",
+    "code": "OCC028000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Fenomeni Inspiegati",
+    "code": "OCC029000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Astrologia / Orientale",
+    "code": "OCC030000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Civilt  Mitologiche",
+    "code": "OCC031000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Angeli e Guide Spirituali",
+    "code": "OCC032000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Gaia ed Energie Terrestri",
+    "code": "OCC033000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Parapsicologia / Esperienza di Premorte",
+    "code": "OCC034000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Parapsicologia / Esperienza Extracorporea",
+    "code": "OCC035000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Spiritualit  / Generale",
+    "code": "OCC036000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Spiritualit  / Celtica",
+    "code": "OCC036010"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Spiritualit  / Paganesimo e Neopaganesimo",
+    "code": "OCC036020"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Sciamanismo / Generale",
+    "code": "OCC036030"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Spiritualit  / Greco-Romana",
+    "code": "OCC036040"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Spiritualit  / Madre Divina, Dea, Quan Yin",
+    "code": "OCC036050"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Feng Shui",
+    "code": "OCC037000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / I Ching",
+    "code": "OCC038000"
+  },
+  {
+    "code": "PSY000000",
+    "name": "PSICOLOGIA / Generale"
+  },
+  {
+    "code": "PSY002000",
+    "name": "PSICOLOGIA / Sviluppo / Adolescente"
+  },
+  {
+    "code": "PSY003000",
+    "name": "PSICOLOGIA / Psicologia Applicata"
+  },
+  {
+    "code": "PSY004000",
+    "name": "PSICOLOGIA / Sviluppo / Minori"
+  },
+  {
+    "code": "PSY006000",
+    "name": "PSICOLOGIA / Psicoterapia / Infanzia e Adolescenza"
+  },
+  {
+    "code": "PSY007000",
+    "name": "PSICOLOGIA / Psicologia Clinica"
+  },
+  {
+    "code": "PSY008000",
+    "name": "PSICOLOGIA / Psicologia Cognitiva"
+  },
+  {
+    "code": "PSY009000",
+    "name": "PSICOLOGIA / Psicopatologia / Comportamento Compulsivo"
+  },
+  {
+    "code": "PSY010000",
+    "name": "PSICOLOGIA / Psicoterapia / Counseling"
+  },
+  {
+    "code": "PSY011000",
+    "name": "PSICOLOGIA / Psicopatologia / Disturbi del Comportamento Alimentare"
+  },
+  {
+    "code": "PSY012000",
+    "name": "PSICOLOGIA / Educazione e Formazione"
+  },
+  {
+    "code": "PSY013000",
+    "name": "PSICOLOGIA / Emozioni"
+  },
+  {
+    "code": "PSY014000",
+    "name": "PSICOLOGIA / Psicologia Forense"
+  },
+  {
+    "code": "PSY015000",
+    "name": "PSICOLOGIA / Storia"
+  },
+  {
+    "code": "PSY016000",
+    "name": "PSICOLOGIA / Sessualità Umana"
+  },
+  {
+    "code": "PSY017000",
+    "name": "PSICOLOGIA / Relazioni Interpersonali"
+  },
+  {
+    "code": "PSY020000",
+    "name": "PSICOLOGIA / Neuropsicologia"
+  },
+  {
+    "code": "PSY021000",
+    "name": "PSICOLOGIA / Psicologia Industriale e delle Organizzazioni"
+  },
+  {
+    "code": "PSY022000",
+    "name": "PSICOLOGIA / Psicopatologia / Generale"
+  },
+  {
+    "code": "PSY022010",
+    "name": "PSICOLOGIA / Psicopatologia / Disordine da Deficit dell'Attenzione (ADD-ADHD)"
+  },
+  {
+    "code": "PSY022020",
+    "name": "PSICOLOGIA / Psicopatologia / Disturbi dello Spettro Autistico"
+  },
+  {
+    "code": "PSY022030",
+    "name": "PSICOLOGIA / Psicopatologia / Disturbo Bipolare"
+  },
+  {
+    "code": "PSY022040",
+    "name": "PSICOLOGIA / Psicopatologia / Disturbo Post-Traumatico da Stress (PTSD)"
+  },
+  {
+    "code": "PSY022050",
+    "name": "PSICOLOGIA / Psicopatologia / Schizofrenia"
+  },
+  {
+    "code": "PSY022060",
+    "name": "PSICOLOGIA / Psicopatologia / Ansie e Fobie"
+  },
+  {
+    "code": "PSY022070",
+    "name": "PSICOLOGIA / Psicopatologia / Disturbo Dissociativo dell'Identità"
+  },
+  {
+    "code": "PSY023000",
+    "name": "PSICOLOGIA / Personalità"
+  },
+  {
+    "code": "PSY024000",
+    "name": "PSICOLOGIA / Psicologia Fisiologica"
+  },
+  {
+    "code": "PSY026000",
+    "name": "PSICOLOGIA / Movimenti / Psicoanalisi"
+  },
+  {
+    "code": "PSY028000",
+    "name": "PSICOLOGIA / Psicoterapia / Generale"
+  },
+  {
+    "code": "PSY029000",
+    "name": "PSICOLOGIA / Riferimento"
+  },
+  {
+    "code": "PSY030000",
+    "name": "PSICOLOGIA / Ricerca e Metodologia"
+  },
+  {
+    "code": "PSY031000",
+    "name": "PSICOLOGIA / Psicologia Sociale"
+  },
+  {
+    "code": "PSY032000",
+    "name": "PSICOLOGIA / Statistica"
+  },
+  {
+    "code": "PSY034000",
+    "name": "PSICOLOGIA / Capacità Creativa"
+  },
+  {
+    "code": "PSY035000",
+    "name": "PSICOLOGIA / Ipnotismo"
+  },
+  {
+    "code": "PSY036000",
+    "name": "PSICOLOGIA / Igiene Mentale"
+  },
+  {
+    "code": "PSY037000",
+    "name": "PSICOLOGIA / Suicidio"
+  },
+  {
+    "code": "PSY038000",
+    "name": "PSICOLOGIA / Psicopatologia / Dipendenza"
+  },
+  {
+    "code": "PSY039000",
+    "name": "PSICOLOGIA / Sviluppo / Generale"
+  },
+  {
+    "code": "PSY040000",
+    "name": "PSICOLOGIA / Psicologia Sperimentale"
+  },
+  {
+    "code": "PSY041000",
+    "name": "PSICOLOGIA / Psicoterapia / Coppia e Famiglia"
+  },
+  {
+    "code": "PSY042000",
+    "name": "PSICOLOGIA / Valutazione, Test e Misurazione\""
+  },
+  {
+    "code": "PSY043000",
+    "name": "PSICOLOGIA / Sviluppo / Età Adulta e Invecchiamento"
+  },
+  {
+    "code": "PSY044000",
+    "name": "PSICOLOGIA / Sviluppo / Sviluppo nel Ciclo di Vita"
+  },
+  {
+    "code": "PSY045000",
+    "name": "PSICOLOGIA / Movimenti / Generale"
+  },
+  {
+    "code": "PSY045010",
+    "name": "PSICOLOGIA / Movimenti / Comportamentismo"
+  },
+  {
+    "code": "PSY045020",
+    "name": "PSICOLOGIA / Movimenti / Umanismo"
+  },
+  {
+    "code": "PSY045030",
+    "name": "PSICOLOGIA / Movimenti / Transpersonale"
+  },
+  {
+    "code": "PSY045040",
+    "name": "PSICOLOGIA / Movimenti / Esistenziale"
+  },
+  {
+    "code": "PSY045050",
+    "name": "PSICOLOGIA / Movimenti / Gestalt"
+  },
+  {
+    "code": "PSY045060",
+    "name": "PSICOLOGIA / Movimenti / Jungian"
+  },
+  {
+    "code": "PSY046000",
+    "name": "PSICOLOGIA / Gestione dello Studio Professionale"
+  },
+  {
+    "code": "PSY048000",
+    "name": "PSICOLOGIA / Psicoterapia / Gruppo"
+  },
+  {
+    "code": "PSY049000",
+    "name": "PSICOLOGIA / Psicopatologia / Depressione"
+  },
+  {
+    "code": "PSY050000",
+    "name": "PSICOLOGIA / Etnopsicologia"
+  },
+  {
+    "code": "FAM000000",
+    "name": "FAMIGLIA E RELAZIONI / Generale"
+  },
+  {
+    "code": "FAM001000",
+    "name": "FAMIGLIA E RELAZIONI / Abuso / Generale"
+  },
+  {
+    "code": "FAM001010",
+    "name": "FAMIGLIA E RELAZIONI / Abuso / Abuso di Minore"
+  },
+  {
+    "code": "FAM001020",
+    "name": "FAMIGLIA E RELAZIONI / Abuso / Abuso di Anziani"
+  },
+  {
+    "code": "FAM001030",
+    "name": "FAMIGLIA E RELAZIONI / Abuso / Abuso Domestico del Partner"
+  },
+  {
+    "code": "FAM002000",
+    "name": "FAMIGLIA E RELAZIONI / Attività"
+  },
+  {
+    "code": "FAM003000",
+    "name": "FAMIGLIA E RELAZIONI / Fasi della Vita / Adolescenza"
+  },
+  {
+    "code": "FAM004000",
+    "name": "FAMIGLIA E RELAZIONI / Adozione e Affidamento"
+  },
+  {
+    "code": "FAM005000",
+    "name": "FAMIGLIA E RELAZIONI / Invecchiamento"
+  },
+  {
+    "code": "FAM006000",
+    "name": "FAMIGLIA E RELAZIONI / Famiglia Alternativa"
+  },
+  {
+    "code": "FAM007000",
+    "name": "FAMIGLIA E RELAZIONI / Collera (vedere anche AUTO-AIUTO / Gestione della Collera)"
+  },
+  {
+    "code": "FAM008000",
+    "name": "FAMIGLIA E RELAZIONI / Nomi di Bambini"
+  },
+  {
+    "code": "FAM012000",
+    "name": "FAMIGLIA E RELAZIONI / Bambini con Necessità Particolari"
+  },
+  {
+    "code": "FAM013000",
+    "name": "FAMIGLIA E RELAZIONI / Risoluzione dei Conflitti"
+  },
+  {
+    "code": "FAM014000",
+    "name": "FAMIGLIA E RELAZIONI / Morte, Lutto, Dolore\""
+  },
+  {
+    "code": "FAM015000",
+    "name": "FAMIGLIA E RELAZIONI / Divorzio e Separazione"
+  },
+  {
+    "code": "FAM016000",
+    "name": "FAMIGLIA E RELAZIONI / Educazione"
+  },
+  {
+    "code": "FAM017000",
+    "name": "FAMIGLIA E RELAZIONI / Assistenza agli Anziani"
+  },
+  {
+    "code": "FAM020000",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Paternità"
+  },
+  {
+    "code": "FAM021000",
+    "name": "FAMIGLIA E RELAZIONI / Amicizia"
+  },
+  {
+    "code": "FAM022000",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Nonni"
+  },
+  {
+    "code": "FAM025000",
+    "name": "FAMIGLIA E RELAZIONI / Fasi della Vita / Neonati e Bambini ai Primi Passi"
+  },
+  {
+    "code": "FAM028000",
+    "name": "FAMIGLIA E RELAZIONI / Disturbi dell'Apprendimento"
+  },
+  {
+    "code": "FAM029000",
+    "name": "FAMIGLIA E RELAZIONI / Amore e Romanticismo"
+  },
+  {
+    "code": "FAM030000",
+    "name": "FAMIGLIA E RELAZIONI / Matrimonio"
+  },
+  {
+    "code": "FAM032000",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Maternità"
+  },
+  {
+    "code": "FAM033000",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Genitori e Figli Adulti"
+  },
+  {
+    "code": "FAM034000",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Generale"
+  },
+  {
+    "code": "FAM034010",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Genitore Single"
+  },
+  {
+    "code": "FAM035000",
+    "name": "FAMIGLIA E RELAZIONI / Pressione Sociale del Gruppo"
+  },
+  {
+    "code": "FAM037000",
+    "name": "FAMIGLIA E RELAZIONI / Pregiudizio"
+  },
+  {
+    "code": "FAM038000",
+    "name": "FAMIGLIA E RELAZIONI / Riferimento"
+  },
+  {
+    "code": "FAM039000",
+    "name": "FAMIGLIA E RELAZIONI / Fasi della Vita / Età Scolare"
+  },
+  {
+    "code": "FAM041000",
+    "name": "FAMIGLIA E RELAZIONI / Siblings"
+  },
+  {
+    "code": "FAM042000",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Genitori Acquisiti"
+  },
+  {
+    "code": "FAM043000",
+    "name": "FAMIGLIA E RELAZIONI / Fasi della Vita / Adolescenti"
+  },
+  {
+    "code": "FAM044000",
+    "name": "FAMIGLIA E RELAZIONI / Educazione al Vasino"
+  },
+  {
+    "code": "FAM046000",
+    "name": "FAMIGLIA E RELAZIONI / Fasi della Vita / Generale"
+  },
+  {
+    "code": "FAM048000",
+    "name": "FAMIGLIA E RELAZIONI / Disturbi dello Spettro Autistico"
+  },
+  {
+    "code": "FAM049000",
+    "name": "FAMIGLIA E RELAZIONI / Bullismo"
+  }
+]

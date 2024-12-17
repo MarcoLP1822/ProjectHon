@@ -1,0 +1,1038 @@
+[
+    {
+        "code": "FIC000000",
+        "name": "FICTION / Generale"
+    },
+    {
+        "code": "FIC002000",
+        "name": "FICTION / Azione e Avventura"
+    },
+    {
+        "code": "FIC003000",
+        "name": "FICTION / Antologie (vari autori)"
+    },
+    {
+        "code": "FIC004000",
+        "name": "FICTION / Classici"
+    },
+    {
+        "code": "FIC005000",
+        "name": "FICTION / Erotico"
+    },
+    {
+        "code": "FIC005020",
+        "name": "FICTION / Erotico / Brevi Racconti"
+    },
+    {
+        "code": "FIC005030",
+        "name": "FICTION / Erotico / Gay"
+    },
+    {
+        "code": "FIC005040",
+        "name": "FICTION / Erotico / Lesbiche"
+    },
+    {
+        "code": "FIC006000",
+        "name": "FICTION / Spionaggio"
+    },
+    {
+        "code": "FIC008000",
+        "name": "FICTION / Saghe"
+    },
+    {
+        "code": "FIC009000",
+        "name": "FICTION / Fantasy / Generale"
+    },
+    {
+        "code": "FIC009010",
+        "name": "FICTION / Fantasy / Contemporaneo"
+    },
+    {
+        "code": "FIC009020",
+        "name": "FICTION / Fantasy / Epico"
+    },
+    {
+        "code": "FIC009030",
+        "name": "FICTION / Fantasy / Storico"
+    },
+    {
+        "code": "FIC009040",
+        "name": "FICTION / Fantasy / Brevi Racconti"
+    },
+    {
+        "code": "FIC009050",
+        "name": "FICTION / Fantasy / Paranormale"
+    },
+    {
+        "code": "FIC009060",
+        "name": "FICTION / Fantasy / Vita Urbana"
+    },
+    {
+        "code": "FIC009080",
+        "name": "FICTION / Fantasy / Umoristico"
+    },
+    {
+        "code": "FIC010000",
+        "name": "FICTION / Fiabe, Fiabe Tradizionali, Leggende e Mitologia\""
+    },
+    {
+        "code": "FIC011000",
+        "name": "FICTION / Gay"
+    },
+    {
+        "code": "FIC012000",
+        "name": "FICTION / Fantasmi"
+    },
+    {
+        "code": "FIC014000",
+        "name": "FICTION / Storico"
+    },
+    {
+        "code": "FIC015000",
+        "name": "FICTION / Horror"
+    },
+    {
+        "code": "FIC016000",
+        "name": "FICTION / Umoristico"
+    },
+    {
+        "code": "FIC018000",
+        "name": "FICTION / Lesbiche"
+    },
+    {
+        "code": "FIC019000",
+        "name": "FICTION / Letterario"
+    },
+    {
+        "code": "FIC021000",
+        "name": "FICTION / Tie-In"
+    },
+    {
+        "code": "FIC022000",
+        "name": "FICTION / Mistero e Investigativo / Generale"
+    },
+    {
+        "code": "FIC022010",
+        "name": "FICTION / Mistero e Investigativo / Hard-Boiled"
+    },
+    {
+        "code": "FIC022020",
+        "name": "FICTION / Mistero e Investigativo / Poliziesco"
+    },
+    {
+        "code": "FIC022030",
+        "name": "FICTION / Mistero e Investigativo / Traditional British"
+    },
+    {
+        "code": "FIC022040",
+        "name": "FICTION / Mistero e Investigativo / Donne Detective"
+    },
+    {
+        "code": "FIC022050",
+        "name": "FICTION / Mistero e Investigativo / Brevi Racconti"
+    },
+    {
+        "code": "FIC022060",
+        "name": "FICTION / Mistero e Investigativo / Storico"
+    },
+    {
+        "code": "FIC024000",
+        "name": "FICTION / Occulto e Sovrannaturale"
+    },
+    {
+        "code": "FIC025000",
+        "name": "FICTION / Psicologico"
+    },
+    {
+        "code": "FIC026000",
+        "name": "FICTION / Religioso"
+    },
+    {
+        "code": "FIC027000",
+        "name": "FICTION / Romantico / Generale"
+    },
+    {
+        "code": "FIC027010",
+        "name": "FICTION / Romantico / Adulti"
+    },
+    {
+        "code": "FIC027020",
+        "name": "FICTION / Romantico / Contemporaneo"
+    },
+    {
+        "code": "FIC027030",
+        "name": "FICTION / Romantico / Fantasy"
+    },
+    {
+        "code": "FIC027040",
+        "name": "FICTION / Romantico / Gotico"
+    },
+    {
+        "code": "FIC027050",
+        "name": "FICTION / Romantico / Storico"
+    },
+    {
+        "code": "FIC027070",
+        "name": "FICTION / Romantico / Reggenza"
+    },
+    {
+        "code": "FIC027080",
+        "name": "FICTION / Romantico / Brevi Racconti"
+    },
+    {
+        "code": "FIC027090",
+        "name": "FICTION / Romantico / Viaggio nel Tempo"
+    },
+    {
+        "code": "FIC027100",
+        "name": "FICTION / Romantico / Western"
+    },
+    {
+        "code": "FIC027110",
+        "name": "FICTION / Romantico / Suspense"
+    },
+    {
+        "code": "FIC027120",
+        "name": "FICTION / Romantico / Paranormale"
+    },
+    {
+        "code": "FIC027130",
+        "name": "FICTION / Romantici / Fantascienza"
+    },
+    {
+        "code": "FIC027150",
+        "name": "FICTION / Romantici / Storica / Medievale"
+    },
+    {
+        "code": "FIC027190",
+        "name": "FICTION / Romantici / Gay"
+    },
+    {
+        "code": "FIC027200",
+        "name": "FICTION / Romantici / Storica / 20° Secolo"
+    },
+    {
+        "code": "FIC027210",
+        "name": "FICTION / Romantici / Lesbiche"
+    },
+    {
+        "code": "FIC027220",
+        "name": "FICTION / Romantici / Militare"
+    },
+    {
+        "code": "FIC027260",
+        "name": "FICTION / Romantici / Azione e Avventura"
+    },
+    {
+        "code": "FIC028000",
+        "name": "FICTION / Fantascienza / Generale"
+    },
+    {
+        "code": "FIC028010",
+        "name": "FICTION / Fantascienza / Avventura"
+    },
+    {
+        "code": "FIC028020",
+        "name": "FICTION / Fantascienza / High Tech"
+    },
+    {
+        "code": "FIC028030",
+        "name": "FICTION / Fantascienza / Epopea Spaziale"
+    },
+    {
+        "code": "FIC028040",
+        "name": "FICTION / Fantascienza / Brevi Racconti"
+    },
+    {
+        "code": "FIC028050",
+        "name": "FICTION / Fantascienza / Militare"
+    },
+    {
+        "code": "FIC028080",
+        "name": "FICTION / Fantascienza / Viaggio nel Tempo"
+    },
+    {
+        "code": "FIC029000",
+        "name": "FICTION / Brevi Racconti (autori singoli)"
+    },
+    {
+        "code": "FIC030000",
+        "name": "FICTION / Suspense"
+    },
+    {
+        "code": "FIC031000",
+        "name": "FICTION / Thriller"
+    },
+    {
+        "code": "FIC031010",
+        "name": "FICTION / Thriller / Crimine"
+    },
+    {
+        "code": "FIC031020",
+        "name": "FICTION / Thriller / Storica"
+    },
+    {
+        "code": "FIC031030",
+        "name": "FICTION / Thriller / Legale"
+    },
+    {
+        "code": "FIC031040",
+        "name": "FICTION / Thriller / Medica"
+    },
+    {
+        "code": "FIC031050",
+        "name": "FICTION / Thriller / Militare"
+    },
+    {
+        "code": "FIC031060",
+        "name": "FICTION / Thriller / Politica"
+    },
+    {
+        "code": "FIC031070",
+        "name": "FICTION / Thriller / Sovrannaturale"
+    },
+    {
+        "code": "FIC031080",
+        "name": "FICTION / Thriller / Psicologico"
+    },
+    {
+        "code": "FIC032000",
+        "name": "FICTION / Guerra e Militare"
+    },
+    {
+        "code": "FIC033000",
+        "name": "FICTION / Western"
+    },
+    {
+        "code": "FIC034000",
+        "name": "FICTION / Legale"
+    },
+    {
+        "code": "FIC035000",
+        "name": "FICTION / Medico"
+    },
+    {
+        "code": "FIC036000",
+        "name": "FICTION / Tecnologico"
+    },
+    {
+        "code": "FIC037000",
+        "name": "FICTION / Politico"
+    },
+    {
+        "code": "FIC038000",
+        "name": "FICTION / Sport"
+    },
+    {
+        "code": "FIC039000",
+        "name": "FICTION / Visionario e Metafisico"
+    },
+    {
+        "code": "FIC040000",
+        "name": "FICTION / Storia Alternativa"
+    },
+    {
+        "code": "FIC041000",
+        "name": "FICTION / Biografica"
+    },
+    {
+        "code": "FIC042000",
+        "name": "FICTION / Cristiana / Generale"
+    },
+    {
+        "code": "FIC042010",
+        "name": "FICTION / Cristiana / Classici e Allegoria"
+    },
+    {
+        "code": "FIC042020",
+        "name": "FICTION / Cristiana / Futuristico"
+    },
+    {
+        "code": "FIC042030",
+        "name": "FICTION / Cristiana / Storico"
+    },
+    {
+        "code": "FIC042040",
+        "name": "FICTION / Cristiana / Romantico"
+    },
+    {
+        "code": "FIC042050",
+        "name": "FICTION / Cristiana / Brevi Racconti"
+    },
+    {
+        "code": "FIC042060",
+        "name": "FICTION / Cristiana / Suspense"
+    },
+    {
+        "code": "FIC042070",
+        "name": "FICTION / Cristiana / Western"
+    },
+    {
+        "code": "FIC042080",
+        "name": "FICTION / Cristiana / Fantasy"
+    },
+    {
+        "code": "FIC043000",
+        "name": "FICTION / Passaggio all'Età Adulta"
+    },
+    {
+        "code": "FIC044000",
+        "name": "FICTION / Donne Contemporanee"
+    },
+    {
+        "code": "FIC045000",
+        "name": "FICTION / Vita Familiare"
+    },
+    {
+        "code": "FIC046000",
+        "name": "FICTION / Ebrea"
+    },
+    {
+        "code": "FIC047000",
+        "name": "FICTION / Racconti del Mare"
+    },
+    {
+        "code": "FIC048000",
+        "name": "FICTION / Vita Urbana"
+    },
+    {
+        "code": "FIC049000",
+        "name": "FICTION / Afro-Americana / Generale"
+    },
+    {
+        "code": "FIC049010",
+        "name": "FICTION / Afro-Americana / Cristiana"
+    },
+    {
+        "code": "FIC049020",
+        "name": "FICTION / Afro-Americana / Donne Contemporanee"
+    },
+    {
+        "code": "FIC049030",
+        "name": "FICTION / Afro-Americana / Erotico"
+    },
+    {
+        "code": "FIC049040",
+        "name": "FICTION / Afro-Americana / Storico"
+    },
+    {
+        "code": "FIC049050",
+        "name": "FICTION / Afro-Americana / Mistero e Investigativo"
+    },
+    {
+        "code": "FIC049060",
+        "name": "FICTION / Afro-Americana / Romantico"
+    },
+    {
+        "code": "FIC049070",
+        "name": "FICTION / Afro-Americana / Vita Urbana"
+    },
+    {
+        "code": "FIC050000",
+        "name": "FICTION / Crimine"
+    },
+    {
+        "code": "FIC051000",
+        "name": "FICTION / Patrimonio Culturale"
+    },
+    {
+        "code": "FIC052000",
+        "name": "FICTION / Satira*"
+    },
+    {
+        "code": "FIC054000",
+        "name": "FICTION / Asiatica-Americana"
+    },
+    {
+        "code": "FIC056000",
+        "name": "FICTION / Ispanici e Latini"
+    },
+    {
+        "code": "FIC058000",
+        "name": "FICTION / Festività"
+    },
+    {
+        "code": "FIC061000",
+        "name": "FICTION / Realismo Magico"
+    },
+    {
+        "code": "FIC063000",
+        "name": "FICTION / Supereroi"
+    },
+    {
+        "code": "POE000000",
+        "name": "POESIA / Generale"
+    },
+    {
+        "code": "POE001000",
+        "name": "POESIA / Antologie (vari autori)"
+    },
+    {
+        "code": "POE003000",
+        "name": "POESIA / Ispirazionale e Religiosa"
+    },
+    {
+        "code": "POE005010",
+        "name": "POESIA / Americana / Generale"
+    },
+    {
+        "code": "POE005020",
+        "name": "POESIA / Inglese, Irlandese, Scozzese, Gallese\""
+    },
+    {
+        "code": "POE005030",
+        "name": "POESIA / Europea Continentale"
+    },
+    {
+        "code": "POE005050",
+        "name": "POESIA / Americana / Afro-Americana"
+    },
+    {
+        "code": "POE005060",
+        "name": "POESIA / Americana / Asiatica-Americana"
+    },
+    {
+        "code": "POE005070",
+        "name": "POESIA / Americana / Ispano-Americana"
+    },
+    {
+        "code": "POE007000",
+        "name": "POESIA / Africana"
+    },
+    {
+        "code": "POE008000",
+        "name": "POESIA / Antica, Classica e Medievale\""
+    },
+    {
+        "code": "POE009000",
+        "name": "POESIA / Asiatica"
+    },
+    {
+        "code": "POE009010",
+        "name": "POESIA / Asiatica / Cinese"
+    },
+    {
+        "code": "POE009020",
+        "name": "POESIA / Asiatica / Giapponese"
+    },
+    {
+        "code": "POE010000",
+        "name": "POESIA / Australiana e Oceanica"
+    },
+    {
+        "code": "POE011000",
+        "name": "POESIA / Canadese"
+    },
+    {
+        "code": "POE012000",
+        "name": "POESIA / Caraibica e Latino-Americana"
+    },
+    {
+        "code": "POE013000",
+        "name": "POESIA / Medio-Orientale"
+    },
+    {
+        "code": "POE014000",
+        "name": "POESIA / Epica"
+    },
+    {
+        "code": "POE015000",
+        "name": "POESIA / Nativi Americani"
+    },
+    {
+        "code": "POE016000",
+        "name": "POESIA / Russa e Ex Unione Sovietica*"
+    },
+    {
+        "code": "POE017000",
+        "name": "POESIA / Europea / Francese"
+    },
+    {
+        "code": "POE018000",
+        "name": "POESIA / Europea / Tedesca"
+    },
+    {
+        "code": "POE019000",
+        "name": "POESIA / Europea / Italiana"
+    },
+    {
+        "code": "POE020000",
+        "name": "POESIA / Europea / Spagnola e Portoghese"
+    },
+    {
+        "code": "POE021000",
+        "name": "POESIA / Gay e Lesbo"
+    },
+    {
+        "code": "POE022000",
+        "name": "POESIA / Medievale"
+    },
+    {
+        "code": "POE023000",
+        "name": "POESIA / Argomenti e Temi / Generale"
+    },
+    {
+        "code": "POE023050",
+        "name": "POESIA / Argomenti e Temi / Famiglia"
+    },
+    {
+        "code": "POE024000",
+        "name": "POESIA / Scrittrici"
+    },
+    {
+        "code": "BIO000000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Generale"
+    },
+    {
+        "code": "BIO001000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Artisti, Architetti, Fotografi\""
+    },
+    {
+        "code": "BIO002000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Patrimonio Culturale"
+    },
+    {
+        "code": "BIO003000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Business"
+    },
+    {
+        "code": "BIO004000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Musicisti e Compositori"
+    },
+    {
+        "code": "BIO005000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Intrattenimento e Arti Rappresentative"
+    },
+    {
+        "code": "BIO006000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Storica"
+    },
+    {
+        "code": "BIO007000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Letteraria"
+    },
+    {
+        "code": "BIO008000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Militare"
+    },
+    {
+        "code": "BIO009000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Filosofi"
+    },
+    {
+        "code": "BIO010000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Politica"
+    },
+    {
+        "code": "BIO011000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Presidenti e Capi di Stato"
+    },
+    {
+        "code": "BIO012000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Riferimento"
+    },
+    {
+        "code": "BIO013000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Ricchi e Famosi"
+    },
+    {
+        "code": "BIO014000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Royalty"
+    },
+    {
+        "code": "BIO015000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Scienza e Tecnologia"
+    },
+    {
+        "code": "BIO016000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Sport"
+    },
+    {
+        "code": "BIO017000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Medica"
+    },
+    {
+        "code": "BIO018000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Religiosa"
+    },
+    {
+        "code": "BIO019000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Educatori"
+    },
+    {
+        "code": "BIO020000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Avvocati e Giudici"
+    },
+    {
+        "code": "BIO021000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Scienziati e Psicologi Sociali"
+    },
+    {
+        "code": "BIO022000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Donne"
+    },
+    {
+        "code": "BIO023000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Avventurieri ed Esploratori"
+    },
+    {
+        "code": "BIO024000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Criminali e Fuorilegge"
+    },
+    {
+        "code": "BIO025000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Redattori, Giornalisti, Editori\""
+    },
+    {
+        "code": "BIO026000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Memorie Personali"
+    },
+    {
+        "code": "BIO027000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Applicazione della Legge"
+    },
+    {
+        "code": "BIO028000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Nativi Americani"
+    },
+    {
+        "code": "BIO029000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Culinaria"
+    },
+    {
+        "code": "BIO031000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Gay e Lesbo"
+    },
+    {
+        "code": "BIO032000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Attivisti Sociali"
+    },
+    {
+        "code": "BIO033000",
+        "name": "BIOGRAFIA E AUTOBIOGRAFIA / Persone con Disabilità"
+    },
+    {
+        "code": "DRA000000",
+        "name": "DRAMMATICO / Generale"
+    },
+    {
+        "code": "DRA001000",
+        "name": "DRAMMATICO / Americano"
+    },
+    {
+        "code": "DRA001010",
+        "name": "DRAMMATICO / Americana / Afro-Americana"
+    },
+    {
+        "code": "DRA002000",
+        "name": "DRAMMATICO / Antologie (vari autori)"
+    },
+    {
+        "code": "DRA003000",
+        "name": "DRAMMATICO / Inglese, Irlandese, Scozzese, Gallese\""
+    },
+    {
+        "code": "DRA004000",
+        "name": "DRAMMATICO / Europeo Continentale"
+    },
+    {
+        "code": "DRA004010",
+        "name": "DRAMMATICO / Europea / Francese"
+    },
+    {
+        "code": "DRA004020",
+        "name": "DRAMMATICO / Europea / Tedesca"
+    },
+    {
+        "code": "DRA004030",
+        "name": "DRAMMATICO / Europea / Italiana"
+    },
+    {
+        "code": "DRA004040",
+        "name": "DRAMMATICO / Europea / Spagnola e Portoghese"
+    },
+    {
+        "code": "DRA005000",
+        "name": "DRAMMATICO / Asiatico"
+    },
+    {
+        "code": "DRA005010",
+        "name": "DRAMMATICO / Asiatica / Giapponese"
+    },
+    {
+        "code": "DRA006000",
+        "name": "DRAMMATICO / Antico, Classico e Medievale\""
+    },
+    {
+        "code": "DRA008000",
+        "name": "DRAMMATICO / Religioso e Liturgico"
+    },
+    {
+        "code": "DRA010000",
+        "name": "DRAMMATICO / Shakespeare"
+    },
+    {
+        "code": "DRA011000",
+        "name": "DRAMMATICO / Africano"
+    },
+    {
+        "code": "DRA012000",
+        "name": "DRAMMATICO / Australiano e Oceanico"
+    },
+    {
+        "code": "DRA013000",
+        "name": "DRAMMATICO / Canadese"
+    },
+    {
+        "code": "DRA014000",
+        "name": "DRAMMATICO / Caraibico e Latino-Americano"
+    },
+    {
+        "code": "DRA015000",
+        "name": "DRAMMATICO / Medio-Orientale"
+    },
+    {
+        "code": "DRA016000",
+        "name": "DRAMMATICO / Russo ed Ex Unione Sovietica*"
+    },
+    {
+        "code": "DRA017000",
+        "name": "DRAMMATICO / Gay e Lesbo"
+    },
+    {
+        "code": "DRA018000",
+        "name": "DRAMMATICO / Medievale"
+    },
+    {
+        "code": "DRA019000",
+        "name": "DRAMMATICO / Scrittrici"
+    },
+    {
+        "code": "CGN000000",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Generale"
+    },
+    {
+        "code": "CGN001000",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Antologie"
+    },
+    {
+        "code": "CGN004010",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Crimine e Mistero"
+    },
+    {
+        "code": "CGN004020",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Erotico"
+    },
+    {
+        "code": "CGN004030",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Fantasy"
+    },
+    {
+        "code": "CGN004040",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Horror"
+    },
+    {
+        "code": "CGN004050",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Manga / Generale"
+    },
+    {
+        "code": "CGN004060",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Tie-In"
+    },
+    {
+        "code": "CGN004070",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Fantascienza"
+    },
+    {
+        "code": "CGN004080",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Supereroi"
+    },
+    {
+        "code": "CGN004090",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Romantici"
+    },
+    {
+        "code": "CGN004100",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Manga / Crimine e Mistero"
+    },
+    {
+        "code": "CGN004110",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Manga / Erotico"
+    },
+    {
+        "code": "CGN004120",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Manga / Fantasy"
+    },
+    {
+        "code": "CGN004130",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Manga / Gay e Lesbo"
+    },
+    {
+        "code": "CGN004140",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Manga / Fiction Storica"
+    },
+    {
+        "code": "CGN004150",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Manga / Horror"
+    },
+    {
+        "code": "CGN004160",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Manga / Tie-In"
+    },
+    {
+        "code": "CGN004170",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Manga / Non-Fiction"
+    },
+    {
+        "code": "CGN004180",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Manga / Romantici"
+    },
+    {
+        "code": "CGN004190",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Manga / Fantascienza"
+    },
+    {
+        "code": "CGN004200",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Manga / Sport"
+    },
+    {
+        "code": "CGN006000",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Letterari"
+    },
+    {
+        "code": "CGN007000",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Non-Fiction"
+    },
+    {
+        "code": "CGN008000",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Donne Contemporanee"
+    },
+    {
+        "code": "CGN009000",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Gay e Lesbo"
+    },
+    {
+        "code": "CGN010000",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Fiction Storica"
+    },
+    {
+        "code": "CGN011000",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Religiosi"
+    },
+    {
+        "code": "CGN012000",
+        "name": "FUMETTI E ROMANZI ILLUSTRATI / Adattamenti"
+    },
+    {
+        "code": "LCO000000",
+        "name": "COLLEZIONI LETTERARIE / Generale"
+    },
+    {
+        "code": "LCO001000",
+        "name": "COLLEZIONI LETTERARIE / Africane"
+    },
+    {
+        "code": "LCO002000",
+        "name": "COLLEZIONI LETTERARIE / Americane / Generale"
+    },
+    {
+        "code": "LCO002010",
+        "name": "COLLEZIONI LETTERARIE / Americane / Afro-Americane"
+    },
+    {
+        "code": "LCO003000",
+        "name": "COLLEZIONI LETTERARIE / Antiche, Classiche e Medievali\""
+    },
+    {
+        "code": "LCO004000",
+        "name": "COLLEZIONI LETTERARIE / Asiatiche"
+    },
+    {
+        "code": "LCO004010",
+        "name": "COLLEZIONI LETTERARIE / Asiatica / Cinese"
+    },
+    {
+        "code": "LCO004020",
+        "name": "COLLEZIONI LETTERARIE / Asiatica / Indù"
+    },
+    {
+        "code": "LCO004030",
+        "name": "COLLEZIONI LETTERARIE / Asiatica / Giapponese"
+    },
+    {
+        "code": "LCO005000",
+        "name": "COLLEZIONI LETTERARIE / Australiane e Oceaniche"
+    },
+    {
+        "code": "LCO006000",
+        "name": "COLLEZIONI LETTERARIE / Canadesi"
+    },
+    {
+        "code": "LCO007000",
+        "name": "COLLEZIONI LETTERARIE / Caraibiche e Latino-Americane"
+    },
+    {
+        "code": "LCO008000",
+        "name": "COLLEZIONI LETTERARIE / Europee Continentali"
+    },
+    {
+        "code": "LCO008010",
+        "name": "COLLEZIONI LETTERARIE / Europea / Orientale (vedere anche Russa ed Ex Unione Sovietica)"
+    },
+    {
+        "code": "LCO008020",
+        "name": "COLLEZIONI LETTERARIE / Europea / Francese"
+    },
+    {
+        "code": "LCO008030",
+        "name": "COLLEZIONI LETTERARIE / Europea / Tedesca"
+    },
+    {
+        "code": "LCO008040",
+        "name": "COLLEZIONI LETTERARIE / Europea / Italiana"
+    },
+    {
+        "code": "LCO008050",
+        "name": "COLLEZIONI LETTERARIE / Europea / Scandinava"
+    },
+    {
+        "code": "LCO008060",
+        "name": "COLLEZIONI LETTERARIE / Europea / Spagnola e Portoghese"
+    },
+    {
+        "code": "LCO009000",
+        "name": "COLLEZIONI LETTERARIE / Inglesi, Irlandesi, Scozzesi, Gallesi\""
+    },
+    {
+        "code": "LCO010000",
+        "name": "COLLEZIONI LETTERARIE / Saggi"
+    },
+    {
+        "code": "LCO011000",
+        "name": "COLLEZIONI LETTERARIE / Lettere"
+    },
+    {
+        "code": "LCO012000",
+        "name": "COLLEZIONI LETTERARIE / Medio-Orientali"
+    },
+    {
+        "code": "LCO013000",
+        "name": "COLLEZIONI LETTERARIE / Nativi Americani*"
+    },
+    {
+        "code": "LCO014000",
+        "name": "COLLEZIONI LETTERARIE / Russe ed Ex Unione Sovietica*"
+    },
+    {
+        "code": "LCO016000",
+        "name": "COLLEZIONI LETTERARIE / Gay e Lesbo"
+    },
+    {
+        "code": "LCO017000",
+        "name": "COLLEZIONI LETTERARIE / Medievale"
+    },
+    {
+        "code": "LCO019000",
+        "name": "COLLEZIONI LETTERARIE / Scrittrici"
+    }
+]

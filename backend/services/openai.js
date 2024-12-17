@@ -152,6 +152,7 @@ const generateCategories = async (bookContent) => {
             content: `Sei un esperto di categorizzazione libri secondo il sistema BISAC. 
                      Analizza attentamente il testo fornito e proponi tre categorie BISAC affini al contenuto.
                      Considera anche il contesto generale del libro fornito nel summary.
+                     Scrivi le categorie solo in italiano che rispettano il sistema BISAC come in questo esempio: FICTION / Fantasy / Generale.
                      Rispondi SOLO con un oggetto JSON contenente le categorie con questa struttura: 
                      {
                        "mainCategory": "CATEGORIA_PRINCIPALE",
@@ -450,7 +451,6 @@ const generatePreface = async (bookContent) => {
                    - Descrizione dei temi Specifici Affrontati
                    - Tono e ruolo dell'autore, contesto e prospettive uniche
                    - Il messaggio chiave del libro
-                   - Citazioni rilevanti dal testo
                    - Enfasi sull'Impatto Emotivo e Sociale
                    - Chiusura Motivazionale
                    
@@ -585,6 +585,43 @@ const generateSynopsis = async (bookContent) => {
   });
 };
 
+async function suggestBisacCodes(bookDescription) {
+    const bisacService = require('./bisac.service');
+    
+    // Prima chiediamo a GPT di generare parole chiave per la ricerca
+    const keywordsResponse = await openai.chat.completions.create({
+        model: "gpt-4o-mini",
+        messages: [{
+            role: "system",
+            content: "Sei un esperto di classificazione libri. Data una descrizione del libro, genera 3-5 parole chiave rilevanti per la ricerca di codici BISAC."
+        }, {
+            role: "user",
+            content: bookDescription
+        }],
+        temperature: 0.7
+    });
+
+    const keywords = keywordsResponse.choices[0].message.content;
+    
+    // Cerca i codici BISAC pertinenti nel database
+    const relevantCodes = await bisacService.searchBisacCodes(keywords);
+    
+    // Ora chiedi a GPT di selezionare i codici più appropriati
+    const finalResponse = await openai.chat.completions.create({
+        model: "gpt-4o-mini",
+        messages: [{
+            role: "system",
+            content: "Seleziona i codici BISAC più appropriati dalla lista fornita per questo libro."
+        }, {
+            role: "user",
+            content: `Descrizione libro: ${bookDescription}\n\nCodici BISAC disponibili:\n${JSON.stringify(relevantCodes, null, 2)}`
+        }],
+        temperature: 0.7
+    });
+
+    return finalResponse.choices[0].message.content;
+}
+
 module.exports = {
   generateCategories,
   generateKeywords,
@@ -593,5 +630,6 @@ module.exports = {
   generateBackCover,
   generatePreface,
   generateStoreDescription,
-  generateSynopsis
+  generateSynopsis,
+  suggestBisacCodes
 }; 

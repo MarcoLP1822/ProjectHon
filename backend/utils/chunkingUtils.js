@@ -78,7 +78,7 @@ const createChunks = (text, structure) => {
   }
 
   const chunks = [];
-  const enc = encoding_for_model('gpt-4');
+  const enc = encoding_for_model('gpt-4o-mini');
 
   try {
     if (structure.hasChapters) {

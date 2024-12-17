@@ -1,0 +1,1466 @@
+[
+  {
+    "code": "BIB000000",
+    "name": "BIBBIE / Generale"
+  },
+  {
+    "code": "BIB001000",
+    "name": "BIBBIE / Christian Standard Bible / Generale"
+  },
+  {
+    "code": "BIB001010",
+    "name": "BIBBIE / Christian Standard Bible / Bambini"
+  },
+  {
+    "code": "BIB001020",
+    "name": "BIBBIE / Christian Standard Bible / Devozionale"
+  },
+  {
+    "code": "BIB001030",
+    "name": "BIBBIE / Christian Standard Bible / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB001040",
+    "name": "BIBBIE / Christian Standard Bible / Riferimento"
+  },
+  {
+    "code": "BIB001050",
+    "name": "BIBBIE / Christian Standard Bible / Studio"
+  },
+  {
+    "code": "BIB001060",
+    "name": "BIBBIE / Christian Standard Bible / Testo"
+  },
+  {
+    "code": "BIB001070",
+    "name": "BIBBIE / Christian Standard Bible / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB002000",
+    "name": "BIBBIE / Contemporary English Version / Generale"
+  },
+  {
+    "code": "BIB002010",
+    "name": "BIBBIE / Contemporary English Version / Bambini"
+  },
+  {
+    "code": "BIB002020",
+    "name": "BIBBIE / Contemporary English Version / Devozionale"
+  },
+  {
+    "code": "BIB002030",
+    "name": "BIBBIE / Contemporary English Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB002040",
+    "name": "BIBBIE / Contemporary English Version / Riferimento"
+  },
+  {
+    "code": "BIB002050",
+    "name": "BIBBIE / Contemporary English Version / Studio"
+  },
+  {
+    "code": "BIB002060",
+    "name": "BIBBIE / Contemporary English Version / Testo"
+  },
+  {
+    "code": "BIB002070",
+    "name": "BIBBIE / Contemporary English Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB003000",
+    "name": "BIBBIE / English Standard Version / Generale"
+  },
+  {
+    "code": "BIB003010",
+    "name": "BIBBIE / English Standard Version / Bambini"
+  },
+  {
+    "code": "BIB003020",
+    "name": "BIBBIE / English Standard Version / Devozionale"
+  },
+  {
+    "code": "BIB003030",
+    "name": "BIBBIE / English Standard Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB003040",
+    "name": "BIBBIE / English Standard Version / Riferimento"
+  },
+  {
+    "code": "BIB003050",
+    "name": "BIBBIE / English Standard Version / Studio"
+  },
+  {
+    "code": "BIB003060",
+    "name": "BIBBIE / English Standard Version / Testo"
+  },
+  {
+    "code": "BIB003070",
+    "name": "BIBBIE / English Standard Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB004000",
+    "name": "BIBBIE / Parola di Dio / Generale"
+  },
+  {
+    "code": "BIB004010",
+    "name": "BIBBIE / Parola di Dio / Bambini"
+  },
+  {
+    "code": "BIB004020",
+    "name": "BIBBIE / Parola di Dio / Devozionale"
+  },
+  {
+    "code": "BIB004030",
+    "name": "BIBBIE / Parola di Dio / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB004040",
+    "name": "BIBBIE / Parola di Dio / Riferimento"
+  },
+  {
+    "code": "BIB004050",
+    "name": "BIBBIE / Parola di Dio / Studio"
+  },
+  {
+    "code": "BIB004060",
+    "name": "BIBBIE / Parola di Dio / Testo"
+  },
+  {
+    "code": "BIB004070",
+    "name": "BIBBIE / Parola di Dio / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB005000",
+    "name": "BIBBIE / International Children's Bible / Generale"
+  },
+  {
+    "code": "BIB005010",
+    "name": "BIBBIE / International Children's Bible / Bambini"
+  },
+  {
+    "code": "BIB005020",
+    "name": "BIBBIE / International Children's Bible / Devozionale"
+  },
+  {
+    "code": "BIB005030",
+    "name": "BIBBIE / International Children's Bible / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB005040",
+    "name": "BIBBIE / International Children's Bible / Riferimento"
+  },
+  {
+    "code": "BIB005050",
+    "name": "BIBBIE / International Children's Bible / Studio"
+  },
+  {
+    "code": "BIB005060",
+    "name": "BIBBIE / International Children's Bible / Testo"
+  },
+  {
+    "code": "BIB005070",
+    "name": "BIBBIE / International Children's Bible / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB006000",
+    "name": "BIBBIE / King James Version / Generale"
+  },
+  {
+    "code": "BIB006010",
+    "name": "BIBBIE / King James Version / Bambini"
+  },
+  {
+    "code": "BIB006020",
+    "name": "BIBBIE / King James Version / Devozionale"
+  },
+  {
+    "code": "BIB006030",
+    "name": "BIBBIE / King James Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB006040",
+    "name": "BIBBIE / King James Version / Riferimento"
+  },
+  {
+    "code": "BIB006050",
+    "name": "BIBBIE / King James Version / Studio"
+  },
+  {
+    "code": "BIB006060",
+    "name": "BIBBIE / King James Version / Testo"
+  },
+  {
+    "code": "BIB006070",
+    "name": "BIBBIE / King James Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB007000",
+    "name": "BIBBIE / La Biblia de las Americas / Generale"
+  },
+  {
+    "code": "BIB007010",
+    "name": "BIBBIE / La Biblia de las Americas / Bambini"
+  },
+  {
+    "code": "BIB007020",
+    "name": "BIBBIE / La Biblia de las Americas / Devozionale"
+  },
+  {
+    "code": "BIB007030",
+    "name": "BIBBIE / La Biblia de las Americas / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB007040",
+    "name": "BIBBIE / La Biblia de las Americas / Riferimento"
+  },
+  {
+    "code": "BIB007050",
+    "name": "BIBBIE / La Biblia de las Americas / Studio"
+  },
+  {
+    "code": "BIB007060",
+    "name": "BIBBIE / La Biblia de las Americas / Testo"
+  },
+  {
+    "code": "BIB007070",
+    "name": "BIBBIE / La Biblia de las Americas / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB008000",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Generale"
+  },
+  {
+    "code": "BIB008010",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Bambini"
+  },
+  {
+    "code": "BIB008020",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Devozionali"
+  },
+  {
+    "code": "BIB008030",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB008040",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Riferimento"
+  },
+  {
+    "code": "BIB008050",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Studio"
+  },
+  {
+    "code": "BIB008060",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Testo"
+  },
+  {
+    "code": "BIB008070",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB009000",
+    "name": "BIBBIE / New American Bible / Generale"
+  },
+  {
+    "code": "BIB009010",
+    "name": "BIBBIE / New American Bible / Bambini"
+  },
+  {
+    "code": "BIB009020",
+    "name": "BIBBIE / New American Bible / Devozionale"
+  },
+  {
+    "code": "BIB009030",
+    "name": "BIBBIE / New American Bible / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB009040",
+    "name": "BIBBIE / New American Bible / Riferimento"
+  },
+  {
+    "code": "BIB009050",
+    "name": "BIBBIE / New American Bible / Studio"
+  },
+  {
+    "code": "BIB009060",
+    "name": "BIBBIE / New American Bible / Testo"
+  },
+  {
+    "code": "BIB009070",
+    "name": "BIBBIE / New American Bible / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB010000",
+    "name": "BIBBIE / New American Standard Bible / Generale"
+  },
+  {
+    "code": "BIB010010",
+    "name": "BIBBIE / New American Standard Bible / Bambini"
+  },
+  {
+    "code": "BIB010020",
+    "name": "BIBBIE / New American Standard Bible / Devozionale"
+  },
+  {
+    "code": "BIB010030",
+    "name": "BIBBIE / New American Standard Bible / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB010040",
+    "name": "BIBBIE / New American Standard Bible / Riferimento"
+  },
+  {
+    "code": "BIB010050",
+    "name": "BIBBIE / New American Standard Bible / Studio"
+  },
+  {
+    "code": "BIB010060",
+    "name": "BIBBIE / New American Standard Bible / Testo"
+  },
+  {
+    "code": "BIB010070",
+    "name": "BIBBIE / New American Standard Bible / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB011000",
+    "name": "BIBBIE / New Century Version / Generale"
+  },
+  {
+    "code": "BIB011010",
+    "name": "BIBBIE / New Century Version / Bambini"
+  },
+  {
+    "code": "BIB011020",
+    "name": "BIBBIE / New Century Version / Devozionale"
+  },
+  {
+    "code": "BIB011030",
+    "name": "BIBBIE / New Century Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB011040",
+    "name": "BIBBIE / New Century Version / Riferimento"
+  },
+  {
+    "code": "BIB011050",
+    "name": "BIBBIE / New Century Version / Studio"
+  },
+  {
+    "code": "BIB011060",
+    "name": "BIBBIE / New Century Version / Testo"
+  },
+  {
+    "code": "BIB011070",
+    "name": "BIBBIE / New Century Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB012000",
+    "name": "BIBBIE / New International Reader's Version / Generale"
+  },
+  {
+    "code": "BIB012010",
+    "name": "BIBBIE / New International Reader's Version / Bambini"
+  },
+  {
+    "code": "BIB012020",
+    "name": "BIBBIE / New International Reader's Version / Devozionale"
+  },
+  {
+    "code": "BIB012030",
+    "name": "BIBBIE / New International Reader's Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB012040",
+    "name": "BIBBIE / New International Reader's Version / Riferimento"
+  },
+  {
+    "code": "BIB012050",
+    "name": "BIBBIE / New International Reader's Version / Studio"
+  },
+  {
+    "code": "BIB012060",
+    "name": "BIBBIE / New International Reader's Version / Testo"
+  },
+  {
+    "code": "BIB012070",
+    "name": "BIBBIE / New International Reader's Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB013000",
+    "name": "BIBBIE / New International Version / Generale"
+  },
+  {
+    "code": "BIB013010",
+    "name": "BIBBIE / New International Version / Bambini"
+  },
+  {
+    "code": "BIB013020",
+    "name": "BIBBIE / New International Version / Devozionale"
+  },
+  {
+    "code": "BIB013030",
+    "name": "BIBBIE / New International Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB013040",
+    "name": "BIBBIE / New International Version / Riferimento"
+  },
+  {
+    "code": "BIB013050",
+    "name": "BIBBIE / New International Version / Studio"
+  },
+  {
+    "code": "BIB013060",
+    "name": "BIBBIE / New International Version / Testo"
+  },
+  {
+    "code": "BIB013070",
+    "name": "BIBBIE / New International Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB014000",
+    "name": "BIBBIE / New King James Version / Generale"
+  },
+  {
+    "code": "BIB014010",
+    "name": "BIBBIE / New King James Version / Bambini"
+  },
+  {
+    "code": "BIB014020",
+    "name": "BIBBIE / New King James Version / Devozionale"
+  },
+  {
+    "code": "BIB014030",
+    "name": "BIBBIE / New King James Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB014040",
+    "name": "BIBBIE / New King James Version / Riferimento"
+  },
+  {
+    "code": "BIB014050",
+    "name": "BIBBIE / New King James Version / Studio"
+  },
+  {
+    "code": "BIB014060",
+    "name": "BIBBIE / New King James Version / Testo"
+  },
+  {
+    "code": "BIB014070",
+    "name": "BIBBIE / New King James Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB015000",
+    "name": "BIBBIE / New Living Translation / Generale"
+  },
+  {
+    "code": "BIB015010",
+    "name": "BIBBIE / New Living Translation / Bambini"
+  },
+  {
+    "code": "BIB015020",
+    "name": "BIBBIE / New Living Translation / Devozionale"
+  },
+  {
+    "code": "BIB015030",
+    "name": "BIBBIE / New Living Translation / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB015040",
+    "name": "BIBBIE / New Living Translation / Riferimento"
+  },
+  {
+    "code": "BIB015050",
+    "name": "BIBBIE / New Living Translation / Studio"
+  },
+  {
+    "code": "BIB015060",
+    "name": "BIBBIE / New Living Translation / Testo"
+  },
+  {
+    "code": "BIB015070",
+    "name": "BIBBIE / New Living Translation / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB016000",
+    "name": "BIBBIE / New Revised Standard Version / Generale"
+  },
+  {
+    "code": "BIB016010",
+    "name": "BIBBIE / New Revised Standard Version / Bambini"
+  },
+  {
+    "code": "BIB016020",
+    "name": "BIBBIE / New Revised Standard Version / Devozionale"
+  },
+  {
+    "code": "BIB016030",
+    "name": "BIBBIE / New Revised Standard Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB016040",
+    "name": "BIBBIE / New Revised Standard Version / Riferimento"
+  },
+  {
+    "code": "BIB016050",
+    "name": "BIBBIE / New Revised Standard Version / Studio"
+  },
+  {
+    "code": "BIB016060",
+    "name": "BIBBIE / New Revised Standard Version / Testo"
+  },
+  {
+    "code": "BIB016070",
+    "name": "BIBBIE / New Revised Standard Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB017000",
+    "name": "BIBBIE / Nueva Version International / Generale"
+  },
+  {
+    "code": "BIB017010",
+    "name": "BIBBIE / Nueva Version International / Bambini"
+  },
+  {
+    "code": "BIB017020",
+    "name": "BIBBIE / Nueva Version International / Devozionale"
+  },
+  {
+    "code": "BIB017030",
+    "name": "BIBBIE / Nueva Version International / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB017040",
+    "name": "BIBBIE / Nueva Version International / Riferimento"
+  },
+  {
+    "code": "BIB017050",
+    "name": "BIBBIE / Nueva Version International / Studio"
+  },
+  {
+    "code": "BIB017060",
+    "name": "BIBBIE / Nueva Version International / Testo"
+  },
+  {
+    "code": "BIB017070",
+    "name": "BIBBIE / Nueva Version International / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB018000",
+    "name": "BIBBIE / Altre traduzioni / Generale"
+  },
+  {
+    "code": "BIB018010",
+    "name": "BIBBIE / Altre traduzioni / Bambini"
+  },
+  {
+    "code": "BIB018020",
+    "name": "BIBBIE / Altre traduzioni / Devozionali"
+  },
+  {
+    "code": "BIB018030",
+    "name": "BIBBIE / Altre traduzioni / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB018040",
+    "name": "BIBBIE / Altre traduzioni / Riferimento"
+  },
+  {
+    "code": "BIB018050",
+    "name": "BIBBIE / Altre traduzioni / Studio"
+  },
+  {
+    "code": "BIB018060",
+    "name": "BIBBIE / Altre traduzioni / Testo"
+  },
+  {
+    "code": "BIB018070",
+    "name": "BIBBIE / Altre traduzioni / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB019000",
+    "name": "BIBBIE / Reina Valera / Generale"
+  },
+  {
+    "code": "BIB019010",
+    "name": "BIBBIE / Reina Valera / Bambini"
+  },
+  {
+    "code": "BIB019020",
+    "name": "BIBBIE / Reina Valera / Devozionale"
+  },
+  {
+    "code": "BIB019030",
+    "name": "BIBBIE / Reina Valera / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB019040",
+    "name": "BIBBIE / Reina Valera / Riferimento"
+  },
+  {
+    "code": "BIB019050",
+    "name": "BIBBIE / Reina Valera / Studio"
+  },
+  {
+    "code": "BIB019060",
+    "name": "BIBBIE / Reina Valera / Testo"
+  },
+  {
+    "code": "BIB019070",
+    "name": "BIBBIE / Reina Valera / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB020000",
+    "name": "BIBBIE / The Message / Generale"
+  },
+  {
+    "code": "BIB020010",
+    "name": "BIBBIE / The Message / Bambini"
+  },
+  {
+    "code": "BIB020020",
+    "name": "BIBBIE / The Message / Devozionale"
+  },
+  {
+    "code": "BIB020030",
+    "name": "BIBBIE / The Message / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB020040",
+    "name": "BIBBIE / The Message / Riferimento"
+  },
+  {
+    "code": "BIB020050",
+    "name": "BIBBIE / The Message / Studio"
+  },
+  {
+    "code": "BIB020060",
+    "name": "BIBBIE / The Message / Testo"
+  },
+  {
+    "code": "BIB020070",
+    "name": "BIBBIE / The Message / Giovani e Adolescenti"
+  },
+  {
+    "code": "REL000000",
+    "name": "RELIGIONE / Generale"
+  },
+  {
+    "code": "REL001000",
+    "name": "RELIGIONE / Agnosticismo"
+  },
+  {
+    "code": "REL002000",
+    "name": "RELIGIONE / Cristianità / Amish"
+  },
+  {
+    "code": "REL003000",
+    "name": "RELIGIONE / Cristianità / Anglicana"
+  },
+  {
+    "code": "REL004000",
+    "name": "RELIGIONE / Ateismo"
+  },
+  {
+    "code": "REL005000",
+    "name": "RELIGIONE / Bahai"
+  },
+  {
+    "code": "REL006000",
+    "name": "RELIGIONE / Studi Biblici / Generale"
+  },
+  {
+    "code": "REL006020",
+    "name": "RELIGIONE / Biografia Biblica / Generale"
+  },
+  {
+    "code": "REL006030",
+    "name": "RELIGIONE / Biografia Biblica / Antico Testamento"
+  },
+  {
+    "code": "REL006040",
+    "name": "RELIGIONE / Biografia Biblica / Nuovo Testamento"
+  },
+  {
+    "code": "REL006050",
+    "name": "RELIGIONE / Commentario Biblico / Generale"
+  },
+  {
+    "code": "REL006060",
+    "name": "RELIGIONE / Commentario Biblico / Antico Testamento"
+  },
+  {
+    "code": "REL006070",
+    "name": "RELIGIONE / Commentario Biblico / Nuovo Testamento"
+  },
+  {
+    "code": "REL006080",
+    "name": "RELIGIONE / Critica e Interpretazione Biblica / Generale"
+  },
+  {
+    "code": "REL006090",
+    "name": "RELIGIONE / Critica e Interpretazione Biblica / Antico Testamento"
+  },
+  {
+    "code": "REL006100",
+    "name": "RELIGIONE / Critica e Interpretazione Biblica / Nuovo Testamento"
+  },
+  {
+    "code": "REL006110",
+    "name": "RELIGIONE / Meditazioni Bibliche / Generale"
+  },
+  {
+    "code": "REL006120",
+    "name": "RELIGIONE / Meditazioni Bibliche / Antico Testamento"
+  },
+  {
+    "code": "REL006130",
+    "name": "RELIGIONE / Meditazioni Bibliche / Nuovo Testamento"
+  },
+  {
+    "code": "REL006140",
+    "name": "RELIGIONE / Studi Biblici / Profezia"
+  },
+  {
+    "code": "REL006150",
+    "name": "RELIGIONE / Riferimento Biblico / Citazioni"
+  },
+  {
+    "code": "REL006160",
+    "name": "RELIGIONE / Riferimento Biblico / Generale"
+  },
+  {
+    "code": "REL006210",
+    "name": "RELIGIONE / Studi Biblici / Antico Testamento"
+  },
+  {
+    "code": "REL006220",
+    "name": "RELIGIONE / Studi Biblici / Nuovo Testamento"
+  },
+  {
+    "code": "REL006400",
+    "name": "RELIGIONE / Studi Biblici / Esegesi ed Ermeneutica"
+  },
+  {
+    "code": "REL006410",
+    "name": "RELIGIONE / Riferimento Biblico / Studio della Lingua"
+  },
+  {
+    "code": "REL006630",
+    "name": "RELIGIONE / Studi Biblici / Storia e Cultura"
+  },
+  {
+    "code": "REL006650",
+    "name": "RELIGIONE / Riferimento Biblico / Atlanti"
+  },
+  {
+    "code": "REL006660",
+    "name": "RELIGIONE / Riferimento Biblico / Concordanze"
+  },
+  {
+    "code": "REL006670",
+    "name": "RELIGIONE / Riferimento Biblico / Dizionari ed Enciclopedie"
+  },
+  {
+    "code": "REL006680",
+    "name": "RELIGIONE / Riferimento Biblico / Guide"
+  },
+  {
+    "code": "REL006700",
+    "name": "RELIGIONE / Studi Biblici / Guide allo Studio della Bibbia"
+  },
+  {
+    "code": "REL006710",
+    "name": "RELIGIONE / Studi Biblici / Gesù, Vangeli e Atti\""
+  },
+  {
+    "code": "REL006720",
+    "name": "RELIGIONE / Studi Biblici / Lettere di Paolo"
+  },
+  {
+    "code": "REL006730",
+    "name": "RELIGIONE / Studi Biblici / Profeti"
+  },
+  {
+    "code": "REL006740",
+    "name": "RELIGIONE / Studi Biblici / Libri Sapienziali"
+  },
+  {
+    "code": "REL007000",
+    "name": "RELIGIONE / Buddismo / Generale (vedere anche FILOSOFIA / Buddista)"
+  },
+  {
+    "code": "REL007010",
+    "name": "RELIGIONE / Buddismo / Storia"
+  },
+  {
+    "code": "REL007020",
+    "name": "RELIGIONE / Buddismo / Rituali e Pratica"
+  },
+  {
+    "code": "REL007030",
+    "name": "RELIGIONE / Buddismo / Scritture Sacre"
+  },
+  {
+    "code": "REL007040",
+    "name": "RELIGIONE / Buddismo / Theravada"
+  },
+  {
+    "code": "REL007050",
+    "name": "RELIGIONE / Buddismo / Tibetano"
+  },
+  {
+    "code": "REL008000",
+    "name": "RELIGIONE / Chiesa Cristiana / Leggi Canoniche ed Ecclesiastiche"
+  },
+  {
+    "code": "REL009000",
+    "name": "RELIGIONE / Cristianità / Catechismi"
+  },
+  {
+    "code": "REL010000",
+    "name": "RELIGIONE / Cristianità / Cattolica"
+  },
+  {
+    "code": "REL011000",
+    "name": "RELIGIONE / Educazione Cristiana / Generale"
+  },
+  {
+    "code": "REL012000",
+    "name": "RELIGIONE / Vita Cristiana / Generale"
+  },
+  {
+    "code": "REL012010",
+    "name": "RELIGIONE / Vita Cristiana / Morte, Lutto, Dolore\""
+  },
+  {
+    "code": "REL012020",
+    "name": "RELIGIONE / Vita Cristiana / Devozionale"
+  },
+  {
+    "code": "REL012030",
+    "name": "RELIGIONE / Vita Cristiana / Famiglia"
+  },
+  {
+    "code": "REL012040",
+    "name": "RELIGIONE / Vita Cristiana / Ispirazionale"
+  },
+  {
+    "code": "REL012050",
+    "name": "RELIGIONE / Vita Cristiana / Amore e Matrimonio"
+  },
+  {
+    "code": "REL012060",
+    "name": "RELIGIONE / Vita Cristiana / Questioni dell'Uomo"
+  },
+  {
+    "code": "REL012070",
+    "name": "RELIGIONE / Vita Cristiana / Crescita Personale"
+  },
+  {
+    "code": "REL012080",
+    "name": "RELIGIONE / Vita Cristiana / Preghiera"
+  },
+  {
+    "code": "REL012090",
+    "name": "RELIGIONE / Vita Cristiana / Crescita Professionale"
+  },
+  {
+    "code": "REL012100",
+    "name": "RELIGIONE / Vita Cristiana / Relazioni"
+  },
+  {
+    "code": "REL012110",
+    "name": "RELIGIONE / Vita Cristiana / Questioni sociali"
+  },
+  {
+    "code": "REL012120",
+    "name": "RELIGIONE / Vita Cristiana / Crescita Spirituale"
+  },
+  {
+    "code": "REL012130",
+    "name": "RELIGIONE / Vita Cristiana / Questioni della Donna"
+  },
+  {
+    "code": "REL013000",
+    "name": "RELIGIONE / Cristianità / Letteratura e Arti"
+  },
+  {
+    "code": "REL014000",
+    "name": "RELIGIONE / Chiesa Cristiana / Amministrazione"
+  },
+  {
+    "code": "REL015000",
+    "name": "RELIGIONE / Cristianità / Storia"
+  },
+  {
+    "code": "REL016000",
+    "name": "RELIGIONE / Istituzioni e Organizzazioni"
+  },
+  {
+    "code": "REL017000",
+    "name": "RELIGIONE / Religione Comparata"
+  },
+  {
+    "code": "REL018000",
+    "name": "RELIGIONE / Confucianesimo"
+  },
+  {
+    "code": "REL019000",
+    "name": "RELIGIONE / Counseling"
+  },
+  {
+    "code": "REL020000",
+    "name": "RELIGIONE / Culti"
+  },
+  {
+    "code": "REL021000",
+    "name": "RELIGIONE / Deismo"
+  },
+  {
+    "code": "REL022000",
+    "name": "RELIGIONE / Devozionale"
+  },
+  {
+    "code": "REL023000",
+    "name": "RELIGIONE / Ministero Cristiano / Discepolato"
+  },
+  {
+    "code": "REL024000",
+    "name": "RELIGIONE / Orientale"
+  },
+  {
+    "code": "REL025000",
+    "name": "RELIGIONE / Ecumenismo"
+  },
+  {
+    "code": "REL026000",
+    "name": "RELIGIONE / Educazione"
+  },
+  {
+    "code": "REL027000",
+    "name": "RELIGIONE / Cristianità / Episcopale"
+  },
+  {
+    "code": "REL028000",
+    "name": "RELIGIONE / Etica"
+  },
+  {
+    "code": "REL029000",
+    "name": "RELIGIONE / Etnica e Tribale"
+  },
+  {
+    "code": "REL030000",
+    "name": "RELIGIONE / Ministero Cristiano / Evangelismo"
+  },
+  {
+    "code": "REL032000",
+    "name": "RELIGIONE / Induismo / Generale"
+  },
+  {
+    "code": "REL032010",
+    "name": "RELIGIONE / Induismo / Storia"
+  },
+  {
+    "code": "REL032020",
+    "name": "RELIGIONE / Induismo / Rituali e Pratica"
+  },
+  {
+    "code": "REL032030",
+    "name": "RELIGIONE / Induismo / Scritture Sacre"
+  },
+  {
+    "code": "REL032040",
+    "name": "RELIGIONE / Induismo / Teologia"
+  },
+  {
+    "code": "REL033000",
+    "name": "RELIGIONE / Storia"
+  },
+  {
+    "code": "REL034000",
+    "name": "RELIGIONE / Festività / Generale"
+  },
+  {
+    "code": "REL034010",
+    "name": "RELIGIONE / Festività / Cristiane"
+  },
+  {
+    "code": "REL034020",
+    "name": "RELIGIONE / Festività / Natale e Avvento"
+  },
+  {
+    "code": "REL034030",
+    "name": "RELIGIONE / Festività / Pasqua e Quaresima"
+  },
+  {
+    "code": "REL034040",
+    "name": "RELIGIONE / Festività / Ebraiche"
+  },
+  {
+    "code": "REL034050",
+    "name": "RELIGIONE / Festività / Altre"
+  },
+  {
+    "code": "REL036000",
+    "name": "RELIGIONE / Ispirazionale"
+  },
+  {
+    "code": "REL037000",
+    "name": "RELIGIONE / Islam / Generale"
+  },
+  {
+    "code": "REL037010",
+    "name": "RELIGIONE / Islam / Storia"
+  },
+  {
+    "code": "REL037020",
+    "name": "RELIGIONE / Islam / Legge"
+  },
+  {
+    "code": "REL037030",
+    "name": "RELIGIONE / Islam / Rituali e Pratica"
+  },
+  {
+    "code": "REL037040",
+    "name": "RELIGIONE / Islam / Sciismo"
+  },
+  {
+    "code": "REL037050",
+    "name": "RELIGIONE / Islam / Sunnismo"
+  },
+  {
+    "code": "REL037060",
+    "name": "RELIGIONE / Islam / Teologia"
+  },
+  {
+    "code": "REL038000",
+    "name": "RELIGIONE / Giainismo"
+  },
+  {
+    "code": "REL040000",
+    "name": "RELIGIONE / Giudaismo / Generale"
+  },
+  {
+    "code": "REL040010",
+    "name": "RELIGIONE / Giudaismo / Rituali e Pratica"
+  },
+  {
+    "code": "REL040030",
+    "name": "RELIGIONE / Giudaismo / Storia"
+  },
+  {
+    "code": "REL040040",
+    "name": "RELIGIONE / Giudaismo / Scritture Sacre"
+  },
+  {
+    "code": "REL040050",
+    "name": "RELIGIONE / Giudaismo / Conservativo"
+  },
+  {
+    "code": "REL040060",
+    "name": "RELIGIONE / Giudaismo / Cabala e Misticismo"
+  },
+  {
+    "code": "REL040070",
+    "name": "RELIGIONE / Giudaismo / Ortodosso"
+  },
+  {
+    "code": "REL040080",
+    "name": "RELIGIONE / Giudaismo / Riformato"
+  },
+  {
+    "code": "REL040090",
+    "name": "RELIGIONE / Giudaismo / Teologia"
+  },
+  {
+    "code": "REL041000",
+    "name": "RELIGIONE / Islam / Corano e Scritture Sacre"
+  },
+  {
+    "code": "REL042000",
+    "name": "RELIGIONE / Meditazioni"
+  },
+  {
+    "code": "REL043000",
+    "name": "RELIGIONE / Cristianità / Mennonita"
+  },
+  {
+    "code": "REL044000",
+    "name": "RELIGIONE / Cristianità / Metodista"
+  },
+  {
+    "code": "REL045000",
+    "name": "RELIGIONE / Ministero Cristiano / Missioni"
+  },
+  {
+    "code": "REL046000",
+    "name": "RELIGIONE / Cristianità / Chiesa di Gesù Cristo dei Santi degli Ultimi Giorni (Mormone)"
+  },
+  {
+    "code": "REL047000",
+    "name": "RELIGIONE / Misticismo"
+  },
+  {
+    "code": "REL049000",
+    "name": "RELIGIONE / Cristianità / Ortodossa"
+  },
+  {
+    "code": "REL050000",
+    "name": "RELIGIONE / Ministero Cristiano / Counseling e Recupero"
+  },
+  {
+    "code": "REL051000",
+    "name": "RELIGIONE / Filosofia"
+  },
+  {
+    "code": "REL052000",
+    "name": "RELIGIONE / Libri di Preghiere / Generale"
+  },
+  {
+    "code": "REL052010",
+    "name": "RELIGIONE / Libri di Preghiere / Cristiane"
+  },
+  {
+    "code": "REL052020",
+    "name": "RELIGIONE / Libri di Preghiere / Ebraiche"
+  },
+  {
+    "code": "REL052030",
+    "name": "RELIGIONE / Libri di Preghiere / Islamiche*"
+  },
+  {
+    "code": "REL053000",
+    "name": "RELIGIONE / Cristianità / Protestante"
+  },
+  {
+    "code": "REL054000",
+    "name": "RELIGIONE / Riferimento"
+  },
+  {
+    "code": "REL055000",
+    "name": "RELIGIONE / Pratiche e Riti Cristiani / Generale"
+  },
+  {
+    "code": "REL055010",
+    "name": "RELIGIONE / Pratiche e Riti Cristiani / Sacramenti"
+  },
+  {
+    "code": "REL055020",
+    "name": "RELIGIONE / Pratiche e Riti Cristiani / Culto e Liturgia"
+  },
+  {
+    "code": "REL058000",
+    "name": "RELIGIONE / Sermoni / Generale"
+  },
+  {
+    "code": "REL058010",
+    "name": "RELIGIONE / Sermoni / Cristiani"
+  },
+  {
+    "code": "REL058020",
+    "name": "RELIGIONE / Sermoni / Ebraici"
+  },
+  {
+    "code": "REL059000",
+    "name": "RELIGIONE / Cristianità / Shaker"
+  },
+  {
+    "code": "REL060000",
+    "name": "RELIGIONE / Scintoismo"
+  },
+  {
+    "code": "REL061000",
+    "name": "RELIGIONE / Sikhismo"
+  },
+  {
+    "code": "REL062000",
+    "name": "RELIGIONE / Spiritualità"
+  },
+  {
+    "code": "REL063000",
+    "name": "RELIGIONE / Vita Cristiana / Responsabilità e Generosità"
+  },
+  {
+    "code": "REL064000",
+    "name": "RELIGIONE / Giudaismo / Talmud"
+  },
+  {
+    "code": "REL065000",
+    "name": "RELIGIONE / Taoismo (vedere anche FILOSOFIA / Taoista)"
+  },
+  {
+    "code": "REL066000",
+    "name": "RELIGIONE / Teismo"
+  },
+  {
+    "code": "REL067000",
+    "name": "RELIGIONE / Teologia Cristiana / Generale"
+  },
+  {
+    "code": "REL067010",
+    "name": "RELIGIONE / Teologia Cristiana / Angelologia e Demonologia"
+  },
+  {
+    "code": "REL067020",
+    "name": "RELIGIONE / Teologia Cristiana / Antropologia"
+  },
+  {
+    "code": "REL067030",
+    "name": "RELIGIONE / Teologia Cristiana / Apologetica"
+  },
+  {
+    "code": "REL067040",
+    "name": "RELIGIONE / Teologia Cristiana / Cristologia"
+  },
+  {
+    "code": "REL067050",
+    "name": "RELIGIONE / Teologia Cristiana / Ecclesiologia"
+  },
+  {
+    "code": "REL067060",
+    "name": "RELIGIONE / Teologia Cristiana / Escatologia"
+  },
+  {
+    "code": "REL067070",
+    "name": "RELIGIONE / Teologia Cristiana / Etica"
+  },
+  {
+    "code": "REL067080",
+    "name": "RELIGIONE / Teologia Cristiana / Storia"
+  },
+  {
+    "code": "REL067090",
+    "name": "RELIGIONE / Teologia Cristiana / Pneumatologia"
+  },
+  {
+    "code": "REL067100",
+    "name": "RELIGIONE / Teologia Cristiana / Soteriologia"
+  },
+  {
+    "code": "REL067110",
+    "name": "RELIGIONE / Teologia Cristiana / Sistematica"
+  },
+  {
+    "code": "REL067120",
+    "name": "RELIGIONE / Teologia Cristiana / Liberazione"
+  },
+  {
+    "code": "REL067130",
+    "name": "RELIGIONE / Teologia Cristiana / Processo"
+  },
+  {
+    "code": "REL068000",
+    "name": "RELIGIONE / Teosofia"
+  },
+  {
+    "code": "REL069000",
+    "name": "RELIGIONE / Zoroastrianismo"
+  },
+  {
+    "code": "REL070000",
+    "name": "RELIGIONE / Cristianità / Generale"
+  },
+  {
+    "code": "REL071000",
+    "name": "RELIGIONE / Leadership"
+  },
+  {
+    "code": "REL072000",
+    "name": "RELIGIONE / Antichità e Archeologia"
+  },
+  {
+    "code": "REL073000",
+    "name": "RELIGIONE / Cristianità / Battista"
+  },
+  {
+    "code": "REL074000",
+    "name": "RELIGIONE / Ministero Cristiano / Risorse Pastorali"
+  },
+  {
+    "code": "REL075000",
+    "name": "RELIGIONE / Psicologia della Religione"
+  },
+  {
+    "code": "REL077000",
+    "name": "RELIGIONE / Fede"
+  },
+  {
+    "code": "REL078000",
+    "name": "RELIGIONE / Fondamentalismo"
+  },
+  {
+    "code": "REL079000",
+    "name": "RELIGIONE / Cristianità / Pentecostale e Carismatica"
+  },
+  {
+    "code": "REL080000",
+    "name": "RELIGIONE / Ministero Cristiano / Predicare"
+  },
+  {
+    "code": "REL081000",
+    "name": "RELIGIONE / Clero"
+  },
+  {
+    "code": "REL082000",
+    "name": "RELIGIONE / Cristianità / Luterana"
+  },
+  {
+    "code": "REL083000",
+    "name": "RELIGIONE / Cristianità / Cristianesimo Scientista"
+  },
+  {
+    "code": "REL084000",
+    "name": "RELIGIONE / Religione, Politica e Stato\""
+  },
+  {
+    "code": "REL085000",
+    "name": "RELIGIONE / Escatologia"
+  },
+  {
+    "code": "REL086000",
+    "name": "RELIGIONE / Monachesimo"
+  },
+  {
+    "code": "REL087000",
+    "name": "RELIGIONE / Preghiera"
+  },
+  {
+    "code": "REL088000",
+    "name": "RELIGIONE / Cristianità / Quacchera"
+  },
+  {
+    "code": "REL089000",
+    "name": "RELIGIONE / Scientology"
+  },
+  {
+    "code": "REL090000",
+    "name": "RELIGIONE / Islam / Sufismo"
+  },
+  {
+    "code": "REL091000",
+    "name": "RELIGIONE / Educazione Cristiana / Bambini e Giovani"
+  },
+  {
+    "code": "REL092000",
+    "name": "RELIGIONE / Buddismo / Zen (vedere anche FILOSOFIA / Zen)"
+  },
+  {
+    "code": "REL093000",
+    "name": "RELIGIONE / Cristianità / Calvinista"
+  },
+  {
+    "code": "REL094000",
+    "name": "RELIGIONE / Cristianità / Denominazioni"
+  },
+  {
+    "code": "REL095000",
+    "name": "RELIGIONE / Educazione Cristiana / Adulti"
+  },
+  {
+    "code": "REL096000",
+    "name": "RELIGIONE / Cristianità / Testimoni di Geova"
+  },
+  {
+    "code": "REL097000",
+    "name": "RELIGIONE / Cristianità / Presbiteriana"
+  },
+  {
+    "code": "REL098000",
+    "name": "RELIGIONE / Cristianità / Avventista del Settimo Giorno"
+  },
+  {
+    "code": "REL099000",
+    "name": "RELIGIONE / Vita Cristiana / Guerra Spirituale"
+  },
+  {
+    "code": "REL100000",
+    "name": "RELIGIONE / Demonologia e Satanismo"
+  },
+  {
+    "code": "REL101000",
+    "name": "RELIGIONE / Giudaismo Messianico"
+  },
+  {
+    "code": "REL102000",
+    "name": "RELIGIONE / Teologia"
+  },
+  {
+    "code": "REL103000",
+    "name": "RELIGIONE / Universalismo Unitario"
+  },
+  {
+    "code": "REL104000",
+    "name": "RELIGIONE / Teologia Cristiana / Mariologia"
+  },
+  {
+    "code": "REL105000",
+    "name": "RELIGIONE / Studi di Genere e Sessualità"
+  },
+  {
+    "code": "REL106000",
+    "name": "RELIGIONE / Religione e Scienza"
+  },
+  {
+    "code": "REL107000",
+    "name": "RELIGIONE / Eckankar"
+  },
+  {
+    "code": "REL108000",
+    "name": "RELIGIONE / Chiesa Cristiana / Generale"
+  },
+  {
+    "code": "REL108010",
+    "name": "RELIGIONE / Chiesa Cristiana / Sviluppo"
+  },
+  {
+    "code": "REL108020",
+    "name": "RELIGIONE / Chiesa Cristiana / Storia"
+  },
+  {
+    "code": "REL108030",
+    "name": "RELIGIONE / Chiesa Cristiana / Leadership"
+  },
+  {
+    "code": "REL109000",
+    "name": "RELIGIONE / Ministero Cristiano / Generale"
+  },
+  {
+    "code": "REL109010",
+    "name": "RELIGIONE / Ministero Cristiano / Adulti"
+  },
+  {
+    "code": "REL109020",
+    "name": "RELIGIONE / Ministero Cristiano / Bambini"
+  },
+  {
+    "code": "REL109030",
+    "name": "RELIGIONE / Ministero Cristiano / Gioventù"
+  },
+  {
+    "code": "REL110000",
+    "name": "RELIGIONE / Cristianità / Santi e Santità"
+  },
+  {
+    "code": "REL111000",
+    "name": "RELIGIONE / Cristianità / Chiesa Unita di Cristo"
+  },
+  {
+    "code": "REL112000",
+    "name": "RELIGIONE / Gnosticismo"
+  },
+  {
+    "code": "REL113000",
+    "name": "RELIGIONE / Saggi"
+  },
+  {
+    "code": "REL114000",
+    "name": "RELIGIONE / Antica*"
+  },
+  {
+    "code": "REL117000",
+    "name": "RELIGIONE / Paganesimo e Neopaganesimo"
+  }
+]

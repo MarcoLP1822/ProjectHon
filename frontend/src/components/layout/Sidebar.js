@@ -58,11 +58,6 @@ const Sidebar = () => {
 
   const bookSections = [
     { 
-      title: 'Categorie', 
-      path: 'categories',
-      icon: <CategoryIcon />
-    },
-    { 
       title: 'Parole Chiave', 
       path: 'keywords',
       icon: <KeyIcon />
@@ -76,6 +71,11 @@ const Sidebar = () => {
       title: 'Quarta di Copertina', 
       path: 'backcover',
       icon: <MenuBookIcon />
+    },
+    { 
+      title: 'Categorie', 
+      path: 'categories',
+      icon: <CategoryIcon />
     },
     { 
       title: 'Prefazione', 

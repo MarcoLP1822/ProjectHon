@@ -257,3 +257,91 @@
 {"level":"info","message":"Generating keywords for book: 675e153f59c063be5ccb03da","timestamp":"2024-12-15T00:46:02.782Z"}
 {"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":8,"timestamp":"2024-12-15T00:46:06.491Z"}
 {"level":"info","message":"Successfully generated keywords for book 675e153f59c063be5ccb03da","timestamp":"2024-12-15T00:46:27.212Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-15T08:39:40.536Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-15T08:39:44.437Z"}
+{"level":"info","message":"Successfully generated categories for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-15T08:40:05.646Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-15T08:40:46.804Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-15T08:40:52.108Z"}
+{"level":"info","message":"Successfully generated categories for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-15T08:41:21.259Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T15:05:27.475Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T15:05:31.532Z"}
+{"level":"info","message":"Successfully generated categories for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T15:05:57.177Z"}
+{"level":"info","message":"Generating keywords for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T15:27:12.485Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":8,"timestamp":"2024-12-16T15:27:15.955Z"}
+{"level":"info","message":"Successfully generated keywords for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T15:27:36.955Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T16:03:57.046Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T16:04:00.203Z"}
+{"level":"info","message":"Successfully generated categories for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T16:04:39.196Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T16:05:21.726Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T16:05:24.739Z"}
+{"level":"info","message":"Successfully generated categories for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T16:05:44.911Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T16:45:31.048Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T16:45:34.270Z"}
+{"bookId":"675e274a41c696ef31c3b9a4","error":"Error: 400 This model's maximum context length is 8192 tokens, however you requested 50086 tokens (50086 in your prompt; 0 for the completion). Please reduce your prompt; or completion length.\n    at APIError.generate (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/error.js:45:20)\n    at OpenAI.makeStatusError (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:293:33)\n    at OpenAI.makeRequest (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:337:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:138:31\n    at async withRetry (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:48:14)\n    at async exports.generateCategories (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:90:24)","level":"error","message":"Error generating categories: 400 This model's maximum context length is 8192 tokens, however you requested 50086 tokens (50086 in your prompt; 0 for the completion). Please reduce your prompt; or completion length.","timestamp":"2024-12-16T16:45:40.341Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T16:50:31.822Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T16:50:35.427Z"}
+{"bookId":"675e274a41c696ef31c3b9a4","error":"ReferenceError: queryText is not defined\n    at BisacService.searchBisacCodesWithEmbedding (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/bisac.service.js:33:42)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:147:31\n    at async withRetry (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:48:14)\n    at async exports.generateCategories (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:90:24)","level":"error","message":"Error generating categories: queryText is not defined","timestamp":"2024-12-16T16:50:40.379Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T17:14:37.732Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T17:14:40.739Z"}
+{"level":"info","message":"Successfully generated categories for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T17:14:42.734Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T17:17:31.232Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T17:17:34.275Z"}
+{"level":"info","message":"Successfully generated categories for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T17:17:35.798Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T17:36:33.411Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T17:36:36.551Z"}
+{"bookId":"675e274a41c696ef31c3b9a4","error":"ValidationError: Generated categories is invalid or incomplete\n    at exports.generateCategories (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:92:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","level":"error","message":"Error generating categories: Generated categories is invalid or incomplete","timestamp":"2024-12-16T17:36:38.361Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T17:39:54.520Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T17:39:57.556Z"}
+{"bookId":"675e274a41c696ef31c3b9a4","error":"ValidationError: Generated categories is invalid or incomplete\n    at exports.generateCategories (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:92:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","level":"error","message":"Error generating categories: Generated categories is invalid or incomplete","timestamp":"2024-12-16T17:39:59.737Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T21:49:52.258Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T21:49:57.334Z"}
+{"bookId":"675e274a41c696ef31c3b9a4","error":"ValidationError: Generated categories is invalid or incomplete\n    at exports.generateCategories (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:92:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","level":"error","message":"Error generating categories: Generated categories is invalid or incomplete","timestamp":"2024-12-16T21:49:59.805Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T21:52:41.740Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T21:52:45.743Z"}
+{"bookId":"675e274a41c696ef31c3b9a4","error":"ValidationError: Generated categories is invalid or incomplete\n    at exports.generateCategories (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:92:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","level":"error","message":"Error generating categories: Generated categories is invalid or incomplete","timestamp":"2024-12-16T21:52:47.339Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T21:55:08.125Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T21:55:12.380Z"}
+{"bookId":"675e274a41c696ef31c3b9a4","error":"ValidationError: Generated categories is invalid or incomplete\n    at exports.generateCategories (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:92:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","level":"error","message":"Error generating categories: Generated categories is invalid or incomplete","timestamp":"2024-12-16T21:55:13.808Z"}
+{"level":"info","message":"Generating keywords for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T21:56:18.253Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":8,"timestamp":"2024-12-16T21:56:21.691Z"}
+{"level":"info","message":"Successfully generated keywords for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T21:56:43.659Z"}
+{"level":"info","message":"Generating synopsis for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T21:56:48.852Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":8,"timestamp":"2024-12-16T21:56:52.194Z"}
+{"level":"info","message":"Successfully generated synopsis for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T21:57:05.796Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T21:57:27.157Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T21:57:31.394Z"}
+{"level":"info","message":"Successfully generated categories for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T21:58:06.142Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T22:53:48.350Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-16T22:53:52.752Z"}
+{"level":"info","message":"Successfully generated categories for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-16T22:54:34.479Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-17T08:13:11.926Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-17T08:13:16.366Z"}
+{"level":"info","message":"Successfully generated categories for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-17T08:13:49.028Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-17T09:08:00.687Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-17T09:08:04.933Z"}
+{"level":"info","message":"Successfully generated categories for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-17T09:08:27.942Z"}
+{"level":"info","message":"Generating categories for book: 675e274a41c696ef31c3b9a4","timestamp":"2024-12-17T12:48:30.987Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":8,"timestamp":"2024-12-17T12:48:34.491Z"}
+{"level":"info","message":"Successfully generated categories for book 675e274a41c696ef31c3b9a4","timestamp":"2024-12-17T12:48:57.011Z"}
+{"level":"info","message":"Generating keywords for book: 67617368260310b944604395","timestamp":"2024-12-17T12:49:52.133Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":12,"timestamp":"2024-12-17T12:49:53.627Z"}
+{"level":"info","message":"Successfully generated keywords for book 67617368260310b944604395","timestamp":"2024-12-17T12:50:28.602Z"}
+{"level":"info","message":"Generating synopsis for book: 67617368260310b944604395","timestamp":"2024-12-17T12:50:33.118Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":12,"timestamp":"2024-12-17T12:50:34.780Z"}
+{"level":"info","message":"Successfully generated synopsis for book 67617368260310b944604395","timestamp":"2024-12-17T12:50:43.942Z"}
+{"level":"info","message":"Generating back cover for book: 67617368260310b944604395","timestamp":"2024-12-17T12:50:53.037Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":12,"timestamp":"2024-12-17T12:50:54.740Z"}
+{"level":"info","message":"Successfully generated back cover for book 67617368260310b944604395","timestamp":"2024-12-17T12:51:01.680Z"}
+{"level":"info","message":"Generating preface for book: 67617368260310b944604395","timestamp":"2024-12-17T12:51:19.670Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":12,"timestamp":"2024-12-17T12:51:21.292Z"}
+{"level":"info","message":"Successfully generated preface for book 67617368260310b944604395","timestamp":"2024-12-17T12:51:40.478Z"}
+{"level":"info","message":"Generating scenes for book: 67617368260310b944604395","timestamp":"2024-12-17T12:52:02.602Z"}
+{"level":"info","message":"Successfully generated scenes for book 67617368260310b944604395","timestamp":"2024-12-17T12:52:13.366Z"}
+{"level":"info","message":"Generating cover images for book: 67617368260310b944604395","timestamp":"2024-12-17T12:52:13.388Z"}
+{"bookId":"67617368260310b944604395","level":"info","message":"Generating image for scene 1","sceneTitle":"RAPPORTO CON I CLIENTI","timestamp":"2024-12-17T12:52:13.517Z"}
+{"bookId":"67617368260310b944604395","level":"info","message":"Generating image for scene 2","sceneTitle":"COACHING AGILE","timestamp":"2024-12-17T12:52:13.517Z"}
+{"bookId":"67617368260310b944604395","level":"info","message":"Generating image for scene 3","sceneTitle":"CREAZIONE DI UNA CAMPAGNA PUBBLICITARIA","timestamp":"2024-12-17T12:52:13.517Z"}
+{"level":"info","message":"Successfully generated cover images for book 67617368260310b944604395","timestamp":"2024-12-17T12:52:32.329Z"}
+{"level":"info","message":"Generating categories for book: 67617368260310b944604395","timestamp":"2024-12-17T15:53:54.829Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":12,"timestamp":"2024-12-17T15:53:58.914Z"}
+{"level":"info","message":"Successfully generated categories for book 67617368260310b944604395","timestamp":"2024-12-17T15:55:17.920Z"}

@@ -1,0 +1,2922 @@
+[
+  {
+    "code": "BUS000000",
+    "name": "BUSINESS ED ECONOMIA / Generale"
+  },
+  {
+    "code": "BUS001000",
+    "name": "BUSINESS ED ECONOMIA / Contabilità / Generale"
+  },
+  {
+    "code": "BUS001010",
+    "name": "BUSINESS ED ECONOMIA / Contabilità / Finanziaria"
+  },
+  {
+    "code": "BUS001020",
+    "name": "BUSINESS ED ECONOMIA / Contabilità / Pubblica"
+  },
+  {
+    "code": "BUS001030",
+    "name": "BUSINESS ED ECONOMIA / Internazionale / Contabilità"
+  },
+  {
+    "code": "BUS001040",
+    "name": "BUSINESS ED ECONOMIA / Contabilità / Manageriale"
+  },
+  {
+    "code": "BUS002000",
+    "name": "BUSINESS ED ECONOMIA / Pubblicità e Promozione"
+  },
+  {
+    "code": "BUS003000",
+    "name": "BUSINESS ED ECONOMIA / Revisione"
+  },
+  {
+    "code": "BUS004000",
+    "name": "BUSINESS ED ECONOMIA / Banche e Settore Bancario"
+  },
+  {
+    "code": "BUS005000",
+    "name": "BUSINESS ED ECONOMIA / Registrazione Contabile"
+  },
+  {
+    "code": "BUS006000",
+    "name": "BUSINESS ED ECONOMIA / Budgeting"
+  },
+  {
+    "code": "BUS007000",
+    "name": "BUSINESS ED ECONOMIA / Comunicazione Aziendale / Generale"
+  },
+  {
+    "code": "BUS007010",
+    "name": "BUSINESS ED ECONOMIA / Comunicazione Aziendale / Meeting e Presentazioni"
+  },
+  {
+    "code": "BUS008000",
+    "name": "BUSINESS ED ECONOMIA / Etica Commerciale"
+  },
+  {
+    "code": "BUS009000",
+    "name": "BUSINESS ED ECONOMIA / Etichetta Aziendale"
+  },
+  {
+    "code": "BUS010000",
+    "name": "BUSINESS ED ECONOMIA / Diritto Aziendale"
+  },
+  {
+    "code": "BUS011000",
+    "name": "BUSINESS ED ECONOMIA / Scrittura Commerciale"
+  },
+  {
+    "code": "BUS012000",
+    "name": "BUSINESS ED ECONOMIA / Carriere / Generale"
+  },
+  {
+    "code": "BUS013000",
+    "name": "BUSINESS ED ECONOMIA / Politica Commerciale"
+  },
+  {
+    "code": "BUS014000",
+    "name": "BUSINESS ED ECONOMIA / Commodity"
+  },
+  {
+    "code": "BUS014010",
+    "name": "BUSINESS ED ECONOMIA / Investimenti e Titoli / Commodity / Energia"
+  },
+  {
+    "code": "BUS015000",
+    "name": "BUSINESS ED ECONOMIA / Fusioni e Acquisizioni"
+  },
+  {
+    "code": "BUS016000",
+    "name": "BUSINESS ED ECONOMIA / Comportamento dei Consumatori"
+  },
+  {
+    "code": "BUS017000",
+    "name": "BUSINESS ED ECONOMIA / Finanza Aziendale"
+  },
+  {
+    "code": "BUS018000",
+    "name": "BUSINESS ED ECONOMIA / Relazioni con i Clienti"
+  },
+  {
+    "code": "BUS019000",
+    "name": "BUSINESS ED ECONOMIA / Decision-Making e Problem Solving"
+  },
+  {
+    "code": "BUS020000",
+    "name": "BUSINESS ED ECONOMIA / Sviluppo / Sviluppo Commerciale"
+  },
+  {
+    "code": "BUS021000",
+    "name": "BUSINESS ED ECONOMIA / Econometria"
+  },
+  {
+    "code": "BUS022000",
+    "name": "BUSINESS ED ECONOMIA / Condizioni Economiche"
+  },
+  {
+    "code": "BUS023000",
+    "name": "BUSINESS ED ECONOMIA / Storia Economica"
+  },
+  {
+    "code": "BUS024000",
+    "name": "BUSINESS ED ECONOMIA / Educazione"
+  },
+  {
+    "code": "BUS025000",
+    "name": "BUSINESS ED ECONOMIA / Imprenditoria"
+  },
+  {
+    "code": "BUS026000",
+    "name": "BUSINESS ED ECONOMIA / Esportazioni e Importazioni"
+  },
+  {
+    "code": "BUS027000",
+    "name": "BUSINESS ED ECONOMIA / Finanza"
+  },
+  {
+    "code": "BUS028000",
+    "name": "BUSINESS ED ECONOMIA / Mercato Valutario"
+  },
+  {
+    "code": "BUS029000",
+    "name": "BUSINESS ED ECONOMIA / Libera Impresa"
+  },
+  {
+    "code": "BUS030000",
+    "name": "BUSINESS ED ECONOMIA / Risorse Umane e Gestione del Personale"
+  },
+  {
+    "code": "BUS031000",
+    "name": "BUSINESS ED ECONOMIA / Inflazione"
+  },
+  {
+    "code": "BUS032000",
+    "name": "BUSINESS ED ECONOMIA / Infrastruttura"
+  },
+  {
+    "code": "BUS033000",
+    "name": "BUSINESS ED ECONOMIA / Assicurazioni / Generale"
+  },
+  {
+    "code": "BUS033010",
+    "name": "BUSINESS ED ECONOMIA / Assicurazioni / Automobili"
+  },
+  {
+    "code": "BUS033020",
+    "name": "BUSINESS ED ECONOMIA / Assicurazioni / Infortuni"
+  },
+  {
+    "code": "BUS033040",
+    "name": "BUSINESS ED ECONOMIA / Assicurazioni / Sanitarie"
+  },
+  {
+    "code": "BUS033050",
+    "name": "BUSINESS ED ECONOMIA / Assicurazioni / Responsabilità"
+  },
+  {
+    "code": "BUS033060",
+    "name": "BUSINESS ED ECONOMIA / Assicurazioni / Vita"
+  },
+  {
+    "code": "BUS033070",
+    "name": "BUSINESS ED ECONOMIA / Assicurazioni / Valutazione e Gestione del Rischio"
+  },
+  {
+    "code": "BUS033080",
+    "name": "BUSINESS ED ECONOMIA / Assicurazioni / Proprietà"
+  },
+  {
+    "code": "BUS034000",
+    "name": "BUSINESS ED ECONOMIA / Interessi"
+  },
+  {
+    "code": "BUS035000",
+    "name": "BUSINESS ED ECONOMIA / Internazionale / Generale"
+  },
+  {
+    "code": "BUS036000",
+    "name": "BUSINESS ED ECONOMIA / Investimenti e Titoli"
+  },
+  {
+    "code": "BUS036050",
+    "name": "BUSINESS ED ECONOMIA / Investimenti e Titoli / Immobiliare"
+  },
+  {
+    "code": "BUS037020",
+    "name": "BUSINESS ED ECONOMIA / Carriere / Ricerca dell'Impiego"
+  },
+  {
+    "code": "BUS038000",
+    "name": "BUSINESS ED ECONOMIA / Lavoro"
+  },
+  {
+    "code": "BUS039000",
+    "name": "BUSINESS ED ECONOMIA / Economia / Macroeconomia"
+  },
+  {
+    "code": "BUS040000",
+    "name": "BUSINESS ED ECONOMIA / Vendita per Corrispondenza"
+  },
+  {
+    "code": "BUS041000",
+    "name": "BUSINESS ED ECONOMIA / Direzione"
+  },
+  {
+    "code": "BUS042000",
+    "name": "BUSINESS ED ECONOMIA / Scienza del Management"
+  },
+  {
+    "code": "BUS043000",
+    "name": "BUSINESS ED ECONOMIA / Marketing / Generale"
+  },
+  {
+    "code": "BUS043010",
+    "name": "BUSINESS ED ECONOMIA / Marketing / Diretto"
+  },
+  {
+    "code": "BUS043020",
+    "name": "BUSINESS ED ECONOMIA / Marketing / Industriale"
+  },
+  {
+    "code": "BUS043030",
+    "name": "BUSINESS ED ECONOMIA / Internazionale / Marketing"
+  },
+  {
+    "code": "BUS043040",
+    "name": "BUSINESS ED ECONOMIA / Marketing / Multilivello"
+  },
+  {
+    "code": "BUS043050",
+    "name": "BUSINESS ED ECONOMIA / Marketing / Telemarketing"
+  },
+  {
+    "code": "BUS043060",
+    "name": "BUSINESS ED ECONOMIA / Marketing / Ricerca"
+  },
+  {
+    "code": "BUS044000",
+    "name": "BUSINESS ED ECONOMIA / Economia / Microeconomia"
+  },
+  {
+    "code": "BUS045000",
+    "name": "BUSINESS ED ECONOMIA / Denaro e Politica Monetaria"
+  },
+  {
+    "code": "BUS046000",
+    "name": "BUSINESS ED ECONOMIA / Motivazionale"
+  },
+  {
+    "code": "BUS047000",
+    "name": "BUSINESS ED ECONOMIA / Contrattazione"
+  },
+  {
+    "code": "BUS048000",
+    "name": "BUSINESS ED ECONOMIA / Nuove Imprese Commerciali"
+  },
+  {
+    "code": "BUS049000",
+    "name": "BUSINESS ED ECONOMIA / Ricerca Operativa"
+  },
+  {
+    "code": "BUS050000",
+    "name": "BUSINESS ED ECONOMIA / Finanza Personale / Generale"
+  },
+  {
+    "code": "BUS050010",
+    "name": "BUSINESS ED ECONOMIA / Finanza Personale / Budgeting"
+  },
+  {
+    "code": "BUS050020",
+    "name": "BUSINESS ED ECONOMIA / Finanza Personale / Investimento"
+  },
+  {
+    "code": "BUS050030",
+    "name": "BUSINESS ED ECONOMIA / Finanza Personale / Gestione del Denaro"
+  },
+  {
+    "code": "BUS050040",
+    "name": "BUSINESS ED ECONOMIA / Finanza personale / Pianificazione Pensionistica"
+  },
+  {
+    "code": "BUS050050",
+    "name": "BUSINESS ED ECONOMIA / Finanza personale / Tassazione"
+  },
+  {
+    "code": "BUS051000",
+    "name": "BUSINESS ED ECONOMIA / Finanza Pubblica"
+  },
+  {
+    "code": "BUS052000",
+    "name": "BUSINESS ED ECONOMIA / Pubbliche Relazioni"
+  },
+  {
+    "code": "BUS053000",
+    "name": "BUSINESS ED ECONOMIA / Controllo Qualità"
+  },
+  {
+    "code": "BUS054000",
+    "name": "BUSINESS ED ECONOMIA / Immobiliare"
+  },
+  {
+    "code": "BUS054020",
+    "name": "BUSINESS ED ECONOMIA / Immobiliare / Commerciale"
+  },
+  {
+    "code": "BUS055000",
+    "name": "BUSINESS ED ECONOMIA / Riferimento"
+  },
+  {
+    "code": "BUS056030",
+    "name": "BUSINESS ED ECONOMIA / Carriere / Curriculum"
+  },
+  {
+    "code": "BUS057000",
+    "name": "BUSINESS ED ECONOMIA / Settori / Commercio al Dettaglio"
+  },
+  {
+    "code": "BUS058000",
+    "name": "BUSINESS ED ECONOMIA / Vendite e Vendere"
+  },
+  {
+    "code": "BUS058010",
+    "name": "BUSINESS ED ECONOMIA / Vendite e Vendere / Direzione"
+  },
+  {
+    "code": "BUS059000",
+    "name": "BUSINESS ED ECONOMIA / Competenze"
+  },
+  {
+    "code": "BUS060000",
+    "name": "BUSINESS ED ECONOMIA / Piccola Impresa"
+  },
+  {
+    "code": "BUS061000",
+    "name": "BUSINESS ED ECONOMIA / Statistiche"
+  },
+  {
+    "code": "BUS062000",
+    "name": "BUSINESS ED ECONOMIA / Aggiustamento Strutturale"
+  },
+  {
+    "code": "BUS063000",
+    "name": "BUSINESS ED ECONOMIA / Pianificazione Strategica"
+  },
+  {
+    "code": "BUS064000",
+    "name": "BUSINESS ED ECONOMIA / Tassazione / Generale"
+  },
+  {
+    "code": "BUS064010",
+    "name": "BUSINESS ED ECONOMIA / Tassazione / Aziendale"
+  },
+  {
+    "code": "BUS064020",
+    "name": "BUSINESS ED ECONOMIA / Internazionale / Tassazione"
+  },
+  {
+    "code": "BUS064030",
+    "name": "BUSINESS ED ECONOMIA / Tassazione / Piccola Impresa"
+  },
+  {
+    "code": "BUS065000",
+    "name": "BUSINESS ED ECONOMIA / Gestione della Qualità Totale"
+  },
+  {
+    "code": "BUS066000",
+    "name": "BUSINESS ED ECONOMIA / Formazione"
+  },
+  {
+    "code": "BUS067000",
+    "name": "BUSINESS ED ECONOMIA / Urbana e Regionale"
+  },
+  {
+    "code": "BUS068000",
+    "name": "BUSINESS ED ECONOMIA / Sviluppo / Sviluppo Economico"
+  },
+  {
+    "code": "BUS069000",
+    "name": "BUSINESS ED ECONOMIA / Economia / Generale"
+  },
+  {
+    "code": "BUS069010",
+    "name": "BUSINESS ED ECONOMIA / Economia / Comparativa"
+  },
+  {
+    "code": "BUS069020",
+    "name": "BUSINESS ED ECONOMIA / Internazionale / Economia"
+  },
+  {
+    "code": "BUS069030",
+    "name": "BUSINESS ED ECONOMIA / Economia / Teoria"
+  },
+  {
+    "code": "BUS070000",
+    "name": "BUSINESS ED ECONOMIA / Settori / Generale"
+  },
+  {
+    "code": "BUS070010",
+    "name": "BUSINESS ED ECONOMIA / Settori / Agroalimentare"
+  },
+  {
+    "code": "BUS070020",
+    "name": "BUSINESS ED ECONOMIA / Settori / Industria Automobilistica"
+  },
+  {
+    "code": "BUS070030",
+    "name": "BUSINESS ED ECONOMIA / Settori / Industria Informatica"
+  },
+  {
+    "code": "BUS070040",
+    "name": "BUSINESS ED ECONOMIA / Settori / Industrie Energetiche"
+  },
+  {
+    "code": "BUS070050",
+    "name": "BUSINESS ED ECONOMIA / Settori / Industrie Manifatturiere"
+  },
+  {
+    "code": "BUS070060",
+    "name": "BUSINESS ED ECONOMIA / Settori / Industria dei Media e delle Comunicazioni"
+  },
+  {
+    "code": "BUS070070",
+    "name": "BUSINESS ED ECONOMIA / Settori / Gestione Parchi e Aree Ricreative"
+  },
+  {
+    "code": "BUS070080",
+    "name": "BUSINESS ED ECONOMIA / Settori / Industrie dei Servizi"
+  },
+  {
+    "code": "BUS070090",
+    "name": "BUSINESS ED ECONOMIA / Settori / Industria della Moda e Tessile"
+  },
+  {
+    "code": "BUS070100",
+    "name": "BUSINESS ED ECONOMIA / Settori / Trasporto"
+  },
+  {
+    "code": "BUS070110",
+    "name": "BUSINESS ED ECONOMIA / Settori / Intrattenimento"
+  },
+  {
+    "code": "BUS071000",
+    "name": "BUSINESS ED ECONOMIA / Leadership"
+  },
+  {
+    "code": "BUS072000",
+    "name": "BUSINESS ED ECONOMIA / Sviluppo / Sviluppo Sostenibile"
+  },
+  {
+    "code": "BUS073000",
+    "name": "BUSINESS ED ECONOMIA / Commercio"
+  },
+  {
+    "code": "BUS074000",
+    "name": "BUSINESS ED ECONOMIA / Organizzazioni No-Profit e di Beneficenza"
+  },
+  {
+    "code": "BUS074030",
+    "name": "BUSINESS ED ECONOMIA / Organizzazioni No-Profit e di Beneficenza / Gestione e Leadership"
+  },
+  {
+    "code": "BUS075000",
+    "name": "BUSINESS ED ECONOMIA / Consulenza"
+  },
+  {
+    "code": "BUS076000",
+    "name": "BUSINESS ED ECONOMIA / Acquistare e Comprare"
+  },
+  {
+    "code": "BUS077000",
+    "name": "BUSINESS ED ECONOMIA / Storia Aziendale e Commerciale"
+  },
+  {
+    "code": "BUS078000",
+    "name": "BUSINESS ED ECONOMIA / Distribuzione"
+  },
+  {
+    "code": "BUS079000",
+    "name": "BUSINESS ED ECONOMIA / Government e Business"
+  },
+  {
+    "code": "BUS080000",
+    "name": "BUSINESS ED ECONOMIA / Business da Casa"
+  },
+  {
+    "code": "BUS081000",
+    "name": "BUSINESS ED ECONOMIA / Settori / Ospitalità, Viaggi e Turismo\""
+  },
+  {
+    "code": "BUS082000",
+    "name": "BUSINESS ED ECONOMIA / Gestione Industriale"
+  },
+  {
+    "code": "BUS083000",
+    "name": "BUSINESS ED ECONOMIA / Gestione delle Informazioni"
+  },
+  {
+    "code": "BUS084000",
+    "name": "BUSINESS ED ECONOMIA / Office Automation"
+  },
+  {
+    "code": "BUS085000",
+    "name": "BUSINESS ED ECONOMIA / Comportamento nell'Organizzazione"
+  },
+  {
+    "code": "BUS086000",
+    "name": "BUSINESS ED ECONOMIA / Previsione"
+  },
+  {
+    "code": "BUS087000",
+    "name": "BUSINESS ED ECONOMIA / Gestione Operativa e Produttiva"
+  },
+  {
+    "code": "BUS088000",
+    "name": "BUSINESS ED ECONOMIA / Gestione del Tempo"
+  },
+  {
+    "code": "BUS089000",
+    "name": "BUSINESS ED ECONOMIA / Strumenti e Formazione per la Segreteria"
+  },
+  {
+    "code": "BUS090000",
+    "name": "BUSINESS ED ECONOMIA / E-Commerce / Generale (vedere anche COMPUTER / Commercio Elettronico)"
+  },
+  {
+    "code": "BUS090010",
+    "name": "BUSINESS ED ECONOMIA / E-Commerce / Internet Marketing"
+  },
+  {
+    "code": "BUS090030",
+    "name": "BUSINESS ED ECONOMIA / E-Commerce / Commercio Online"
+  },
+  {
+    "code": "BUS091000",
+    "name": "BUSINESS ED ECONOMIA / Computisteria"
+  },
+  {
+    "code": "BUS092000",
+    "name": "BUSINESS ED ECONOMIA / Sviluppo / Generale"
+  },
+  {
+    "code": "BUS093000",
+    "name": "BUSINESS ED ECONOMIA / Gestione della Struttura Aziendale"
+  },
+  {
+    "code": "BUS094000",
+    "name": "BUSINESS ED ECONOMIA / Attività Ecologicamente Sostenibili"
+  },
+  {
+    "code": "BUS095000",
+    "name": "BUSINESS ED ECONOMIA / Apparecchiature e Forniture per l'Ufficio"
+  },
+  {
+    "code": "BUS096000",
+    "name": "BUSINESS ED ECONOMIA / Office Management"
+  },
+  {
+    "code": "BUS097000",
+    "name": "BUSINESS ED ECONOMIA / Cultura del Posto di Lavoro"
+  },
+  {
+    "code": "BUS098000",
+    "name": "BUSINESS ED ECONOMIA / Capitale Intellettuale"
+  },
+  {
+    "code": "BUS099000",
+    "name": "BUSINESS ED ECONOMIA / Economia Ambientale"
+  },
+  {
+    "code": "BUS100000",
+    "name": "BUSINESS ED ECONOMIA / Amministrazione Musei e Museologia"
+  },
+  {
+    "code": "BUS101000",
+    "name": "BUSINESS ED ECONOMIA / Gestione Progetti"
+  },
+  {
+    "code": "BUS102000",
+    "name": "BUSINESS ED ECONOMIA / Lavori in Appalto"
+  },
+  {
+    "code": "BUS103000",
+    "name": "BUSINESS ED ECONOMIA / Sviluppo Organizzativo*"
+  },
+  {
+    "code": "BUS104000",
+    "name": "BUSINESS ED ECONOMIA / Corporate Governance"
+  },
+  {
+    "code": "TRU000000",
+    "name": "CRIMINE REALE / Generale"
+  },
+  {
+    "code": "TRU001000",
+    "name": "CRIMINE REALE / Spionaggio"
+  },
+  {
+    "code": "TRU002000",
+    "name": "CRIMINE REALE / Delitti / Generale"
+  },
+  {
+    "code": "TRU002010",
+    "name": "CRIMINE REALE / Delitti / Serial Killer"
+  },
+  {
+    "code": "TRU003000",
+    "name": "CRIMINE REALE / Crimine Organizzato"
+  },
+  {
+    "code": "PHI000000",
+    "name": "FILOSOFIA / Generale"
+  },
+  {
+    "code": "PHI001000",
+    "name": "FILOSOFIA / Estetica"
+  },
+  {
+    "code": "PHI002000",
+    "name": "FILOSOFIA / Storia e Studi / Antichi e Classici"
+  },
+  {
+    "code": "PHI003000",
+    "name": "FILOSOFIA / Orientale"
+  },
+  {
+    "code": "PHI004000",
+    "name": "FILOSOFIA / Epistemologia"
+  },
+  {
+    "code": "PHI005000",
+    "name": "FILOSOFIA / Etica e Morale Filosofica"
+  },
+  {
+    "code": "PHI006000",
+    "name": "FILOSOFIA / Movimenti / Esistenzialismo"
+  },
+  {
+    "code": "PHI007000",
+    "name": "FILOSOFIA / Determinismo e Libero Arbitrio"
+  },
+  {
+    "code": "PHI008000",
+    "name": "FILOSOFIA / Bene e Male"
+  },
+  {
+    "code": "PHI009000",
+    "name": "FILOSOFIA / Storia e Studi / Generale"
+  },
+  {
+    "code": "PHI010000",
+    "name": "FILOSOFIA / Movimenti / Umanismo"
+  },
+  {
+    "code": "PHI011000",
+    "name": "FILOSOFIA / Logica"
+  },
+  {
+    "code": "PHI012000",
+    "name": "FILOSOFIA / Storia e Studi / Medievali"
+  },
+  {
+    "code": "PHI013000",
+    "name": "FILOSOFIA / Metafisica"
+  },
+  {
+    "code": "PHI014000",
+    "name": "FILOSOFIA / Metodologia"
+  },
+  {
+    "code": "PHI015000",
+    "name": "FILOSOFIA / Mente e Corpo"
+  },
+  {
+    "code": "PHI016000",
+    "name": "FILOSOFIA / Storia e Studi / Moderni"
+  },
+  {
+    "code": "PHI018000",
+    "name": "FILOSOFIA / Movimenti / Fenomenologia"
+  },
+  {
+    "code": "PHI019000",
+    "name": "FILOSOFIA / Politica"
+  },
+  {
+    "code": "PHI020000",
+    "name": "FILOSOFIA / Movimenti / Pragmatismo"
+  },
+  {
+    "code": "PHI021000",
+    "name": "FILOSOFIA / Riferimento"
+  },
+  {
+    "code": "PHI022000",
+    "name": "FILOSOFIA / Religiosa"
+  },
+  {
+    "code": "PHI023000",
+    "name": "FILOSOFIA / Taoista"
+  },
+  {
+    "code": "PHI025000",
+    "name": "FILOSOFIA / Zen"
+  },
+  {
+    "code": "PHI026000",
+    "name": "FILOSOFIA / Criticismo"
+  },
+  {
+    "code": "PHI027000",
+    "name": "FILOSOFIA / Movimenti / Decostruzione"
+  },
+  {
+    "code": "PHI028000",
+    "name": "FILOSOFIA / Buddista"
+  },
+  {
+    "code": "PHI029000",
+    "name": "FILOSOFIA / Movimenti / Strutturalismo"
+  },
+  {
+    "code": "PHI030000",
+    "name": "FILOSOFIA / Movimenti / Utilitarismo"
+  },
+  {
+    "code": "PHI031000",
+    "name": "FILOSOFIA / Movimenti / Generale"
+  },
+  {
+    "code": "PHI032000",
+    "name": "FILOSOFIA / Movimenti / Razionalismo"
+  },
+  {
+    "code": "PHI033000",
+    "name": "FILOSOFIA / Indù"
+  },
+  {
+    "code": "PHI034000",
+    "name": "FILOSOFIA / Sociale"
+  },
+  {
+    "code": "PHI035000",
+    "name": "FILOSOFIA / Saggi*"
+  },
+  {
+    "code": "PHI037000",
+    "name": "FILOSOFIA / Storia e Studi / Rinascimento"
+  },
+  {
+    "code": "PHI039000",
+    "name": "FILOSOFIA / Movimenti / Analitica"
+  },
+  {
+    "code": "LAW000000",
+    "name": "GIURISPRUDENZA / Generale"
+  },
+  {
+    "code": "LAW001000",
+    "name": "GIURISPRUDENZA / Diritto Amministrativo e Regolamentazioni"
+  },
+  {
+    "code": "LAW002000",
+    "name": "GIURISPRUDENZA / Aria e Spazio"
+  },
+  {
+    "code": "LAW003000",
+    "name": "GIURISPRUDENZA / Risoluzione Alternativa Dispute"
+  },
+  {
+    "code": "LAW004000",
+    "name": "GIURISPRUDENZA / Annotazioni e Citazioni"
+  },
+  {
+    "code": "LAW005000",
+    "name": "GIURISPRUDENZA / Antitrust"
+  },
+  {
+    "code": "LAW006000",
+    "name": "GIURISPRUDENZA / Arbitrato, Negoziazione, Mediazione\""
+  },
+  {
+    "code": "LAW007000",
+    "name": "GIURISPRUDENZA / Bancaria"
+  },
+  {
+    "code": "LAW008000",
+    "name": "GIURISPRUDENZA / Fallimento e Insolvenza"
+  },
+  {
+    "code": "LAW009000",
+    "name": "GIURISPRUDENZA / Commerciale e Finanziaria"
+  },
+  {
+    "code": "LAW010000",
+    "name": "GIURISPRUDENZA / Difesa dei Minori"
+  },
+  {
+    "code": "LAW011000",
+    "name": "GIURISPRUDENZA / Diritto Civile"
+  },
+  {
+    "code": "LAW012000",
+    "name": "GIURISPRUDENZA / Procedura Civile"
+  },
+  {
+    "code": "LAW013000",
+    "name": "GIURISPRUDENZA / Diritti Civili"
+  },
+  {
+    "code": "LAW014000",
+    "name": "GIURISPRUDENZA / Commerciale / Generale"
+  },
+  {
+    "code": "LAW014010",
+    "name": "GIURISPRUDENZA / Commerciale / Commercio Internazionale"
+  },
+  {
+    "code": "LAW015000",
+    "name": "GIURISPRUDENZA / Comunicazioni"
+  },
+  {
+    "code": "LAW016000",
+    "name": "GIURISPRUDENZA / Comparativa"
+  },
+  {
+    "code": "LAW017000",
+    "name": "GIURISPRUDENZA / Conflitto Legislativo"
+  },
+  {
+    "code": "LAW018000",
+    "name": "GIURISPRUDENZA / Costituzionale"
+  },
+  {
+    "code": "LAW019000",
+    "name": "GIURISPRUDENZA / Costruzioni"
+  },
+  {
+    "code": "LAW020000",
+    "name": "GIURISPRUDENZA / Consumatori"
+  },
+  {
+    "code": "LAW021000",
+    "name": "GIURISPRUDENZA / Contratti"
+  },
+  {
+    "code": "LAW022000",
+    "name": "GIURISPRUDENZA / Aziendale"
+  },
+  {
+    "code": "LAW023000",
+    "name": "GIURISPRUDENZA / Registri Processuali"
+  },
+  {
+    "code": "LAW024000",
+    "name": "GIURISPRUDENZA / Regolamenti Processuali"
+  },
+  {
+    "code": "LAW025000",
+    "name": "GIURISPRUDENZA / Tribunali"
+  },
+  {
+    "code": "LAW026000",
+    "name": "GIURISPRUDENZA / Diritto Penale / Generale"
+  },
+  {
+    "code": "LAW026010",
+    "name": "GIURISPRUDENZA / Diritto Penale / Delinquenza Giovanile"
+  },
+  {
+    "code": "LAW026020",
+    "name": "GIURISPRUDENZA / Diritto Penale / Sentenze"
+  },
+  {
+    "code": "LAW027000",
+    "name": "GIURISPRUDENZA / Procedura Penale"
+  },
+  {
+    "code": "LAW028000",
+    "name": "GIURISPRUDENZA / Consuetudinaria"
+  },
+  {
+    "code": "LAW029000",
+    "name": "GIURISPRUDENZA / Deposizioni"
+  },
+  {
+    "code": "LAW030000",
+    "name": "GIURISPRUDENZA / Dizionari e Terminologia"
+  },
+  {
+    "code": "LAW031000",
+    "name": "GIURISPRUDENZA / Incapacità"
+  },
+  {
+    "code": "LAW032000",
+    "name": "GIURISPRUDENZA / Emigrazione e Immigrazione"
+  },
+  {
+    "code": "LAW033000",
+    "name": "GIURISPRUDENZA / Intrattenimento"
+  },
+  {
+    "code": "LAW034000",
+    "name": "GIURISPRUDENZA / Ambientale"
+  },
+  {
+    "code": "LAW035000",
+    "name": "GIURISPRUDENZA / Patrimoni e Trust"
+  },
+  {
+    "code": "LAW036000",
+    "name": "GIURISPRUDENZA / Responsabilità Etica e Professionale"
+  },
+  {
+    "code": "LAW037000",
+    "name": "GIURISPRUDENZA / Prove"
+  },
+  {
+    "code": "LAW038000",
+    "name": "GIURISPRUDENZA / Diritto di Famiglia / Generale"
+  },
+  {
+    "code": "LAW038010",
+    "name": "GIURISPRUDENZA / Diritto di Famiglia / Minori"
+  },
+  {
+    "code": "LAW038020",
+    "name": "GIURISPRUDENZA / Diritto di Famiglia / Separazione e Divorzio"
+  },
+  {
+    "code": "LAW038030",
+    "name": "GIURISPRUDENZA / Diritto di Famiglia / Matrimonio"
+  },
+  {
+    "code": "LAW039000",
+    "name": "GIURISPRUDENZA / Governo / Federale"
+  },
+  {
+    "code": "LAW041000",
+    "name": "GIURISPRUDENZA / Scienze Forensi"
+  },
+  {
+    "code": "LAW043000",
+    "name": "GIURISPRUDENZA / Il Genere e la Legge"
+  },
+  {
+    "code": "LAW044000",
+    "name": "GIURISPRUDENZA / Pratica Legale"
+  },
+  {
+    "code": "LAW046000",
+    "name": "GIURISPRUDENZA / Salute"
+  },
+  {
+    "code": "LAW047000",
+    "name": "GIURISPRUDENZA / Sviluppo Edilizio e Urbano"
+  },
+  {
+    "code": "LAW049000",
+    "name": "GIURISPRUDENZA / Assicurazioni"
+  },
+  {
+    "code": "LAW050000",
+    "name": "GIURISPRUDENZA / Proprietà Intellettuale / Generale"
+  },
+  {
+    "code": "LAW050010",
+    "name": "GIURISPRUDENZA / Proprietà Intellettuale / Diritto d'Autore"
+  },
+  {
+    "code": "LAW050020",
+    "name": "GIURISPRUDENZA / Proprietà Intellettuale / Brevetto"
+  },
+  {
+    "code": "LAW050030",
+    "name": "GIURISPRUDENZA / Proprietà Intellettuale / Marchio"
+  },
+  {
+    "code": "LAW051000",
+    "name": "GIURISPRUDENZA / Internazionale"
+  },
+  {
+    "code": "LAW052000",
+    "name": "GIURISPRUDENZA / Giurisprudenza"
+  },
+  {
+    "code": "LAW053000",
+    "name": "GIURISPRUDENZA / Giuria"
+  },
+  {
+    "code": "LAW054000",
+    "name": "GIURISPRUDENZA / Lavoro e Occupazione"
+  },
+  {
+    "code": "LAW055000",
+    "name": "GIURISPRUDENZA / Sfruttamento del Suolo"
+  },
+  {
+    "code": "LAW056000",
+    "name": "GIURISPRUDENZA / Gestione dello Studio Legale"
+  },
+  {
+    "code": "LAW059000",
+    "name": "GIURISPRUDENZA / Educazione Legale"
+  },
+  {
+    "code": "LAW060000",
+    "name": "GIURISPRUDENZA / Storia del Diritto"
+  },
+  {
+    "code": "LAW061000",
+    "name": "GIURISPRUDENZA / Professione Legale"
+  },
+  {
+    "code": "LAW062000",
+    "name": "GIURISPRUDENZA / Servizi Legali"
+  },
+  {
+    "code": "LAW063000",
+    "name": "GIURISPRUDENZA / Scrittura Legale"
+  },
+  {
+    "code": "LAW064000",
+    "name": "GIURISPRUDENZA / Controversie"
+  },
+  {
+    "code": "LAW066000",
+    "name": "GIURISPRUDENZA / Marittima"
+  },
+  {
+    "code": "LAW067000",
+    "name": "GIURISPRUDENZA / Igiene Mentale"
+  },
+  {
+    "code": "LAW068000",
+    "name": "GIURISPRUDENZA / Militare"
+  },
+  {
+    "code": "LAW069000",
+    "name": "GIURISPRUDENZA / Diritto Naturale"
+  },
+  {
+    "code": "LAW070000",
+    "name": "GIURISPRUDENZA / Risorse Naturali"
+  },
+  {
+    "code": "LAW071000",
+    "name": "GIURISPRUDENZA / Assistenti e Assistenza Legale"
+  },
+  {
+    "code": "LAW074000",
+    "name": "GIURISPRUDENZA / Proprietà"
+  },
+  {
+    "code": "LAW075000",
+    "name": "GIURISPRUDENZA / Pubblica"
+  },
+  {
+    "code": "LAW076000",
+    "name": "GIURISPRUDENZA / Contratto Pubblico"
+  },
+  {
+    "code": "LAW077000",
+    "name": "GIURISPRUDENZA / Utenze Pubbliche"
+  },
+  {
+    "code": "LAW078000",
+    "name": "GIURISPRUDENZA / Immobiliare"
+  },
+  {
+    "code": "LAW079000",
+    "name": "GIURISPRUDENZA / Riferimento"
+  },
+  {
+    "code": "LAW080000",
+    "name": "GIURISPRUDENZA / Danni e Rimedi"
+  },
+  {
+    "code": "LAW081000",
+    "name": "GIURISPRUDENZA / Ricerca"
+  },
+  {
+    "code": "LAW082000",
+    "name": "GIURISPRUDENZA / Diritto alla Morte"
+  },
+  {
+    "code": "LAW083000",
+    "name": "GIURISPRUDENZA / Titoli"
+  },
+  {
+    "code": "LAW084000",
+    "name": "GIURISPRUDENZA / Sport"
+  },
+  {
+    "code": "LAW086000",
+    "name": "GIURISPRUDENZA / Tassazione"
+  },
+  {
+    "code": "LAW087000",
+    "name": "GIURISPRUDENZA / Illeciti"
+  },
+  {
+    "code": "LAW088000",
+    "name": "GIURISPRUDENZA / Pratica Processuale"
+  },
+  {
+    "code": "LAW089000",
+    "name": "GIURISPRUDENZA / Governo / Statale, Provinciale e Municipale\""
+  },
+  {
+    "code": "LAW090000",
+    "name": "GIURISPRUDENZA / Testamenti"
+  },
+  {
+    "code": "LAW091000",
+    "name": "GIURISPRUDENZA / Testimoni"
+  },
+  {
+    "code": "LAW092000",
+    "name": "GIURISPRUDENZA / Leggi e Regolamenti in Materia di Servizi Educativi"
+  },
+  {
+    "code": "LAW093000",
+    "name": "GIURISPRUDENZA / Diritto e Legislazione Sanitaria"
+  },
+  {
+    "code": "LAW094000",
+    "name": "GIURISPRUDENZA / Discriminazione"
+  },
+  {
+    "code": "LAW095000",
+    "name": "GIURISPRUDENZA / Negligenza Professionale"
+  },
+  {
+    "code": "LAW096000",
+    "name": "GIURISPRUDENZA / I Media e la Legge"
+  },
+  {
+    "code": "LAW097000",
+    "name": "GIURISPRUDENZA / Lesioni Personali"
+  },
+  {
+    "code": "LAW098000",
+    "name": "GIURISPRUDENZA / Guide Pratiche"
+  },
+  {
+    "code": "LAW099000",
+    "name": "GIURISPRUDENZA / Scienza e Tecnologia"
+  },
+  {
+    "code": "LAW100000",
+    "name": "GIURISPRUDENZA / Trust Inter Vivos"
+  },
+  {
+    "code": "LAW101000",
+    "name": "GIURISPRUDENZA / Saggi"
+  },
+  {
+    "code": "LAW102000",
+    "name": "GIURISPRUDENZA / Agricola"
+  },
+  {
+    "code": "LAW103000",
+    "name": "GIURISPRUDENZA / Common Law"
+  },
+  {
+    "code": "LAW104000",
+    "name": "GIURISPRUDENZA / Computer e Internet"
+  },
+  {
+    "code": "LAW106000",
+    "name": "GIURISPRUDENZA / Diffamazione"
+  },
+  {
+    "code": "LAW107000",
+    "name": "GIURISPRUDENZA / Legge sugli Anziani"
+  },
+  {
+    "code": "LAW108000",
+    "name": "GIURISPRUDENZA / Legge Elettorale"
+  },
+  {
+    "code": "LAW109000",
+    "name": "GIURISPRUDENZA / Governo / Generale"
+  },
+  {
+    "code": "LAW110000",
+    "name": "GIURISPRUDENZA / Popolazioni Indigene"
+  },
+  {
+    "code": "LAW111000",
+    "name": "GIURISPRUDENZA / Potere Giudiziario"
+  },
+  {
+    "code": "LAW112000",
+    "name": "GIURISPRUDENZA / Locatore e Locatario"
+  },
+  {
+    "code": "LAW113000",
+    "name": "GIURISPRUDENZA / Responsabilità"
+  },
+  {
+    "code": "LAW114000",
+    "name": "GIURISPRUDENZA / Fusioni e Acquisizioni"
+  },
+  {
+    "code": "LAW115000",
+    "name": "GIURISPRUDENZA / Pensioni"
+  },
+  {
+    "code": "LAW116000",
+    "name": "GIURISPRUDENZA / Privacy"
+  },
+  {
+    "code": "LAW117000",
+    "name": "GIURISPRUDENZA / Trasporti"
+  },
+  {
+    "code": "POL000000",
+    "name": "SCIENZE POLITICHE / Generale"
+  },
+  {
+    "code": "POL001000",
+    "name": "SCIENZE POLITICHE / Relazioni Internazionali / Controllo Armamenti"
+  },
+  {
+    "code": "POL002000",
+    "name": "SCIENZE POLITICHE / Politiche Pubbliche / Urbanistica e Sviluppo Urbano"
+  },
+  {
+    "code": "POL003000",
+    "name": "SCIENZE POLITICHE / Educazione Civica e Cittadinanza"
+  },
+  {
+    "code": "POL004000",
+    "name": "SCIENZE POLITICHE / Libertà Politica e Sicurezza / Diritti civili"
+  },
+  {
+    "code": "POL005000",
+    "name": "SCIENZE POLITICHE / Ideologie Politiche / Comunismo e Socialismo"
+  },
+  {
+    "code": "POL006000",
+    "name": "SCIENZE POLITICHE / Governo / Ramo Legislativo"
+  },
+  {
+    "code": "POL007000",
+    "name": "SCIENZE POLITICHE / Ideologie Politiche / Democrazia"
+  },
+  {
+    "code": "POL008000",
+    "name": "SCIENZE POLITICHE / Procedure Politiche / Elezioni"
+  },
+  {
+    "code": "POL009000",
+    "name": "SCIENZE POLITICHE / Governo / Comparativa"
+  },
+  {
+    "code": "POL010000",
+    "name": "SCIENZE POLITICHE / Storia e Teoria"
+  },
+  {
+    "code": "POL011000",
+    "name": "SCIENZE POLITICHE / Relazioni Internazionali / Generale"
+  },
+  {
+    "code": "POL011010",
+    "name": "SCIENZE POLITICHE / Relazioni Internazionali / Diplomazia"
+  },
+  {
+    "code": "POL011020",
+    "name": "SCIENZE POLITICHE / Relazioni Internazionali / Commercio e Tariffe"
+  },
+  {
+    "code": "POL012000",
+    "name": "SCIENZE POLITICHE / Libertà Politica e Sicurezza / Sicurezza Internazionale"
+  },
+  {
+    "code": "POL013000",
+    "name": "SCIENZE POLITICHE / Relazioni Industriali e di Lavoro"
+  },
+  {
+    "code": "POL014000",
+    "name": "SCIENZE POLITICHE / Libertà Politica e Sicurezza / Applicazione della Legge"
+  },
+  {
+    "code": "POL015000",
+    "name": "SCIENZE POLITICHE / Procedure Politiche / Partiti Politici"
+  },
+  {
+    "code": "POL016000",
+    "name": "SCIENZE POLITICHE / Procedure Politiche / Generale"
+  },
+  {
+    "code": "POL017000",
+    "name": "SCIENZE POLITICHE / Pubblica Amministrazione e Affari Pubblici"
+  },
+  {
+    "code": "POL018000",
+    "name": "SCIENZE POLITICHE / Riferimento"
+  },
+  {
+    "code": "POL019000",
+    "name": "SCIENZE POLITICHE / Politiche Pubbliche / Servizi e Politiche Sociali"
+  },
+  {
+    "code": "POL020000",
+    "name": "SCIENZE POLITICHE / Governo / Statale e Provinciale"
+  },
+  {
+    "code": "POL021000",
+    "name": "SCIENZE POLITICHE / Relazioni Internazionali / Trattati"
+  },
+  {
+    "code": "POL022000",
+    "name": "SCIENZE POLITICHE / Costituzioni"
+  },
+  {
+    "code": "POL023000",
+    "name": "SCIENZE POLITICHE / Condizioni Economiche"
+  },
+  {
+    "code": "POL024000",
+    "name": "SCIENZE POLITICHE / Politiche Pubbliche / Politica Economica"
+  },
+  {
+    "code": "POL025000",
+    "name": "SCIENZE POLITICHE / Procedure Politiche / Leadership"
+  },
+  {
+    "code": "POL026000",
+    "name": "SCIENZE POLITICHE / Politiche Pubbliche / Pianificazione Regionale"
+  },
+  {
+    "code": "POL027000",
+    "name": "SCIENZE POLITICHE / Politiche Pubbliche / Previdenza Sociale"
+  },
+  {
+    "code": "POL028000",
+    "name": "SCIENZE POLITICHE / Politiche Pubbliche / Generale"
+  },
+  {
+    "code": "POL029000",
+    "name": "SCIENZE POLITICHE / Politiche Pubbliche / Politica Sociale"
+  },
+  {
+    "code": "POL030000",
+    "name": "SCIENZE POLITICHE / Governo / Nazionale"
+  },
+  {
+    "code": "POL031000",
+    "name": "SCIENZE POLITICHE / Ideologie Politiche / Nazionalismo"
+  },
+  {
+    "code": "POL032000",
+    "name": "SCIENZE POLITICHE / Saggi"
+  },
+  {
+    "code": "POL033000",
+    "name": "SCIENZE POLITICHE / Globalizzazione"
+  },
+  {
+    "code": "POL034000",
+    "name": "SCIENZE POLITICHE / Pace"
+  },
+  {
+    "code": "POL035000",
+    "name": "SCIENZE POLITICHE / Libertà Politica e Sicurezza / Generale"
+  },
+  {
+    "code": "POL035010",
+    "name": "SCIENZE POLITICHE / Libertà Politica e Sicurezza / Diritti Umani"
+  },
+  {
+    "code": "POL036000",
+    "name": "SCIENZE POLITICHE / Libertà Politica e Sicurezza / Intelligence"
+  },
+  {
+    "code": "POL037000",
+    "name": "SCIENZE POLITICHE / Libertà Politica e Sicurezza / Terrorismo"
+  },
+  {
+    "code": "POL038000",
+    "name": "SCIENZE POLITICHE / Politiche Pubbliche / Politica Culturale"
+  },
+  {
+    "code": "POL039000",
+    "name": "SCIENZE POLITICHE / Censura"
+  },
+  {
+    "code": "POL040000",
+    "name": "SCIENZE POLITICHE / Governo / Generale"
+  },
+  {
+    "code": "POL040010",
+    "name": "SCIENZE POLITICHE / Governo / Ramo Esecutivo"
+  },
+  {
+    "code": "POL040020",
+    "name": "SCIENZE POLITICHE / Governo / Internazionale"
+  },
+  {
+    "code": "POL040030",
+    "name": "SCIENZE POLITICHE / Governo / Ramo Giudiziario"
+  },
+  {
+    "code": "POL040040",
+    "name": "SCIENZE POLITICHE / Governo / Locale"
+  },
+  {
+    "code": "POL041000",
+    "name": "SCIENZE POLITICHE / ONG (Organizzazioni Non Governative)"
+  },
+  {
+    "code": "POL042000",
+    "name": "SCIENZE POLITICHE / Ideologie Politiche / Generale"
+  },
+  {
+    "code": "POL042010",
+    "name": "SCIENZE POLITICHE / Ideologie Politiche / Anarchismo"
+  },
+  {
+    "code": "POL042020",
+    "name": "SCIENZE POLITICHE / Ideologie Politiche / Conservatorismo e Liberismo"
+  },
+  {
+    "code": "POL042030",
+    "name": "SCIENZE POLITICHE / Ideologie Politiche / Fascismo e Totalitarismo"
+  },
+  {
+    "code": "POL043000",
+    "name": "SCIENZE POLITICHE / Procedure Politiche / Appoggio Politico"
+  },
+  {
+    "code": "POL044000",
+    "name": "SCIENZE POLITICHE / Politiche Pubbliche / Politica Ambientale"
+  },
+  {
+    "code": "POL045000",
+    "name": "SCIENZE POLITICHE / Colonialismo e Post-Colonialismo"
+  },
+  {
+    "code": "POL053000",
+    "name": "SCIENZE POLITICHE / Mondo / Africana"
+  },
+  {
+    "code": "POL054000",
+    "name": "SCIENZE POLITICHE / Mondo / Asiatica"
+  },
+  {
+    "code": "POL055000",
+    "name": "SCIENZE POLITICHE / Mondo / Australiana e Oceanica"
+  },
+  {
+    "code": "POL056000",
+    "name": "SCIENZE POLITICHE / Mondo / Canadese"
+  },
+  {
+    "code": "POL057000",
+    "name": "SCIENZE POLITICHE / Mondo / Caraibica e Latino-Americana"
+  },
+  {
+    "code": "POL058000",
+    "name": "SCIENZE POLITICHE / Mondo / Europea"
+  },
+  {
+    "code": "POL059000",
+    "name": "SCIENZE POLITICHE / Mondo / Medio-Orientale"
+  },
+  {
+    "code": "POL060000",
+    "name": "SCIENZE POLITICHE / Mondo / Russa ed Ex Unione Sovietica"
+  },
+  {
+    "code": "SOC000000",
+    "name": "SCIENZE SOCIALI / Generale"
+  },
+  {
+    "code": "SOC001000",
+    "name": "SCIENZE SOCIALI / Studi Etnici / Studi Afro-Americani"
+  },
+  {
+    "code": "SOC002000",
+    "name": "SCIENZE SOCIALI / Antropologia / Generale"
+  },
+  {
+    "code": "SOC002010",
+    "name": "SCIENZE SOCIALI / Antropologia / Culturale"
+  },
+  {
+    "code": "SOC002020",
+    "name": "SCIENZE SOCIALI / Antropologia / Fisica"
+  },
+  {
+    "code": "SOC003000",
+    "name": "SCIENZE SOCIALI / Archeologia"
+  },
+  {
+    "code": "SOC004000",
+    "name": "SCIENZE SOCIALI / Criminologia"
+  },
+  {
+    "code": "SOC005000",
+    "name": "SCIENZE SOCIALI / Costumi e Tradizioni"
+  },
+  {
+    "code": "SOC006000",
+    "name": "SCIENZE SOCIALI / Demografia"
+  },
+  {
+    "code": "SOC007000",
+    "name": "SCIENZE SOCIALI / Emigrazione e Immigrazione"
+  },
+  {
+    "code": "SOC008000",
+    "name": "SCIENZE SOCIALI / Studi Etnici / Generale"
+  },
+  {
+    "code": "SOC010000",
+    "name": "SCIENZE SOCIALI / Femminismo e Teoria Femminista"
+  },
+  {
+    "code": "SOC011000",
+    "name": "SCIENZE SOCIALI / Folclore e Mitologia"
+  },
+  {
+    "code": "SOC012000",
+    "name": "SCIENZE SOCIALI / Studi sull'Omosessualità"
+  },
+  {
+    "code": "SOC013000",
+    "name": "SCIENZE SOCIALI / Gerontologia"
+  },
+  {
+    "code": "SOC014000",
+    "name": "SCIENZE SOCIALI / Festività (non religiose)"
+  },
+  {
+    "code": "SOC015000",
+    "name": "SCIENZE SOCIALI / Geografia Umana"
+  },
+  {
+    "code": "SOC016000",
+    "name": "SCIENZE SOCIALI / Servizi Umani"
+  },
+  {
+    "code": "SOC017000",
+    "name": "SCIENZE SOCIALI / Studi sul Lesbismo"
+  },
+  {
+    "code": "SOC018000",
+    "name": "SCIENZE SOCIALI / Studi sugli Uomini"
+  },
+  {
+    "code": "SOC019000",
+    "name": "SCIENZE SOCIALI / Metodologia"
+  },
+  {
+    "code": "SOC020000",
+    "name": "SCIENZE SOCIALI / Studi sui Minori"
+  },
+  {
+    "code": "SOC021000",
+    "name": "SCIENZE SOCIALI / Studi Etnici / Studi dei Nativi Americani"
+  },
+  {
+    "code": "SOC022000",
+    "name": "SCIENZE SOCIALI / Cultura Popolare"
+  },
+  {
+    "code": "SOC023000",
+    "name": "SCIENZE SOCIALI / Riferimento"
+  },
+  {
+    "code": "SOC024000",
+    "name": "SCIENZE SOCIALI / Ricerca"
+  },
+  {
+    "code": "SOC025000",
+    "name": "SCIENZE SOCIALI / Assistenza Sociale"
+  },
+  {
+    "code": "SOC026000",
+    "name": "SCIENZE SOCIALI / Sociologia / Generale"
+  },
+  {
+    "code": "SOC026010",
+    "name": "SCIENZE SOCIALI / Sociologia / Matrimonio e Famiglia"
+  },
+  {
+    "code": "SOC026020",
+    "name": "SCIENZE SOCIALI / Sociologia / Rurale"
+  },
+  {
+    "code": "SOC026030",
+    "name": "SCIENZE SOCIALI / Sociologia / Urbana"
+  },
+  {
+    "code": "SOC027000",
+    "name": "SCIENZE SOCIALI / Statistiche"
+  },
+  {
+    "code": "SOC028000",
+    "name": "SCIENZE SOCIALI / Studi sulle Donne"
+  },
+  {
+    "code": "SOC029000",
+    "name": "SCIENZE SOCIALI / Persone con Disabilità"
+  },
+  {
+    "code": "SOC030000",
+    "name": "SCIENZE SOCIALI / Penologia"
+  },
+  {
+    "code": "SOC031000",
+    "name": "SCIENZE SOCIALI / Discriminazione e Relazioni tra le Razze"
+  },
+  {
+    "code": "SOC032000",
+    "name": "SCIENZE SOCIALI / Studi di Genere"
+  },
+  {
+    "code": "SOC033000",
+    "name": "SCIENZE SOCIALI / Filantropia e Carità"
+  },
+  {
+    "code": "SOC034000",
+    "name": "SCIENZE SOCIALI / Pornografia"
+  },
+  {
+    "code": "SOC035000",
+    "name": "SCIENZE SOCIALI / Lavoro di Volontariato"
+  },
+  {
+    "code": "SOC036000",
+    "name": "SCIENZE SOCIALI / Morte e Morire"
+  },
+  {
+    "code": "SOC037000",
+    "name": "SCIENZE SOCIALI / Studi sul Futuro"
+  },
+  {
+    "code": "SOC038000",
+    "name": "SCIENZE SOCIALI / Massoneria"
+  },
+  {
+    "code": "SOC039000",
+    "name": "SCIENZE SOCIALI / Sociologia della Religione"
+  },
+  {
+    "code": "SOC040000",
+    "name": "SCIENZE SOCIALI / Disastri e Aiuto Umanitario"
+  },
+  {
+    "code": "SOC041000",
+    "name": "SCIENZE SOCIALI / Saggi"
+  },
+  {
+    "code": "SOC042000",
+    "name": "SCIENZE SOCIALI / Paesi in Via di Sviluppo"
+  },
+  {
+    "code": "SOC043000",
+    "name": "SCIENZE SOCIALI / Studi Etnici / Studi Asiatici-Americani"
+  },
+  {
+    "code": "SOC044000",
+    "name": "SCIENZE SOCIALI / Studi Etnici / Studi Ispano-Americani"
+  },
+  {
+    "code": "SOC045000",
+    "name": "SCIENZE SOCIALI / Povertà e Senzatetto"
+  },
+  {
+    "code": "SOC046000",
+    "name": "SCIENZE SOCIALI / Aborto e Controllo delle Nascite"
+  },
+  {
+    "code": "SOC047000",
+    "name": "SCIENZE SOCIALI / Studi sui Bambini"
+  },
+  {
+    "code": "SOC048000",
+    "name": "SCIENZE SOCIALI / Studi Islamici"
+  },
+  {
+    "code": "SOC049000",
+    "name": "SCIENZE SOCIALI / Studi Ebraici"
+  },
+  {
+    "code": "SOC050000",
+    "name": "SCIENZE SOCIALI / Classi Sociali"
+  },
+  {
+    "code": "SOC051000",
+    "name": "SCIENZE SOCIALI / Violenza nella Società"
+  },
+  {
+    "code": "SOC052000",
+    "name": "SCIENZE SOCIALI / Studi sui Media"
+  },
+  {
+    "code": "SOC053000",
+    "name": "SCIENZE SOCIALI / Studi Regionali"
+  },
+  {
+    "code": "SOC054000",
+    "name": "SCIENZE SOCIALI / Schiavitù"
+  },
+  {
+    "code": "SOC055000",
+    "name": "SCIENZE SOCIALI / Agricoltura e Alimenti"
+  },
+  {
+    "code": "SOC056000",
+    "name": "SCIENZE SOCIALI / Black Studies (Globale)"
+  },
+  {
+    "code": "SOC057000",
+    "name": "SCIENZE SOCIALI / Malattie e Problemi Sanitari"
+  },
+  {
+    "code": "HIS000000",
+    "name": "STORIA / Generale"
+  },
+  {
+    "code": "HIS001000",
+    "name": "STORIA / Africa / Generale"
+  },
+  {
+    "code": "HIS001010",
+    "name": "STORIA / Africa / Centrale"
+  },
+  {
+    "code": "HIS001020",
+    "name": "STORIA / Africa / Est"
+  },
+  {
+    "code": "HIS001030",
+    "name": "STORIA / Africa / Nord"
+  },
+  {
+    "code": "HIS001040",
+    "name": "STORIA / Africa / Sud / Generale"
+  },
+  {
+    "code": "HIS001050",
+    "name": "STORIA / Africa / Ovest"
+  },
+  {
+    "code": "HIS002000",
+    "name": "STORIA / Antica / Generale"
+  },
+  {
+    "code": "HIS002010",
+    "name": "STORIA / Antica / Grecia"
+  },
+  {
+    "code": "HIS002020",
+    "name": "STORIA / Antica / Roma"
+  },
+  {
+    "code": "HIS002030",
+    "name": "STORIA / Antica / Egitto"
+  },
+  {
+    "code": "HIS003000",
+    "name": "STORIA / Asia / Generale"
+  },
+  {
+    "code": "HIS004000",
+    "name": "STORIA / Australia e Nuova Zelanda"
+  },
+  {
+    "code": "HIS005000",
+    "name": "STORIA / Europa / Stati Baltici"
+  },
+  {
+    "code": "HIS006000",
+    "name": "STORIA / Canada / Generale"
+  },
+  {
+    "code": "HIS006010",
+    "name": "STORIA / Canada / Pre-Confederation (fino al 1867)"
+  },
+  {
+    "code": "HIS006020",
+    "name": "STORIA / Canada / Post-Confederation (dal 1867)"
+  },
+  {
+    "code": "HIS007000",
+    "name": "STORIA / America Latina / America Centrale"
+  },
+  {
+    "code": "HIS008000",
+    "name": "STORIA / Asia / Cina"
+  },
+  {
+    "code": "HIS009000",
+    "name": "STORIA / Medio Oriente / Egitto (vedere anche Antica / Egitto)"
+  },
+  {
+    "code": "HIS010000",
+    "name": "STORIA / Europa / Generale"
+  },
+  {
+    "code": "HIS010010",
+    "name": "STORIA / Europa / Orientale"
+  },
+  {
+    "code": "HIS010020",
+    "name": "STORIA / Europa / Occidentale"
+  },
+  {
+    "code": "HIS012000",
+    "name": "STORIA / Europa / Ex Repubbliche Sovietiche"
+  },
+  {
+    "code": "HIS013000",
+    "name": "STORIA / Europa / Francia"
+  },
+  {
+    "code": "HIS014000",
+    "name": "STORIA / Europa / Germania"
+  },
+  {
+    "code": "HIS015000",
+    "name": "STORIA / Europa / Gran Bretagna"
+  },
+  {
+    "code": "HIS016000",
+    "name": "STORIA / Storiografia"
+  },
+  {
+    "code": "HIS017000",
+    "name": "STORIA / Asia / India e Asia Meridionale"
+  },
+  {
+    "code": "HIS018000",
+    "name": "STORIA / Europa / Irlanda"
+  },
+  {
+    "code": "HIS019000",
+    "name": "STORIA / Medio Oriente / Israele"
+  },
+  {
+    "code": "HIS020000",
+    "name": "STORIA / Europa / Italia"
+  },
+  {
+    "code": "HIS021000",
+    "name": "STORIA / Asia / Giappone"
+  },
+  {
+    "code": "HIS022000",
+    "name": "STORIA / Ebraica"
+  },
+  {
+    "code": "HIS023000",
+    "name": "STORIA / Asia / Corea"
+  },
+  {
+    "code": "HIS024000",
+    "name": "STORIA / America Latina / Generale"
+  },
+  {
+    "code": "HIS025000",
+    "name": "STORIA / America Latina / Messico"
+  },
+  {
+    "code": "HIS026000",
+    "name": "STORIA / Medio Oriente / Generale"
+  },
+  {
+    "code": "HIS027000",
+    "name": "STORIA / Militare / Generale"
+  },
+  {
+    "code": "HIS027010",
+    "name": "STORIA / Militare / Guerra Biologica e Chimica"
+  },
+  {
+    "code": "HIS027020",
+    "name": "STORIA / Militare / Guerra in Corea"
+  },
+  {
+    "code": "HIS027030",
+    "name": "STORIA / Militare / Guerra Nucleare"
+  },
+  {
+    "code": "HIS027040",
+    "name": "STORIA / Militare / Guerra del Golfo Persico (1991)"
+  },
+  {
+    "code": "HIS027050",
+    "name": "STORIA / Militare / Illustrata"
+  },
+  {
+    "code": "HIS027060",
+    "name": "STORIA / Militare / Strategia"
+  },
+  {
+    "code": "HIS027070",
+    "name": "STORIA / Militare / Guerra in Vietnam"
+  },
+  {
+    "code": "HIS027080",
+    "name": "STORIA / Militare / Armi"
+  },
+  {
+    "code": "HIS027090",
+    "name": "STORIA / Militare / Prima Guerra Mondiale"
+  },
+  {
+    "code": "HIS027100",
+    "name": "STORIA / Militare / Seconda Guerra Mondiale"
+  },
+  {
+    "code": "HIS027110",
+    "name": "STORIA / Militare / Stati Uniti"
+  },
+  {
+    "code": "HIS027120",
+    "name": "STORIA / Militare / Veterani"
+  },
+  {
+    "code": "HIS027130",
+    "name": "STORIA / Militare / Altro"
+  },
+  {
+    "code": "HIS027140",
+    "name": "STORIA / Militare / Aviazione"
+  },
+  {
+    "code": "HIS027150",
+    "name": "STORIA / Militare / Navale"
+  },
+  {
+    "code": "HIS027160",
+    "name": "STORIA / Militare / Canada"
+  },
+  {
+    "code": "HIS027170",
+    "name": "STORIA / Militare / Guerra in Iraq (dal 2003)"
+  },
+  {
+    "code": "HIS027180",
+    "name": "STORIA / Militare / Forze Speciali"
+  },
+  {
+    "code": "HIS027190",
+    "name": "STORIA / Militare / Guerra Afgana (dal 2001)*"
+  },
+  {
+    "code": "HIS028000",
+    "name": "STORIA / Nativi Americani"
+  },
+  {
+    "code": "HIS029000",
+    "name": "STORIA / America Settentrionale"
+  },
+  {
+    "code": "HIS030000",
+    "name": "STORIA / Riferimento"
+  },
+  {
+    "code": "HIS031000",
+    "name": "STORIA / Rivoluzionaria"
+  },
+  {
+    "code": "HIS032000",
+    "name": "STORIA / Europa / Russia ed Ex Unione Sovietica"
+  },
+  {
+    "code": "HIS033000",
+    "name": "STORIA / America Latina / Sud America"
+  },
+  {
+    "code": "HIS035000",
+    "name": "STORIA / Studio e Insegnamento"
+  },
+  {
+    "code": "HIS036000",
+    "name": "STORIA / Stati Uniti / Generale"
+  },
+  {
+    "code": "HIS036010",
+    "name": "STORIA / Stati Uniti / Statale e Locale / Generale"
+  },
+  {
+    "code": "HIS036020",
+    "name": "STORIA / Stati Uniti / Periodo Coloniale (1600-1775)"
+  },
+  {
+    "code": "HIS036030",
+    "name": "STORIA / Stati Uniti / Periodo Rivoluzionario (1775-1800)"
+  },
+  {
+    "code": "HIS036040",
+    "name": "STORIA / Stati Uniti / 19° Secolo"
+  },
+  {
+    "code": "HIS036050",
+    "name": "STORIA / Stati Uniti / Periodo della Guerra Civile (1850-1877)"
+  },
+  {
+    "code": "HIS036060",
+    "name": "STORIA / Stati Uniti / 20° Secolo"
+  },
+  {
+    "code": "HIS036070",
+    "name": "STORIA / Stati Uniti / 21° Secolo"
+  },
+  {
+    "code": "HIS036080",
+    "name": "STORIA / Stati Uniti / Statale e Locale / Medio Atlantico (DC, DE, MD, NJ, NY, PA)\""
+  },
+  {
+    "code": "HIS036090",
+    "name": "STORIA / Stati Uniti / Statale e Locale / Midwest (IA, IL, IN, KS, MI, MN, MO, ND, NE, OH, SD, WI)\""
+  },
+  {
+    "code": "HIS036100",
+    "name": "STORIA / Stati Uniti / Statale e Locale / New England (CT, MA, ME, NH, RI, VT)\""
+  },
+  {
+    "code": "HIS036110",
+    "name": "STORIA / Stati Uniti / Statale e Locale / Nord-Ovest del Pacifico (OR, WA)\""
+  },
+  {
+    "code": "HIS036120",
+    "name": "STORIA / Stati Uniti / Statale e Locale / Sud (AL, AR, FL, GA, KY, LA, MS, NC, SC, TN, VA, WV)\""
+  },
+  {
+    "code": "HIS036130",
+    "name": "STORIA / Stati Uniti / Statale e Locale / Sud-Ovest (AZ, NM, OK, TX)\""
+  },
+  {
+    "code": "HIS036140",
+    "name": "STORIA / Stati Uniti / Statale e Locale / Ovest (AK, CA, CO, HI, ID, MT, NV, UT, WY)\""
+  },
+  {
+    "code": "HIS037000",
+    "name": "STORIA / Mondo"
+  },
+  {
+    "code": "HIS037010",
+    "name": "STORIA / Medievale"
+  },
+  {
+    "code": "HIS037020",
+    "name": "STORIA / Rinascimento"
+  },
+  {
+    "code": "HIS037030",
+    "name": "STORIA / Moderna / Generale"
+  },
+  {
+    "code": "HIS037040",
+    "name": "STORIA / Moderna / 17° Secolo"
+  },
+  {
+    "code": "HIS037050",
+    "name": "STORIA / Moderna / 18° Secolo"
+  },
+  {
+    "code": "HIS037060",
+    "name": "STORIA / Moderna / 19° Secolo"
+  },
+  {
+    "code": "HIS037070",
+    "name": "STORIA / Moderna / 20° Secolo"
+  },
+  {
+    "code": "HIS037080",
+    "name": "STORIA / Moderna / 21° Secolo"
+  },
+  {
+    "code": "HIS037090",
+    "name": "STORIA / Moderna / 16° Secolo"
+  },
+  {
+    "code": "HIS038000",
+    "name": "STORIA / Americhe (Nord, Centrale, Sud, Indie Occidentali)\""
+  },
+  {
+    "code": "HIS039000",
+    "name": "STORIA / Civilizzazione"
+  },
+  {
+    "code": "HIS040000",
+    "name": "STORIA / Europa / Austria e Ungheria"
+  },
+  {
+    "code": "HIS041000",
+    "name": "STORIA / Indie Caraibiche e Occidentali / Generale"
+  },
+  {
+    "code": "HIS041010",
+    "name": "STORIA / Indie Caraibiche e Occidentali / Cuba"
+  },
+  {
+    "code": "HIS042000",
+    "name": "STORIA / Europa / Grecia (vedere anche Antica / Grecia)"
+  },
+  {
+    "code": "HIS043000",
+    "name": "STORIA / Olocausto"
+  },
+  {
+    "code": "HIS044000",
+    "name": "STORIA / Europa / Scandinavia"
+  },
+  {
+    "code": "HIS045000",
+    "name": "STORIA / Europa / Spagna e Portogallo"
+  },
+  {
+    "code": "HIS046000",
+    "name": "STORIA / Regioni Polari"
+  },
+  {
+    "code": "HIS047000",
+    "name": "STORIA / Africa / Sud / Repubblica Sud Africana"
+  },
+  {
+    "code": "HIS048000",
+    "name": "STORIA / Asia / Asia Sud-Orientale"
+  },
+  {
+    "code": "HIS049000",
+    "name": "STORIA / Saggi"
+  },
+  {
+    "code": "HIS050000",
+    "name": "STORIA / Asia / Asia Centrale"
+  },
+  {
+    "code": "HIS051000",
+    "name": "STORIA / Spedizioni e Scoperte"
+  },
+  {
+    "code": "HIS052000",
+    "name": "STORIA / Geografia Storica"
+  },
+  {
+    "code": "HIS053000",
+    "name": "STORIA / Oceania"
+  },
+  {
+    "code": "HIS054000",
+    "name": "STORIA / Storia Sociale"
+  },
+  {
+    "code": "HIS055000",
+    "name": "STORIA / Medio Oriente / Turchia e Impero Ottomano*"
+  },
+  {
+    "code": "HIS056000",
+    "name": "STORIA / Afro-Americana"
+  },
+  {
+    "code": "HIS058000",
+    "name": "STORIA / Donne"
+  },
+  {
+    "code": "FOR000000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Generale"
+  },
+  {
+    "code": "FOR001000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Lingue Africane (vedere anche Swahili)"
+  },
+  {
+    "code": "FOR002000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Arabo"
+  },
+  {
+    "code": "FOR003000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Cinese"
+  },
+  {
+    "code": "FOR004000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Danese"
+  },
+  {
+    "code": "FOR005000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Dizionari Multilingue"
+  },
+  {
+    "code": "FOR006000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Olandese"
+  },
+  {
+    "code": "FOR007000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Inglese come Seconda Lingua"
+  },
+  {
+    "code": "FOR008000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Francese"
+  },
+  {
+    "code": "FOR009000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Tedesco"
+  },
+  {
+    "code": "FOR010000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Greco (Moderno)"
+  },
+  {
+    "code": "FOR011000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Ebraico"
+  },
+  {
+    "code": "FOR012000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Ungherese"
+  },
+  {
+    "code": "FOR013000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Italiano"
+  },
+  {
+    "code": "FOR014000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Giapponese"
+  },
+  {
+    "code": "FOR015000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Coreano"
+  },
+  {
+    "code": "FOR016000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Latino"
+  },
+  {
+    "code": "FOR017000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Varie"
+  },
+  {
+    "code": "FOR018000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Frasari Multilingue"
+  },
+  {
+    "code": "FOR019000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Polacco"
+  },
+  {
+    "code": "FOR020000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Portoghese"
+  },
+  {
+    "code": "FOR021000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Russo"
+  },
+  {
+    "code": "FOR022000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Lingue Scandinave (Altre)"
+  },
+  {
+    "code": "FOR023000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Serbo e Croato"
+  },
+  {
+    "code": "FOR024000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Lingue Slave (Altre)"
+  },
+  {
+    "code": "FOR025000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Lingue del Sud-Est Asiatico (vedere anche Vietnamita)"
+  },
+  {
+    "code": "FOR026000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Spagnolo"
+  },
+  {
+    "code": "FOR027000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Turco e Lingue Turche"
+  },
+  {
+    "code": "FOR028000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Yiddish"
+  },
+  {
+    "code": "FOR029000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Lingue Celtiche"
+  },
+  {
+    "code": "FOR030000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Lingue Indiche"
+  },
+  {
+    "code": "FOR031000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Lingue dei Nativi Americani"
+  },
+  {
+    "code": "FOR032000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Lingue Oceaniche e Australiane"
+  },
+  {
+    "code": "FOR033000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Lingue Antiche (vedere anche Latino)"
+  },
+  {
+    "code": "FOR034000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Lingue Baltiche"
+  },
+  {
+    "code": "FOR035000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Lingue Creole"
+  },
+  {
+    "code": "FOR036000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Ceco"
+  },
+  {
+    "code": "FOR037000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Finnico"
+  },
+  {
+    "code": "FOR038000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Hindi"
+  },
+  {
+    "code": "FOR039000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Norvegese"
+  },
+  {
+    "code": "FOR040000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Persiano"
+  },
+  {
+    "code": "FOR041000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Lingue Romantiche (Altre)"
+  },
+  {
+    "code": "FOR042000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Swahili"
+  },
+  {
+    "code": "FOR043000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Svedese"
+  },
+  {
+    "code": "FOR044000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Vietnamita"
+  },
+  {
+    "code": "FOR045000",
+    "name": "STUDIO DELLA LINGUA STRANIERA / Old e Middle English*"
+  },
+  {
+    "code": "PER000000",
+    "name": "ARTI RAPPRESENTATIVE / Generale"
+  },
+  {
+    "code": "PER001000",
+    "name": "ARTI RAPPRESENTATIVE / Recitazione e Audizione"
+  },
+  {
+    "code": "PER002000",
+    "name": "ARTI RAPPRESENTATIVE / Circhi"
+  },
+  {
+    "code": "PER003000",
+    "name": "ARTI RAPPRESENTATIVE / Danza / Generale"
+  },
+  {
+    "code": "PER003010",
+    "name": "ARTI RAPPRESENTATIVE / Danza / Classica e Balletto"
+  },
+  {
+    "code": "PER003020",
+    "name": "ARTI RAPPRESENTATIVE / Danza / Folcloristica"
+  },
+  {
+    "code": "PER003030",
+    "name": "ARTI RAPPRESENTATIVE / Danza / Jazz"
+  },
+  {
+    "code": "PER003040",
+    "name": "ARTI RAPPRESENTATIVE / Danza / Moderna"
+  },
+  {
+    "code": "PER003050",
+    "name": "ARTI RAPPRESENTATIVE / Danza / Notazione"
+  },
+  {
+    "code": "PER003060",
+    "name": "ARTI RAPPRESENTATIVE / Danza / Popolare"
+  },
+  {
+    "code": "PER003070",
+    "name": "ARTI RAPPRESENTATIVE / Danza / Riferimento"
+  },
+  {
+    "code": "PER003080",
+    "name": "ARTI RAPPRESENTATIVE / Danza / Tip-Tap"
+  },
+  {
+    "code": "PER003100",
+    "name": "ARTI RAPPRESENTATIVE / Danza / Storia e Critica"
+  },
+  {
+    "code": "PER004000",
+    "name": "ARTI RAPPRESENTATIVE / Film e Video / Generale"
+  },
+  {
+    "code": "PER004010",
+    "name": "ARTI RAPPRESENTATIVE / Film e Video / Direzione e Produzione"
+  },
+  {
+    "code": "PER004020",
+    "name": "ARTI RAPPRESENTATIVE / Film e Video / Guide e Recensioni"
+  },
+  {
+    "code": "PER004030",
+    "name": "ARTI RAPPRESENTATIVE / Film e Video / Storia e Critica"
+  },
+  {
+    "code": "PER004040",
+    "name": "ARTI RAPPRESENTATIVE / Film e Video / Riferimento"
+  },
+  {
+    "code": "PER004050",
+    "name": "ARTI RAPPRESENTATIVE / Film e Video / Sceneggiatura"
+  },
+  {
+    "code": "PER006000",
+    "name": "ARTI RAPPRESENTATIVE / Teatro / Mimica"
+  },
+  {
+    "code": "PER007000",
+    "name": "ARTI RAPPRESENTATIVE / Burattini e Burattinaggio"
+  },
+  {
+    "code": "PER008000",
+    "name": "ARTI RAPPRESENTATIVE / Radio / Generale"
+  },
+  {
+    "code": "PER008010",
+    "name": "ARTI RAPPRESENTATIVE / Radio / Storia e Critica"
+  },
+  {
+    "code": "PER008020",
+    "name": "ARTI RAPPRESENTATIVE / Radio / Riferimento"
+  },
+  {
+    "code": "PER009000",
+    "name": "ARTI RAPPRESENTATIVE / Riferimento"
+  },
+  {
+    "code": "PER010000",
+    "name": "ARTI RAPPRESENTATIVE / Televisione / Generale"
+  },
+  {
+    "code": "PER010010",
+    "name": "ARTI RAPPRESENTATIVE / Televisione / Direzione e Produzione"
+  },
+  {
+    "code": "PER010020",
+    "name": "ARTI RAPPRESENTATIVE / Televisione / Guide e Recensioni"
+  },
+  {
+    "code": "PER010030",
+    "name": "ARTI RAPPRESENTATIVE / Televisione / Storia e Critica"
+  },
+  {
+    "code": "PER010040",
+    "name": "ARTI RAPPRESENTATIVE / Televisione / Riferimento"
+  },
+  {
+    "code": "PER010050",
+    "name": "ARTI RAPPRESENTATIVE / Televisione / Sceneggiatura"
+  },
+  {
+    "code": "PER011000",
+    "name": "ARTI RAPPRESENTATIVE / Teatro / Generale"
+  },
+  {
+    "code": "PER011010",
+    "name": "ARTI RAPPRESENTATIVE / Teatro / Direzione e Produzione"
+  },
+  {
+    "code": "PER011020",
+    "name": "ARTI RAPPRESENTATIVE / Teatro / Storia e Critica"
+  },
+  {
+    "code": "PER011030",
+    "name": "ARTI RAPPRESENTATIVE / Teatro / Drammaturgia"
+  },
+  {
+    "code": "PER011040",
+    "name": "ARTI RAPPRESENTATIVE / Teatro / Tecnica Teatrale"
+  },
+  {
+    "code": "PER013000",
+    "name": "ARTI RAPPRESENTATIVE / Teatro / Broadway e Rivista Musicale"
+  },
+  {
+    "code": "PER014000",
+    "name": "ARTI RAPPRESENTATIVE / Aspetti Legati al Business"
+  },
+  {
+    "code": "PER015000",
+    "name": "ARTI RAPPRESENTATIVE / Commedia"
+  },
+  {
+    "code": "PER016000",
+    "name": "ARTI RAPPRESENTATIVE / Sceneggiature"
+  },
+  {
+    "code": "PER017000",
+    "name": "ARTI RAPPRESENTATIVE / Animazione"
+  },
+  {
+    "code": "PER018000",
+    "name": "ARTI RAPPRESENTATIVE / Regista Individuale (vedere anche BIOGRAFIA e AUTOBIOGRAFIA / Intrattenimento e Arti Rappresentative)"
+  },
+  {
+    "code": "PER019000",
+    "name": "ARTI RAPPRESENTATIVE / Narrativa"
+  },
+  {
+    "code": "LAN000000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Generale"
+  },
+  {
+    "code": "LAN001000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Sistemi Alfabetici e di Scrittura"
+  },
+  {
+    "code": "LAN002000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Professione di Scrittore"
+  },
+  {
+    "code": "LAN004000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Scienze della Comunicazione"
+  },
+  {
+    "code": "LAN005000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Composizione e Scrittura Creativa"
+  },
+  {
+    "code": "LAN006000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Grammatica e Punteggiatura"
+  },
+  {
+    "code": "LAN007000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Scrittura Manuale"
+  },
+  {
+    "code": "LAN008000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Giornalismo"
+  },
+  {
+    "code": "LAN009000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Linguistica / Generale"
+  },
+  {
+    "code": "LAN009010",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Linguistica / Storica e Comparativa*"
+  },
+  {
+    "code": "LAN009020",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Linguistica / Morfologia*"
+  },
+  {
+    "code": "LAN009030",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Linguistica / Aspetti Pratici*"
+  },
+  {
+    "code": "LAN009040",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Linguistica / Psicolinguistica*"
+  },
+  {
+    "code": "LAN009050",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Linguistica / Sociolinguistica*"
+  },
+  {
+    "code": "LAN009060",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Linguistica / Sintassi*"
+  },
+  {
+    "code": "LAN010000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Alfabetizzazione"
+  },
+  {
+    "code": "LAN011000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Linguistica / Fonetica e Fonologia*"
+  },
+  {
+    "code": "LAN012000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Lettori"
+  },
+  {
+    "code": "LAN013000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Abilità di lettura"
+  },
+  {
+    "code": "LAN014000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Riferimento"
+  },
+  {
+    "code": "LAN015000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Retorica"
+  },
+  {
+    "code": "LAN016000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Linguistica / Semantica"
+  },
+  {
+    "code": "LAN017000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Linguaggio dei Segni"
+  },
+  {
+    "code": "LAN018000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Discorso"
+  },
+  {
+    "code": "LAN019000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Spelling"
+  },
+  {
+    "code": "LAN020000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Studio e Insegnamento"
+  },
+  {
+    "code": "LAN021000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Vocabolario"
+  },
+  {
+    "code": "LAN022000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Editing e Proofreading"
+  },
+  {
+    "code": "LAN023000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Traduzione e Interpretariato"
+  },
+  {
+    "code": "LAN024000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Linguistica / Etimologia"
+  },
+  {
+    "code": "LAN025000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Scienze dell'Informazione e Bibliotecarie / Generale"
+  },
+  {
+    "code": "LAN025010",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Scienze dell'Informazione e Bibliotecarie / Amministrazione e Gestione*"
+  },
+  {
+    "code": "LAN025020",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Scienze dell'Informazione e Bibliotecarie / Archivi e Librerie Speciali*"
+  },
+  {
+    "code": "LAN025030",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Scienze dell'Informazione e Bibliotecarie / Catalogazione e Classificazione*"
+  },
+  {
+    "code": "LAN025040",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Scienze dell'Informazione e Bibliotecarie / Sviluppo delle Raccolte*"
+  },
+  {
+    "code": "LAN025050",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Scienze dell'Informazione e Bibliotecarie / Media Scolastici*"
+  },
+  {
+    "code": "LAN026000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Parlare al Pubblico"
+  },
+  {
+    "code": "LAN027000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Editoria"
+  },
+  {
+    "code": "LAN028000",
+    "name": "ARTI E DISCIPLINE LINGUISTICHE / Manuali di Stile*"
+  },
+  {
+    "code": "LIT000000",
+    "name": "CRITICA LETTERARIA / Generale"
+  },
+  {
+    "code": "LIT003000",
+    "name": "CRITICA LETTERARIA / Femminista"
+  },
+  {
+    "code": "LIT004010",
+    "name": "CRITICA LETTERARIA / Africana"
+  },
+  {
+    "code": "LIT004020",
+    "name": "CRITICA LETTERARIA / Americana / Generale"
+  },
+  {
+    "code": "LIT004030",
+    "name": "CRITICA LETTERARIA / Americana / Asiatica-Americana"
+  },
+  {
+    "code": "LIT004040",
+    "name": "CRITICA LETTERARIA / Americana / Afro-Americana"
+  },
+  {
+    "code": "LIT004050",
+    "name": "CRITICA LETTERARIA / Americana / Ispano-Americana"
+  },
+  {
+    "code": "LIT004060",
+    "name": "CRITICA LETTERARIA / Nativi Americani"
+  },
+  {
+    "code": "LIT004070",
+    "name": "CRITICA LETTERARIA / Australiana e Oceanica"
+  },
+  {
+    "code": "LIT004080",
+    "name": "CRITICA LETTERARIA / Canadese"
+  },
+  {
+    "code": "LIT004100",
+    "name": "CRITICA LETTERARIA / Caraibica e Latino-Americana"
+  },
+  {
+    "code": "LIT004110",
+    "name": "CRITICA LETTERARIA / Europea / Orientale (vedere anche Russa ed Ex Unione Sovietica)"
+  },
+  {
+    "code": "LIT004120",
+    "name": "CRITICA LETTERARIA / Europea / Inglese, Irlandese, Scozzese, Gallese\""
+  },
+  {
+    "code": "LIT004130",
+    "name": "CRITICA LETTERARIA / Europea / Generale"
+  },
+  {
+    "code": "LIT004150",
+    "name": "CRITICA LETTERARIA / Europea / Francese"
+  },
+  {
+    "code": "LIT004160",
+    "name": "CRITICA LETTERARIA / Gay e Lesbiche"
+  },
+  {
+    "code": "LIT004170",
+    "name": "CRITICA LETTERARIA / Europea / Tedesca"
+  },
+  {
+    "code": "LIT004180",
+    "name": "CRITICA LETTERARIA / Gotica e Romantica"
+  },
+  {
+    "code": "LIT004190",
+    "name": "CRITICA LETTERARIA / Antica e Classica"
+  },
+  {
+    "code": "LIT004200",
+    "name": "CRITICA LETTERARIA / Europea / Italiana"
+  },
+  {
+    "code": "LIT004210",
+    "name": "CRITICA LETTERARIA / Ebraica"
+  },
+  {
+    "code": "LIT004220",
+    "name": "CRITICA LETTERARIA / Medio-Orientale"
+  },
+  {
+    "code": "LIT004230",
+    "name": "CRITICA LETTERARIA / Mistero e Detective"
+  },
+  {
+    "code": "LIT004240",
+    "name": "CRITICA LETTERARIA / Russa ed Ex Unione Sovietica"
+  },
+  {
+    "code": "LIT004250",
+    "name": "CRITICA LETTERARIA / Europea / Scandinava"
+  },
+  {
+    "code": "LIT004260",
+    "name": "CRITICA LETTERARIA / Fantascienza e Fantasy"
+  },
+  {
+    "code": "LIT004280",
+    "name": "CRITICA LETTERARIA / Europea / Spagnola e Portoghese"
+  },
+  {
+    "code": "LIT004290",
+    "name": "CRITICA LETTERARIA / Scrittrici"
+  },
+  {
+    "code": "LIT006000",
+    "name": "CRITICA LETTERARIA / Semiotica e Teoria"
+  },
+  {
+    "code": "LIT007000",
+    "name": "CRITICA LETTERARIA / Libri e Letture"
+  },
+  {
+    "code": "LIT008000",
+    "name": "CRITICA LETTERARIA / Asiatica / Generale"
+  },
+  {
+    "code": "LIT008010",
+    "name": "CRITICA LETTERARIA / Asiatica / Cinese"
+  },
+  {
+    "code": "LIT008020",
+    "name": "CRITICA LETTERARIA / Asiatica / Indù"
+  },
+  {
+    "code": "LIT008030",
+    "name": "CRITICA LETTERARIA / Asiatica / Giapponese"
+  },
+  {
+    "code": "LIT009000",
+    "name": "CRITICA LETTERARIA / Letteratura per Ragazzi"
+  },
+  {
+    "code": "LIT011000",
+    "name": "CRITICA LETTERARIA / Medievale"
+  },
+  {
+    "code": "LIT012000",
+    "name": "CRITICA LETTERARIA / Riferimento"
+  },
+  {
+    "code": "LIT013000",
+    "name": "CRITICA LETTERARIA / Drammatica"
+  },
+  {
+    "code": "LIT014000",
+    "name": "CRITICA LETTERARIA / Poesia"
+  },
+  {
+    "code": "LIT015000",
+    "name": "CRITICA LETTERARIA / Shakespeare"
+  },
+  {
+    "code": "LIT016000",
+    "name": "CRITICA LETTERARIA / Umoristica"
+  },
+  {
+    "code": "LIT017000",
+    "name": "CRITICA LETTERARIA / Fumetti e Romanzi Illustrati"
+  },
+  {
+    "code": "LIT018000",
+    "name": "CRITICA LETTERARIA / Brevi Racconti"
+  },
+  {
+    "code": "LIT019000",
+    "name": "CRITICA LETTERARIA / Rinascimentale*"
+  },
+  {
+    "code": "LIT022000",
+    "name": "CRITICA LETTERARIA / Fiabe, Fiabe Tradizionali, Leggende e Mitologia\""
+  },
+  {
+    "code": "LIT023000",
+    "name": "CRITICA LETTERARIA / Americana / Regionale"
+  },
+  {
+    "code": "LIT024000",
+    "name": "CRITICA LETTERARIA / Moderna / Generale"
+  },
+  {
+    "code": "LIT024010",
+    "name": "CRITICA LETTERARIA / Moderna / 16° Secolo"
+  },
+  {
+    "code": "LIT024020",
+    "name": "CRITICA LETTERARIA / Moderna / 17° Secolo"
+  },
+  {
+    "code": "LIT024030",
+    "name": "CRITICA LETTERARIA / Moderna / 18° Secolo"
+  },
+  {
+    "code": "LIT024040",
+    "name": "CRITICA LETTERARIA / Moderna / 19° Secolo"
+  },
+  {
+    "code": "LIT024050",
+    "name": "CRITICA LETTERARIA / Moderna / 20° Secolo"
+  },
+  {
+    "code": "LIT024060",
+    "name": "CRITICA LETTERARIA / Moderna / 21° Secolo"
+  },
+  {
+    "code": "LIT025000",
+    "name": "CRITICA LETTERARIA / Argomenti e Temi / Generale"
+  },
+  {
+    "code": "LIT025040",
+    "name": "CRITICA LETTERARIA / Argomenti e Temi / Religione"
+  },
+  {
+    "code": "LIT025050",
+    "name": "CRITICA LETTERARIA / Argomenti e Temi / Donne"
+  }
+]

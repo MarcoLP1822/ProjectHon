@@ -6,7 +6,9 @@ Una piattaforma web per la generazione automatica di metadati e contenuti per li
 ## 🚀 Caratteristiche
 
 - **Generazione Automatica di Metadati**
-  - Categorie BISAC per la classificazione del libro
+  - Sistema avanzato di categorizzazione BISAC
+    - Navigazione gerarchica delle categorie
+    - Suggerimenti automatici basati sul contenuto
   - Keywords SEO per ottimizzare la visibilità
   - Copertine generate con DALL-E
   - Quarta di copertina
@@ -46,7 +48,10 @@ book-publishing-platform/
 ├── frontend/                # Applicazione React
 │   ├── src/
 │   │   ├── components/     # Componenti React
+│   │   │   ├── book/      # Componenti specifici per i libri
+│   │   │   └── layout/    # Componenti di layout
 │   │   ├── context/       # Context per la gestione dello stato
+│   │   ├── hooks/         # Custom hooks
 │   │   ├── services/      # Servizi API
 │   │   └── utils/         # Utility e configurazioni
 │   └── public/            # Asset statici
@@ -54,7 +59,8 @@ book-publishing-platform/
     ├── controllers/       # Controller delle route
     ├── models/           # Modelli Mongoose
     ├── routes/           # Definizione delle route
-    └── services/         # Servizi (OpenAI, Storage, etc.)
+    ├── services/         # Servizi (OpenAI, Storage, etc.)
+    └── data/            # File di dati JSON (categorie BISAC)
 ```
 
 ## 🚀 Come Iniziare
@@ -105,9 +111,8 @@ npm start
 
 2. **Generazione dei Metadati**
    - Vai alla Task Dashboard
-   - Espandi la card del task desiderato
+   - Clicca sul menù del task desiderato
    - Clicca su "Genera" per avviare la generazione
-   - Puoi rigenerare singoli elementi se necessario
 
 3. **Gestione delle Copertine**
    - Genera scene basate sul contenuto del libro
@@ -115,9 +120,9 @@ npm start
    - Rigenera singole copertine se necessario
 
 4. **Gestione dello Storage**
-   - Accedi alla sezione Admin
+   - Clicca sulla sezione Admin
    - Monitora l'utilizzo dello storage
-   - Pulisci i file temporanei quando necessario
+   - Pulisci i file temporanei se necessario
 
 ## 🔒 Sicurezza
 
@@ -138,12 +143,6 @@ Le pull request sono benvenute. Per modifiche importanti, apri prima un issue pe
 
 - Marco Luigi Palma - Sviluppo iniziale
 
-## 🙏 Ringraziamenti
-
-- OpenAI per le API di GPT-4 e DALL-E
-- La community di Material-UI
-- Tutti i contributori
-
 ## Gestione dei Metadata
 
 Ogni libro mantiene i propri metadata in modo indipendente. I metadata includono:
@@ -151,8 +150,16 @@ Ogni libro mantiene i propri metadata in modo indipendente. I metadata includono
 ```javascript
 {
   categories: {
-    mainCategory: string,
-    secondaryCategories: string[]
+    mainCategory: {
+      code: string,
+      description: string,
+      path: string[]
+    },
+    secondaryCategories: Array<{
+      code: string,
+      description: string,
+      path: string[]
+    }>
   },
   keywords: string[],
   covers: {
@@ -171,6 +178,8 @@ Ogni libro mantiene i propri metadata in modo indipendente. I metadata includono
 
 ### Principi di Gestione
 - Ogni libro ha il proprio oggetto metadata indipendente
+- Sistema di categorizzazione BISAC
+- Navigazione gerarchica delle categorie con breadcrumb
 - Gli aggiornamenti sono sempre incrementali (usando spread operator)
 - I dati vengono validati prima del salvataggio
 - Non si usano stati locali per i dati, solo per UI

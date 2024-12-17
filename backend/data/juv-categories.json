@@ -1,0 +1,2530 @@
+[
+  {
+    "name": "FICTION PER RAGAZZI / Generale",
+    "code": "JUV000000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Azione e Avventura / Generale",
+    "code": "JUV001000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Azione e Avventura / Storie di Sopravvivenza",
+    "code": "JUV001010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Azione e Avventura / Pirati",
+    "code": "JUV001020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Generale",
+    "code": "JUV002000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Alligatori e Coccodrilli",
+    "code": "JUV002010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Scimmie",
+    "code": "JUV002020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Orsi",
+    "code": "JUV002030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Uccelli",
+    "code": "JUV002040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Gatti",
+    "code": "JUV002050"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Dinosauri e Creature Preistoriche",
+    "code": "JUV002060"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Cani",
+    "code": "JUV002070"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Elefanti",
+    "code": "JUV002080"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Animali da Fattoria",
+    "code": "JUV002090"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Pesci",
+    "code": "JUV002100"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Volpi",
+    "code": "JUV002110"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Rane e Rospi",
+    "code": "JUV002120"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Cavalli",
+    "code": "JUV002130"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Insetti, Ragni, ecc.",
+    "code": "JUV002140"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Leoni, Tigri, Leopardi, ecc.",
+    "code": "JUV002150"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Mammiferi",
+    "code": "JUV002160"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Specie Marine",
+    "code": "JUV002170"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Topi, Criceti, Porcellini d'India, ecc.",
+    "code": "JUV002180"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Animali Domestici",
+    "code": "JUV002190"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Maiali",
+    "code": "JUV002200"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Conigli",
+    "code": "JUV002210"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Rettili e Anfibi",
+    "code": "JUV002220"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Scoiattoli",
+    "code": "JUV002230"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Tartarughe",
+    "code": "JUV002240"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Lupi e Coyote",
+    "code": "JUV002250"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Zoo",
+    "code": "JUV002260"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Mitologici",
+    "code": "JUV002270"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Anatre, Oche, ecc.",
+    "code": "JUV002280"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Cervi, Alci e Carib",
+    "code": "JUV002290"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Farfalle, Falene e Bruchi",
+    "code": "JUV002300"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Mucche",
+    "code": "JUV002310"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Giraffe",
+    "code": "JUV002320"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Ippopotami e Rinoceronti",
+    "code": "JUV002330"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Animali della Giungla",
+    "code": "JUV002340"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Canguri",
+    "code": "JUV002350"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Animali / Notturni",
+    "code": "JUV002360"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Arte e Architettura",
+    "code": "JUV003000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Biografico / Generale",
+    "code": "JUV004000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Biografico / Europeo",
+    "code": "JUV004010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Biografico / Stati Uniti",
+    "code": "JUV004020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Biografico / Altro",
+    "code": "JUV004030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Biografico / Canada",
+    "code": "JUV004040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Ragazzi e Uomini",
+    "code": "JUV005000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Business, Carriere, Occupazioni",
+    "code": "JUV006000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Classici",
+    "code": "JUV007000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Fumetti e Romanzi Illustrati / Generale",
+    "code": "JUV008000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Fumetti e Romanzi Illustrati / Manga",
+    "code": "JUV008010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Fumetti e Romanzi Illustrati / Supereroi",
+    "code": "JUV008020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Fumetti e Romanzi Illustrati / Tie-In",
+    "code": "JUV008030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Generale",
+    "code": "JUV009000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Alfabeto",
+    "code": "JUV009010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Colori",
+    "code": "JUV009020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Calcoli e Numeri",
+    "code": "JUV009030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Opposti",
+    "code": "JUV009040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Sensi e Sensazioni",
+    "code": "JUV009050"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Dimensioni e Forma",
+    "code": "JUV009060"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Tempo",
+    "code": "JUV009070"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Parole",
+    "code": "JUV009080"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Denaro",
+    "code": "JUV009090"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Stagioni",
+    "code": "JUV009100"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Suoni",
+    "code": "JUV009110"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Concetti / Corpo*",
+    "code": "JUV009120"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Favole della Buona Notte",
+    "code": "JUV010000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Stati Uniti / Afro-Americani",
+    "code": "JUV011010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Stati Uniti / Asiatici-Americani",
+    "code": "JUV011020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Stati Uniti / Ispanici e Latini",
+    "code": "JUV011030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Stati Uniti / Nativi Americani",
+    "code": "JUV011040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Stati Uniti / Altro",
+    "code": "JUV011050"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Fiabe e Folclore / Antologie",
+    "code": "JUV012000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Fiabe e Folclore / Nazionale e Etnico",
+    "code": "JUV012020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Fiabe e Folclore / Generale",
+    "code": "JUV012030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Fiabe e Folclore / Adattamenti",
+    "code": "JUV012040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Famiglia / Generale (vedere anche titoli in Questioni Sociali)",
+    "code": "JUV013000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Famiglia / Adozione",
+    "code": "JUV013010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Famiglia / Matrimonio e Divorzio",
+    "code": "JUV013020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Famiglia / Multigenerazionale",
+    "code": "JUV013030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Famiglia / Nuove Nascite",
+    "code": "JUV013040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Famiglia / Orfani e Case Famiglia",
+    "code": "JUV013050"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Famiglia / Genitori",
+    "code": "JUV013060"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Famiglia / Siblings",
+    "code": "JUV013070"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Famiglia / Famiglie Acquisite",
+    "code": "JUV013080"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Famiglia / Famiglia Alternativa",
+    "code": "JUV013090"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Ragazze e Donne",
+    "code": "JUV014000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Salute e Quotidianit  / Generale",
+    "code": "JUV015000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Salute e Quotidianit  / Attivit  Quotidiane",
+    "code": "JUV015010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Salute e Quotidianit  / Malattie, Patologie e Infortuni",
+    "code": "JUV015020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Generale",
+    "code": "JUV016000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Africa",
+    "code": "JUV016010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Civilt  Antiche",
+    "code": "JUV016020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Asia",
+    "code": "JUV016030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Europa",
+    "code": "JUV016040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Esplorazione e Scoperta",
+    "code": "JUV016050"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Olocausto",
+    "code": "JUV016060"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Medievale",
+    "code": "JUV016070"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Esercito e Guerre",
+    "code": "JUV016080"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Preistoria",
+    "code": "JUV016090"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Rinascimento",
+    "code": "JUV016100"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Stati Uniti / Generale",
+    "code": "JUV016110"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Stati Uniti / Periodi Rivoluzionari e Coloniali",
+    "code": "JUV016120"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Altro",
+    "code": "JUV016130"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Stati Uniti / 19  Secolo",
+    "code": "JUV016140"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Stati Uniti / 20  Secolo",
+    "code": "JUV016150"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Canada / Generale",
+    "code": "JUV016160"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Canada / Pre-Confederation (fino al 1867)",
+    "code": "JUV016170"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Canada / Post-Confederation (dal 1867)",
+    "code": "JUV016180"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Stati Uniti / 21  Secolo",
+    "code": "JUV016190"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Stati Uniti / Periodo della Guerra Civile (1850-1877)",
+    "code": "JUV016200"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storica / Medio Oriente*",
+    "code": "JUV016210"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / Generale (vedere anche Religiosa / Cristiana / Festivit  e Celebrazioni)",
+    "code": "JUV017000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / Natale e Avvento",
+    "code": "JUV017010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / Pasqua e Quaresima",
+    "code": "JUV017020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / Halloween",
+    "code": "JUV017030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / Kwanzaa",
+    "code": "JUV017050"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / Ringraziamento",
+    "code": "JUV017060"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / San Valentino",
+    "code": "JUV017070"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / Altre, Non Religiose",
+    "code": "JUV017080"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / Altre, Religiose",
+    "code": "JUV017090"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / Compleanni",
+    "code": "JUV017100"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / Hanukkah",
+    "code": "JUV017110"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / Pasqua Ebraica",
+    "code": "JUV017120"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Festivit  e Celebrazioni / Festivit  Patriottiche",
+    "code": "JUV017130"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Horror e Storie di Fantasmi",
+    "code": "JUV018000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storie Comiche",
+    "code": "JUV019000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Avventure Interattive",
+    "code": "JUV020000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Legge e Crimine",
+    "code": "JUV021000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Leggende, Miti, Fiabe / Generale",
+    "code": "JUV022000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Leggende, Miti, Fiabe / Re Art",
+    "code": "JUV022010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Leggende, Miti, Fiabe / Greche e Romane",
+    "code": "JUV022020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Leggende, Miti, Fiabe / Nordiche",
+    "code": "JUV022030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Leggende, Miti, Fiabe / Altro",
+    "code": "JUV022040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Stili di Vita / Vita di Citt",
+    "code": "JUV023000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Stili di Vita / Vita di Campagna",
+    "code": "JUV024000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Stili di Vita / Vita in Fattoria e di Campagna",
+    "code": "JUV025000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Amore e Romanticismo",
+    "code": "JUV026000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Tie-In",
+    "code": "JUV027000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Misteri e Storie Investigative",
+    "code": "JUV028000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Natura e Mondo Naturale / Generale (vedere anche titoli in Animali)",
+    "code": "JUV029000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Natura e Mondo Naturale / Ambiente",
+    "code": "JUV029010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Natura e Mondo Naturale / Clima",
+    "code": "JUV029020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Generale",
+    "code": "JUV030000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Africa",
+    "code": "JUV030010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Asia",
+    "code": "JUV030020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Canada / Generale",
+    "code": "JUV030030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Caraibi e America Latina",
+    "code": "JUV030040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Europa",
+    "code": "JUV030050"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Stati Uniti / Generale",
+    "code": "JUV030060"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Altro",
+    "code": "JUV030070"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Australia e Oceania",
+    "code": "JUV030080"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Canada / Nativi Canadesi",
+    "code": "JUV030090"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Messico",
+    "code": "JUV030100"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Medio Oriente",
+    "code": "JUV030110"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Persone e Luoghi / Regioni Polari",
+    "code": "JUV030120"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Arti Rappresentative / Generale",
+    "code": "JUV031000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Arti Rappresentative / Circhi",
+    "code": "JUV031010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Arti Rappresentative / Danza",
+    "code": "JUV031020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Arti Rappresentative / Film",
+    "code": "JUV031030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Arti Rappresentative / Musica",
+    "code": "JUV031040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Arti Rappresentative / Televisione e Radio",
+    "code": "JUV031050"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Arti Rappresentative / Teatro",
+    "code": "JUV031060"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Generale",
+    "code": "JUV032000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Baseball e Softball",
+    "code": "JUV032010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Pallacanestro",
+    "code": "JUV032020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Football (americano)",
+    "code": "JUV032030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Giochi",
+    "code": "JUV032040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Vari",
+    "code": "JUV032050"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Sport Acquatici",
+    "code": "JUV032060"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Arti Marziali",
+    "code": "JUV032070"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Sport Invernali",
+    "code": "JUV032080"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Equestre",
+    "code": "JUV032090"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Sport Estremi",
+    "code": "JUV032100"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Hockey",
+    "code": "JUV032110"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Pattinaggio su Ghiaccio",
+    "code": "JUV032120"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Pattinaggio a Rotelle e in Linea",
+    "code": "JUV032130"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Skateboard",
+    "code": "JUV032140"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Calcio",
+    "code": "JUV032150"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Wrestling",
+    "code": "JUV032160"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Campeggio e Attivit  all'Aperto*",
+    "code": "JUV032170"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Ciclismo*",
+    "code": "JUV032180"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Golf*",
+    "code": "JUV032190"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Generale",
+    "code": "JUV033000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Generale",
+    "code": "JUV033010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Ebraica",
+    "code": "JUV033020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Altro",
+    "code": "JUV033030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Azione e Avventura",
+    "code": "JUV033040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Animali",
+    "code": "JUV033050"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Favole della Buona Notte",
+    "code": "JUV033060"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Fumetti e Romanzi Illustrati",
+    "code": "JUV033070"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Lettori in Erba",
+    "code": "JUV033080"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Emozioni e Sentimenti",
+    "code": "JUV033090"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Famiglia",
+    "code": "JUV033100"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Fantasy",
+    "code": "JUV033110"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Amicizia",
+    "code": "JUV033120"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Salute e Quotidianit",
+    "code": "JUV033130"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Storica",
+    "code": "JUV033140"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Festivit  e Celebrazioni",
+    "code": "JUV033150"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Umoristica",
+    "code": "JUV033160"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Concetti di Apprendimento",
+    "code": "JUV033170"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Misteri e Storie Investigative",
+    "code": "JUV033180"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Persone e Luoghi",
+    "code": "JUV033190"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Relazioni",
+    "code": "JUV033200"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Fantascienza",
+    "code": "JUV033210"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Questioni Sociali",
+    "code": "JUV033220"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Sport e Svago",
+    "code": "JUV033230"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Valori e Virt",
+    "code": "JUV033240"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Royalty",
+    "code": "JUV034000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Scuola e Educazione",
+    "code": "JUV035000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Scienza e Tecnologia",
+    "code": "JUV036000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Fantasy e Magia",
+    "code": "JUV037000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Brevi Racconti",
+    "code": "JUV038000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Generale (vedere anche titoli in Famiglia)",
+    "code": "JUV039000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Abuso Fisico e Psicologico (vedere anche Questioni Sociali / Abuso Sessuale)",
+    "code": "JUV039010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Adolescenza",
+    "code": "JUV039020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Morte e Morire",
+    "code": "JUV039030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Abuso di Sostanze, Droghe e Alcolici",
+    "code": "JUV039040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Emozioni e Sentimenti",
+    "code": "JUV039050"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Amicizia",
+    "code": "JUV039060"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Senzatetto e Povert",
+    "code": "JUV039070"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Omosessualit",
+    "code": "JUV039080"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Nuova Esperienza",
+    "code": "JUV039090"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Pressione Sociale del Gruppo",
+    "code": "JUV039100"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Gravidanza",
+    "code": "JUV039110"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Pregiudizio e Razzismo",
+    "code": "JUV039120"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Fuggitivi",
+    "code": "JUV039130"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Autostima e Autosufficienza",
+    "code": "JUV039140"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Necessit  Particolari",
+    "code": "JUV039150"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Suicidio",
+    "code": "JUV039160"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Salute e Quotidianit  / Educazione al Vasino",
+    "code": "JUV039170"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Violenza",
+    "code": "JUV039180"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Incontri e Rapporti Sessuali",
+    "code": "JUV039190"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Maniere e Galateo",
+    "code": "JUV039200"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Abuso Sessuale",
+    "code": "JUV039210"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Valori e Virt",
+    "code": "JUV039220"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Bullismo",
+    "code": "JUV039230"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Depressione e Malattie Mentali",
+    "code": "JUV039240"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Emigrazione e Immigrazione",
+    "code": "JUV039250"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Automutilazione",
+    "code": "JUV039260"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Stranieri",
+    "code": "JUV039270"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Giocattoli, Bambole e Burattini",
+    "code": "JUV040000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Trasporto / Generale",
+    "code": "JUV041000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Trasporto / Aviazione",
+    "code": "JUV041010"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Trasporto / Imbarcazioni, Navi e Sottomarini",
+    "code": "JUV041020"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Trasporto / Automobili e Autocarri",
+    "code": "JUV041030"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Trasporto / Motocicli",
+    "code": "JUV041040"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Trasporto / Ferrovie e Treni",
+    "code": "JUV041050"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Western",
+    "code": "JUV042000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Lettori / Principianti",
+    "code": "JUV043000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Lettori / Intermedi",
+    "code": "JUV044000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Lettori / Libri per Bambini in Capitoli",
+    "code": "JUV045000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Visionario e Metafisico",
+    "code": "JUV046000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Libri e Librerie",
+    "code": "JUV047000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Abbigliamento e Vestiario",
+    "code": "JUV048000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Computer",
+    "code": "JUV049000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Cucina e Alimenti",
+    "code": "JUV050000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Immaginazione e Gioco",
+    "code": "JUV051000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Mostri",
+    "code": "JUV052000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Fantascienza",
+    "code": "JUV053000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Libri di Attivit *",
+    "code": "JUV054000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Filastrocche*",
+    "code": "JUV055000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Robot*",
+    "code": "JUV056000"
+  },
+  {
+    "name": "FICTION PER RAGAZZI / Storie in Versi*",
+    "code": "JUV057000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Generale",
+    "code": "JNF000000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Libri di Attivit",
+    "code": "JNF001000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Avventura e Avventurieri",
+    "code": "JNF002000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Generale",
+    "code": "JNF003000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Scimmie",
+    "code": "JNF003010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Orsi",
+    "code": "JNF003020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Uccelli",
+    "code": "JNF003030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Gatti",
+    "code": "JNF003040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Dinosauri e Creature Preistoriche",
+    "code": "JNF003050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Cani",
+    "code": "JNF003060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Elefanti",
+    "code": "JNF003070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Animali da Fattoria",
+    "code": "JNF003080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Pesci",
+    "code": "JNF003090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Volpi",
+    "code": "JNF003100"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Cavalli",
+    "code": "JNF003110"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Insetti, Ragni, ecc.",
+    "code": "JNF003120"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Leoni, Tigri, Leopardi, ecc.",
+    "code": "JNF003130"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Mammiferi",
+    "code": "JNF003140"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Specie Marine",
+    "code": "JNF003150"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Topi, Criceti, Porcellini d'India, Scoiattoli, ecc.",
+    "code": "JNF003160"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Animali Domestici",
+    "code": "JNF003170"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Conigli",
+    "code": "JNF003180"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Rettili e Anfibi",
+    "code": "JNF003190"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Zoo",
+    "code": "JNF003200"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Anatre, Oche, ecc.",
+    "code": "JNF003210"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Animalismo",
+    "code": "JNF003220"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Cervi, Alci e Carib",
+    "code": "JNF003230"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Lupi e Coyote",
+    "code": "JNF003240"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Farfalle, Falene e Bruchi",
+    "code": "JNF003250"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Mucche",
+    "code": "JNF003260"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Specie a Rischio",
+    "code": "JNF003270"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Giraffe",
+    "code": "JNF003280"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Ippopotami e Rinoceronti",
+    "code": "JNF003290"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Animali della Giungla",
+    "code": "JNF003300"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Canguri",
+    "code": "JNF003310"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Animali / Notturni",
+    "code": "JNF003320"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Collezionismo e Antichit",
+    "code": "JNF004000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Architettura",
+    "code": "JNF005000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arte / Generale",
+    "code": "JNF006000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arte / Disegno Animato",
+    "code": "JNF006010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arte / Disegno",
+    "code": "JNF006020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arte / Moda",
+    "code": "JNF006030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arte / Storia",
+    "code": "JNF006040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arte / Pittura",
+    "code": "JNF006050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arte / Scultura",
+    "code": "JNF006060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arte / Tecniche",
+    "code": "JNF006070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Generale",
+    "code": "JNF007000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Arte",
+    "code": "JNF007010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Storica",
+    "code": "JNF007020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Letteraria",
+    "code": "JNF007030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Musica",
+    "code": "JNF007040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Patrimonio Culturale",
+    "code": "JNF007050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Arti Rappresentative",
+    "code": "JNF007060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Politica",
+    "code": "JNF007070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Religiosa (vedere anche Religiosa / Cristiana / Biografia e Autobiografia)",
+    "code": "JNF007080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Scienza e Tecnologia",
+    "code": "JNF007090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Sport e Svago",
+    "code": "JNF007100"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Attivisti Sociali",
+    "code": "JNF007110"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Biografia e Autobiografia / Donne",
+    "code": "JNF007120"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Corpo, Mente e Spirito",
+    "code": "JNF008000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Ragazzi e Uomini",
+    "code": "JNF009000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Business ed Economia",
+    "code": "JNF010000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Carriere",
+    "code": "JNF011000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Computer / Generale",
+    "code": "JNF012000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Computer / Intrattenimento e Giochi",
+    "code": "JNF012010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Computer / Hardware",
+    "code": "JNF012020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Computer / Internet",
+    "code": "JNF012030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Computer / Programmazione",
+    "code": "JNF012040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Computer / Software",
+    "code": "JNF012050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Concetti / Generale",
+    "code": "JNF013000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Concetti / Alfabeto",
+    "code": "JNF013010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Concetti / Colori",
+    "code": "JNF013020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Concetti / Calcoli e Numeri",
+    "code": "JNF013030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Concetti / Denaro",
+    "code": "JNF013040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Concetti / Opposti",
+    "code": "JNF013050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Concetti / Senso e Sensazione",
+    "code": "JNF013060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Concetti / Dimensioni e Forma",
+    "code": "JNF013070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Concetti / Tempo",
+    "code": "JNF013080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Concetti / Stagioni",
+    "code": "JNF013090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Concetti / Suoni",
+    "code": "JNF013100"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Concetti / Corpo*",
+    "code": "JNF013110"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Cucina e Alimenti",
+    "code": "JNF014000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Hobby e Creativit",
+    "code": "JNF015000"
+  },
+  {
+    "name": "NON FICTION PER RAGAZZI / Curiosit  e Stranezze",
+    "code": "JNF016000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Drammatico",
+    "code": "JNF017000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Stati Uniti / Afro-Americani",
+    "code": "JNF018010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Stati Uniti / Asiatici-Americani",
+    "code": "JNF018020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Stati Uniti / Ispanici e Latini",
+    "code": "JNF018030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Stati Uniti / Nativi Americani",
+    "code": "JNF018040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Stati Uniti / Altro",
+    "code": "JNF018050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Famiglia / Generale (vedere anche titoli in Questioni Sociali)",
+    "code": "JNF019000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Famiglia / Adozione",
+    "code": "JNF019010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Famiglia / Matrimonio e Divorzio",
+    "code": "JNF019020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Famiglia / Multigenerazionale",
+    "code": "JNF019030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Famiglia / Nuove Nascite",
+    "code": "JNF019040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Famiglia / Orfani e Case Famiglia",
+    "code": "JNF019050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Famiglia / Genitori",
+    "code": "JNF019060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Famiglia / Siblings",
+    "code": "JNF019070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Famiglia / Famiglie Acquisite",
+    "code": "JNF019080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Famiglia / Famiglia Alternativa",
+    "code": "JNF019090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Studio della Lingua Straniera / Generale",
+    "code": "JNF020000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Studio della Lingua Straniera / Inglese come Seconda Lingua",
+    "code": "JNF020010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Studio della Lingua Straniera / Francese",
+    "code": "JNF020020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Studio della Lingua Straniera / Spagnolo",
+    "code": "JNF020030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Generale",
+    "code": "JNF021000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Giochi da Tavolo",
+    "code": "JNF021010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Giochi di Carte",
+    "code": "JNF021020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Magia",
+    "code": "JNF021030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Puzzle",
+    "code": "JNF021040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Domande e Risposte",
+    "code": "JNF021050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Videogiochi e Giochi Elettronici",
+    "code": "JNF021060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Giochi con le Parole",
+    "code": "JNF021070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Giardinaggio",
+    "code": "JNF022000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Ragazze e Donne",
+    "code": "JNF023000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Generale",
+    "code": "JNF024000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Dieta e Nutrizione",
+    "code": "JNF024010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Malattie, Patologie e Infortuni",
+    "code": "JNF024020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Prima Assistenza",
+    "code": "JNF024030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Fitness ed Esercizio",
+    "code": "JNF024040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Maturazione",
+    "code": "JNF024050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Igiene Personale",
+    "code": "JNF024060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Minorazioni Fisiche",
+    "code": "JNF024070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Sicurezza",
+    "code": "JNF024080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Sessualit  e Gravidanza",
+    "code": "JNF024090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Abuso di Sostanze",
+    "code": "JNF024100"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Educazione al Vasino",
+    "code": "JNF024110"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Attivit  Quotidiane",
+    "code": "JNF024120"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Generale",
+    "code": "JNF025000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Africa",
+    "code": "JNF025010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Antica",
+    "code": "JNF025020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Asia",
+    "code": "JNF025030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Australia e Oceania",
+    "code": "JNF025040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Canada / Generale",
+    "code": "JNF025050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / America Centrale e Meridionale",
+    "code": "JNF025060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Europa",
+    "code": "JNF025070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Esplorazione e Scoperta",
+    "code": "JNF025080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Olocausto",
+    "code": "JNF025090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Medievale",
+    "code": "JNF025100"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Messico",
+    "code": "JNF025110"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Medio Oriente",
+    "code": "JNF025120"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Esercito e Guerre",
+    "code": "JNF025130"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Moderna",
+    "code": "JNF025140"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Preistorica",
+    "code": "JNF025150"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Rinascimento",
+    "code": "JNF025160"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Stati Uniti / Generale",
+    "code": "JNF025170"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Stati Uniti / Statale e Locale",
+    "code": "JNF025180"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Stati Uniti / Periodi Rivoluzionari e Coloniali",
+    "code": "JNF025190"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Stati Uniti / 19  Secolo",
+    "code": "JNF025200"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Stati Uniti / 20  Secolo",
+    "code": "JNF025210"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Altro",
+    "code": "JNF025220"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Canada / Pre-Confederation (fino al 1867)",
+    "code": "JNF025230"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Canada / Post-Confederation (dal 1867)",
+    "code": "JNF025240"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Stati Uniti / 21  Secolo",
+    "code": "JNF025250"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Simboli, Monumenti, Parchi Nazionali, ecc.",
+    "code": "JNF025260"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Storia / Stati Uniti / Periodo della Guerra Civile (1850-1877)",
+    "code": "JNF025270"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / Generale (vedere anche Religiosa / Cristiana / Festivit  e Celebrazioni)",
+    "code": "JNF026000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / Natale e Avvento",
+    "code": "JNF026010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / Pasqua e Quaresima",
+    "code": "JNF026020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / Halloween",
+    "code": "JNF026030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / Kwanzaa",
+    "code": "JNF026050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / Ringraziamento",
+    "code": "JNF026060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / San Valentino",
+    "code": "JNF026070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / Altre, Non Religiose",
+    "code": "JNF026080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / Altre, Religiose",
+    "code": "JNF026090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / Compleanni",
+    "code": "JNF026100"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / Hanukkah",
+    "code": "JNF026110"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / Pasqua Ebraica",
+    "code": "JNF026120"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Festivit  e Celebrazioni / Festivit  Patriottiche",
+    "code": "JNF026130"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Casa e Abitazione",
+    "code": "JNF027000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Umorismo / Generale",
+    "code": "JNF028000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Umorismo / Strisce a Fumetti e Cartoni",
+    "code": "JNF028010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Umorismo / Battute e Indovinelli",
+    "code": "JNF028020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arti Linguistiche / Generale",
+    "code": "JNF029000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arti Linguistiche / Composizione e Scrittura Creativa",
+    "code": "JNF029010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arti Linguistiche / Grammatica",
+    "code": "JNF029020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arti Linguistiche / Scrittura Manuale",
+    "code": "JNF029030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arti Linguistiche / Vocabolario e Ortografia",
+    "code": "JNF029040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arti Linguistiche / Linguaggio dei Segni",
+    "code": "JNF029050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Legge e Crimine",
+    "code": "JNF030000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Stili di Vita / Vita di Citt",
+    "code": "JNF031000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Stili di Vita / Vita di Campagna",
+    "code": "JNF032000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Stili di Vita / Vita in Fattoria e di Campagna",
+    "code": "JNF033000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Critica Letteraria e Collezioni",
+    "code": "JNF034000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Matematica / Generale",
+    "code": "JNF035000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Matematica / Avanzata",
+    "code": "JNF035010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Matematica / Algebra",
+    "code": "JNF035020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Matematica / Aritmetica",
+    "code": "JNF035030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Matematica / Frazioni",
+    "code": "JNF035040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Matematica / Geometria",
+    "code": "JNF035050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Musica / Generale",
+    "code": "JNF036000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Musica / Classica",
+    "code": "JNF036010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Musica / Storia",
+    "code": "JNF036020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Musica / Istruzione e Studio",
+    "code": "JNF036030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Musica / Jazz",
+    "code": "JNF036040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Musica / Popolare",
+    "code": "JNF036050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Musica / Rap e Hip Hop",
+    "code": "JNF036060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Musica / Rock",
+    "code": "JNF036070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Musica / Libri di Canzoni",
+    "code": "JNF036080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Musica / Strumenti",
+    "code": "JNF036090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Scienze della Terra / Terremoti e Vulcani",
+    "code": "JNF037010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Conservazione e Protezione Ambientale",
+    "code": "JNF037020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Fiori e Piante",
+    "code": "JNF037030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Alberi e Foreste",
+    "code": "JNF037040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Fossili",
+    "code": "JNF037050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Scienze della Terra / Rocce e Minerali",
+    "code": "JNF037060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Scienze della Terra / Acqua (Oceani, Laghi, ecc.)",
+    "code": "JNF037070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Scienze della Terra / Clima",
+    "code": "JNF037080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Generale",
+    "code": "JNF038000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Africa",
+    "code": "JNF038010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Asia",
+    "code": "JNF038020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Australia e Oceania",
+    "code": "JNF038030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Canada / Generale",
+    "code": "JNF038040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Caraibi e America Latina",
+    "code": "JNF038050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Europa",
+    "code": "JNF038060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Messico",
+    "code": "JNF038070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Medio Oriente",
+    "code": "JNF038080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Regioni Polari",
+    "code": "JNF038090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Stati Uniti / Generale",
+    "code": "JNF038100"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Altro",
+    "code": "JNF038110"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Persone e Luoghi / Canada / Nativi Canadesi",
+    "code": "JNF038120"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arti Rappresentative / Generale",
+    "code": "JNF039000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arti Rappresentative / Circhi",
+    "code": "JNF039010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arti Rappresentative / Danza",
+    "code": "JNF039020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arti Rappresentative / Film",
+    "code": "JNF039030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arti Rappresentative / Televisione e Radio",
+    "code": "JNF039040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Arti Rappresentative / Teatro",
+    "code": "JNF039050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Filosofia",
+    "code": "JNF040000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Fotografia",
+    "code": "JNF041000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Poesia / Generale",
+    "code": "JNF042000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Poesia / Umoristica",
+    "code": "JNF042010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienze Sociali / Politica e Governo",
+    "code": "JNF043000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienze Sociali / Psicologia",
+    "code": "JNF044000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Lettori / Principianti",
+    "code": "JNF045000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Lettori / Intermedi",
+    "code": "JNF046000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Lettori / Libri per Bambini in Capitoli",
+    "code": "JNF047000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Riferimento / Generale",
+    "code": "JNF048000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Riferimento / Almanacchi",
+    "code": "JNF048010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Riferimento / Atlanti",
+    "code": "JNF048020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Riferimento / Dizionari",
+    "code": "JNF048030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Riferimento / Enciclopedie",
+    "code": "JNF048040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Riferimento / Thesaurus",
+    "code": "JNF048050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Generale",
+    "code": "JNF049000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Studi Biblici",
+    "code": "JNF049010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Biografia Biblica",
+    "code": "JNF049020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Commentario e Interpretazione Biblica",
+    "code": "JNF049030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Racconti della Bibbia / Generale",
+    "code": "JNF049040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Cristianit",
+    "code": "JNF049080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Orientale",
+    "code": "JNF049090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Islam",
+    "code": "JNF049100"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Giudaismo",
+    "code": "JNF049110"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Devozionale e Preghiera",
+    "code": "JNF049120"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Generale",
+    "code": "JNF049130"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Racconti della Bibbia / Antico Testamento",
+    "code": "JNF049140"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Racconti della Bibbia / Nuovo Testamento",
+    "code": "JNF049150"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Storia Biblica",
+    "code": "JNF049160"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religione / Riferimento Biblico",
+    "code": "JNF049170"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Biografia e Autobiografia (vedere anche Biografia e Autobiografia / Religiosa)",
+    "code": "JNF049180"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Fumetti e Romanzi Illustrati",
+    "code": "JNF049190"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Lettori in Erba",
+    "code": "JNF049200"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Famiglia e Relazioni",
+    "code": "JNF049210"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Giochi e Attivit",
+    "code": "JNF049220"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Salute e Quotidianit",
+    "code": "JNF049230"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Festivit  e Celebrazioni",
+    "code": "JNF049240"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Ispirazionale",
+    "code": "JNF049250"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Concetti di Apprendimento",
+    "code": "JNF049260"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Persone e Luoghi",
+    "code": "JNF049270"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Scienza e Natura",
+    "code": "JNF049280"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Questioni Sociali",
+    "code": "JNF049290"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Sport e Svago",
+    "code": "JNF049300"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Valori e Virt",
+    "code": "JNF049310"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scuola e Educazione",
+    "code": "JNF050000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Generale (vedere anche titoli in Animali o Tecnologia)",
+    "code": "JNF051000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Tecnologia / Aeronautica, Astronautica e Scienza dello Spazio",
+    "code": "JNF051010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Tecnologia / Agricoltura",
+    "code": "JNF051020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Anatomia e Fisiologia",
+    "code": "JNF051030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Astronomia",
+    "code": "JNF051040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Biologia",
+    "code": "JNF051050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Botanica",
+    "code": "JNF051060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Chimica",
+    "code": "JNF051070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Scienze della Terra / Generale",
+    "code": "JNF051080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Tecnologia / Elettricit  ed Elettronica",
+    "code": "JNF051090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Scienze ed Ecosistemi Ambientali",
+    "code": "JNF051100"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Esperimenti e Progetti",
+    "code": "JNF051110"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Tecnologia / Come Funzionano e Sono Fatte le Cose",
+    "code": "JNF051120"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Tecnologia / Macchinari e Utensili",
+    "code": "JNF051130"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Fisica",
+    "code": "JNF051140"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Zoologia",
+    "code": "JNF051150"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Disastri",
+    "code": "JNF051160"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Scoperte",
+    "code": "JNF051170"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Scienze della Terra / Geografia",
+    "code": "JNF051180"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienza e Natura / Storia della Scienza",
+    "code": "JNF051190"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienze Sociali / Generale",
+    "code": "JNF052000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienze Sociali / Archeologia",
+    "code": "JNF052010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienze Sociali / Costumi, Tradizioni, Antropologia",
+    "code": "JNF052020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienze Sociali / Folclore e Mitologia",
+    "code": "JNF052030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Scienze Sociali / Sociologia",
+    "code": "JNF052040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Generale (vedere anche titoli in Famiglia)",
+    "code": "JNF053000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Adolescenza",
+    "code": "JNF053010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Incontri e Rapporti Sessuali",
+    "code": "JNF053020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Morte e Morire",
+    "code": "JNF053030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Abuso di Sostanze, Droghe e Alcolici",
+    "code": "JNF053040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Emozioni e Sentimenti",
+    "code": "JNF053050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Amicizia",
+    "code": "JNF053060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Senzatetto e Povert",
+    "code": "JNF053070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Omosessualit",
+    "code": "JNF053080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Maniere e Galateo",
+    "code": "JNF053090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Nuova Esperienza",
+    "code": "JNF053100"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Pressione Sociale del Gruppo",
+    "code": "JNF053110"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Abuso Fisico e Psicologico (vedere anche Questioni Sociali / Abuso Sessuale)",
+    "code": "JNF053120"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Gravidanza",
+    "code": "JNF053130"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Pregiudizio e Razzismo",
+    "code": "JNF053140"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Fuggitivi",
+    "code": "JNF053150"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Autostima e Autosufficienza",
+    "code": "JNF053160"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Abuso Sessuale",
+    "code": "JNF053170"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Necessit  Particolari",
+    "code": "JNF053180"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Suicidio",
+    "code": "JNF053190"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Valori e Virt",
+    "code": "JNF053200"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Violenza",
+    "code": "JNF053210"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Bullismo",
+    "code": "JNF053220"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Depressione e Malattie Mentali",
+    "code": "JNF053230"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Emigrazione e Immigrazione",
+    "code": "JNF053240"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Automutilazione",
+    "code": "JNF053250"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Stranieri",
+    "code": "JNF053260"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Generale",
+    "code": "JNF054000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Baseball e Softball",
+    "code": "JNF054010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Pallacanestro",
+    "code": "JNF054020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Campeggio e Attivit  all'Aperto",
+    "code": "JNF054030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Ciclismo",
+    "code": "JNF054040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Football (americano)",
+    "code": "JNF054050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Ginnastica",
+    "code": "JNF054060"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Hockey",
+    "code": "JNF054070"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Arti Marziali",
+    "code": "JNF054080"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Vari",
+    "code": "JNF054090"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Sport Motoristici",
+    "code": "JNF054100"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Olimpiadi",
+    "code": "JNF054110"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Sport con Racchette",
+    "code": "JNF054120"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Calcio",
+    "code": "JNF054130"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Track & Field",
+    "code": "JNF054140"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Sport Acquatici",
+    "code": "JNF054150"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Sport Invernali",
+    "code": "JNF054160"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Equestre",
+    "code": "JNF054170"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Sport Estremi",
+    "code": "JNF054180"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Pattinaggio su Ghiaccio",
+    "code": "JNF054190"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Pattinaggio a Rotelle e in Linea",
+    "code": "JNF054200"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Skateboard",
+    "code": "JNF054210"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Wrestling",
+    "code": "JNF054220"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Golf*",
+    "code": "JNF054230"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Supporti Didattici / Generale",
+    "code": "JNF055000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Supporti Didattici / Guide allo Studio (vedere anche SUPPORTI DIDATTICI / Guide allo Studio)",
+    "code": "JNF055010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Supporti Didattici / Preparazione a Test",
+    "code": "JNF055030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Giocattoli, Bambole e Burattini",
+    "code": "JNF056000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Trasporto / Generale",
+    "code": "JNF057000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Trasporto / Aviazione",
+    "code": "JNF057010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Trasporto / Imbarcazioni, Navi e Sottomarini",
+    "code": "JNF057020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Trasporto / Automobili e Autocarri",
+    "code": "JNF057030"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Trasporto / Motocicli",
+    "code": "JNF057040"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Trasporto / Ferrovie e Treni",
+    "code": "JNF057050"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Viaggi",
+    "code": "JNF058000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Abbigliamento e Vestiario",
+    "code": "JNF059000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Studi sui Media",
+    "code": "JNF060000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Tecnologia / Generale",
+    "code": "JNF061000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Tecnologia / Invenzioni",
+    "code": "JNF061010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Fumetti e Romanzi Illustrati / Generale",
+    "code": "JNF062000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Fumetti e Romanzi Illustrati / Biografia",
+    "code": "JNF062010"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Fumetti e Romanzi Illustrati / Storia",
+    "code": "JNF062020"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Libri e Librerie",
+    "code": "JNF063000"
+  },
+  {
+    "name": "NON-FICTION PER RAGAZZI / Tie-In",
+    "code": "JNF064000"
+  }
+] 

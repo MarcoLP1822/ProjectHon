@@ -1,0 +1,902 @@
+[
+  {
+    "code": "EDU000000",
+    "name": "EDUCAZIONE / Generale"
+  },
+  {
+    "code": "EDU001000",
+    "name": "EDUCAZIONE / Amministrazione / Generale"
+  },
+  {
+    "code": "EDU001010",
+    "name": "EDUCAZIONE / Amministrazione / Gestione Struttura Scolastica"
+  },
+  {
+    "code": "EDU001030",
+    "name": "EDUCAZIONE / Amministrazione / Superiore"
+  },
+  {
+    "code": "EDU002000",
+    "name": "EDUCAZIONE / Formazione in Età Adulta"
+  },
+  {
+    "code": "EDU003000",
+    "name": "EDUCAZIONE / Scopi e Obiettivi"
+  },
+  {
+    "code": "EDU005000",
+    "name": "EDUCAZIONE / Educazione Bilingue"
+  },
+  {
+    "code": "EDU006000",
+    "name": "EDUCAZIONE / Counseling / Generale"
+  },
+  {
+    "code": "EDU007000",
+    "name": "EDUCAZIONE / Curricula"
+  },
+  {
+    "code": "EDU008000",
+    "name": "EDUCAZIONE / Decision-Making e Problem Solving"
+  },
+  {
+    "code": "EDU009000",
+    "name": "EDUCAZIONE / Psicologia dell'Educazione"
+  },
+  {
+    "code": "EDU010000",
+    "name": "EDUCAZIONE / Elementare"
+  },
+  {
+    "code": "EDU011000",
+    "name": "EDUCAZIONE / Valutazione"
+  },
+  {
+    "code": "EDU012000",
+    "name": "EDUCAZIONE / Metodi Sperimentali"
+  },
+  {
+    "code": "EDU013000",
+    "name": "EDUCAZIONE / Finanza"
+  },
+  {
+    "code": "EDU014000",
+    "name": "EDUCAZIONE / Guida e Orientamento"
+  },
+  {
+    "code": "EDU015000",
+    "name": "EDUCAZIONE / Superiore"
+  },
+  {
+    "code": "EDU016000",
+    "name": "EDUCAZIONE / Storia"
+  },
+  {
+    "code": "EDU017000",
+    "name": "EDUCAZIONE / Scolarizzazione Domestica"
+  },
+  {
+    "code": "EDU018000",
+    "name": "EDUCAZIONE / Approccio all'Esperienza Linguistica"
+  },
+  {
+    "code": "EDU020000",
+    "name": "EDUCAZIONE / Educazione Multiculturale"
+  },
+  {
+    "code": "EDU021000",
+    "name": "EDUCAZIONE / Educazione Informale"
+  },
+  {
+    "code": "EDU022000",
+    "name": "EDUCAZIONE / Partecipazione dei Genitori"
+  },
+  {
+    "code": "EDU023000",
+    "name": "EDUCAZIONE / Asilo Nido e Scuola dell'Infanzia"
+  },
+  {
+    "code": "EDU024000",
+    "name": "EDUCAZIONE / Riferimento"
+  },
+  {
+    "code": "EDU025000",
+    "name": "EDUCAZIONE / Secondaria"
+  },
+  {
+    "code": "EDU026000",
+    "name": "EDUCAZIONE / Educazione Speciale / Generale"
+  },
+  {
+    "code": "EDU026010",
+    "name": "EDUCAZIONE / Educazione Speciale / Disturbi della Comunicazione"
+  },
+  {
+    "code": "EDU026020",
+    "name": "EDUCAZIONE / Educazione Speciale / Disturbi di Apprendimento"
+  },
+  {
+    "code": "EDU026030",
+    "name": "EDUCAZIONE / Educazione Speciale / Disabilità Mentali"
+  },
+  {
+    "code": "EDU026040",
+    "name": "EDUCAZIONE / Educazione Speciale / Disabilità Fisiche"
+  },
+  {
+    "code": "EDU026050",
+    "name": "EDUCAZIONE / Educazione Speciale / Disabilità Sociali"
+  },
+  {
+    "code": "EDU026060",
+    "name": "EDUCAZIONE / Educazione Speciale / Per Talenti"
+  },
+  {
+    "code": "EDU027000",
+    "name": "EDUCAZIONE / Statistiche"
+  },
+  {
+    "code": "EDU028000",
+    "name": "EDUCAZIONE / Attitudini allo Studio"
+  },
+  {
+    "code": "EDU029000",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Generale"
+  },
+  {
+    "code": "EDU029010",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Matematica"
+  },
+  {
+    "code": "EDU029020",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Lettura e Fonica"
+  },
+  {
+    "code": "EDU029030",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Scienza e Tecnologia"
+  },
+  {
+    "code": "EDU029040",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Scienze Sociali"
+  },
+  {
+    "code": "EDU029050",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Arti e Umanistica"
+  },
+  {
+    "code": "EDU029060",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Competenze per la Biblioteca"
+  },
+  {
+    "code": "EDU029070",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Salute e Sessualità"
+  },
+  {
+    "code": "EDU029080",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Arti Linguistiche"
+  },
+  {
+    "code": "EDU030000",
+    "name": "EDUCAZIONE / Test e Misurazioni"
+  },
+  {
+    "code": "EDU031000",
+    "name": "EDUCAZIONE / Counseling / Orientamento Professionale"
+  },
+  {
+    "code": "EDU032000",
+    "name": "EDUCAZIONE / Leadership"
+  },
+  {
+    "code": "EDU033000",
+    "name": "EDUCAZIONE / Educazione Fisica"
+  },
+  {
+    "code": "EDU034000",
+    "name": "EDUCAZIONE / Politiche e Riforme dell'Educazione / Generale"
+  },
+  {
+    "code": "EDU034010",
+    "name": "EDUCAZIONE / Politiche e Riforme dell'Educazione / Sicurezza e Violenza nella Scuola"
+  },
+  {
+    "code": "EDU036000",
+    "name": "EDUCAZIONE / Organizzazioni e Istituzioni"
+  },
+  {
+    "code": "EDU037000",
+    "name": "EDUCAZIONE / Ricerca"
+  },
+  {
+    "code": "EDU038000",
+    "name": "EDUCAZIONE / Studenti e Vita Studentesca"
+  },
+  {
+    "code": "EDU039000",
+    "name": "EDUCAZIONE / Computer e Tecnologia"
+  },
+  {
+    "code": "EDU040000",
+    "name": "EDUCAZIONE / Filosofia e Aspetti Sociali"
+  },
+  {
+    "code": "EDU041000",
+    "name": "EDUCAZIONE / Educazione e Apprendimento a Distanza"
+  },
+  {
+    "code": "EDU042000",
+    "name": "EDUCAZIONE / Saggi"
+  },
+  {
+    "code": "EDU043000",
+    "name": "EDUCAZIONE / Comparativa"
+  },
+  {
+    "code": "EDU044000",
+    "name": "EDUCAZIONE / Gestione della Classe"
+  },
+  {
+    "code": "EDU045000",
+    "name": "EDUCAZIONE / Counseling / Gestione Crisi"
+  },
+  {
+    "code": "EDU046000",
+    "name": "EDUCAZIONE / Sviluppo Professionale"
+  },
+  {
+    "code": "EDU048000",
+    "name": "EDUCAZIONE / Educazione Inclusiva"
+  },
+  {
+    "code": "EDU052000",
+    "name": "EDUCAZIONE / Rurale"
+  },
+  {
+    "code": "EDU054000",
+    "name": "EDUCAZIONE / Urbano"
+  },
+  {
+    "code": "EDU056000",
+    "name": "EDUCAZIONE / Professionale"
+  },
+  {
+    "code": "HUM000000",
+    "name": "UMORISMO / Generale"
+  },
+  {
+    "code": "HUM001000",
+    "name": "UMORISMO / Forme / Strisce a Fumetti e Cartoni"
+  },
+  {
+    "code": "HUM003000",
+    "name": "UMORISMO / Forme / Saggi"
+  },
+  {
+    "code": "HUM004000",
+    "name": "UMORISMO / Forme / Battute e Indovinelli"
+  },
+  {
+    "code": "HUM005000",
+    "name": "UMORISMO / Forme / Limerick e Versi"
+  },
+  {
+    "code": "HUM006000",
+    "name": "UMORISMO / Tema / Politico"
+  },
+  {
+    "code": "HUM007000",
+    "name": "UMORISMO / Forme / Parodie"
+  },
+  {
+    "code": "HUM008000",
+    "name": "UMORISMO / Tema / Adulti"
+  },
+  {
+    "code": "HUM009000",
+    "name": "UMORISMO / Tema / Animali"
+  },
+  {
+    "code": "HUM010000",
+    "name": "UMORISMO / Tema / Commerciale e Professionale"
+  },
+  {
+    "code": "HUM011000",
+    "name": "UMORISMO / Tema / Matrimonio e Famiglia"
+  },
+  {
+    "code": "HUM012000",
+    "name": "UMORISMO / Tema / Relazioni"
+  },
+  {
+    "code": "HUM013000",
+    "name": "UMORISMO / Tema / Sport"
+  },
+  {
+    "code": "HUM014000",
+    "name": "UMORISMO / Tema / Religione"
+  },
+  {
+    "code": "HUM015000",
+    "name": "UMORISMO / Forme / Aneddoti"
+  },
+  {
+    "code": "HUM016000",
+    "name": "UMORISMO / Forme / Trivia"
+  },
+  {
+    "code": "HUM017000",
+    "name": "UMORISMO / Forme / Illustrata"
+  },
+  {
+    "code": "NAT000000",
+    "name": "NATURA / Generale"
+  },
+  {
+    "code": "NAT001000",
+    "name": "NATURA / Animali / Generale"
+  },
+  {
+    "code": "NAT002000",
+    "name": "NATURA / Animali / Primati"
+  },
+  {
+    "code": "NAT003000",
+    "name": "NATURA / Animali / Orsi"
+  },
+  {
+    "code": "NAT004000",
+    "name": "NATURA / Guide di Osservazione Uccelli"
+  },
+  {
+    "code": "NAT005000",
+    "name": "NATURA / Animali / Farfalle e Falene"
+  },
+  {
+    "code": "NAT007000",
+    "name": "NATURA / Animali / Dinosauri e Creature Preistoriche"
+  },
+  {
+    "code": "NAT009000",
+    "name": "NATURA / Terremoti e Vulcani"
+  },
+  {
+    "code": "NAT010000",
+    "name": "NATURA / Ecologia"
+  },
+  {
+    "code": "NAT011000",
+    "name": "NATURA / Conservazione e Protezione Ambientale"
+  },
+  {
+    "code": "NAT012000",
+    "name": "NATURA / Animali / Pesci"
+  },
+  {
+    "code": "NAT013000",
+    "name": "NATURA / Piante / Fiori"
+  },
+  {
+    "code": "NAT014000",
+    "name": "NATURA / Ecosistemi e Habitat / Foreste e Foreste Pluviali"
+  },
+  {
+    "code": "NAT015000",
+    "name": "NATURA / Fossili"
+  },
+  {
+    "code": "NAT016000",
+    "name": "NATURA / Animali / Cavalli"
+  },
+  {
+    "code": "NAT017000",
+    "name": "NATURA / Animali / Insetti e Ragni"
+  },
+  {
+    "code": "NAT018000",
+    "name": "NATURA / Ecosistemi e Habitat / Laghi, Stagni e Paludi\""
+  },
+  {
+    "code": "NAT019000",
+    "name": "NATURA / Animali / Mammiferi"
+  },
+  {
+    "code": "NAT020000",
+    "name": "NATURA / Animali / Specie Marine"
+  },
+  {
+    "code": "NAT022000",
+    "name": "NATURA / Piante / Funghi"
+  },
+  {
+    "code": "NAT023000",
+    "name": "NATURA / Disastri Naturali"
+  },
+  {
+    "code": "NAT024000",
+    "name": "NATURA / Saggi"
+  },
+  {
+    "code": "NAT025000",
+    "name": "NATURA / Ecosistemi e Habitat / Mari e Oceani"
+  },
+  {
+    "code": "NAT026000",
+    "name": "NATURA / Piante / Generale"
+  },
+  {
+    "code": "NAT027000",
+    "name": "NATURA / Riferimento"
+  },
+  {
+    "code": "NAT028000",
+    "name": "NATURA / Animali / Rettili e Anfibi"
+  },
+  {
+    "code": "NAT029000",
+    "name": "NATURA / Ecosistemi e Habitat / Fiumi"
+  },
+  {
+    "code": "NAT030000",
+    "name": "NATURA / Rocce e Minerali"
+  },
+  {
+    "code": "NAT031000",
+    "name": "NATURA / Conchiglie Marine"
+  },
+  {
+    "code": "NAT032000",
+    "name": "NATURA / Stagioni"
+  },
+  {
+    "code": "NAT033000",
+    "name": "NATURA / Osservazione del Cielo"
+  },
+  {
+    "code": "NAT034000",
+    "name": "NATURA / Piante / Alberi"
+  },
+  {
+    "code": "NAT036000",
+    "name": "NATURA / Clima"
+  },
+  {
+    "code": "NAT037000",
+    "name": "NATURA / Animali / Fauna Selvatica"
+  },
+  {
+    "code": "NAT038000",
+    "name": "NATURA / Risorse Naturali"
+  },
+  {
+    "code": "NAT039000",
+    "name": "NATURA / Diritti degli Animali"
+  },
+  {
+    "code": "NAT041000",
+    "name": "NATURA / Ecosistemi e Habitat / Montagne"
+  },
+  {
+    "code": "NAT042000",
+    "name": "NATURA / Animali / Grandi Felini*"
+  },
+  {
+    "code": "NAT043000",
+    "name": "NATURA / Animali / Uccelli*"
+  },
+  {
+    "code": "NAT044000",
+    "name": "NATURA / Animali / Lupi*"
+  },
+  {
+    "code": "NAT045000",
+    "name": "NATURA / Ecosistemi e Habitat / Generale*"
+  },
+  {
+    "code": "NAT045010",
+    "name": "NATURA / Ecosistemi e Habitat / Deserti*"
+  },
+  {
+    "code": "NAT045020",
+    "name": "NATURA / Ecosistemi e Habitat / Pianure e Praterie*"
+  },
+  {
+    "code": "NAT045030",
+    "name": "NATURA / Ecosistemi e Habitat / Regioni Polari*"
+  },
+  {
+    "code": "NAT045040",
+    "name": "NATURA / Ecosistemi e Habitat / Regioni Selvagge*"
+  },
+  {
+    "code": "NAT046000",
+    "name": "NATURA / Specie a Rischio*"
+  },
+  {
+    "code": "NAT047000",
+    "name": "NATURA / Piante / Acquatiche*"
+  },
+  {
+    "code": "NAT048000",
+    "name": "NATURA / Piante / Cacti e Succulente*"
+  },
+  {
+    "code": "NAT049000",
+    "name": "NATURA / Regionale*"
+  },
+  {
+    "code": "NON000000",
+    "name": "NON CLASSIFICABILE"
+  },
+  {
+    "code": "PET000000",
+    "name": "ANIMALI DOMESTICI / Generale"
+  },
+  {
+    "code": "PET002000",
+    "name": "ANIMALI DOMESTICI / Uccelli"
+  },
+  {
+    "code": "PET003000",
+    "name": "ANIMALI DOMESTICI / Gatti / Generale"
+  },
+  {
+    "code": "PET003010",
+    "name": "ANIMALI DOMESTICI / Gatti / Razze"
+  },
+  {
+    "code": "PET004000",
+    "name": "ANIMALI DOMESTICI / Cani / Generale"
+  },
+  {
+    "code": "PET004010",
+    "name": "ANIMALI DOMESTICI / Cani / Razze"
+  },
+  {
+    "code": "PET004020",
+    "name": "ANIMALI DOMESTICI / Cani / Addestramento"
+  },
+  {
+    "code": "PET005000",
+    "name": "ANIMALI DOMESTICI / Pesci e Acquari"
+  },
+  {
+    "code": "PET006000",
+    "name": "ANIMALI DOMESTICI / Cavalli / Generale"
+  },
+  {
+    "code": "PET008000",
+    "name": "ANIMALI DOMESTICI / Riferimento"
+  },
+  {
+    "code": "PET009000",
+    "name": "ANIMALI DOMESTICI / Rettili, Anfibi e Terricoli\""
+  },
+  {
+    "code": "PET010000",
+    "name": "ANIMALI DOMESTICI / Saggi"
+  },
+  {
+    "code": "PET011000",
+    "name": "ANIMALI DOMESTICI / Conigli, Topi, Criceti, Porcellini d'India, ecc.\""
+  },
+  {
+    "code": "REF000000",
+    "name": "RIFERIMENTO / Generale"
+  },
+  {
+    "code": "REF001000",
+    "name": "RIFERIMENTO / Almanacchi"
+  },
+  {
+    "code": "REF002000",
+    "name": "RIFERIMENTO / Atlanti"
+  },
+  {
+    "code": "REF004000",
+    "name": "RIFERIMENTO / Bibliografie e Indici"
+  },
+  {
+    "code": "REF006000",
+    "name": "RIFERIMENTO / Cataloghi"
+  },
+  {
+    "code": "REF007000",
+    "name": "RIFERIMENTO / Curiosità e Stranezze"
+  },
+  {
+    "code": "REF008000",
+    "name": "RIFERIMENTO / Dizionari"
+  },
+  {
+    "code": "REF009000",
+    "name": "RIFERIMENTO / Elenchi"
+  },
+  {
+    "code": "REF010000",
+    "name": "RIFERIMENTO / Enciclopedie"
+  },
+  {
+    "code": "REF011000",
+    "name": "RIFERIMENTO / Galateo"
+  },
+  {
+    "code": "REF013000",
+    "name": "RIFERIMENTO / Genealogia ed Araldica"
+  },
+  {
+    "code": "REF015000",
+    "name": "RIFERIMENTO / Guide Personali e Pratiche"
+  },
+  {
+    "code": "REF018000",
+    "name": "RIFERIMENTO / Domande e Risposte"
+  },
+  {
+    "code": "REF019000",
+    "name": "RIFERIMENTO / Citazioni"
+  },
+  {
+    "code": "REF020000",
+    "name": "RIFERIMENTO / Ricerca"
+  },
+  {
+    "code": "REF022000",
+    "name": "RIFERIMENTO / Thesaurus"
+  },
+  {
+    "code": "REF023000",
+    "name": "RIFERIMENTO / Trivia"
+  },
+  {
+    "code": "REF024000",
+    "name": "RIFERIMENTO / Matrimoni"
+  },
+  {
+    "code": "REF025000",
+    "name": "RIFERIMENTO / Elenchi Parole"
+  },
+  {
+    "code": "REF026000",
+    "name": "RIFERIMENTO / Abilità di Scrittura"
+  },
+  {
+    "code": "REF027000",
+    "name": "RIFERIMENTO / Calendari e Annuari"
+  },
+  {
+    "code": "REF028000",
+    "name": "RIFERIMENTO / Guide e Manuali"
+  },
+  {
+    "code": "REF030000",
+    "name": "RIFERIMENTO / Guide per i Consumatori"
+  },
+  {
+    "code": "STU000000",
+    "name": "SUPPORTI DIDATTICI / Generale"
+  },
+  {
+    "code": "STU001000",
+    "name": "SUPPORTI DIDATTICI / LEGGE"
+  },
+  {
+    "code": "STU002000",
+    "name": "SUPPORTI DIDATTICI / Livello Avanzato"
+  },
+  {
+    "code": "STU003000",
+    "name": "SUPPORTI DIDATTICI / Forze Armate"
+  },
+  {
+    "code": "STU004000",
+    "name": "SUPPORTI DIDATTICI / Guide allo Studio (vedere anche NON-FICTION PER RAGAZZI / Supporti Didattici / Guide allo Studio)"
+  },
+  {
+    "code": "STU006000",
+    "name": "SUPPORTI DIDATTICI / Cittadinanza"
+  },
+  {
+    "code": "STU007000",
+    "name": "SUPPORTI DIDATTICI / Servizio Civile"
+  },
+  {
+    "code": "STU008000",
+    "name": "SUPPORTI DIDATTICI / CLEP (Programma d'Esame per l'Attestato del College)"
+  },
+  {
+    "code": "STU009000",
+    "name": "SUPPORTI DIDATTICI / Ammissione al College"
+  },
+  {
+    "code": "STU010000",
+    "name": "SUPPORTI DIDATTICI / Guide sui College"
+  },
+  {
+    "code": "STU011000",
+    "name": "SUPPORTI DIDATTICI / Commercialista Iscritto all'Albo"
+  },
+  {
+    "code": "STU012000",
+    "name": "SUPPORTI DIDATTICI / GED (General Educational Development Test)"
+  },
+  {
+    "code": "STU013000",
+    "name": "SUPPORTI DIDATTICI / GMAT (Graduate Management Admission Test)"
+  },
+  {
+    "code": "STU015000",
+    "name": "SUPPORTI DIDATTICI / Guide alle Scuole Universitarie"
+  },
+  {
+    "code": "STU016000",
+    "name": "SUPPORTI DIDATTICI / GRE (Graduate Record Examination)"
+  },
+  {
+    "code": "STU017000",
+    "name": "SUPPORTI DIDATTICI / LSAT (Test di Ammissione alla Scuola di Legge)"
+  },
+  {
+    "code": "STU018000",
+    "name": "SUPPORTI DIDATTICI / MAT (Test delle Analogie di Miller)"
+  },
+  {
+    "code": "STU019000",
+    "name": "SUPPORTI DIDATTICI / NTE (Esami Nazionali di Abilitazione per Insegnanti)"
+  },
+  {
+    "code": "STU021000",
+    "name": "SUPPORTI DIDATTICI / Professionale"
+  },
+  {
+    "code": "STU022000",
+    "name": "SUPPORTI DIDATTICI / Reggenti"
+  },
+  {
+    "code": "STU024000",
+    "name": "SUPPORTI DIDATTICI / SAT"
+  },
+  {
+    "code": "STU025000",
+    "name": "SUPPORTI DIDATTICI / Ammissione alla Scuola Superiore"
+  },
+  {
+    "code": "STU026000",
+    "name": "SUPPORTI DIDATTICI / Guide allo Studio"
+  },
+  {
+    "code": "STU027000",
+    "name": "SUPPORTI DIDATTICI / Test"
+  },
+  {
+    "code": "STU028000",
+    "name": "SUPPORTI DIDATTICI / TOEFL (Test of English as a Foreign Language)"
+  },
+  {
+    "code": "STU029000",
+    "name": "SUPPORTI DIDATTICI / Vocazionale"
+  },
+  {
+    "code": "STU031000",
+    "name": "SUPPORTI DIDATTICI / Aiuto Finanziario"
+  },
+  {
+    "code": "STU032000",
+    "name": "SUPPORTI DIDATTICI / MCAT (Test di Ammissione al College di Medicina)"
+  },
+  {
+    "code": "STU033000",
+    "name": "SUPPORTI DIDATTICI / PSAT & NMSQT (National Merit Scholarship Qualifying Test)"
+  },
+  {
+    "code": "TRA000000",
+    "name": "TRASPORTO / Generale"
+  },
+  {
+    "code": "TRA001000",
+    "name": "TRASPORTO / Automobilistico / Generale"
+  },
+  {
+    "code": "TRA001010",
+    "name": "TRASPORTO / Automobilistico / Antico e Classico"
+  },
+  {
+    "code": "TRA001020",
+    "name": "TRASPORTO / Automobilistico / Guide all'Acquisto"
+  },
+  {
+    "code": "TRA001030",
+    "name": "TRASPORTO / Automobilistico / Personalizzazione"
+  },
+  {
+    "code": "TRA001050",
+    "name": "TRASPORTO / Automobilistico / Storia"
+  },
+  {
+    "code": "TRA001060",
+    "name": "TRASPORTO / Automobilistico / Illustrazioni"
+  },
+  {
+    "code": "TRA001080",
+    "name": "TRASPORTO / Automobilistico / Educazione Stradale"
+  },
+  {
+    "code": "TRA001140",
+    "name": "TRASPORTO / Automobilistico / Riparazione e Manutenzione"
+  },
+  {
+    "code": "TRA001150",
+    "name": "TRASPORTO / Automobilistico / Autocarri"
+  },
+  {
+    "code": "TRA002000",
+    "name": "TRASPORTO / Aviazione / Generale"
+  },
+  {
+    "code": "TRA002010",
+    "name": "TRASPORTO / Aviazione / Storia"
+  },
+  {
+    "code": "TRA002030",
+    "name": "TRASPORTO / Aviazione / Riparazione e Manutenzione"
+  },
+  {
+    "code": "TRA002040",
+    "name": "TRASPORTO / Aviazione / Commerciale"
+  },
+  {
+    "code": "TRA002050",
+    "name": "TRASPORTO / Aviazione / Pilotaggio e Istruzioni di Volo"
+  },
+  {
+    "code": "TRA003000",
+    "name": "TRASPORTO / Motocicli / Generale"
+  },
+  {
+    "code": "TRA003010",
+    "name": "TRASPORTO / Motocicli / Storia"
+  },
+  {
+    "code": "TRA003020",
+    "name": "TRASPORTO / Motocicli / Illustrazioni"
+  },
+  {
+    "code": "TRA003030",
+    "name": "TRASPORTO / Motocicli / Riparazione e Manutenzione"
+  },
+  {
+    "code": "TRA004000",
+    "name": "TRASPORTO / Ferrovie / Generale"
+  },
+  {
+    "code": "TRA004010",
+    "name": "TRASPORTO / Ferrovie / Storia"
+  },
+  {
+    "code": "TRA004020",
+    "name": "TRASPORTO / Ferrovie / Illustrazioni"
+  },
+  {
+    "code": "TRA006000",
+    "name": "TRASPORTO / Navi e Costruzione Navale / Generale"
+  },
+  {
+    "code": "TRA006010",
+    "name": "TRASPORTO / Navi e Costruzione Navale / Storia"
+  },
+  {
+    "code": "TRA006020",
+    "name": "TRASPORTO / Navi e Costruzione Navale / Illustrazioni"
+  },
+  {
+    "code": "TRA006030",
+    "name": "TRASPORTO / Navi e Costruzione Navale / Riparazione e Manutenzione"
+  },
+  {
+    "code": "TRA008000",
+    "name": "TRASPORTO / Navigazione"
+  },
+  {
+    "code": "TRA009000",
+    "name": "TRASPORTO / Trasporto Pubblico"
+  }
+]

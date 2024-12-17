@@ -3,6 +3,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const bookRoutes = require('./routes/book.routes');
 const aiRoutes = require('./routes/ai.routes');
+const bisacRoutes = require('./routes/bisac.routes');
 const errorHandler = require('./middleware/errorHandler');
 require('dotenv').config();
 
@@ -26,6 +27,7 @@ mongoose.connect(process.env.MONGODB_URI, {
 // Routes
 app.use('/api/books', bookRoutes);
 app.use('/api/ai', aiRoutes);
+app.use('/api/bisac', bisacRoutes);
 
 // Error Handler (deve essere dopo tutte le routes)
 app.use(errorHandler);
