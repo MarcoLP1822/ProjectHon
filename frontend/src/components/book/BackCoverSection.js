@@ -31,7 +31,7 @@ const BackCoverSection = () => {
     renderContent: renderContent
   };
 
-  return <GenerativeSection {...sectionProps} />;
+  return <GenerativeSection {...sectionProps} contentType="backCover" />;
 };
 
 export default BackCoverSection; 

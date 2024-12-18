@@ -23,15 +23,16 @@ const SynopsisSection = () => {
     );
   };
 
-  const sectionProps = {
-    title: "Sinossi",
-    emptyMessage: "Nessuna sinossi generata. Clicca il pulsante per generarne una.",
-    generateButtonText: "Genera Sinossi",
-    onGenerate: handleGenerate,
-    renderContent: renderContent
-  };
-
-  return <GenerativeSection {...sectionProps} />;
+  return (
+    <GenerativeSection
+      title="Sinossi"
+      emptyMessage="Nessuna sinossi generata. Clicca il pulsante per generarne una."
+      generateButtonText="Genera Sinossi"
+      onGenerate={handleGenerate}
+      renderContent={renderContent}
+      contentType="synopsis"
+    />
+  );
 };
 
 export default SynopsisSection; 

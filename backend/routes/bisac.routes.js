@@ -1,42 +1,28 @@
 const express = require('express');
 const router = express.Router();
-const path = require('path');
-const fs = require('fs').promises;
 const bisacService = require('../services/bisac.service');
 
 // Route per ottenere le categorie dai file JSON
 router.get('/categories', async (req, res) => {
     try {
-        const fictionCategories = JSON.parse(
-            await fs.readFile(path.join(__dirname, '../data/fiction-categories.json'), 'utf8')
-        );
-        const humanitiesCategories = JSON.parse(
-            await fs.readFile(path.join(__dirname, '../data/humanities-categories.json'), 'utf8')
-        );
-        const selfhelpCategories = JSON.parse(
-            await fs.readFile(path.join(__dirname, '../data/selfhelp-categories.json'), 'utf8')
-        );
-        const juvCategories = JSON.parse(
-            await fs.readFile(path.join(__dirname, '../data/juv-categories.json'), 'utf8')
-        );
-        const artCategories = JSON.parse(
-            await fs.readFile(path.join(__dirname, '../data/art-categories.json'), 'utf8')
-        );  
-        const varieCategories = JSON.parse(
-            await fs.readFile(path.join(__dirname, '../data/varie.json'), 'utf8')
-        );
-
-        res.json({
-            fiction: fictionCategories,
-            humanities: humanitiesCategories,
-            selfhelp: selfhelpCategories,
-            juv: juvCategories,
-            art: artCategories,
-            varie: varieCategories
-        });
+        // Verifica se il client accetta gzip
+        const acceptsGzip = req.headers['accept-encoding']?.includes('gzip');
+        
+        const categories = await bisacService.getOrganizedCategories(acceptsGzip);
+        
+        if (acceptsGzip) {
+            res.setHeader('Content-Encoding', 'gzip');
+            res.setHeader('Content-Type', 'application/json');
+            res.send(categories);
+        } else {
+            res.json(categories);
+        }
     } catch (error) {
         console.error('Errore nel recupero delle categorie:', error);
-        res.status(500).json({ error: error.message });
+        res.status(500).json({ 
+            error: 'Errore nel recupero delle categorie',
+            details: process.env.NODE_ENV === 'development' ? error.message : undefined
+        });
     }
 });
 

@@ -150,7 +150,7 @@ const generateCategories = async (bookContent) => {
           {
             role: "system",
             content: `Sei un esperto di categorizzazione libri secondo il sistema BISAC. 
-                     Analizza attentamente il testo fornito e proponi tre categorie BISAC affini al contenuto.
+                     Analizza attentamente il testo fornito e proponi tre categorie BISAC in italiano affini al contenuto.
                      Considera anche il contesto generale del libro fornito nel summary.
                      Scrivi le categorie solo in italiano che rispettano il sistema BISAC come in questo esempio: FICTION / Fantasy / Generale.
                      Rispondi SOLO con un oggetto JSON contenente le categorie con questa struttura: 

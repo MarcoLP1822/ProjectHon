@@ -30,6 +30,7 @@ const PrefaceSection = () => {
       generateButtonText="Genera Prefazione"
       onGenerate={handleGenerate}
       renderContent={renderContent}
+      contentType="preface"
     />
   );
 };

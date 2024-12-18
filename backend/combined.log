@@ -348,3 +348,80 @@
 {"level":"info","message":"Generating keywords for book: 67617368260310b944604395","timestamp":"2024-12-17T22:32:41.970Z"}
 {"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":12,"timestamp":"2024-12-17T22:32:45.201Z"}
 {"level":"info","message":"Successfully generated keywords for book 67617368260310b944604395","timestamp":"2024-12-17T22:33:28.558Z"}
+{"level":"info","message":"Generating keywords for book: 676287e3c2695671d1a29f09","timestamp":"2024-12-18T08:29:39.529Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":11,"timestamp":"2024-12-18T08:29:42.777Z"}
+{"level":"info","message":"Successfully generated keywords for book 676287e3c2695671d1a29f09","timestamp":"2024-12-18T08:30:32.927Z"}
+{"level":"info","message":"Generating synopsis for book: 676287e3c2695671d1a29f09","timestamp":"2024-12-18T08:30:56.362Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":11,"timestamp":"2024-12-18T08:30:58.690Z"}
+{"level":"info","message":"Successfully generated synopsis for book 676287e3c2695671d1a29f09","timestamp":"2024-12-18T08:31:09.078Z"}
+{"level":"info","message":"Generating back cover for book: 676287e3c2695671d1a29f09","timestamp":"2024-12-18T08:31:27.700Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":11,"timestamp":"2024-12-18T08:31:29.983Z"}
+{"level":"info","message":"Successfully generated back cover for book 676287e3c2695671d1a29f09","timestamp":"2024-12-18T08:31:45.320Z"}
+{"level":"info","message":"Generating categories for book: 676287e3c2695671d1a29f09","timestamp":"2024-12-18T08:32:03.798Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":11,"timestamp":"2024-12-18T08:32:06.046Z"}
+{"level":"info","message":"Successfully generated categories for book 676287e3c2695671d1a29f09","timestamp":"2024-12-18T08:32:42.135Z"}
+{"level":"info","message":"Generating preface for book: 676287e3c2695671d1a29f09","timestamp":"2024-12-18T08:33:18.016Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":11,"timestamp":"2024-12-18T08:33:20.303Z"}
+{"level":"info","message":"Successfully generated preface for book 676287e3c2695671d1a29f09","timestamp":"2024-12-18T08:33:36.317Z"}
+{"level":"info","message":"Generating keywords for book: 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:50:30.128Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":11,"timestamp":"2024-12-18T08:50:33.174Z"}
+{"level":"info","message":"Successfully generated keywords for book 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:51:07.895Z"}
+{"level":"info","message":"Generating synopsis for book: 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:51:13.613Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":11,"timestamp":"2024-12-18T08:51:15.840Z"}
+{"level":"info","message":"Successfully generated synopsis for book 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:51:26.987Z"}
+{"level":"info","message":"Generating back cover for book: 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:51:30.081Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":11,"timestamp":"2024-12-18T08:51:32.224Z"}
+{"level":"info","message":"Successfully generated back cover for book 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:51:40.236Z"}
+{"level":"info","message":"Generating preface for book: 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:53:00.348Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":11,"timestamp":"2024-12-18T08:53:02.476Z"}
+{"level":"info","message":"Successfully generated preface for book 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:53:28.429Z"}
+{"level":"info","message":"Generating scenes for book: 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:53:35.847Z"}
+{"level":"info","message":"Generating categories for book: 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:53:45.907Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":11,"timestamp":"2024-12-18T08:53:47.930Z"}
+{"level":"info","message":"Successfully generated scenes for book 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:53:52.894Z"}
+{"level":"info","message":"Generating cover images for book: 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:53:54.309Z"}
+{"bookId":"67628cc087dec580769c5ea3","level":"info","message":"Generating image for scene 1","sceneTitle":"L'Inizio della Rivoluzione Digitale","timestamp":"2024-12-18T08:53:54.556Z"}
+{"bookId":"67628cc087dec580769c5ea3","level":"info","message":"Generating image for scene 2","sceneTitle":"Navigazione Assistita in Tempo Reale","timestamp":"2024-12-18T08:53:54.556Z"}
+{"bookId":"67628cc087dec580769c5ea3","level":"info","message":"Generating image for scene 3","sceneTitle":"Un Mondo di Inclusione","timestamp":"2024-12-18T08:53:54.557Z"}
+{"level":"info","message":"Successfully generated cover images for book 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:54:09.203Z"}
+{"level":"info","message":"Successfully generated categories for book 67628cc087dec580769c5ea3","timestamp":"2024-12-18T08:54:23.095Z"}
+{"level":"info","message":"Generating keywords for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T09:40:42.149Z"}
+{"level":"info","message":"Generating synopsis for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T09:40:45.037Z"}
+{"level":"info","message":"Generating back cover for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T09:40:46.486Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":5,"timestamp":"2024-12-18T09:40:52.732Z"}
+{"level":"info","message":"Generating preface for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T09:40:54.219Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":5,"timestamp":"2024-12-18T09:40:54.888Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":5,"timestamp":"2024-12-18T09:40:56.473Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":5,"timestamp":"2024-12-18T09:41:03.150Z"}
+{"level":"info","message":"Successfully generated back cover for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T09:41:04.503Z"}
+{"level":"info","message":"Successfully generated synopsis for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T09:41:05.332Z"}
+{"level":"info","message":"Successfully generated keywords for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T09:41:08.409Z"}
+{"level":"info","message":"Successfully generated preface for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T09:41:26.748Z"}
+{"level":"info","message":"Generating keywords for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:04:19.927Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":5,"timestamp":"2024-12-18T10:04:29.128Z"}
+{"level":"info","message":"Successfully generated keywords for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:04:43.074Z"}
+{"level":"info","message":"Generating keywords for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:46:19.157Z"}
+{"level":"info","message":"Generating synopsis for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:46:21.175Z"}
+{"level":"info","message":"Generating back cover for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:46:22.930Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":5,"timestamp":"2024-12-18T10:46:31.182Z"}
+{"level":"info","message":"Generating preface for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:46:31.571Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":5,"timestamp":"2024-12-18T10:46:32.909Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":5,"timestamp":"2024-12-18T10:46:34.732Z"}
+{"level":"info","message":"Generating scenes for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:46:35.069Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":5,"timestamp":"2024-12-18T10:46:42.646Z"}
+{"level":"info","message":"Successfully generated back cover for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:46:42.885Z"}
+{"level":"info","message":"Successfully generated keywords for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:46:43.871Z"}
+{"level":"info","message":"Successfully generated synopsis for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:46:47.905Z"}
+{"level":"info","message":"Successfully generated scenes for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:46:56.307Z"}
+{"level":"info","message":"Generating cover images for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:46:56.324Z"}
+{"bookId":"6762988d87dec580769c5fb3","level":"info","message":"Generating image for scene 1","sceneTitle":"Il Monumento Nazionale al Marinaio d'Italia","timestamp":"2024-12-18T10:46:56.378Z"}
+{"bookId":"6762988d87dec580769c5fb3","level":"info","message":"Generating image for scene 2","sceneTitle":"Il Palazzo della Provincia di Bari","timestamp":"2024-12-18T10:46:56.378Z"}
+{"bookId":"6762988d87dec580769c5fb3","level":"info","message":"Generating image for scene 3","sceneTitle":"Lungo Mare di Taranto","timestamp":"2024-12-18T10:46:56.379Z"}
+{"level":"info","message":"Successfully generated preface for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:46:58.073Z"}
+{"level":"info","message":"Successfully generated cover images for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:47:15.465Z"}
+{"level":"info","message":"Generating keywords for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:53:37.415Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":5,"timestamp":"2024-12-18T10:53:50.234Z"}
+{"level":"info","message":"Successfully generated keywords for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T10:54:03.587Z"}
+{"level":"info","message":"Generating categories for book: 6762988d87dec580769c5fb3","timestamp":"2024-12-18T12:42:17.943Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":5,"timestamp":"2024-12-18T12:42:26.149Z"}
+{"level":"info","message":"Successfully generated categories for book 6762988d87dec580769c5fb3","timestamp":"2024-12-18T12:42:50.325Z"}

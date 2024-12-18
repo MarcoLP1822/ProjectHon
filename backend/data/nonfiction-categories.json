@@ -608,6 +608,5742 @@
     "name": "BUSINESS ED ECONOMIA / Corporate Governance"
   },
   {
+    "code": "ART000000",
+    "name": "ARTE / Generale"
+  },
+  {
+    "code": "ART002000",
+    "name": "ARTE / Tecniche / Aerografo"
+  },
+  {
+    "code": "ART003000",
+    "name": "ARTE / Tecniche / Calligrafia"
+  },
+  {
+    "code": "ART004000",
+    "name": "ARTE / Tecniche / Disegno Animato"
+  },
+  {
+    "code": "ART006000",
+    "name": "ARTE / Collezioni, Cataloghi, Esibizioni / Generale\""
+  },
+  {
+    "code": "ART006010",
+    "name": "ARTE / Collezioni, Cataloghi, Esibizioni / Mostre Collettive\""
+  },
+  {
+    "code": "ART006020",
+    "name": "ARTE / Collezioni, Cataloghi, Esibizioni / Collezioni Permanenti\""
+  },
+  {
+    "code": "ART007000",
+    "name": "ARTE / Teoria del Colore"
+  },
+  {
+    "code": "ART008000",
+    "name": "ARTE / Concettuale"
+  },
+  {
+    "code": "ART009000",
+    "name": "ARTE / Critica e Teoria"
+  },
+  {
+    "code": "ART010000",
+    "name": "ARTE / Tecniche / Disegno"
+  },
+  {
+    "code": "ART013000",
+    "name": "ARTE / Arte Folclorica e Grezza"
+  },
+  {
+    "code": "ART015000",
+    "name": "ARTE / Storia / Generale"
+  },
+  {
+    "code": "ART015010",
+    "name": "ARTE / Africana"
+  },
+  {
+    "code": "ART015020",
+    "name": "ARTE / Americana / Generale"
+  },
+  {
+    "code": "ART015030",
+    "name": "ARTE / Europea"
+  },
+  {
+    "code": "ART015040",
+    "name": "ARTE / Canadese"
+  },
+  {
+    "code": "ART015050",
+    "name": "ARTE / Storia / Preistorica e Primitiva"
+  },
+  {
+    "code": "ART015060",
+    "name": "ARTE / Storia / Antica e Classica"
+  },
+  {
+    "code": "ART015070",
+    "name": "ARTE / Storia / Medievale"
+  },
+  {
+    "code": "ART015080",
+    "name": "ARTE / Storia / Rinascimento"
+  },
+  {
+    "code": "ART015090",
+    "name": "ARTE / Storia / Barocco e Rococò"
+  },
+  {
+    "code": "ART015100",
+    "name": "ARTE / Storia / Moderna (dal tardo 19° sec. al 1945)"
+  },
+  {
+    "code": "ART015110",
+    "name": "ARTE / Storia / Contemporanea (dal 1945)"
+  },
+  {
+    "code": "ART015120",
+    "name": "ARTE / Storia / Romanticismo"
+  },
+  {
+    "code": "ART016000",
+    "name": "ARTE / Artisti Individuali / Generale"
+  },
+  {
+    "code": "ART016010",
+    "name": "ARTE / Artisti Individuali / Libri di Artisti"
+  },
+  {
+    "code": "ART016020",
+    "name": "ARTE / Artisti Individuali / Saggi"
+  },
+  {
+    "code": "ART016030",
+    "name": "ARTE / Artisti Individuali / Monografie"
+  },
+  {
+    "code": "ART017000",
+    "name": "ARTE / Tecniche Miste"
+  },
+  {
+    "code": "ART018000",
+    "name": "ARTE / Tecniche / Pittura a Olio"
+  },
+  {
+    "code": "ART019000",
+    "name": "ARTE / Asiatica"
+  },
+  {
+    "code": "ART020000",
+    "name": "ARTE / Tecniche / Pittura"
+  },
+  {
+    "code": "ART021000",
+    "name": "ARTE / Tecniche / Disegno a Pastello"
+  },
+  {
+    "code": "ART023000",
+    "name": "ARTE / Cultura Popolare"
+  },
+  {
+    "code": "ART024000",
+    "name": "ARTE / Tecniche / Realizzazione di Stampe"
+  },
+  {
+    "code": "ART025000",
+    "name": "ARTE / Riferimento"
+  },
+  {
+    "code": "ART026000",
+    "name": "ARTE / Scultura e Installazione"
+  },
+  {
+    "code": "ART027000",
+    "name": "ARTE / Studio e Insegnamento"
+  },
+  {
+    "code": "ART028000",
+    "name": "ARTE / Tecniche / Generale"
+  },
+  {
+    "code": "ART029000",
+    "name": "ARTE / Tecniche / Acquerelli"
+  },
+  {
+    "code": "ART031000",
+    "name": "ARTE / Tecniche / Pittura Acrilica"
+  },
+  {
+    "code": "ART033000",
+    "name": "ARTE / Tecniche / Disegno a Penna e Inchiostro"
+  },
+  {
+    "code": "ART034000",
+    "name": "ARTE / Tecniche / Disegno a Matita"
+  },
+  {
+    "code": "ART035000",
+    "name": "ARTE / Argomenti e Temi / Religioso"
+  },
+  {
+    "code": "ART037000",
+    "name": "ARTE / Arte e Politica"
+  },
+  {
+    "code": "ART038000",
+    "name": "ARTE / Americana / Afro-Americana"
+  },
+  {
+    "code": "ART039000",
+    "name": "ARTE / Americana / Asiatica-Americana"
+  },
+  {
+    "code": "ART040000",
+    "name": "ARTE / Americana / Ispano-Americana"
+  },
+  {
+    "code": "ART041000",
+    "name": "ARTE / Nativi Americani"
+  },
+  {
+    "code": "ART042000",
+    "name": "ARTE / Australiana e Oceanica"
+  },
+  {
+    "code": "ART043000",
+    "name": "ARTE / Aspetti Legati al Business"
+  },
+  {
+    "code": "ART044000",
+    "name": "ARTE / Caraibica e Latino-Americana"
+  },
+  {
+    "code": "ART045000",
+    "name": "ARTE / Ceramiche"
+  },
+  {
+    "code": "ART046000",
+    "name": "ARTE / Digitale"
+  },
+  {
+    "code": "ART047000",
+    "name": "ARTE / Medio-Orientale"
+  },
+  {
+    "code": "ART048000",
+    "name": "ARTE / Stampe"
+  },
+  {
+    "code": "ART049000",
+    "name": "ARTE / Russa ed Ex Unione Sovietica"
+  },
+  {
+    "code": "ART050000",
+    "name": "ARTE / Argomenti e Temi / Generale"
+  },
+  {
+    "code": "ART050010",
+    "name": "ARTE / Argomenti e Temi / Figura Umana"
+  },
+  {
+    "code": "ART050020",
+    "name": "ARTE / Argomenti e Temi / Paesaggi"
+  },
+  {
+    "code": "ART050030",
+    "name": "ARTE / Argomenti e Temi / Piante e Animali"
+  },
+  {
+    "code": "ART050040",
+    "name": "ARTE / Argomenti e Temi / Ritratti"
+  },
+  {
+    "code": "ART050050",
+    "name": "ARTE / Argomenti e Temi / Erotico"
+  },
+  {
+    "code": "ART050060",
+    "name": "ARTE / Argomenti e Temi / Fantascienza e Fantasy"
+  },
+  {
+    "code": "ART051000",
+    "name": "ARTE / Tecniche / Colore"
+  },
+  {
+    "code": "ART052000",
+    "name": "ARTE / Tecniche / Disegno dal Vivo"
+  },
+  {
+    "code": "ART053000",
+    "name": "ARTE / Tecniche / Scultura"
+  },
+  {
+    "code": "ART054000",
+    "name": "ARTE / Annuari"
+  },
+  {
+    "code": "ART055000",
+    "name": "ARTE / Arte del Corpo e Tatuaggio"
+  },
+  {
+    "code": "ART056000",
+    "name": "ARTE / Conservazione e Preservazione"
+  },
+  {
+    "code": "ART057000",
+    "name": "ARTE / Film e Video"
+  },
+  {
+    "code": "ART058000",
+    "name": "ARTE / Graffiti e Arte di Strada"
+  },
+  {
+    "code": "ART059000",
+    "name": "ARTE / Studi Museali"
+  },
+  {
+    "code": "ART060000",
+    "name": "ARTE / Spettacolo"
+  },
+  {
+    "code": "DES000000",
+    "name": "DESIGN / Generale"
+  },
+  {
+    "code": "DES001000",
+    "name": "DESIGN / Libro"
+  },
+  {
+    "code": "DES002000",
+    "name": "DESIGN / Clip Art"
+  },
+  {
+    "code": "DES003000",
+    "name": "DESIGN / Arti Decorative"
+  },
+  {
+    "code": "DES004000",
+    "name": "DESIGN / Saggi"
+  },
+  {
+    "code": "DES005000",
+    "name": "DESIGN / Moda"
+  },
+  {
+    "code": "DES006000",
+    "name": "DESIGN / Arredamento"
+  },
+  {
+    "code": "DES007000",
+    "name": "DESIGN / Arti Grafiche / Generale"
+  },
+  {
+    "code": "DES007010",
+    "name": "DESIGN / Arti Grafiche / Pubblicità"
+  },
+  {
+    "code": "DES007020",
+    "name": "DESIGN / Arti Grafiche / Progettazione Marchi e Loghi"
+  },
+  {
+    "code": "DES007030",
+    "name": "DESIGN / Arti Grafiche / Commerciale e Aziendale"
+  },
+  {
+    "code": "DES007040",
+    "name": "DESIGN / Arti Grafiche / Illustrazioni"
+  },
+  {
+    "code": "DES007050",
+    "name": "DESIGN / Arti Grafiche / Tipografia"
+  },
+  {
+    "code": "DES008000",
+    "name": "DESIGN / Storia e Critica"
+  },
+  {
+    "code": "DES009000",
+    "name": "DESIGN / Industriale"
+  },
+  {
+    "code": "DES010000",
+    "name": "DESIGN / Decorazione di Interni"
+  },
+  {
+    "code": "DES011000",
+    "name": "DESIGN / Prodotto"
+  },
+  {
+    "code": "DES012000",
+    "name": "DESIGN / Riferimento"
+  },
+  {
+    "code": "DES013000",
+    "name": "DESIGN / Stoffe e Costumi"
+  },
+  {
+    "code": "CRA000000",
+    "name": "HOBBY E CREATIVITÀ / Generale"
+  },
+  {
+    "code": "CRA001000",
+    "name": "HOBBY E CREATIVITÀ / Applique"
+  },
+  {
+    "code": "CRA002000",
+    "name": "HOBBY E CREATIVITÀ / Cesti"
+  },
+  {
+    "code": "CRA003000",
+    "name": "HOBBY E CREATIVITÀ / Intaglio"
+  },
+  {
+    "code": "CRA004000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Uncinetto"
+  },
+  {
+    "code": "CRA005000",
+    "name": "HOBBY E CREATIVITÀ / Decorazione"
+  },
+  {
+    "code": "CRA006000",
+    "name": "HOBBY E CREATIVITÀ / Impasto"
+  },
+  {
+    "code": "CRA007000",
+    "name": "HOBBY E CREATIVITÀ / Tintura"
+  },
+  {
+    "code": "CRA008000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Ricamo"
+  },
+  {
+    "code": "CRA009000",
+    "name": "HOBBY E CREATIVITÀ / Moda"
+  },
+  {
+    "code": "CRA010000",
+    "name": "HOBBY E CREATIVITÀ / Composizioni Floreali"
+  },
+  {
+    "code": "CRA011000",
+    "name": "HOBBY E CREATIVITÀ / Incorniciare"
+  },
+  {
+    "code": "CRA012000",
+    "name": "HOBBY E CREATIVITÀ / Vetro e Articoli in Vetro"
+  },
+  {
+    "code": "CRA014000",
+    "name": "HOBBY E CREATIVITÀ / Gioielleria"
+  },
+  {
+    "code": "CRA015000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Lavoro a Maglia"
+  },
+  {
+    "code": "CRA016000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Pizzi e Merletti"
+  },
+  {
+    "code": "CRA017000",
+    "name": "HOBBY E CREATIVITÀ / Oggetti in Metallo"
+  },
+  {
+    "code": "CRA018000",
+    "name": "HOBBY E CREATIVITÀ / Miniature"
+  },
+  {
+    "code": "CRA020000",
+    "name": "HOBBY E CREATIVITÀ / Modellismo"
+  },
+  {
+    "code": "CRA021000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Ricamo ad Ago"
+  },
+  {
+    "code": "CRA022000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Generale"
+  },
+  {
+    "code": "CRA023000",
+    "name": "HOBBY E CREATIVITÀ / Origami"
+  },
+  {
+    "code": "CRA024000",
+    "name": "HOBBY E CREATIVITÀ / Pittura"
+  },
+  {
+    "code": "CRA025000",
+    "name": "HOBBY E CREATIVITÀ / Oggetti di Carta"
+  },
+  {
+    "code": "CRA026000",
+    "name": "HOBBY E CREATIVITÀ / Patchwork"
+  },
+  {
+    "code": "CRA027000",
+    "name": "HOBBY E CREATIVITÀ / Potpourri"
+  },
+  {
+    "code": "CRA028000",
+    "name": "HOBBY E CREATIVITÀ / Terracotta e Ceramiche"
+  },
+  {
+    "code": "CRA029000",
+    "name": "HOBBY E CREATIVITÀ / Stampe"
+  },
+  {
+    "code": "CRA030000",
+    "name": "HOBBY E CREATIVITÀ / Burattini e Burattinaggio"
+  },
+  {
+    "code": "CRA031000",
+    "name": "HOBBY E CREATIVITÀ / Trapunte e Trapuntare"
+  },
+  {
+    "code": "CRA032000",
+    "name": "HOBBY E CREATIVITÀ / Riferimento"
+  },
+  {
+    "code": "CRA033000",
+    "name": "HOBBY E CREATIVITÀ / Tappeti"
+  },
+  {
+    "code": "CRA034000",
+    "name": "HOBBY E CREATIVITÀ / Stagionale"
+  },
+  {
+    "code": "CRA035000",
+    "name": "HOBBY E CREATIVITÀ / Cucito"
+  },
+  {
+    "code": "CRA036000",
+    "name": "HOBBY E CREATIVITÀ / Stencil"
+  },
+  {
+    "code": "CRA037000",
+    "name": "HOBBY E CREATIVITÀ / Animali Imbalsamati"
+  },
+  {
+    "code": "CRA039000",
+    "name": "HOBBY E CREATIVITÀ / Realizzazione di Giocattoli"
+  },
+  {
+    "code": "CRA040000",
+    "name": "HOBBY E CREATIVITÀ / Tessitura"
+  },
+  {
+    "code": "CRA041000",
+    "name": "HOBBY E CREATIVITÀ / Giocattoli in Legno"
+  },
+  {
+    "code": "CRA042000",
+    "name": "HOBBY E CREATIVITÀ / Oggetti in Legno"
+  },
+  {
+    "code": "CRA043000",
+    "name": "HOBBY E CREATIVITÀ / Creazioni per Bambini"
+  },
+  {
+    "code": "CRA044000",
+    "name": "HOBBY E CREATIVITÀ / Cucito / Punto Croce"
+  },
+  {
+    "code": "CRA045000",
+    "name": "HOBBY E CREATIVITÀ / Modellismo Ferroviario"
+  },
+  {
+    "code": "CRA046000",
+    "name": "HOBBY E CREATIVITÀ / Stampa e Rilegatura Libri"
+  },
+  {
+    "code": "CRA047000",
+    "name": "HOBBY E CREATIVITÀ / Folkcrafts"
+  },
+  {
+    "code": "CRA048000",
+    "name": "HOBBY E CREATIVITÀ / Beadwork"
+  },
+  {
+    "code": "CRA049000",
+    "name": "HOBBY E CREATIVITÀ / Realizzazione di Candele e Sapone"
+  },
+  {
+    "code": "CRA050000",
+    "name": "HOBBY E CREATIVITÀ / Pelletteria"
+  },
+  {
+    "code": "CRA051000",
+    "name": "HOBBY E CREATIVITÀ / Argilla Polimerica"
+  },
+  {
+    "code": "CRA052000",
+    "name": "HOBBY E CREATIVITÀ / Scrapbooking"
+  },
+  {
+    "code": "CRA053000",
+    "name": "HOBBY E CREATIVITÀ / Creazioni naturali"
+  },
+  {
+    "code": "CRA054000",
+    "name": "HOBBY E CREATIVITÀ / Tecniche Miste*"
+  },
+  {
+    "code": "MUS000000",
+    "name": "MUSICA / Generale"
+  },
+  {
+    "code": "MUS001000",
+    "name": "MUSICA / Istruzione e Studio / Apprezzamento"
+  },
+  {
+    "code": "MUS002000",
+    "name": "MUSICA / Generi e Stili / Balletto"
+  },
+  {
+    "code": "MUS003000",
+    "name": "MUSICA / Generi e Stili / Blues"
+  },
+  {
+    "code": "MUS004000",
+    "name": "MUSICA / Aspetti Legati al Business"
+  },
+  {
+    "code": "MUS005000",
+    "name": "MUSICA / Generi e Stili / Camera"
+  },
+  {
+    "code": "MUS006000",
+    "name": "MUSICA / Generi e Stili / Classica"
+  },
+  {
+    "code": "MUS007000",
+    "name": "MUSICA / Istruzione e Studio / Composizione"
+  },
+  {
+    "code": "MUS008000",
+    "name": "MUSICA / Istruzione e Studio / Conduzione"
+  },
+  {
+    "code": "MUS009000",
+    "name": "MUSICA / Religiosa / Cristiana Contemporanea"
+  },
+  {
+    "code": "MUS010000",
+    "name": "MUSICA / Generi e Stili / Country e Bluegrass"
+  },
+  {
+    "code": "MUS011000",
+    "name": "MUSICA / Generi e Stili / Dance"
+  },
+  {
+    "code": "MUS012000",
+    "name": "MUSICA / Discografie e Guide all'Acquisto"
+  },
+  {
+    "code": "MUS013000",
+    "name": "MUSICA / Generi e Stili / Elettronica"
+  },
+  {
+    "code": "MUS014000",
+    "name": "MUSICA / Etnica"
+  },
+  {
+    "code": "MUS015000",
+    "name": "MUSICA / Etnomusicologia"
+  },
+  {
+    "code": "MUS016000",
+    "name": "MUSICA / Istruzione e Studio / Esercizi"
+  },
+  {
+    "code": "MUS017000",
+    "name": "MUSICA / Generi e Stili / Folk e Tradizionale"
+  },
+  {
+    "code": "MUS018000",
+    "name": "MUSICA / Religiosa / Gospel"
+  },
+  {
+    "code": "MUS019000",
+    "name": "MUSICA / Generi e Stili / Heavy Metal"
+  },
+  {
+    "code": "MUS020000",
+    "name": "MUSICA / Storia e Critica"
+  },
+  {
+    "code": "MUS021000",
+    "name": "MUSICA / Religiosa / Inni"
+  },
+  {
+    "code": "MUS022000",
+    "name": "MUSICA / Istruzione e Studio / Generale"
+  },
+  {
+    "code": "MUS023000",
+    "name": "MUSICA / Strumenti Musicali / Generale"
+  },
+  {
+    "code": "MUS023010",
+    "name": "MUSICA / Strumenti Musicali / Ottone"
+  },
+  {
+    "code": "MUS023020",
+    "name": "MUSICA / Strumenti Musicali / A Percussione"
+  },
+  {
+    "code": "MUS023030",
+    "name": "MUSICA / Strumenti Musicali / Pianoforte e Tastiera"
+  },
+  {
+    "code": "MUS023040",
+    "name": "MUSICA / Strumenti Musicali / A Corde"
+  },
+  {
+    "code": "MUS023050",
+    "name": "MUSICA / Strumenti Musicali / A Fiato"
+  },
+  {
+    "code": "MUS023060",
+    "name": "MUSICA / Strumenti Musicali / Chitarra"
+  },
+  {
+    "code": "MUS024000",
+    "name": "MUSICA / Generi e Stili / Internazionale"
+  },
+  {
+    "code": "MUS025000",
+    "name": "MUSICA / Generi e Stili / Jazz"
+  },
+  {
+    "code": "MUS026000",
+    "name": "MUSICA / Generi e Stili / per Bambini"
+  },
+  {
+    "code": "MUS027000",
+    "name": "MUSICA / Generi e Stili / New Age"
+  },
+  {
+    "code": "MUS028000",
+    "name": "MUSICA / Generi e Stili / Opera"
+  },
+  {
+    "code": "MUS029000",
+    "name": "MUSICA / Generi e Stili / Pop Vocale"
+  },
+  {
+    "code": "MUS030000",
+    "name": "MUSICA / Generi e Stili / Punk"
+  },
+  {
+    "code": "MUS031000",
+    "name": "MUSICA / Generi e Stili / Rap e Hip Hop"
+  },
+  {
+    "code": "MUS032000",
+    "name": "MUSICA / Registrazione e Riproduzione*"
+  },
+  {
+    "code": "MUS033000",
+    "name": "MUSICA / Riferimento"
+  },
+  {
+    "code": "MUS035000",
+    "name": "MUSICA / Generi e Stili / Rock"
+  },
+  {
+    "code": "MUS036000",
+    "name": "MUSICA / Generi e Stili / Latina"
+  },
+  {
+    "code": "MUS037000",
+    "name": "MUSICA / Musica Stampata / Generale"
+  },
+  {
+    "code": "MUS037010",
+    "name": "MUSICA / Musica Stampata / Specifica per Artista*"
+  },
+  {
+    "code": "MUS037020",
+    "name": "MUSICA / Musica Stampata / Bande e Orchestre*"
+  },
+  {
+    "code": "MUS037030",
+    "name": "MUSICA / Musica Stampata / Corale*"
+  },
+  {
+    "code": "MUS037040",
+    "name": "MUSICA / Musica Stampata / Chitarra e Strumenti a Tasti*"
+  },
+  {
+    "code": "MUS037050",
+    "name": "MUSICA / Musica Stampata / Collezioni Varie*"
+  },
+  {
+    "code": "MUS037060",
+    "name": "MUSICA / Musica Stampata / Musical, Film e TV*\""
+  },
+  {
+    "code": "MUS037070",
+    "name": "MUSICA / Musica Stampata / Spartiti d'Opera e Musica Classica*"
+  },
+  {
+    "code": "MUS037080",
+    "name": "MUSICA / Musica Stampata / Percussioni*"
+  },
+  {
+    "code": "MUS037090",
+    "name": "MUSICA / Strumenti Musicali / Repertori Pianoforte e Tastiera*"
+  },
+  {
+    "code": "MUS037100",
+    "name": "MUSICA / Strumenti Musicali / Pianoforte-Vocale-Chitarra*"
+  },
+  {
+    "code": "MUS037110",
+    "name": "MUSICA / Musica Stampata / Vocale*"
+  },
+  {
+    "code": "MUS037120",
+    "name": "MUSICA / Musica Stampata / Ottone"
+  },
+  {
+    "code": "MUS037130",
+    "name": "MUSICA / Musica Stampata / A Corde"
+  },
+  {
+    "code": "MUS037140",
+    "name": "MUSICA / Musica Stampata / A Fiato"
+  },
+  {
+    "code": "MUS038000",
+    "name": "MUSICA / Istruzione e Studio / Componimento"
+  },
+  {
+    "code": "MUS039000",
+    "name": "MUSICA / Generi e Stili / Soul e R 'n B"
+  },
+  {
+    "code": "MUS040000",
+    "name": "MUSICA / Istruzione e Studio / Tecniche"
+  },
+  {
+    "code": "MUS041000",
+    "name": "MUSICA / Istruzione e Studio / Teoria"
+  },
+  {
+    "code": "MUS042000",
+    "name": "MUSICA / Istruzione e Studio / Voce"
+  },
+  {
+    "code": "MUS045000",
+    "name": "MUSICA / Generi e Stili / Militare e Marce"
+  },
+  {
+    "code": "MUS046000",
+    "name": "MUSICA / Generi e Stili / Musical"
+  },
+  {
+    "code": "MUS047000",
+    "name": "MUSICA / Generi e Stili / Reggae"
+  },
+  {
+    "code": "MUS048000",
+    "name": "MUSICA / Religiosa / Generale"
+  },
+  {
+    "code": "MUS048010",
+    "name": "MUSICA / Religiosa / Cristiana"
+  },
+  {
+    "code": "MUS048020",
+    "name": "MUSICA / Religiosa / Ebraica"
+  },
+  {
+    "code": "MUS048030",
+    "name": "MUSICA / Religiosa / Musulmana"
+  },
+  {
+    "code": "MUS049000",
+    "name": "MUSICA / Generi e Stili / Generale"
+  },
+  {
+    "code": "MUS050000",
+    "name": "MUSICA / Compositori e Musicisti Individuali"
+  },
+  {
+    "code": "MUS051000",
+    "name": "MUSICA / Generi e Stili / Corale"
+  },
+  {
+    "code": "MUS052000",
+    "name": "MUSICA / Lirica*"
+  },
+  {
+    "code": "PHO000000",
+    "name": "FOTOGRAFIA / Generale"
+  },
+  {
+    "code": "PHO001000",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Architettonico e Industriale"
+  },
+  {
+    "code": "PHO003000",
+    "name": "FOTOGRAFIA / Aspetti Legati al Business"
+  },
+  {
+    "code": "PHO004000",
+    "name": "FOTOGRAFIA / Collezioni, Cataloghi, Esibizioni / Generale\""
+  },
+  {
+    "code": "PHO004010",
+    "name": "FOTOGRAFIA / Collezioni, Cataloghi, Esibizioni / Mostre Collettive\""
+  },
+  {
+    "code": "PHO004020",
+    "name": "FOTOGRAFIA / Collezioni, Cataloghi, Esibizioni / Collezioni Permanenti\""
+  },
+  {
+    "code": "PHO005000",
+    "name": "FOTOGRAFIA / Critica"
+  },
+  {
+    "code": "PHO006000",
+    "name": "FOTOGRAFIA / Tecniche / Camera Oscura"
+  },
+  {
+    "code": "PHO007000",
+    "name": "FOTOGRAFIA / Tecniche / Attrezzatura"
+  },
+  {
+    "code": "PHO009000",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Moda"
+  },
+  {
+    "code": "PHO010000",
+    "name": "FOTOGRAFIA / Storia"
+  },
+  {
+    "code": "PHO011000",
+    "name": "FOTOGRAFIA / Fotografi Individuali / Generale"
+  },
+  {
+    "code": "PHO011010",
+    "name": "FOTOGRAFIA / Fotografi Individuali / Libri di Artisti"
+  },
+  {
+    "code": "PHO011020",
+    "name": "FOTOGRAFIA / Fotografi Individuali / Saggi"
+  },
+  {
+    "code": "PHO011030",
+    "name": "FOTOGRAFIA / Fotografi Individuali / Monografie"
+  },
+  {
+    "code": "PHO012000",
+    "name": "FOTOGRAFIA / Tecniche / Illuminazione"
+  },
+  {
+    "code": "PHO013000",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Piante e Animali"
+  },
+  {
+    "code": "PHO014000",
+    "name": "FOTOGRAFIA / Saggi Fotografici e Documentari"
+  },
+  {
+    "code": "PHO015000",
+    "name": "FOTOGRAFIA / Fotogiornalismo"
+  },
+  {
+    "code": "PHO016000",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Ritratti"
+  },
+  {
+    "code": "PHO017000",
+    "name": "FOTOGRAFIA / Riferimento"
+  },
+  {
+    "code": "PHO018000",
+    "name": "FOTOGRAFIA / Tecniche / Generale"
+  },
+  {
+    "code": "PHO019000",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Regionale (vedere anche VIAGGI / Illustrazioni)"
+  },
+  {
+    "code": "PHO020000",
+    "name": "FOTOGRAFIA / Tecniche / Colore"
+  },
+  {
+    "code": "PHO021000",
+    "name": "FOTOGRAFIA / Commerciale"
+  },
+  {
+    "code": "PHO022000",
+    "name": "FOTOGRAFIA / Tecniche / Cinematografia e Videografia"
+  },
+  {
+    "code": "PHO023000",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Generale"
+  },
+  {
+    "code": "PHO023010",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Aerei"
+  },
+  {
+    "code": "PHO023020",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Bambini"
+  },
+  {
+    "code": "PHO023030",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Erotico"
+  },
+  {
+    "code": "PHO023040",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Paesaggi"
+  },
+  {
+    "code": "PHO023050",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Nudi"
+  },
+  {
+    "code": "PHO023060",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Sport"
+  },
+  {
+    "code": "PHO023070",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Celebrazioni e Eventi"
+  },
+  {
+    "code": "PHO023080",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Celebrità"
+  },
+  {
+    "code": "PHO023090",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Stili di Vita"
+  },
+  {
+    "code": "PHO023100",
+    "name": "FOTOGRAFIA / Argomenti e Temi / Storico*"
+  },
+  {
+    "code": "PHO024000",
+    "name": "FOTOGRAFIA / Tecniche / Digitale (vedere anche COMPUTER / Digital Media / Fotografia)"
+  },
+  {
+    "code": "PHO025000",
+    "name": "FOTOGRAFIA / Annuari"
+  },
+  {
+    "code": "ANT000000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Generale"
+  },
+  {
+    "code": "ANT001000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Americano"
+  },
+  {
+    "code": "ANT002000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Arte"
+  },
+  {
+    "code": "ANT003000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Autografi"
+  },
+  {
+    "code": "ANT005000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Libri"
+  },
+  {
+    "code": "ANT006000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Bottiglie"
+  },
+  {
+    "code": "ANT007000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Bottoni e Spille"
+  },
+  {
+    "code": "ANT008000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Cura e Restauro"
+  },
+  {
+    "code": "ANT009000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Trasporti"
+  },
+  {
+    "code": "ANT010000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Orologi"
+  },
+  {
+    "code": "ANT011000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Monete, Valute e Medaglie\""
+  },
+  {
+    "code": "ANT012000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Fumetti"
+  },
+  {
+    "code": "ANT015000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Bambole"
+  },
+  {
+    "code": "ANT016000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Armi da Fuoco e Armi"
+  },
+  {
+    "code": "ANT017000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Arredamento"
+  },
+  {
+    "code": "ANT018000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Vetro e Articoli in Vetro"
+  },
+  {
+    "code": "ANT021000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Gioielli"
+  },
+  {
+    "code": "ANT022000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Utensili da Cucina"
+  },
+  {
+    "code": "ANT023000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Riviste e Giornali"
+  },
+  {
+    "code": "ANT024000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Militare"
+  },
+  {
+    "code": "ANT025000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Arti Rappresentative"
+  },
+  {
+    "code": "ANT028000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Cartoline Non Sportive"
+  },
+  {
+    "code": "ANT029000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Ephemera"
+  },
+  {
+    "code": "ANT031000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Politica"
+  },
+  {
+    "code": "ANT032000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Porcellane e Porcellane Cinesi"
+  },
+  {
+    "code": "ANT033000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Cartoline"
+  },
+  {
+    "code": "ANT034000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Poster"
+  },
+  {
+    "code": "ANT035000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Terracotta e Ceramiche"
+  },
+  {
+    "code": "ANT036000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Radio e Televisioni (vedi anche Arti Rappresentative)"
+  },
+  {
+    "code": "ANT037000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Dischi"
+  },
+  {
+    "code": "ANT038000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Riferimento"
+  },
+  {
+    "code": "ANT040000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Tappeti"
+  },
+  {
+    "code": "ANT041000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Argento, Oro e Altri Metalli\""
+  },
+  {
+    "code": "ANT042000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Cartoline Sportive / Generale"
+  },
+  {
+    "code": "ANT042010",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Cartoline Sportive / Baseball"
+  },
+  {
+    "code": "ANT043000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Sport (vedere anche titoli in Cartoline Sportive)"
+  },
+  {
+    "code": "ANT044000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Francobolli"
+  },
+  {
+    "code": "ANT045000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Orsacchiotti"
+  },
+  {
+    "code": "ANT047000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Costumi e Tessuti"
+  },
+  {
+    "code": "ANT049000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Animali Giocattolo"
+  },
+  {
+    "code": "ANT050000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Giocattoli"
+  },
+  {
+    "code": "ANT051000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Vino"
+  },
+  {
+    "code": "ANT052000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Cultura Popolare"
+  },
+  {
+    "code": "ANT053000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Statuette"
+  },
+  {
+    "code": "ANT054000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Canadese"
+  },
+  {
+    "code": "ANT055000",
+    "name": "COLLEZIONISMO E ANTIQUARIATO / Prodotti Correlati al Tabacco"
+  },
+  {
+    "code": "CKB000000",
+    "name": "CUCINA / Generale"
+  },
+  {
+    "code": "CKB001000",
+    "name": "CUCINA / Regionale ed Etnica / Africana"
+  },
+  {
+    "code": "CKB002000",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Generale"
+  },
+  {
+    "code": "CKB002010",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stile California"
+  },
+  {
+    "code": "CKB002020",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stati Medio Atlantici"
+  },
+  {
+    "code": "CKB002030",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stati Atlantici Occidentali"
+  },
+  {
+    "code": "CKB002040",
+    "name": "CUCINA / Regionale ed Etnica / Americana / New England"
+  },
+  {
+    "code": "CKB002050",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stati Nord-Occidentali"
+  },
+  {
+    "code": "CKB002060",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stati Meridionali"
+  },
+  {
+    "code": "CKB002070",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stati Sud-Occidentali"
+  },
+  {
+    "code": "CKB002080",
+    "name": "CUCINA / Regionale ed Etnica / Americana / Stati Occidentali"
+  },
+  {
+    "code": "CKB003000",
+    "name": "CUCINA / Piatti e Portate / Antipasti"
+  },
+  {
+    "code": "CKB004000",
+    "name": "CUCINA / Metodi / Cottura al Forno"
+  },
+  {
+    "code": "CKB005000",
+    "name": "CUCINA / Metodi / Barbecue e Grill"
+  },
+  {
+    "code": "CKB006000",
+    "name": "CUCINA / Bevande / Barista"
+  },
+  {
+    "code": "CKB007000",
+    "name": "CUCINA / Bevande / Birra"
+  },
+  {
+    "code": "CKB008000",
+    "name": "CUCINA / Bevande / Analcoliche"
+  },
+  {
+    "code": "CKB009000",
+    "name": "CUCINA / Piatti e Portate / Pane"
+  },
+  {
+    "code": "CKB010000",
+    "name": "CUCINA / Piatti e Portate / Colazione"
+  },
+  {
+    "code": "CKB011000",
+    "name": "CUCINA / Regionale ed Etnica / Inglese, Scozzese e Gallese\""
+  },
+  {
+    "code": "CKB012000",
+    "name": "CUCINA / Piatti e Portate / Brunch"
+  },
+  {
+    "code": "CKB013000",
+    "name": "CUCINA / Regionale ed Etnica / Cajun e Creola"
+  },
+  {
+    "code": "CKB014000",
+    "name": "CUCINA / Piatti e Portate / Dolci"
+  },
+  {
+    "code": "CKB015000",
+    "name": "CUCINA / Metodi / Inscatolamento e Conservazione"
+  },
+  {
+    "code": "CKB016000",
+    "name": "CUCINA / Regionale ed Etnica / Caraibica e Indiana Occidentale"
+  },
+  {
+    "code": "CKB017000",
+    "name": "CUCINA / Regionale ed Etnica / Cinese"
+  },
+  {
+    "code": "CKB018000",
+    "name": "CUCINA / Piatti e Portate / Cioccolata"
+  },
+  {
+    "code": "CKB019000",
+    "name": "CUCINA / Bevande / Caffè e Tè"
+  },
+  {
+    "code": "CKB020000",
+    "name": "CUCINA / Metodi / Cucina per Uno"
+  },
+  {
+    "code": "CKB021000",
+    "name": "CUCINA / Portate e Piatti / Biscotti"
+  },
+  {
+    "code": "CKB023000",
+    "name": "CUCINA / Metodi / Generale"
+  },
+  {
+    "code": "CKB024000",
+    "name": "CUCINA / Portate e Piatti / Dessert"
+  },
+  {
+    "code": "CKB025000",
+    "name": "CUCINA / Salute e Guarigione / Diabetico e Senza Zucchero"
+  },
+  {
+    "code": "CKB026000",
+    "name": "CUCINA / Salute e Guarigione / Controllo del Peso"
+  },
+  {
+    "code": "CKB029000",
+    "name": "CUCINA / Intrattenimento"
+  },
+  {
+    "code": "CKB030000",
+    "name": "CUCINA / Saggi"
+  },
+  {
+    "code": "CKB031000",
+    "name": "CUCINA / Regionale ed Etnica / Generale"
+  },
+  {
+    "code": "CKB032000",
+    "name": "CUCINA / Ingredienti Specifici / Selvaggina"
+  },
+  {
+    "code": "CKB033000",
+    "name": "CUCINA / Metodi / Decorazione"
+  },
+  {
+    "code": "CKB034000",
+    "name": "CUCINA / Regionale ed Etnica / Francese"
+  },
+  {
+    "code": "CKB035000",
+    "name": "CUCINA / Ingredienti Specifici / Frutta"
+  },
+  {
+    "code": "CKB036000",
+    "name": "CUCINA / Regionale ed Etnica / Tedesca"
+  },
+  {
+    "code": "CKB037000",
+    "name": "CUCINA / Metodi / Gourmet"
+  },
+  {
+    "code": "CKB038000",
+    "name": "CUCINA / Regionale ed Etnica / Greca"
+  },
+  {
+    "code": "CKB039000",
+    "name": "CUCINA / Salute e Guarigione / Generale"
+  },
+  {
+    "code": "CKB040000",
+    "name": "CUCINA / Ingredienti Specifici / Erbe, Spezie, Condimenti\""
+  },
+  {
+    "code": "CKB041000",
+    "name": "CUCINA / Storia"
+  },
+  {
+    "code": "CKB042000",
+    "name": "CUCINA / Vacanze"
+  },
+  {
+    "code": "CKB043000",
+    "name": "CUCINA / Regionale ed Etnica / Ungherese"
+  },
+  {
+    "code": "CKB044000",
+    "name": "CUCINA / Regionale ed Etnica / Indiana e Sud-Asiatica"
+  },
+  {
+    "code": "CKB045000",
+    "name": "CUCINA / Regionale ed Etnica / Internazionale"
+  },
+  {
+    "code": "CKB046000",
+    "name": "CUCINA / Regionale ed Etnica / Irlandese"
+  },
+  {
+    "code": "CKB047000",
+    "name": "CUCINA / Regionale ed Etnica / Italiana"
+  },
+  {
+    "code": "CKB048000",
+    "name": "CUCINA / Regionale ed Etnica / Giapponese"
+  },
+  {
+    "code": "CKB049000",
+    "name": "CUCINA / Regionale ed Etnica / Ebraica e Kosher"
+  },
+  {
+    "code": "CKB050000",
+    "name": "CUCINA / Salute e Guarigione / Basso Contenuto di Colesterolo"
+  },
+  {
+    "code": "CKB051000",
+    "name": "CUCINA / Salute e Guarigione / Basso Contenuto di Grassi"
+  },
+  {
+    "code": "CKB052000",
+    "name": "CUCINA / Salute e Guarigione / Basso Contenuto di Sodio"
+  },
+  {
+    "code": "CKB054000",
+    "name": "CUCINA / Ingredienti Specifici / Carne"
+  },
+  {
+    "code": "CKB055000",
+    "name": "CUCINA / Regionale ed Etnica / Mediterranea"
+  },
+  {
+    "code": "CKB056000",
+    "name": "CUCINA / Regionale ed Etnica / Messicana"
+  },
+  {
+    "code": "CKB057000",
+    "name": "CUCINA / Metodi / Microonde"
+  },
+  {
+    "code": "CKB058000",
+    "name": "CUCINA / Regionale ed Etnica / Nativi Americani"
+  },
+  {
+    "code": "CKB059000",
+    "name": "CUCINA / Ingredienti Specifici / Cibi Naturali"
+  },
+  {
+    "code": "CKB060000",
+    "name": "CUCINA / Metodi / All'Aperto"
+  },
+  {
+    "code": "CKB061000",
+    "name": "CUCINA / Ingredienti Specifici / Pasta"
+  },
+  {
+    "code": "CKB062000",
+    "name": "CUCINA / Portate e Piatti / Pasta per Dolci"
+  },
+  {
+    "code": "CKB063000",
+    "name": "CUCINA / Portate e Piatti / Torte"
+  },
+  {
+    "code": "CKB064000",
+    "name": "CUCINA / Portate e Piatti / Pizza"
+  },
+  {
+    "code": "CKB065000",
+    "name": "CUCINA / Regionale ed Etnica / Polacca"
+  },
+  {
+    "code": "CKB066000",
+    "name": "CUCINA / Regionale ed Etnica / Portoghese"
+  },
+  {
+    "code": "CKB067000",
+    "name": "CUCINA / Ingredienti Specifici / Pollame"
+  },
+  {
+    "code": "CKB068000",
+    "name": "CUCINA / Metodi / Professionale"
+  },
+  {
+    "code": "CKB069000",
+    "name": "CUCINA / Metodi / Quantità"
+  },
+  {
+    "code": "CKB070000",
+    "name": "CUCINA / Metodi / Facile e Veloce"
+  },
+  {
+    "code": "CKB071000",
+    "name": "CUCINA / Riferimento"
+  },
+  {
+    "code": "CKB072000",
+    "name": "CUCINA / Regionale ed Etnica / Russa"
+  },
+  {
+    "code": "CKB073000",
+    "name": "CUCINA / Portate e Piatti / Insalate"
+  },
+  {
+    "code": "CKB074000",
+    "name": "CUCINA / Regionale ed Etnica / Scandinava"
+  },
+  {
+    "code": "CKB076000",
+    "name": "CUCINA / Ingredienti Specifici / Frutti di Mare"
+  },
+  {
+    "code": "CKB077000",
+    "name": "CUCINA / Di Stagione"
+  },
+  {
+    "code": "CKB078000",
+    "name": "CUCINA / Regionale ed Etnica / Soul Food"
+  },
+  {
+    "code": "CKB079000",
+    "name": "CUCINA / Portate e Piatti / Minestre e Stufati"
+  },
+  {
+    "code": "CKB080000",
+    "name": "CUCINA / Regionale ed Etnica / Spagnola"
+  },
+  {
+    "code": "CKB081000",
+    "name": "CUCINA / Metodi / Apparecchiature Speciali"
+  },
+  {
+    "code": "CKB082000",
+    "name": "CUCINA / Apparecchiare la Tavola"
+  },
+  {
+    "code": "CKB083000",
+    "name": "CUCINA / Regionale ed Etnica / Thai"
+  },
+  {
+    "code": "CKB084000",
+    "name": "CUCINA / Regionale ed Etnica / Turca"
+  },
+  {
+    "code": "CKB085000",
+    "name": "CUCINA / Ingredienti Specifici / Verdure"
+  },
+  {
+    "code": "CKB086000",
+    "name": "CUCINA / Vegetariana e Vegana"
+  },
+  {
+    "code": "CKB088000",
+    "name": "CUCINA / Bevande / Vini e Liquori"
+  },
+  {
+    "code": "CKB089000",
+    "name": "CUCINA / Metodi / Wok"
+  },
+  {
+    "code": "CKB090000",
+    "name": "CUCINA / Regionale ed Etnica / Asiatica"
+  },
+  {
+    "code": "CKB091000",
+    "name": "CUCINA / Regionale ed Etnica / Canadese"
+  },
+  {
+    "code": "CKB092000",
+    "name": "CUCINA / Regionale ed Etnica / Europea"
+  },
+  {
+    "code": "CKB093000",
+    "name": "CUCINA / Regionale ed Etnica / Medio-Orientale"
+  },
+  {
+    "code": "CKB094000",
+    "name": "CUCINA / Regionale ed Etnica / Vietnamita"
+  },
+  {
+    "code": "CKB095000",
+    "name": "CUCINA / Portate e Piatti / Pasticceria"
+  },
+  {
+    "code": "CKB096000",
+    "name": "CUCINA / Ingredienti Specifici / Latticini"
+  },
+  {
+    "code": "CKB097000",
+    "name": "CUCINA / Regionale ed Etnica / Paesi sulla Costa del Pacifico"
+  },
+  {
+    "code": "CKB098000",
+    "name": "CUCINA / Ingredienti Specifici / Riso e Cereali"
+  },
+  {
+    "code": "CKB099000",
+    "name": "CUCINA / Regionale ed Etnica / Centro-Americana e Sud-Americana"
+  },
+  {
+    "code": "CKB100000",
+    "name": "CUCINA / Bevande / Generale"
+  },
+  {
+    "code": "CKB101000",
+    "name": "CUCINA / Piatti e Portate / Generale"
+  },
+  {
+    "code": "CKB102000",
+    "name": "CUCINA / Portate e Piatti / Salse e Condimenti"
+  },
+  {
+    "code": "CKB103000",
+    "name": "CUCINA / Salute e Guarigione / Cancro"
+  },
+  {
+    "code": "CKB104000",
+    "name": "CUCINA / Salute e Guarigione / Cuore"
+  },
+  {
+    "code": "CKB105000",
+    "name": "CUCINA / Ingredienti Specifici / Generale"
+  },
+  {
+    "code": "CKB106000",
+    "name": "CUCINA / Salute e Guarigione / Allergie"
+  },
+  {
+    "code": "CKB107000",
+    "name": "CUCINA / Alimenti per l'Infanzia"
+  },
+  {
+    "code": "CKB108000",
+    "name": "CUCINA / Salute e Guarigione / Basso Contenuto di Carboidrati*"
+  },
+  {
+    "code": "CKB109000",
+    "name": "CUCINA / Metodi / Cottura Lenta*"
+  },
+  {
+    "code": "GAM000000",
+    "name": "GIOCHI / Generale"
+  },
+  {
+    "code": "GAM001000",
+    "name": "GIOCHI / Da Tavolo"
+  },
+  {
+    "code": "GAM001010",
+    "name": "GIOCHI / Backgammon"
+  },
+  {
+    "code": "GAM001030",
+    "name": "GIOCHI / Scacchi"
+  },
+  {
+    "code": "GAM002000",
+    "name": "GIOCHI / Giochi di Carte / Generale"
+  },
+  {
+    "code": "GAM002010",
+    "name": "GIOCHI / Giochi di Carte / Bridge"
+  },
+  {
+    "code": "GAM002030",
+    "name": "GIOCHI / Giochi di Carte / Blackjack"
+  },
+  {
+    "code": "GAM002040",
+    "name": "GIOCHI / Giochi di Carte / Poker"
+  },
+  {
+    "code": "GAM003000",
+    "name": "GIOCHI / Cruciverba / Generale"
+  },
+  {
+    "code": "GAM003040",
+    "name": "GIOCHI / Cruciverba / Dizionari"
+  },
+  {
+    "code": "GAM004000",
+    "name": "GIOCHI / Gioco d'Azzardo / Generale"
+  },
+  {
+    "code": "GAM004020",
+    "name": "GIOCHI / Gioco d'Azzardo / Lotterie"
+  },
+  {
+    "code": "GAM004030",
+    "name": "GIOCHI / Gioco d'Azzardo / Da Tavolo"
+  },
+  {
+    "code": "GAM004040",
+    "name": "GIOCHI / Gioco d'Azzardo / Scommesse alle Corse"
+  },
+  {
+    "code": "GAM004050",
+    "name": "GIOCHI / Gioco d'Azzardo / Sport"
+  },
+  {
+    "code": "GAM005000",
+    "name": "GIOCHI / Logica e Strizzacervello"
+  },
+  {
+    "code": "GAM006000",
+    "name": "GIOCHI / Magia"
+  },
+  {
+    "code": "GAM007000",
+    "name": "GIOCHI / Puzzle"
+  },
+  {
+    "code": "GAM008000",
+    "name": "GIOCHI / Quiz"
+  },
+  {
+    "code": "GAM009000",
+    "name": "GIOCHI / Riferimento"
+  },
+  {
+    "code": "GAM010000",
+    "name": "GIOCHI / Giochi di Ruolo e Fantasia"
+  },
+  {
+    "code": "GAM011000",
+    "name": "GIOCHI / Giochi da Viaggio"
+  },
+  {
+    "code": "GAM012000",
+    "name": "GIOCHI / Trivia"
+  },
+  {
+    "code": "GAM013000",
+    "name": "GIOCHI / Videogiochi e Giochi Elettronici"
+  },
+  {
+    "code": "GAM014000",
+    "name": "GIOCHI / Ricerca per Parola"
+  },
+  {
+    "code": "GAM016000",
+    "name": "GIOCHI / Sport di Fantasia"
+  },
+  {
+    "code": "GAM017000",
+    "name": "GIOCHI / Sudoku"
+  },
+  {
+    "code": "GAR000000",
+    "name": "GIARDINAGGIO / Generale"
+  },
+  {
+    "code": "GAR001000",
+    "name": "GIARDINAGGIO / Contenitori"
+  },
+  {
+    "code": "GAR002000",
+    "name": "GIARDINAGGIO / Saggi"
+  },
+  {
+    "code": "GAR004000",
+    "name": "GIARDINAGGIO / Fiori / Generale"
+  },
+  {
+    "code": "GAR004010",
+    "name": "GIARDINAGGIO / Fiori / Annuari"
+  },
+  {
+    "code": "GAR004030",
+    "name": "GIARDINAGGIO / Fiori / Bulbi"
+  },
+  {
+    "code": "GAR004040",
+    "name": "GIARDINAGGIO / Fiori / Orchidee"
+  },
+  {
+    "code": "GAR004050",
+    "name": "GIARDINAGGIO / Fiori / Perenni"
+  },
+  {
+    "code": "GAR004060",
+    "name": "GIARDINAGGIO / Fiori / Rose"
+  },
+  {
+    "code": "GAR004080",
+    "name": "GIARDINAGGIO / Fiori / Fiori selvatici"
+  },
+  {
+    "code": "GAR005000",
+    "name": "GIARDINAGGIO / Frutta"
+  },
+  {
+    "code": "GAR006000",
+    "name": "GIARDINAGGIO / Progettazione Giardini"
+  },
+  {
+    "code": "GAR007000",
+    "name": "GIARDINAGGIO / Arredamento da Giardino"
+  },
+  {
+    "code": "GAR008000",
+    "name": "GIARDINAGGIO / Serre"
+  },
+  {
+    "code": "GAR009000",
+    "name": "GIARDINAGGIO / Erbe"
+  },
+  {
+    "code": "GAR010000",
+    "name": "GIARDINAGGIO / Piante Domestiche e da Interni"
+  },
+  {
+    "code": "GAR013000",
+    "name": "GIARDINAGGIO / Giardini Giapponesi"
+  },
+  {
+    "code": "GAR014000",
+    "name": "GIARDINAGGIO / Paesaggi"
+  },
+  {
+    "code": "GAR015000",
+    "name": "GIARDINAGGIO / Prati"
+  },
+  {
+    "code": "GAR016000",
+    "name": "GIARDINAGGIO / Biologico"
+  },
+  {
+    "code": "GAR017000",
+    "name": "GIARDINAGGIO / Piante Ornamentali"
+  },
+  {
+    "code": "GAR018000",
+    "name": "GIARDINAGGIO / Riferimento"
+  },
+  {
+    "code": "GAR019000",
+    "name": "GIARDINAGGIO / Regionale / Generale"
+  },
+  {
+    "code": "GAR019010",
+    "name": "GIARDINAGGIO / Regionale / Canada"
+  },
+  {
+    "code": "GAR019020",
+    "name": "GIARDINAGGIO / Regionale / Medio Atlantico (DC, DE, MD, NJ, NY, PA)\""
+  },
+  {
+    "code": "GAR019030",
+    "name": "GIARDINAGGIO / Regionale / Midwest (IA, IL, IN, KS, MI, MN, MO, ND, NE, OH, SD, WI)\""
+  },
+  {
+    "code": "GAR019040",
+    "name": "GIARDINAGGIO / Regionale / New England (CT, MA, ME, NH, RI, VT)\""
+  },
+  {
+    "code": "GAR019050",
+    "name": "GIARDINAGGIO / Regionale / Nord-Ovest del Pacifico (OR, WA)\""
+  },
+  {
+    "code": "GAR019060",
+    "name": "GIARDINAGGIO / Regionale / Sud (AL, AR, FL, GA, KY, LA, MS, NC, SC, TN, VA, WV)\""
+  },
+  {
+    "code": "GAR019070",
+    "name": "GIARDINAGGIO / Regionale / Sud-Ovest (AZ, NM, OK, TX)\""
+  },
+  {
+    "code": "GAR019080",
+    "name": "GIARDINAGGIO / Regionale / Ovest (AK, CA, CO, HI, ID, MT, NV, UT, WY)\""
+  },
+  {
+    "code": "GAR020000",
+    "name": "GIARDINAGGIO / Ombra"
+  },
+  {
+    "code": "GAR021000",
+    "name": "GIARDINAGGIO / Arbusti"
+  },
+  {
+    "code": "GAR022000",
+    "name": "GIARDINAGGIO / Tecniche"
+  },
+  {
+    "code": "GAR023000",
+    "name": "GIARDINAGGIO / Topiarie"
+  },
+  {
+    "code": "GAR024000",
+    "name": "GIARDINAGGIO / Alberi"
+  },
+  {
+    "code": "GAR025000",
+    "name": "GIARDINAGGIO / Ortaggi"
+  },
+  {
+    "code": "GAR027000",
+    "name": "GIARDINAGGIO / Climatico / Generale"
+  },
+  {
+    "code": "GAR027010",
+    "name": "GIARDINAGGIO / Climatico / Deserto"
+  },
+  {
+    "code": "GAR027020",
+    "name": "GIARDINAGGIO / Climatico / Temperato"
+  },
+  {
+    "code": "GAR027030",
+    "name": "GIARDINAGGIO / Climatico / Tropicale"
+  },
+  {
+    "code": "GAR028000",
+    "name": "GIARDINAGGIO / Urbano"
+  },
+  {
+    "code": "HOM000000",
+    "name": "CASA E ABITAZIONE / Generale"
+  },
+  {
+    "code": "HOM001000",
+    "name": "CASA E ABITAZIONE / Fai da Te / Carpenteria"
+  },
+  {
+    "code": "HOM003000",
+    "name": "CASA E ABITAZIONE / Decorare"
+  },
+  {
+    "code": "HOM004000",
+    "name": "CASA E ABITAZIONE / Design e Costruzioni"
+  },
+  {
+    "code": "HOM005000",
+    "name": "CASA E ABITAZIONE / Fai da Te / Generale"
+  },
+  {
+    "code": "HOM006000",
+    "name": "CASA E ABITAZIONE / Fai da Te / Elettrico"
+  },
+  {
+    "code": "HOM008000",
+    "name": "CASA E ABITAZIONE / Arredamento"
+  },
+  {
+    "code": "HOM009000",
+    "name": "CASA E ABITAZIONE / Utensili Manuali"
+  },
+  {
+    "code": "HOM010000",
+    "name": "CASA E ABITAZIONE / Riparazione"
+  },
+  {
+    "code": "HOM011000",
+    "name": "CASA E ABITAZIONE / Progetti di Abitazioni"
+  },
+  {
+    "code": "HOM012000",
+    "name": "CASA E ABITAZIONE / Fai da Te / Arte Muraria"
+  },
+  {
+    "code": "HOM013000",
+    "name": "CASA E ABITAZIONE / Luoghi all'Aperto e Ricreativi"
+  },
+  {
+    "code": "HOM014000",
+    "name": "CASA E ABITAZIONE / Fai da Te / Idraulica"
+  },
+  {
+    "code": "HOM015000",
+    "name": "CASA E ABITAZIONE / Utensili Elettrici"
+  },
+  {
+    "code": "HOM016000",
+    "name": "CASA E ABITAZIONE / Riferimento"
+  },
+  {
+    "code": "HOM017000",
+    "name": "CASA E ABITAZIONE / Rifacimento e Ristrutturazione"
+  },
+  {
+    "code": "HOM018000",
+    "name": "CASA E ABITAZIONE / Lavorare il Legno"
+  },
+  {
+    "code": "HOM019000",
+    "name": "CASA E ABITAZIONE / Pulizia e Cura"
+  },
+  {
+    "code": "HOM020000",
+    "name": "CASA E ABITAZIONE / Attrezzatura, Apparecchi e Forniture\""
+  },
+  {
+    "code": "HOM021000",
+    "name": "CASA E ABITAZIONE / Sicurezza"
+  },
+  {
+    "code": "HOM022000",
+    "name": "CASA E ABITAZIONE / Vita Sostenibile"
+  },
+  {
+    "name": "AUTO-AIUTO / Generale",
+    "code": "SEL000000"
+  },
+  {
+    "name": "AUTO-AIUTO / Abuso",
+    "code": "SEL001000"
+  },
+  {
+    "name": "AUTO-AIUTO / Adolescenti Abusatori di Sostanze",
+    "code": "SEL003000"
+  },
+  {
+    "name": "AUTO-AIUTO / Ammissioni",
+    "code": "SEL004000"
+  },
+  {
+    "name": "AUTO-AIUTO / Invecchiamento",
+    "code": "SEL005000"
+  },
+  {
+    "name": "AUTO-AIUTO / Abuso di Sostanze e Dipendenze / Alcolismo",
+    "code": "SEL006000"
+  },
+  {
+    "name": "AUTO-AIUTO / Codipendenza",
+    "code": "SEL008000"
+  },
+  {
+    "name": "AUTO-AIUTO / Creativit",
+    "code": "SEL009000"
+  },
+  {
+    "name": "AUTO-AIUTO / Morte, Lutto, Dolore",
+    "code": "SEL010000"
+  },
+  {
+    "name": "AUTO-AIUTO / Depressione",
+    "code": "SEL011000"
+  },
+  {
+    "name": "AUTO-AIUTO / Sogni",
+    "code": "SEL012000"
+  },
+  {
+    "name": "AUTO-AIUTO / Abuso di Sostanze e Dipendenze / Tossicodipendenza",
+    "code": "SEL013000"
+  },
+  {
+    "name": "AUTO-AIUTO / Disturbi del Comportamento Alimentare",
+    "code": "SEL014000"
+  },
+  {
+    "name": "AUTO-AIUTO / Analisi Grafologica",
+    "code": "SEL015000"
+  },
+  {
+    "name": "AUTO-AIUTO / Crescita Personale / Felicit",
+    "code": "SEL016000"
+  },
+  {
+    "name": "AUTO-AIUTO / Autoipnosi",
+    "code": "SEL017000"
+  },
+  {
+    "name": "AUTO-AIUTO / Bambino Interiore",
+    "code": "SEL018000"
+  },
+  {
+    "name": "AUTO-AIUTO / Meditazioni",
+    "code": "SEL019000"
+  },
+  {
+    "name": "AUTO-AIUTO / Disturbi dell'Umore",
+    "code": "SEL020000"
+  },
+  {
+    "name": "AUTO-AIUTO / Motivazionale e Ispirazionale",
+    "code": "SEL021000"
+  },
+  {
+    "name": "AUTO-AIUTO / Crescita Personale / Autostima",
+    "code": "SEL023000"
+  },
+  {
+    "name": "AUTO-AIUTO / Gestione dello Stress",
+    "code": "SEL024000"
+  },
+  {
+    "name": "AUTO-AIUTO / Abuso di Sostanze e Dipendenze / Generale",
+    "code": "SEL026000"
+  },
+  {
+    "name": "AUTO-AIUTO / Abuso di Sostanze e Dipendenze / Tabacco",
+    "code": "SEL026010"
+  },
+  {
+    "name": "AUTO-AIUTO / Crescita personale / Successo",
+    "code": "SEL027000"
+  },
+  {
+    "name": "AUTO-AIUTO / Programmi dei Dodici Passi",
+    "code": "SEL029000"
+  },
+  {
+    "name": "AUTO-AIUTO / Crescita Personale / Miglioramento della Memoria",
+    "code": "SEL030000"
+  },
+  {
+    "name": "AUTO-AIUTO / Crescita Personale / Generale",
+    "code": "SEL031000"
+  },
+  {
+    "name": "AUTO-AIUTO / Spirituale",
+    "code": "SEL032000"
+  },
+  {
+    "name": "AUTO-AIUTO / Gestione della Collera (vedere anche FAMIGLIA E RELAZIONI / Collera)",
+    "code": "SEL033000"
+  },
+  {
+    "name": "AUTO-AIUTO / Educazione Sessuale",
+    "code": "SEL034000"
+  },
+  {
+    "name": "AUTO-AIUTO / Gestione del Tempo",
+    "code": "SEL035000"
+  },
+  {
+    "name": "AUTO-AIUTO / Ansie e Fobie",
+    "code": "SEL036000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Generale",
+    "code": "OCC000000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Astrologia / Generale",
+    "code": "OCC002000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Canalizzazione",
+    "code": "OCC003000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Cristalli",
+    "code": "OCC004000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Divinazione / Generale",
+    "code": "OCC005000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Sogni",
+    "code": "OCC006000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Parapsicologia / ESP (Chiaroveggenza, Precognizione, Telepatia)",
+    "code": "OCC007000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Divinazione / Arte Divinatoria",
+    "code": "OCC008000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Astrologia / Oroscopi",
+    "code": "OCC009000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Meditazione",
+    "code": "OCC010000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Guarigione / Generale",
+    "code": "OCC011000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Guarigione / Energia (Chi Kung, Reiki, Polarit )",
+    "code": "OCC011010"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Guarigione / Preghiera e Spirituale",
+    "code": "OCC011020"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Misticismo",
+    "code": "OCC012000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Nuovo Pensiero",
+    "code": "OCC014000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Numerologia",
+    "code": "OCC015000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Occultismo",
+    "code": "OCC016000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Divinazione / Chiromanzia",
+    "code": "OCC017000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Parapsicologia / Generale",
+    "code": "OCC018000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Ispirazione e Crescita Personale",
+    "code": "OCC019000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Profezia",
+    "code": "OCC020000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Riferimento",
+    "code": "OCC021000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Reincarnazione",
+    "code": "OCC022000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Sovrannaturale",
+    "code": "OCC023000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Divinazione / Tarocchi",
+    "code": "OCC024000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / UFO ed Extraterrestri",
+    "code": "OCC025000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Stregoneria e Wicca",
+    "code": "OCC026000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Spiritualismo",
+    "code": "OCC027000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Studi di Magia",
+    "code": "OCC028000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Fenomeni Inspiegati",
+    "code": "OCC029000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Astrologia / Orientale",
+    "code": "OCC030000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Civilt  Mitologiche",
+    "code": "OCC031000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Angeli e Guide Spirituali",
+    "code": "OCC032000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Gaia ed Energie Terrestri",
+    "code": "OCC033000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Parapsicologia / Esperienza di Premorte",
+    "code": "OCC034000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Parapsicologia / Esperienza Extracorporea",
+    "code": "OCC035000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Spiritualit  / Generale",
+    "code": "OCC036000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Spiritualit  / Celtica",
+    "code": "OCC036010"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Spiritualit  / Paganesimo e Neopaganesimo",
+    "code": "OCC036020"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Sciamanismo / Generale",
+    "code": "OCC036030"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Spiritualit  / Greco-Romana",
+    "code": "OCC036040"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Spiritualit  / Madre Divina, Dea, Quan Yin",
+    "code": "OCC036050"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / Feng Shui",
+    "code": "OCC037000"
+  },
+  {
+    "name": "CORPO, MENTE E SPIRITO / I Ching",
+    "code": "OCC038000"
+  },
+  {
+    "code": "PSY000000",
+    "name": "PSICOLOGIA / Generale"
+  },
+  {
+    "code": "PSY002000",
+    "name": "PSICOLOGIA / Sviluppo / Adolescente"
+  },
+  {
+    "code": "PSY003000",
+    "name": "PSICOLOGIA / Psicologia Applicata"
+  },
+  {
+    "code": "PSY004000",
+    "name": "PSICOLOGIA / Sviluppo / Minori"
+  },
+  {
+    "code": "PSY006000",
+    "name": "PSICOLOGIA / Psicoterapia / Infanzia e Adolescenza"
+  },
+  {
+    "code": "PSY007000",
+    "name": "PSICOLOGIA / Psicologia Clinica"
+  },
+  {
+    "code": "PSY008000",
+    "name": "PSICOLOGIA / Psicologia Cognitiva"
+  },
+  {
+    "code": "PSY009000",
+    "name": "PSICOLOGIA / Psicopatologia / Comportamento Compulsivo"
+  },
+  {
+    "code": "PSY010000",
+    "name": "PSICOLOGIA / Psicoterapia / Counseling"
+  },
+  {
+    "code": "PSY011000",
+    "name": "PSICOLOGIA / Psicopatologia / Disturbi del Comportamento Alimentare"
+  },
+  {
+    "code": "PSY012000",
+    "name": "PSICOLOGIA / Educazione e Formazione"
+  },
+  {
+    "code": "PSY013000",
+    "name": "PSICOLOGIA / Emozioni"
+  },
+  {
+    "code": "PSY014000",
+    "name": "PSICOLOGIA / Psicologia Forense"
+  },
+  {
+    "code": "PSY015000",
+    "name": "PSICOLOGIA / Storia"
+  },
+  {
+    "code": "PSY016000",
+    "name": "PSICOLOGIA / Sessualità Umana"
+  },
+  {
+    "code": "PSY017000",
+    "name": "PSICOLOGIA / Relazioni Interpersonali"
+  },
+  {
+    "code": "PSY020000",
+    "name": "PSICOLOGIA / Neuropsicologia"
+  },
+  {
+    "code": "PSY021000",
+    "name": "PSICOLOGIA / Psicologia Industriale e delle Organizzazioni"
+  },
+  {
+    "code": "PSY022000",
+    "name": "PSICOLOGIA / Psicopatologia / Generale"
+  },
+  {
+    "code": "PSY022010",
+    "name": "PSICOLOGIA / Psicopatologia / Disordine da Deficit dell'Attenzione (ADD-ADHD)"
+  },
+  {
+    "code": "PSY022020",
+    "name": "PSICOLOGIA / Psicopatologia / Disturbi dello Spettro Autistico"
+  },
+  {
+    "code": "PSY022030",
+    "name": "PSICOLOGIA / Psicopatologia / Disturbo Bipolare"
+  },
+  {
+    "code": "PSY022040",
+    "name": "PSICOLOGIA / Psicopatologia / Disturbo Post-Traumatico da Stress (PTSD)"
+  },
+  {
+    "code": "PSY022050",
+    "name": "PSICOLOGIA / Psicopatologia / Schizofrenia"
+  },
+  {
+    "code": "PSY022060",
+    "name": "PSICOLOGIA / Psicopatologia / Ansie e Fobie"
+  },
+  {
+    "code": "PSY022070",
+    "name": "PSICOLOGIA / Psicopatologia / Disturbo Dissociativo dell'Identità"
+  },
+  {
+    "code": "PSY023000",
+    "name": "PSICOLOGIA / Personalità"
+  },
+  {
+    "code": "PSY024000",
+    "name": "PSICOLOGIA / Psicologia Fisiologica"
+  },
+  {
+    "code": "PSY026000",
+    "name": "PSICOLOGIA / Movimenti / Psicoanalisi"
+  },
+  {
+    "code": "PSY028000",
+    "name": "PSICOLOGIA / Psicoterapia / Generale"
+  },
+  {
+    "code": "PSY029000",
+    "name": "PSICOLOGIA / Riferimento"
+  },
+  {
+    "code": "PSY030000",
+    "name": "PSICOLOGIA / Ricerca e Metodologia"
+  },
+  {
+    "code": "PSY031000",
+    "name": "PSICOLOGIA / Psicologia Sociale"
+  },
+  {
+    "code": "PSY032000",
+    "name": "PSICOLOGIA / Statistica"
+  },
+  {
+    "code": "PSY034000",
+    "name": "PSICOLOGIA / Capacità Creativa"
+  },
+  {
+    "code": "PSY035000",
+    "name": "PSICOLOGIA / Ipnotismo"
+  },
+  {
+    "code": "PSY036000",
+    "name": "PSICOLOGIA / Igiene Mentale"
+  },
+  {
+    "code": "PSY037000",
+    "name": "PSICOLOGIA / Suicidio"
+  },
+  {
+    "code": "PSY038000",
+    "name": "PSICOLOGIA / Psicopatologia / Dipendenza"
+  },
+  {
+    "code": "PSY039000",
+    "name": "PSICOLOGIA / Sviluppo / Generale"
+  },
+  {
+    "code": "PSY040000",
+    "name": "PSICOLOGIA / Psicologia Sperimentale"
+  },
+  {
+    "code": "PSY041000",
+    "name": "PSICOLOGIA / Psicoterapia / Coppia e Famiglia"
+  },
+  {
+    "code": "PSY042000",
+    "name": "PSICOLOGIA / Valutazione, Test e Misurazione\""
+  },
+  {
+    "code": "PSY043000",
+    "name": "PSICOLOGIA / Sviluppo / Età Adulta e Invecchiamento"
+  },
+  {
+    "code": "PSY044000",
+    "name": "PSICOLOGIA / Sviluppo / Sviluppo nel Ciclo di Vita"
+  },
+  {
+    "code": "PSY045000",
+    "name": "PSICOLOGIA / Movimenti / Generale"
+  },
+  {
+    "code": "PSY045010",
+    "name": "PSICOLOGIA / Movimenti / Comportamentismo"
+  },
+  {
+    "code": "PSY045020",
+    "name": "PSICOLOGIA / Movimenti / Umanismo"
+  },
+  {
+    "code": "PSY045030",
+    "name": "PSICOLOGIA / Movimenti / Transpersonale"
+  },
+  {
+    "code": "PSY045040",
+    "name": "PSICOLOGIA / Movimenti / Esistenziale"
+  },
+  {
+    "code": "PSY045050",
+    "name": "PSICOLOGIA / Movimenti / Gestalt"
+  },
+  {
+    "code": "PSY045060",
+    "name": "PSICOLOGIA / Movimenti / Jungian"
+  },
+  {
+    "code": "PSY046000",
+    "name": "PSICOLOGIA / Gestione dello Studio Professionale"
+  },
+  {
+    "code": "PSY048000",
+    "name": "PSICOLOGIA / Psicoterapia / Gruppo"
+  },
+  {
+    "code": "PSY049000",
+    "name": "PSICOLOGIA / Psicopatologia / Depressione"
+  },
+  {
+    "code": "PSY050000",
+    "name": "PSICOLOGIA / Etnopsicologia"
+  },
+  {
+    "code": "FAM000000",
+    "name": "FAMIGLIA E RELAZIONI / Generale"
+  },
+  {
+    "code": "FAM001000",
+    "name": "FAMIGLIA E RELAZIONI / Abuso / Generale"
+  },
+  {
+    "code": "FAM001010",
+    "name": "FAMIGLIA E RELAZIONI / Abuso / Abuso di Minore"
+  },
+  {
+    "code": "FAM001020",
+    "name": "FAMIGLIA E RELAZIONI / Abuso / Abuso di Anziani"
+  },
+  {
+    "code": "FAM001030",
+    "name": "FAMIGLIA E RELAZIONI / Abuso / Abuso Domestico del Partner"
+  },
+  {
+    "code": "FAM002000",
+    "name": "FAMIGLIA E RELAZIONI / Attività"
+  },
+  {
+    "code": "FAM003000",
+    "name": "FAMIGLIA E RELAZIONI / Fasi della Vita / Adolescenza"
+  },
+  {
+    "code": "FAM004000",
+    "name": "FAMIGLIA E RELAZIONI / Adozione e Affidamento"
+  },
+  {
+    "code": "FAM005000",
+    "name": "FAMIGLIA E RELAZIONI / Invecchiamento"
+  },
+  {
+    "code": "FAM006000",
+    "name": "FAMIGLIA E RELAZIONI / Famiglia Alternativa"
+  },
+  {
+    "code": "FAM007000",
+    "name": "FAMIGLIA E RELAZIONI / Collera (vedere anche AUTO-AIUTO / Gestione della Collera)"
+  },
+  {
+    "code": "FAM008000",
+    "name": "FAMIGLIA E RELAZIONI / Nomi di Bambini"
+  },
+  {
+    "code": "FAM012000",
+    "name": "FAMIGLIA E RELAZIONI / Bambini con Necessità Particolari"
+  },
+  {
+    "code": "FAM013000",
+    "name": "FAMIGLIA E RELAZIONI / Risoluzione dei Conflitti"
+  },
+  {
+    "code": "FAM014000",
+    "name": "FAMIGLIA E RELAZIONI / Morte, Lutto, Dolore\""
+  },
+  {
+    "code": "FAM015000",
+    "name": "FAMIGLIA E RELAZIONI / Divorzio e Separazione"
+  },
+  {
+    "code": "FAM016000",
+    "name": "FAMIGLIA E RELAZIONI / Educazione"
+  },
+  {
+    "code": "FAM017000",
+    "name": "FAMIGLIA E RELAZIONI / Assistenza agli Anziani"
+  },
+  {
+    "code": "FAM020000",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Paternità"
+  },
+  {
+    "code": "FAM021000",
+    "name": "FAMIGLIA E RELAZIONI / Amicizia"
+  },
+  {
+    "code": "FAM022000",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Nonni"
+  },
+  {
+    "code": "FAM025000",
+    "name": "FAMIGLIA E RELAZIONI / Fasi della Vita / Neonati e Bambini ai Primi Passi"
+  },
+  {
+    "code": "FAM028000",
+    "name": "FAMIGLIA E RELAZIONI / Disturbi dell'Apprendimento"
+  },
+  {
+    "code": "FAM029000",
+    "name": "FAMIGLIA E RELAZIONI / Amore e Romanticismo"
+  },
+  {
+    "code": "FAM030000",
+    "name": "FAMIGLIA E RELAZIONI / Matrimonio"
+  },
+  {
+    "code": "FAM032000",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Maternità"
+  },
+  {
+    "code": "FAM033000",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Genitori e Figli Adulti"
+  },
+  {
+    "code": "FAM034000",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Generale"
+  },
+  {
+    "code": "FAM034010",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Genitore Single"
+  },
+  {
+    "code": "FAM035000",
+    "name": "FAMIGLIA E RELAZIONI / Pressione Sociale del Gruppo"
+  },
+  {
+    "code": "FAM037000",
+    "name": "FAMIGLIA E RELAZIONI / Pregiudizio"
+  },
+  {
+    "code": "FAM038000",
+    "name": "FAMIGLIA E RELAZIONI / Riferimento"
+  },
+  {
+    "code": "FAM039000",
+    "name": "FAMIGLIA E RELAZIONI / Fasi della Vita / Età Scolare"
+  },
+  {
+    "code": "FAM041000",
+    "name": "FAMIGLIA E RELAZIONI / Siblings"
+  },
+  {
+    "code": "FAM042000",
+    "name": "FAMIGLIA E RELAZIONI / Familiari / Genitori Acquisiti"
+  },
+  {
+    "code": "FAM043000",
+    "name": "FAMIGLIA E RELAZIONI / Fasi della Vita / Adolescenti"
+  },
+  {
+    "code": "FAM044000",
+    "name": "FAMIGLIA E RELAZIONI / Educazione al Vasino"
+  },
+  {
+    "code": "FAM046000",
+    "name": "FAMIGLIA E RELAZIONI / Fasi della Vita / Generale"
+  },
+  {
+    "code": "FAM048000",
+    "name": "FAMIGLIA E RELAZIONI / Disturbi dello Spettro Autistico"
+  },
+  {
+    "code": "FAM049000",
+    "name": "FAMIGLIA E RELAZIONI / Bullismo"
+  },
+  {
+    "code": "BIB000000",
+    "name": "BIBBIE / Generale"
+  },
+  {
+    "code": "BIB001000",
+    "name": "BIBBIE / Christian Standard Bible / Generale"
+  },
+  {
+    "code": "BIB001010",
+    "name": "BIBBIE / Christian Standard Bible / Bambini"
+  },
+  {
+    "code": "BIB001020",
+    "name": "BIBBIE / Christian Standard Bible / Devozionale"
+  },
+  {
+    "code": "BIB001030",
+    "name": "BIBBIE / Christian Standard Bible / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB001040",
+    "name": "BIBBIE / Christian Standard Bible / Riferimento"
+  },
+  {
+    "code": "BIB001050",
+    "name": "BIBBIE / Christian Standard Bible / Studio"
+  },
+  {
+    "code": "BIB001060",
+    "name": "BIBBIE / Christian Standard Bible / Testo"
+  },
+  {
+    "code": "BIB001070",
+    "name": "BIBBIE / Christian Standard Bible / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB002000",
+    "name": "BIBBIE / Contemporary English Version / Generale"
+  },
+  {
+    "code": "BIB002010",
+    "name": "BIBBIE / Contemporary English Version / Bambini"
+  },
+  {
+    "code": "BIB002020",
+    "name": "BIBBIE / Contemporary English Version / Devozionale"
+  },
+  {
+    "code": "BIB002030",
+    "name": "BIBBIE / Contemporary English Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB002040",
+    "name": "BIBBIE / Contemporary English Version / Riferimento"
+  },
+  {
+    "code": "BIB002050",
+    "name": "BIBBIE / Contemporary English Version / Studio"
+  },
+  {
+    "code": "BIB002060",
+    "name": "BIBBIE / Contemporary English Version / Testo"
+  },
+  {
+    "code": "BIB002070",
+    "name": "BIBBIE / Contemporary English Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB003000",
+    "name": "BIBBIE / English Standard Version / Generale"
+  },
+  {
+    "code": "BIB003010",
+    "name": "BIBBIE / English Standard Version / Bambini"
+  },
+  {
+    "code": "BIB003020",
+    "name": "BIBBIE / English Standard Version / Devozionale"
+  },
+  {
+    "code": "BIB003030",
+    "name": "BIBBIE / English Standard Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB003040",
+    "name": "BIBBIE / English Standard Version / Riferimento"
+  },
+  {
+    "code": "BIB003050",
+    "name": "BIBBIE / English Standard Version / Studio"
+  },
+  {
+    "code": "BIB003060",
+    "name": "BIBBIE / English Standard Version / Testo"
+  },
+  {
+    "code": "BIB003070",
+    "name": "BIBBIE / English Standard Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB004000",
+    "name": "BIBBIE / Parola di Dio / Generale"
+  },
+  {
+    "code": "BIB004010",
+    "name": "BIBBIE / Parola di Dio / Bambini"
+  },
+  {
+    "code": "BIB004020",
+    "name": "BIBBIE / Parola di Dio / Devozionale"
+  },
+  {
+    "code": "BIB004030",
+    "name": "BIBBIE / Parola di Dio / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB004040",
+    "name": "BIBBIE / Parola di Dio / Riferimento"
+  },
+  {
+    "code": "BIB004050",
+    "name": "BIBBIE / Parola di Dio / Studio"
+  },
+  {
+    "code": "BIB004060",
+    "name": "BIBBIE / Parola di Dio / Testo"
+  },
+  {
+    "code": "BIB004070",
+    "name": "BIBBIE / Parola di Dio / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB005000",
+    "name": "BIBBIE / International Children's Bible / Generale"
+  },
+  {
+    "code": "BIB005010",
+    "name": "BIBBIE / International Children's Bible / Bambini"
+  },
+  {
+    "code": "BIB005020",
+    "name": "BIBBIE / International Children's Bible / Devozionale"
+  },
+  {
+    "code": "BIB005030",
+    "name": "BIBBIE / International Children's Bible / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB005040",
+    "name": "BIBBIE / International Children's Bible / Riferimento"
+  },
+  {
+    "code": "BIB005050",
+    "name": "BIBBIE / International Children's Bible / Studio"
+  },
+  {
+    "code": "BIB005060",
+    "name": "BIBBIE / International Children's Bible / Testo"
+  },
+  {
+    "code": "BIB005070",
+    "name": "BIBBIE / International Children's Bible / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB006000",
+    "name": "BIBBIE / King James Version / Generale"
+  },
+  {
+    "code": "BIB006010",
+    "name": "BIBBIE / King James Version / Bambini"
+  },
+  {
+    "code": "BIB006020",
+    "name": "BIBBIE / King James Version / Devozionale"
+  },
+  {
+    "code": "BIB006030",
+    "name": "BIBBIE / King James Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB006040",
+    "name": "BIBBIE / King James Version / Riferimento"
+  },
+  {
+    "code": "BIB006050",
+    "name": "BIBBIE / King James Version / Studio"
+  },
+  {
+    "code": "BIB006060",
+    "name": "BIBBIE / King James Version / Testo"
+  },
+  {
+    "code": "BIB006070",
+    "name": "BIBBIE / King James Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB007000",
+    "name": "BIBBIE / La Biblia de las Americas / Generale"
+  },
+  {
+    "code": "BIB007010",
+    "name": "BIBBIE / La Biblia de las Americas / Bambini"
+  },
+  {
+    "code": "BIB007020",
+    "name": "BIBBIE / La Biblia de las Americas / Devozionale"
+  },
+  {
+    "code": "BIB007030",
+    "name": "BIBBIE / La Biblia de las Americas / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB007040",
+    "name": "BIBBIE / La Biblia de las Americas / Riferimento"
+  },
+  {
+    "code": "BIB007050",
+    "name": "BIBBIE / La Biblia de las Americas / Studio"
+  },
+  {
+    "code": "BIB007060",
+    "name": "BIBBIE / La Biblia de las Americas / Testo"
+  },
+  {
+    "code": "BIB007070",
+    "name": "BIBBIE / La Biblia de las Americas / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB008000",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Generale"
+  },
+  {
+    "code": "BIB008010",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Bambini"
+  },
+  {
+    "code": "BIB008020",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Devozionali"
+  },
+  {
+    "code": "BIB008030",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB008040",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Riferimento"
+  },
+  {
+    "code": "BIB008050",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Studio"
+  },
+  {
+    "code": "BIB008060",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Testo"
+  },
+  {
+    "code": "BIB008070",
+    "name": "BIBBIE / Traduzioni in Varie Lingue / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB009000",
+    "name": "BIBBIE / New American Bible / Generale"
+  },
+  {
+    "code": "BIB009010",
+    "name": "BIBBIE / New American Bible / Bambini"
+  },
+  {
+    "code": "BIB009020",
+    "name": "BIBBIE / New American Bible / Devozionale"
+  },
+  {
+    "code": "BIB009030",
+    "name": "BIBBIE / New American Bible / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB009040",
+    "name": "BIBBIE / New American Bible / Riferimento"
+  },
+  {
+    "code": "BIB009050",
+    "name": "BIBBIE / New American Bible / Studio"
+  },
+  {
+    "code": "BIB009060",
+    "name": "BIBBIE / New American Bible / Testo"
+  },
+  {
+    "code": "BIB009070",
+    "name": "BIBBIE / New American Bible / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB010000",
+    "name": "BIBBIE / New American Standard Bible / Generale"
+  },
+  {
+    "code": "BIB010010",
+    "name": "BIBBIE / New American Standard Bible / Bambini"
+  },
+  {
+    "code": "BIB010020",
+    "name": "BIBBIE / New American Standard Bible / Devozionale"
+  },
+  {
+    "code": "BIB010030",
+    "name": "BIBBIE / New American Standard Bible / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB010040",
+    "name": "BIBBIE / New American Standard Bible / Riferimento"
+  },
+  {
+    "code": "BIB010050",
+    "name": "BIBBIE / New American Standard Bible / Studio"
+  },
+  {
+    "code": "BIB010060",
+    "name": "BIBBIE / New American Standard Bible / Testo"
+  },
+  {
+    "code": "BIB010070",
+    "name": "BIBBIE / New American Standard Bible / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB011000",
+    "name": "BIBBIE / New Century Version / Generale"
+  },
+  {
+    "code": "BIB011010",
+    "name": "BIBBIE / New Century Version / Bambini"
+  },
+  {
+    "code": "BIB011020",
+    "name": "BIBBIE / New Century Version / Devozionale"
+  },
+  {
+    "code": "BIB011030",
+    "name": "BIBBIE / New Century Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB011040",
+    "name": "BIBBIE / New Century Version / Riferimento"
+  },
+  {
+    "code": "BIB011050",
+    "name": "BIBBIE / New Century Version / Studio"
+  },
+  {
+    "code": "BIB011060",
+    "name": "BIBBIE / New Century Version / Testo"
+  },
+  {
+    "code": "BIB011070",
+    "name": "BIBBIE / New Century Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB012000",
+    "name": "BIBBIE / New International Reader's Version / Generale"
+  },
+  {
+    "code": "BIB012010",
+    "name": "BIBBIE / New International Reader's Version / Bambini"
+  },
+  {
+    "code": "BIB012020",
+    "name": "BIBBIE / New International Reader's Version / Devozionale"
+  },
+  {
+    "code": "BIB012030",
+    "name": "BIBBIE / New International Reader's Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB012040",
+    "name": "BIBBIE / New International Reader's Version / Riferimento"
+  },
+  {
+    "code": "BIB012050",
+    "name": "BIBBIE / New International Reader's Version / Studio"
+  },
+  {
+    "code": "BIB012060",
+    "name": "BIBBIE / New International Reader's Version / Testo"
+  },
+  {
+    "code": "BIB012070",
+    "name": "BIBBIE / New International Reader's Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB013000",
+    "name": "BIBBIE / New International Version / Generale"
+  },
+  {
+    "code": "BIB013010",
+    "name": "BIBBIE / New International Version / Bambini"
+  },
+  {
+    "code": "BIB013020",
+    "name": "BIBBIE / New International Version / Devozionale"
+  },
+  {
+    "code": "BIB013030",
+    "name": "BIBBIE / New International Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB013040",
+    "name": "BIBBIE / New International Version / Riferimento"
+  },
+  {
+    "code": "BIB013050",
+    "name": "BIBBIE / New International Version / Studio"
+  },
+  {
+    "code": "BIB013060",
+    "name": "BIBBIE / New International Version / Testo"
+  },
+  {
+    "code": "BIB013070",
+    "name": "BIBBIE / New International Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB014000",
+    "name": "BIBBIE / New King James Version / Generale"
+  },
+  {
+    "code": "BIB014010",
+    "name": "BIBBIE / New King James Version / Bambini"
+  },
+  {
+    "code": "BIB014020",
+    "name": "BIBBIE / New King James Version / Devozionale"
+  },
+  {
+    "code": "BIB014030",
+    "name": "BIBBIE / New King James Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB014040",
+    "name": "BIBBIE / New King James Version / Riferimento"
+  },
+  {
+    "code": "BIB014050",
+    "name": "BIBBIE / New King James Version / Studio"
+  },
+  {
+    "code": "BIB014060",
+    "name": "BIBBIE / New King James Version / Testo"
+  },
+  {
+    "code": "BIB014070",
+    "name": "BIBBIE / New King James Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB015000",
+    "name": "BIBBIE / New Living Translation / Generale"
+  },
+  {
+    "code": "BIB015010",
+    "name": "BIBBIE / New Living Translation / Bambini"
+  },
+  {
+    "code": "BIB015020",
+    "name": "BIBBIE / New Living Translation / Devozionale"
+  },
+  {
+    "code": "BIB015030",
+    "name": "BIBBIE / New Living Translation / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB015040",
+    "name": "BIBBIE / New Living Translation / Riferimento"
+  },
+  {
+    "code": "BIB015050",
+    "name": "BIBBIE / New Living Translation / Studio"
+  },
+  {
+    "code": "BIB015060",
+    "name": "BIBBIE / New Living Translation / Testo"
+  },
+  {
+    "code": "BIB015070",
+    "name": "BIBBIE / New Living Translation / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB016000",
+    "name": "BIBBIE / New Revised Standard Version / Generale"
+  },
+  {
+    "code": "BIB016010",
+    "name": "BIBBIE / New Revised Standard Version / Bambini"
+  },
+  {
+    "code": "BIB016020",
+    "name": "BIBBIE / New Revised Standard Version / Devozionale"
+  },
+  {
+    "code": "BIB016030",
+    "name": "BIBBIE / New Revised Standard Version / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB016040",
+    "name": "BIBBIE / New Revised Standard Version / Riferimento"
+  },
+  {
+    "code": "BIB016050",
+    "name": "BIBBIE / New Revised Standard Version / Studio"
+  },
+  {
+    "code": "BIB016060",
+    "name": "BIBBIE / New Revised Standard Version / Testo"
+  },
+  {
+    "code": "BIB016070",
+    "name": "BIBBIE / New Revised Standard Version / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB017000",
+    "name": "BIBBIE / Nueva Version International / Generale"
+  },
+  {
+    "code": "BIB017010",
+    "name": "BIBBIE / Nueva Version International / Bambini"
+  },
+  {
+    "code": "BIB017020",
+    "name": "BIBBIE / Nueva Version International / Devozionale"
+  },
+  {
+    "code": "BIB017030",
+    "name": "BIBBIE / Nueva Version International / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB017040",
+    "name": "BIBBIE / Nueva Version International / Riferimento"
+  },
+  {
+    "code": "BIB017050",
+    "name": "BIBBIE / Nueva Version International / Studio"
+  },
+  {
+    "code": "BIB017060",
+    "name": "BIBBIE / Nueva Version International / Testo"
+  },
+  {
+    "code": "BIB017070",
+    "name": "BIBBIE / Nueva Version International / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB018000",
+    "name": "BIBBIE / Altre traduzioni / Generale"
+  },
+  {
+    "code": "BIB018010",
+    "name": "BIBBIE / Altre traduzioni / Bambini"
+  },
+  {
+    "code": "BIB018020",
+    "name": "BIBBIE / Altre traduzioni / Devozionali"
+  },
+  {
+    "code": "BIB018030",
+    "name": "BIBBIE / Altre traduzioni / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB018040",
+    "name": "BIBBIE / Altre traduzioni / Riferimento"
+  },
+  {
+    "code": "BIB018050",
+    "name": "BIBBIE / Altre traduzioni / Studio"
+  },
+  {
+    "code": "BIB018060",
+    "name": "BIBBIE / Altre traduzioni / Testo"
+  },
+  {
+    "code": "BIB018070",
+    "name": "BIBBIE / Altre traduzioni / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB019000",
+    "name": "BIBBIE / Reina Valera / Generale"
+  },
+  {
+    "code": "BIB019010",
+    "name": "BIBBIE / Reina Valera / Bambini"
+  },
+  {
+    "code": "BIB019020",
+    "name": "BIBBIE / Reina Valera / Devozionale"
+  },
+  {
+    "code": "BIB019030",
+    "name": "BIBBIE / Reina Valera / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB019040",
+    "name": "BIBBIE / Reina Valera / Riferimento"
+  },
+  {
+    "code": "BIB019050",
+    "name": "BIBBIE / Reina Valera / Studio"
+  },
+  {
+    "code": "BIB019060",
+    "name": "BIBBIE / Reina Valera / Testo"
+  },
+  {
+    "code": "BIB019070",
+    "name": "BIBBIE / Reina Valera / Giovani e Adolescenti"
+  },
+  {
+    "code": "BIB020000",
+    "name": "BIBBIE / The Message / Generale"
+  },
+  {
+    "code": "BIB020010",
+    "name": "BIBBIE / The Message / Bambini"
+  },
+  {
+    "code": "BIB020020",
+    "name": "BIBBIE / The Message / Devozionale"
+  },
+  {
+    "code": "BIB020030",
+    "name": "BIBBIE / The Message / Nuovo Testamento e Porzioni"
+  },
+  {
+    "code": "BIB020040",
+    "name": "BIBBIE / The Message / Riferimento"
+  },
+  {
+    "code": "BIB020050",
+    "name": "BIBBIE / The Message / Studio"
+  },
+  {
+    "code": "BIB020060",
+    "name": "BIBBIE / The Message / Testo"
+  },
+  {
+    "code": "BIB020070",
+    "name": "BIBBIE / The Message / Giovani e Adolescenti"
+  },
+  {
+    "code": "REL000000",
+    "name": "RELIGIONE / Generale"
+  },
+  {
+    "code": "REL001000",
+    "name": "RELIGIONE / Agnosticismo"
+  },
+  {
+    "code": "REL002000",
+    "name": "RELIGIONE / Cristianità / Amish"
+  },
+  {
+    "code": "REL003000",
+    "name": "RELIGIONE / Cristianità / Anglicana"
+  },
+  {
+    "code": "REL004000",
+    "name": "RELIGIONE / Ateismo"
+  },
+  {
+    "code": "REL005000",
+    "name": "RELIGIONE / Bahai"
+  },
+  {
+    "code": "REL006000",
+    "name": "RELIGIONE / Studi Biblici / Generale"
+  },
+  {
+    "code": "REL006020",
+    "name": "RELIGIONE / Biografia Biblica / Generale"
+  },
+  {
+    "code": "REL006030",
+    "name": "RELIGIONE / Biografia Biblica / Antico Testamento"
+  },
+  {
+    "code": "REL006040",
+    "name": "RELIGIONE / Biografia Biblica / Nuovo Testamento"
+  },
+  {
+    "code": "REL006050",
+    "name": "RELIGIONE / Commentario Biblico / Generale"
+  },
+  {
+    "code": "REL006060",
+    "name": "RELIGIONE / Commentario Biblico / Antico Testamento"
+  },
+  {
+    "code": "REL006070",
+    "name": "RELIGIONE / Commentario Biblico / Nuovo Testamento"
+  },
+  {
+    "code": "REL006080",
+    "name": "RELIGIONE / Critica e Interpretazione Biblica / Generale"
+  },
+  {
+    "code": "REL006090",
+    "name": "RELIGIONE / Critica e Interpretazione Biblica / Antico Testamento"
+  },
+  {
+    "code": "REL006100",
+    "name": "RELIGIONE / Critica e Interpretazione Biblica / Nuovo Testamento"
+  },
+  {
+    "code": "REL006110",
+    "name": "RELIGIONE / Meditazioni Bibliche / Generale"
+  },
+  {
+    "code": "REL006120",
+    "name": "RELIGIONE / Meditazioni Bibliche / Antico Testamento"
+  },
+  {
+    "code": "REL006130",
+    "name": "RELIGIONE / Meditazioni Bibliche / Nuovo Testamento"
+  },
+  {
+    "code": "REL006140",
+    "name": "RELIGIONE / Studi Biblici / Profezia"
+  },
+  {
+    "code": "REL006150",
+    "name": "RELIGIONE / Riferimento Biblico / Citazioni"
+  },
+  {
+    "code": "REL006160",
+    "name": "RELIGIONE / Riferimento Biblico / Generale"
+  },
+  {
+    "code": "REL006210",
+    "name": "RELIGIONE / Studi Biblici / Antico Testamento"
+  },
+  {
+    "code": "REL006220",
+    "name": "RELIGIONE / Studi Biblici / Nuovo Testamento"
+  },
+  {
+    "code": "REL006400",
+    "name": "RELIGIONE / Studi Biblici / Esegesi ed Ermeneutica"
+  },
+  {
+    "code": "REL006410",
+    "name": "RELIGIONE / Riferimento Biblico / Studio della Lingua"
+  },
+  {
+    "code": "REL006630",
+    "name": "RELIGIONE / Studi Biblici / Storia e Cultura"
+  },
+  {
+    "code": "REL006650",
+    "name": "RELIGIONE / Riferimento Biblico / Atlanti"
+  },
+  {
+    "code": "REL006660",
+    "name": "RELIGIONE / Riferimento Biblico / Concordanze"
+  },
+  {
+    "code": "REL006670",
+    "name": "RELIGIONE / Riferimento Biblico / Dizionari ed Enciclopedie"
+  },
+  {
+    "code": "REL006680",
+    "name": "RELIGIONE / Riferimento Biblico / Guide"
+  },
+  {
+    "code": "REL006700",
+    "name": "RELIGIONE / Studi Biblici / Guide allo Studio della Bibbia"
+  },
+  {
+    "code": "REL006710",
+    "name": "RELIGIONE / Studi Biblici / Gesù, Vangeli e Atti\""
+  },
+  {
+    "code": "REL006720",
+    "name": "RELIGIONE / Studi Biblici / Lettere di Paolo"
+  },
+  {
+    "code": "REL006730",
+    "name": "RELIGIONE / Studi Biblici / Profeti"
+  },
+  {
+    "code": "REL006740",
+    "name": "RELIGIONE / Studi Biblici / Libri Sapienziali"
+  },
+  {
+    "code": "REL007000",
+    "name": "RELIGIONE / Buddismo / Generale (vedere anche FILOSOFIA / Buddista)"
+  },
+  {
+    "code": "REL007010",
+    "name": "RELIGIONE / Buddismo / Storia"
+  },
+  {
+    "code": "REL007020",
+    "name": "RELIGIONE / Buddismo / Rituali e Pratica"
+  },
+  {
+    "code": "REL007030",
+    "name": "RELIGIONE / Buddismo / Scritture Sacre"
+  },
+  {
+    "code": "REL007040",
+    "name": "RELIGIONE / Buddismo / Theravada"
+  },
+  {
+    "code": "REL007050",
+    "name": "RELIGIONE / Buddismo / Tibetano"
+  },
+  {
+    "code": "REL008000",
+    "name": "RELIGIONE / Chiesa Cristiana / Leggi Canoniche ed Ecclesiastiche"
+  },
+  {
+    "code": "REL009000",
+    "name": "RELIGIONE / Cristianità / Catechismi"
+  },
+  {
+    "code": "REL010000",
+    "name": "RELIGIONE / Cristianità / Cattolica"
+  },
+  {
+    "code": "REL011000",
+    "name": "RELIGIONE / Educazione Cristiana / Generale"
+  },
+  {
+    "code": "REL012000",
+    "name": "RELIGIONE / Vita Cristiana / Generale"
+  },
+  {
+    "code": "REL012010",
+    "name": "RELIGIONE / Vita Cristiana / Morte, Lutto, Dolore\""
+  },
+  {
+    "code": "REL012020",
+    "name": "RELIGIONE / Vita Cristiana / Devozionale"
+  },
+  {
+    "code": "REL012030",
+    "name": "RELIGIONE / Vita Cristiana / Famiglia"
+  },
+  {
+    "code": "REL012040",
+    "name": "RELIGIONE / Vita Cristiana / Ispirazionale"
+  },
+  {
+    "code": "REL012050",
+    "name": "RELIGIONE / Vita Cristiana / Amore e Matrimonio"
+  },
+  {
+    "code": "REL012060",
+    "name": "RELIGIONE / Vita Cristiana / Questioni dell'Uomo"
+  },
+  {
+    "code": "REL012070",
+    "name": "RELIGIONE / Vita Cristiana / Crescita Personale"
+  },
+  {
+    "code": "REL012080",
+    "name": "RELIGIONE / Vita Cristiana / Preghiera"
+  },
+  {
+    "code": "REL012090",
+    "name": "RELIGIONE / Vita Cristiana / Crescita Professionale"
+  },
+  {
+    "code": "REL012100",
+    "name": "RELIGIONE / Vita Cristiana / Relazioni"
+  },
+  {
+    "code": "REL012110",
+    "name": "RELIGIONE / Vita Cristiana / Questioni sociali"
+  },
+  {
+    "code": "REL012120",
+    "name": "RELIGIONE / Vita Cristiana / Crescita Spirituale"
+  },
+  {
+    "code": "REL012130",
+    "name": "RELIGIONE / Vita Cristiana / Questioni della Donna"
+  },
+  {
+    "code": "REL013000",
+    "name": "RELIGIONE / Cristianità / Letteratura e Arti"
+  },
+  {
+    "code": "REL014000",
+    "name": "RELIGIONE / Chiesa Cristiana / Amministrazione"
+  },
+  {
+    "code": "REL015000",
+    "name": "RELIGIONE / Cristianità / Storia"
+  },
+  {
+    "code": "REL016000",
+    "name": "RELIGIONE / Istituzioni e Organizzazioni"
+  },
+  {
+    "code": "REL017000",
+    "name": "RELIGIONE / Religione Comparata"
+  },
+  {
+    "code": "REL018000",
+    "name": "RELIGIONE / Confucianesimo"
+  },
+  {
+    "code": "REL019000",
+    "name": "RELIGIONE / Counseling"
+  },
+  {
+    "code": "REL020000",
+    "name": "RELIGIONE / Culti"
+  },
+  {
+    "code": "REL021000",
+    "name": "RELIGIONE / Deismo"
+  },
+  {
+    "code": "REL022000",
+    "name": "RELIGIONE / Devozionale"
+  },
+  {
+    "code": "REL023000",
+    "name": "RELIGIONE / Ministero Cristiano / Discepolato"
+  },
+  {
+    "code": "REL024000",
+    "name": "RELIGIONE / Orientale"
+  },
+  {
+    "code": "REL025000",
+    "name": "RELIGIONE / Ecumenismo"
+  },
+  {
+    "code": "REL026000",
+    "name": "RELIGIONE / Educazione"
+  },
+  {
+    "code": "REL027000",
+    "name": "RELIGIONE / Cristianità / Episcopale"
+  },
+  {
+    "code": "REL028000",
+    "name": "RELIGIONE / Etica"
+  },
+  {
+    "code": "REL029000",
+    "name": "RELIGIONE / Etnica e Tribale"
+  },
+  {
+    "code": "REL030000",
+    "name": "RELIGIONE / Ministero Cristiano / Evangelismo"
+  },
+  {
+    "code": "REL032000",
+    "name": "RELIGIONE / Induismo / Generale"
+  },
+  {
+    "code": "REL032010",
+    "name": "RELIGIONE / Induismo / Storia"
+  },
+  {
+    "code": "REL032020",
+    "name": "RELIGIONE / Induismo / Rituali e Pratica"
+  },
+  {
+    "code": "REL032030",
+    "name": "RELIGIONE / Induismo / Scritture Sacre"
+  },
+  {
+    "code": "REL032040",
+    "name": "RELIGIONE / Induismo / Teologia"
+  },
+  {
+    "code": "REL033000",
+    "name": "RELIGIONE / Storia"
+  },
+  {
+    "code": "REL034000",
+    "name": "RELIGIONE / Festività / Generale"
+  },
+  {
+    "code": "REL034010",
+    "name": "RELIGIONE / Festività / Cristiane"
+  },
+  {
+    "code": "REL034020",
+    "name": "RELIGIONE / Festività / Natale e Avvento"
+  },
+  {
+    "code": "REL034030",
+    "name": "RELIGIONE / Festività / Pasqua e Quaresima"
+  },
+  {
+    "code": "REL034040",
+    "name": "RELIGIONE / Festività / Ebraiche"
+  },
+  {
+    "code": "REL034050",
+    "name": "RELIGIONE / Festività / Altre"
+  },
+  {
+    "code": "REL036000",
+    "name": "RELIGIONE / Ispirazionale"
+  },
+  {
+    "code": "REL037000",
+    "name": "RELIGIONE / Islam / Generale"
+  },
+  {
+    "code": "REL037010",
+    "name": "RELIGIONE / Islam / Storia"
+  },
+  {
+    "code": "REL037020",
+    "name": "RELIGIONE / Islam / Legge"
+  },
+  {
+    "code": "REL037030",
+    "name": "RELIGIONE / Islam / Rituali e Pratica"
+  },
+  {
+    "code": "REL037040",
+    "name": "RELIGIONE / Islam / Sciismo"
+  },
+  {
+    "code": "REL037050",
+    "name": "RELIGIONE / Islam / Sunnismo"
+  },
+  {
+    "code": "REL037060",
+    "name": "RELIGIONE / Islam / Teologia"
+  },
+  {
+    "code": "REL038000",
+    "name": "RELIGIONE / Giainismo"
+  },
+  {
+    "code": "REL040000",
+    "name": "RELIGIONE / Giudaismo / Generale"
+  },
+  {
+    "code": "REL040010",
+    "name": "RELIGIONE / Giudaismo / Rituali e Pratica"
+  },
+  {
+    "code": "REL040030",
+    "name": "RELIGIONE / Giudaismo / Storia"
+  },
+  {
+    "code": "REL040040",
+    "name": "RELIGIONE / Giudaismo / Scritture Sacre"
+  },
+  {
+    "code": "REL040050",
+    "name": "RELIGIONE / Giudaismo / Conservativo"
+  },
+  {
+    "code": "REL040060",
+    "name": "RELIGIONE / Giudaismo / Cabala e Misticismo"
+  },
+  {
+    "code": "REL040070",
+    "name": "RELIGIONE / Giudaismo / Ortodosso"
+  },
+  {
+    "code": "REL040080",
+    "name": "RELIGIONE / Giudaismo / Riformato"
+  },
+  {
+    "code": "REL040090",
+    "name": "RELIGIONE / Giudaismo / Teologia"
+  },
+  {
+    "code": "REL041000",
+    "name": "RELIGIONE / Islam / Corano e Scritture Sacre"
+  },
+  {
+    "code": "REL042000",
+    "name": "RELIGIONE / Meditazioni"
+  },
+  {
+    "code": "REL043000",
+    "name": "RELIGIONE / Cristianità / Mennonita"
+  },
+  {
+    "code": "REL044000",
+    "name": "RELIGIONE / Cristianità / Metodista"
+  },
+  {
+    "code": "REL045000",
+    "name": "RELIGIONE / Ministero Cristiano / Missioni"
+  },
+  {
+    "code": "REL046000",
+    "name": "RELIGIONE / Cristianità / Chiesa di Gesù Cristo dei Santi degli Ultimi Giorni (Mormone)"
+  },
+  {
+    "code": "REL047000",
+    "name": "RELIGIONE / Misticismo"
+  },
+  {
+    "code": "REL049000",
+    "name": "RELIGIONE / Cristianità / Ortodossa"
+  },
+  {
+    "code": "REL050000",
+    "name": "RELIGIONE / Ministero Cristiano / Counseling e Recupero"
+  },
+  {
+    "code": "REL051000",
+    "name": "RELIGIONE / Filosofia"
+  },
+  {
+    "code": "REL052000",
+    "name": "RELIGIONE / Libri di Preghiere / Generale"
+  },
+  {
+    "code": "REL052010",
+    "name": "RELIGIONE / Libri di Preghiere / Cristiane"
+  },
+  {
+    "code": "REL052020",
+    "name": "RELIGIONE / Libri di Preghiere / Ebraiche"
+  },
+  {
+    "code": "REL052030",
+    "name": "RELIGIONE / Libri di Preghiere / Islamiche*"
+  },
+  {
+    "code": "REL053000",
+    "name": "RELIGIONE / Cristianità / Protestante"
+  },
+  {
+    "code": "REL054000",
+    "name": "RELIGIONE / Riferimento"
+  },
+  {
+    "code": "REL055000",
+    "name": "RELIGIONE / Pratiche e Riti Cristiani / Generale"
+  },
+  {
+    "code": "REL055010",
+    "name": "RELIGIONE / Pratiche e Riti Cristiani / Sacramenti"
+  },
+  {
+    "code": "REL055020",
+    "name": "RELIGIONE / Pratiche e Riti Cristiani / Culto e Liturgia"
+  },
+  {
+    "code": "REL058000",
+    "name": "RELIGIONE / Sermoni / Generale"
+  },
+  {
+    "code": "REL058010",
+    "name": "RELIGIONE / Sermoni / Cristiani"
+  },
+  {
+    "code": "REL058020",
+    "name": "RELIGIONE / Sermoni / Ebraici"
+  },
+  {
+    "code": "REL059000",
+    "name": "RELIGIONE / Cristianità / Shaker"
+  },
+  {
+    "code": "REL060000",
+    "name": "RELIGIONE / Scintoismo"
+  },
+  {
+    "code": "REL061000",
+    "name": "RELIGIONE / Sikhismo"
+  },
+  {
+    "code": "REL062000",
+    "name": "RELIGIONE / Spiritualità"
+  },
+  {
+    "code": "REL063000",
+    "name": "RELIGIONE / Vita Cristiana / Responsabilità e Generosità"
+  },
+  {
+    "code": "REL064000",
+    "name": "RELIGIONE / Giudaismo / Talmud"
+  },
+  {
+    "code": "REL065000",
+    "name": "RELIGIONE / Taoismo (vedere anche FILOSOFIA / Taoista)"
+  },
+  {
+    "code": "REL066000",
+    "name": "RELIGIONE / Teismo"
+  },
+  {
+    "code": "REL067000",
+    "name": "RELIGIONE / Teologia Cristiana / Generale"
+  },
+  {
+    "code": "REL067010",
+    "name": "RELIGIONE / Teologia Cristiana / Angelologia e Demonologia"
+  },
+  {
+    "code": "REL067020",
+    "name": "RELIGIONE / Teologia Cristiana / Antropologia"
+  },
+  {
+    "code": "REL067030",
+    "name": "RELIGIONE / Teologia Cristiana / Apologetica"
+  },
+  {
+    "code": "REL067040",
+    "name": "RELIGIONE / Teologia Cristiana / Cristologia"
+  },
+  {
+    "code": "REL067050",
+    "name": "RELIGIONE / Teologia Cristiana / Ecclesiologia"
+  },
+  {
+    "code": "REL067060",
+    "name": "RELIGIONE / Teologia Cristiana / Escatologia"
+  },
+  {
+    "code": "REL067070",
+    "name": "RELIGIONE / Teologia Cristiana / Etica"
+  },
+  {
+    "code": "REL067080",
+    "name": "RELIGIONE / Teologia Cristiana / Storia"
+  },
+  {
+    "code": "REL067090",
+    "name": "RELIGIONE / Teologia Cristiana / Pneumatologia"
+  },
+  {
+    "code": "REL067100",
+    "name": "RELIGIONE / Teologia Cristiana / Soteriologia"
+  },
+  {
+    "code": "REL067110",
+    "name": "RELIGIONE / Teologia Cristiana / Sistematica"
+  },
+  {
+    "code": "REL067120",
+    "name": "RELIGIONE / Teologia Cristiana / Liberazione"
+  },
+  {
+    "code": "REL067130",
+    "name": "RELIGIONE / Teologia Cristiana / Processo"
+  },
+  {
+    "code": "REL068000",
+    "name": "RELIGIONE / Teosofia"
+  },
+  {
+    "code": "REL069000",
+    "name": "RELIGIONE / Zoroastrianismo"
+  },
+  {
+    "code": "REL070000",
+    "name": "RELIGIONE / Cristianità / Generale"
+  },
+  {
+    "code": "REL071000",
+    "name": "RELIGIONE / Leadership"
+  },
+  {
+    "code": "REL072000",
+    "name": "RELIGIONE / Antichità e Archeologia"
+  },
+  {
+    "code": "REL073000",
+    "name": "RELIGIONE / Cristianità / Battista"
+  },
+  {
+    "code": "REL074000",
+    "name": "RELIGIONE / Ministero Cristiano / Risorse Pastorali"
+  },
+  {
+    "code": "REL075000",
+    "name": "RELIGIONE / Psicologia della Religione"
+  },
+  {
+    "code": "REL077000",
+    "name": "RELIGIONE / Fede"
+  },
+  {
+    "code": "REL078000",
+    "name": "RELIGIONE / Fondamentalismo"
+  },
+  {
+    "code": "REL079000",
+    "name": "RELIGIONE / Cristianità / Pentecostale e Carismatica"
+  },
+  {
+    "code": "REL080000",
+    "name": "RELIGIONE / Ministero Cristiano / Predicare"
+  },
+  {
+    "code": "REL081000",
+    "name": "RELIGIONE / Clero"
+  },
+  {
+    "code": "REL082000",
+    "name": "RELIGIONE / Cristianità / Luterana"
+  },
+  {
+    "code": "REL083000",
+    "name": "RELIGIONE / Cristianità / Cristianesimo Scientista"
+  },
+  {
+    "code": "REL084000",
+    "name": "RELIGIONE / Religione, Politica e Stato\""
+  },
+  {
+    "code": "REL085000",
+    "name": "RELIGIONE / Escatologia"
+  },
+  {
+    "code": "REL086000",
+    "name": "RELIGIONE / Monachesimo"
+  },
+  {
+    "code": "REL087000",
+    "name": "RELIGIONE / Preghiera"
+  },
+  {
+    "code": "REL088000",
+    "name": "RELIGIONE / Cristianità / Quacchera"
+  },
+  {
+    "code": "REL089000",
+    "name": "RELIGIONE / Scientology"
+  },
+  {
+    "code": "REL090000",
+    "name": "RELIGIONE / Islam / Sufismo"
+  },
+  {
+    "code": "REL091000",
+    "name": "RELIGIONE / Educazione Cristiana / Bambini e Giovani"
+  },
+  {
+    "code": "REL092000",
+    "name": "RELIGIONE / Buddismo / Zen (vedere anche FILOSOFIA / Zen)"
+  },
+  {
+    "code": "REL093000",
+    "name": "RELIGIONE / Cristianità / Calvinista"
+  },
+  {
+    "code": "REL094000",
+    "name": "RELIGIONE / Cristianità / Denominazioni"
+  },
+  {
+    "code": "REL095000",
+    "name": "RELIGIONE / Educazione Cristiana / Adulti"
+  },
+  {
+    "code": "REL096000",
+    "name": "RELIGIONE / Cristianità / Testimoni di Geova"
+  },
+  {
+    "code": "REL097000",
+    "name": "RELIGIONE / Cristianità / Presbiteriana"
+  },
+  {
+    "code": "REL098000",
+    "name": "RELIGIONE / Cristianità / Avventista del Settimo Giorno"
+  },
+  {
+    "code": "REL099000",
+    "name": "RELIGIONE / Vita Cristiana / Guerra Spirituale"
+  },
+  {
+    "code": "REL100000",
+    "name": "RELIGIONE / Demonologia e Satanismo"
+  },
+  {
+    "code": "REL101000",
+    "name": "RELIGIONE / Giudaismo Messianico"
+  },
+  {
+    "code": "REL102000",
+    "name": "RELIGIONE / Teologia"
+  },
+  {
+    "code": "REL103000",
+    "name": "RELIGIONE / Universalismo Unitario"
+  },
+  {
+    "code": "REL104000",
+    "name": "RELIGIONE / Teologia Cristiana / Mariologia"
+  },
+  {
+    "code": "REL105000",
+    "name": "RELIGIONE / Studi di Genere e Sessualità"
+  },
+  {
+    "code": "REL106000",
+    "name": "RELIGIONE / Religione e Scienza"
+  },
+  {
+    "code": "REL107000",
+    "name": "RELIGIONE / Eckankar"
+  },
+  {
+    "code": "REL108000",
+    "name": "RELIGIONE / Chiesa Cristiana / Generale"
+  },
+  {
+    "code": "REL108010",
+    "name": "RELIGIONE / Chiesa Cristiana / Sviluppo"
+  },
+  {
+    "code": "REL108020",
+    "name": "RELIGIONE / Chiesa Cristiana / Storia"
+  },
+  {
+    "code": "REL108030",
+    "name": "RELIGIONE / Chiesa Cristiana / Leadership"
+  },
+  {
+    "code": "REL109000",
+    "name": "RELIGIONE / Ministero Cristiano / Generale"
+  },
+  {
+    "code": "REL109010",
+    "name": "RELIGIONE / Ministero Cristiano / Adulti"
+  },
+  {
+    "code": "REL109020",
+    "name": "RELIGIONE / Ministero Cristiano / Bambini"
+  },
+  {
+    "code": "REL109030",
+    "name": "RELIGIONE / Ministero Cristiano / Gioventù"
+  },
+  {
+    "code": "REL110000",
+    "name": "RELIGIONE / Cristianità / Santi e Santità"
+  },
+  {
+    "code": "REL111000",
+    "name": "RELIGIONE / Cristianità / Chiesa Unita di Cristo"
+  },
+  {
+    "code": "REL112000",
+    "name": "RELIGIONE / Gnosticismo"
+  },
+  {
+    "code": "REL113000",
+    "name": "RELIGIONE / Saggi"
+  },
+  {
+    "code": "REL114000",
+    "name": "RELIGIONE / Antica*"
+  },
+  {
+    "code": "REL117000",
+    "name": "RELIGIONE / Paganesimo e Neopaganesimo"
+  },
+  {
+    "code": "EDU000000",
+    "name": "EDUCAZIONE / Generale"
+  },
+  {
+    "code": "EDU001000",
+    "name": "EDUCAZIONE / Amministrazione / Generale"
+  },
+  {
+    "code": "EDU001010",
+    "name": "EDUCAZIONE / Amministrazione / Gestione Struttura Scolastica"
+  },
+  {
+    "code": "EDU001030",
+    "name": "EDUCAZIONE / Amministrazione / Superiore"
+  },
+  {
+    "code": "EDU002000",
+    "name": "EDUCAZIONE / Formazione in Età Adulta"
+  },
+  {
+    "code": "EDU003000",
+    "name": "EDUCAZIONE / Scopi e Obiettivi"
+  },
+  {
+    "code": "EDU005000",
+    "name": "EDUCAZIONE / Educazione Bilingue"
+  },
+  {
+    "code": "EDU006000",
+    "name": "EDUCAZIONE / Counseling / Generale"
+  },
+  {
+    "code": "EDU007000",
+    "name": "EDUCAZIONE / Curricula"
+  },
+  {
+    "code": "EDU008000",
+    "name": "EDUCAZIONE / Decision-Making e Problem Solving"
+  },
+  {
+    "code": "EDU009000",
+    "name": "EDUCAZIONE / Psicologia dell'Educazione"
+  },
+  {
+    "code": "EDU010000",
+    "name": "EDUCAZIONE / Elementare"
+  },
+  {
+    "code": "EDU011000",
+    "name": "EDUCAZIONE / Valutazione"
+  },
+  {
+    "code": "EDU012000",
+    "name": "EDUCAZIONE / Metodi Sperimentali"
+  },
+  {
+    "code": "EDU013000",
+    "name": "EDUCAZIONE / Finanza"
+  },
+  {
+    "code": "EDU014000",
+    "name": "EDUCAZIONE / Guida e Orientamento"
+  },
+  {
+    "code": "EDU015000",
+    "name": "EDUCAZIONE / Superiore"
+  },
+  {
+    "code": "EDU016000",
+    "name": "EDUCAZIONE / Storia"
+  },
+  {
+    "code": "EDU017000",
+    "name": "EDUCAZIONE / Scolarizzazione Domestica"
+  },
+  {
+    "code": "EDU018000",
+    "name": "EDUCAZIONE / Approccio all'Esperienza Linguistica"
+  },
+  {
+    "code": "EDU020000",
+    "name": "EDUCAZIONE / Educazione Multiculturale"
+  },
+  {
+    "code": "EDU021000",
+    "name": "EDUCAZIONE / Educazione Informale"
+  },
+  {
+    "code": "EDU022000",
+    "name": "EDUCAZIONE / Partecipazione dei Genitori"
+  },
+  {
+    "code": "EDU023000",
+    "name": "EDUCAZIONE / Asilo Nido e Scuola dell'Infanzia"
+  },
+  {
+    "code": "EDU024000",
+    "name": "EDUCAZIONE / Riferimento"
+  },
+  {
+    "code": "EDU025000",
+    "name": "EDUCAZIONE / Secondaria"
+  },
+  {
+    "code": "EDU026000",
+    "name": "EDUCAZIONE / Educazione Speciale / Generale"
+  },
+  {
+    "code": "EDU026010",
+    "name": "EDUCAZIONE / Educazione Speciale / Disturbi della Comunicazione"
+  },
+  {
+    "code": "EDU026020",
+    "name": "EDUCAZIONE / Educazione Speciale / Disturbi di Apprendimento"
+  },
+  {
+    "code": "EDU026030",
+    "name": "EDUCAZIONE / Educazione Speciale / Disabilità Mentali"
+  },
+  {
+    "code": "EDU026040",
+    "name": "EDUCAZIONE / Educazione Speciale / Disabilità Fisiche"
+  },
+  {
+    "code": "EDU026050",
+    "name": "EDUCAZIONE / Educazione Speciale / Disabilità Sociali"
+  },
+  {
+    "code": "EDU026060",
+    "name": "EDUCAZIONE / Educazione Speciale / Per Talenti"
+  },
+  {
+    "code": "EDU027000",
+    "name": "EDUCAZIONE / Statistiche"
+  },
+  {
+    "code": "EDU028000",
+    "name": "EDUCAZIONE / Attitudini allo Studio"
+  },
+  {
+    "code": "EDU029000",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Generale"
+  },
+  {
+    "code": "EDU029010",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Matematica"
+  },
+  {
+    "code": "EDU029020",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Lettura e Fonica"
+  },
+  {
+    "code": "EDU029030",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Scienza e Tecnologia"
+  },
+  {
+    "code": "EDU029040",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Scienze Sociali"
+  },
+  {
+    "code": "EDU029050",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Arti e Umanistica"
+  },
+  {
+    "code": "EDU029060",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Competenze per la Biblioteca"
+  },
+  {
+    "code": "EDU029070",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Salute e Sessualità"
+  },
+  {
+    "code": "EDU029080",
+    "name": "EDUCAZIONE / Metodi e Materiali per l'Insegnamento / Arti Linguistiche"
+  },
+  {
+    "code": "EDU030000",
+    "name": "EDUCAZIONE / Test e Misurazioni"
+  },
+  {
+    "code": "EDU031000",
+    "name": "EDUCAZIONE / Counseling / Orientamento Professionale"
+  },
+  {
+    "code": "EDU032000",
+    "name": "EDUCAZIONE / Leadership"
+  },
+  {
+    "code": "EDU033000",
+    "name": "EDUCAZIONE / Educazione Fisica"
+  },
+  {
+    "code": "EDU034000",
+    "name": "EDUCAZIONE / Politiche e Riforme dell'Educazione / Generale"
+  },
+  {
+    "code": "EDU034010",
+    "name": "EDUCAZIONE / Politiche e Riforme dell'Educazione / Sicurezza e Violenza nella Scuola"
+  },
+  {
+    "code": "EDU036000",
+    "name": "EDUCAZIONE / Organizzazioni e Istituzioni"
+  },
+  {
+    "code": "EDU037000",
+    "name": "EDUCAZIONE / Ricerca"
+  },
+  {
+    "code": "EDU038000",
+    "name": "EDUCAZIONE / Studenti e Vita Studentesca"
+  },
+  {
+    "code": "EDU039000",
+    "name": "EDUCAZIONE / Computer e Tecnologia"
+  },
+  {
+    "code": "EDU040000",
+    "name": "EDUCAZIONE / Filosofia e Aspetti Sociali"
+  },
+  {
+    "code": "EDU041000",
+    "name": "EDUCAZIONE / Educazione e Apprendimento a Distanza"
+  },
+  {
+    "code": "EDU042000",
+    "name": "EDUCAZIONE / Saggi"
+  },
+  {
+    "code": "EDU043000",
+    "name": "EDUCAZIONE / Comparativa"
+  },
+  {
+    "code": "EDU044000",
+    "name": "EDUCAZIONE / Gestione della Classe"
+  },
+  {
+    "code": "EDU045000",
+    "name": "EDUCAZIONE / Counseling / Gestione Crisi"
+  },
+  {
+    "code": "EDU046000",
+    "name": "EDUCAZIONE / Sviluppo Professionale"
+  },
+  {
+    "code": "EDU048000",
+    "name": "EDUCAZIONE / Educazione Inclusiva"
+  },
+  {
+    "code": "EDU052000",
+    "name": "EDUCAZIONE / Rurale"
+  },
+  {
+    "code": "EDU054000",
+    "name": "EDUCAZIONE / Urbano"
+  },
+  {
+    "code": "EDU056000",
+    "name": "EDUCAZIONE / Professionale"
+  },
+  {
+    "code": "NAT000000",
+    "name": "NATURA / Generale"
+  },
+  {
+    "code": "NAT001000",
+    "name": "NATURA / Animali / Generale"
+  },
+  {
+    "code": "NAT002000",
+    "name": "NATURA / Animali / Primati"
+  },
+  {
+    "code": "NAT003000",
+    "name": "NATURA / Animali / Orsi"
+  },
+  {
+    "code": "NAT004000",
+    "name": "NATURA / Guide di Osservazione Uccelli"
+  },
+  {
+    "code": "NAT005000",
+    "name": "NATURA / Animali / Farfalle e Falene"
+  },
+  {
+    "code": "NAT007000",
+    "name": "NATURA / Animali / Dinosauri e Creature Preistoriche"
+  },
+  {
+    "code": "NAT009000",
+    "name": "NATURA / Terremoti e Vulcani"
+  },
+  {
+    "code": "NAT010000",
+    "name": "NATURA / Ecologia"
+  },
+  {
+    "code": "NAT011000",
+    "name": "NATURA / Conservazione e Protezione Ambientale"
+  },
+  {
+    "code": "NAT012000",
+    "name": "NATURA / Animali / Pesci"
+  },
+  {
+    "code": "NAT013000",
+    "name": "NATURA / Piante / Fiori"
+  },
+  {
+    "code": "NAT014000",
+    "name": "NATURA / Ecosistemi e Habitat / Foreste e Foreste Pluviali"
+  },
+  {
+    "code": "NAT015000",
+    "name": "NATURA / Fossili"
+  },
+  {
+    "code": "NAT016000",
+    "name": "NATURA / Animali / Cavalli"
+  },
+  {
+    "code": "NAT017000",
+    "name": "NATURA / Animali / Insetti e Ragni"
+  },
+  {
+    "code": "NAT018000",
+    "name": "NATURA / Ecosistemi e Habitat / Laghi, Stagni e Paludi\""
+  },
+  {
+    "code": "NAT019000",
+    "name": "NATURA / Animali / Mammiferi"
+  },
+  {
+    "code": "NAT020000",
+    "name": "NATURA / Animali / Specie Marine"
+  },
+  {
+    "code": "NAT022000",
+    "name": "NATURA / Piante / Funghi"
+  },
+  {
+    "code": "NAT023000",
+    "name": "NATURA / Disastri Naturali"
+  },
+  {
+    "code": "NAT024000",
+    "name": "NATURA / Saggi"
+  },
+  {
+    "code": "NAT025000",
+    "name": "NATURA / Ecosistemi e Habitat / Mari e Oceani"
+  },
+  {
+    "code": "NAT026000",
+    "name": "NATURA / Piante / Generale"
+  },
+  {
+    "code": "NAT027000",
+    "name": "NATURA / Riferimento"
+  },
+  {
+    "code": "NAT028000",
+    "name": "NATURA / Animali / Rettili e Anfibi"
+  },
+  {
+    "code": "NAT029000",
+    "name": "NATURA / Ecosistemi e Habitat / Fiumi"
+  },
+  {
+    "code": "NAT030000",
+    "name": "NATURA / Rocce e Minerali"
+  },
+  {
+    "code": "NAT031000",
+    "name": "NATURA / Conchiglie Marine"
+  },
+  {
+    "code": "NAT032000",
+    "name": "NATURA / Stagioni"
+  },
+  {
+    "code": "NAT033000",
+    "name": "NATURA / Osservazione del Cielo"
+  },
+  {
+    "code": "NAT034000",
+    "name": "NATURA / Piante / Alberi"
+  },
+  {
+    "code": "NAT036000",
+    "name": "NATURA / Clima"
+  },
+  {
+    "code": "NAT037000",
+    "name": "NATURA / Animali / Fauna Selvatica"
+  },
+  {
+    "code": "NAT038000",
+    "name": "NATURA / Risorse Naturali"
+  },
+  {
+    "code": "NAT039000",
+    "name": "NATURA / Diritti degli Animali"
+  },
+  {
+    "code": "NAT041000",
+    "name": "NATURA / Ecosistemi e Habitat / Montagne"
+  },
+  {
+    "code": "NAT042000",
+    "name": "NATURA / Animali / Grandi Felini*"
+  },
+  {
+    "code": "NAT043000",
+    "name": "NATURA / Animali / Uccelli*"
+  },
+  {
+    "code": "NAT044000",
+    "name": "NATURA / Animali / Lupi*"
+  },
+  {
+    "code": "NAT045000",
+    "name": "NATURA / Ecosistemi e Habitat / Generale*"
+  },
+  {
+    "code": "NAT045010",
+    "name": "NATURA / Ecosistemi e Habitat / Deserti*"
+  },
+  {
+    "code": "NAT045020",
+    "name": "NATURA / Ecosistemi e Habitat / Pianure e Praterie*"
+  },
+  {
+    "code": "NAT045030",
+    "name": "NATURA / Ecosistemi e Habitat / Regioni Polari*"
+  },
+  {
+    "code": "NAT045040",
+    "name": "NATURA / Ecosistemi e Habitat / Regioni Selvagge*"
+  },
+  {
+    "code": "NAT046000",
+    "name": "NATURA / Specie a Rischio*"
+  },
+  {
+    "code": "NAT047000",
+    "name": "NATURA / Piante / Acquatiche*"
+  },
+  {
+    "code": "NAT048000",
+    "name": "NATURA / Piante / Cacti e Succulente*"
+  },
+  {
+    "code": "NAT049000",
+    "name": "NATURA / Regionale*"
+  },
+  {
+    "code": "NON000000",
+    "name": "NON CLASSIFICABILE"
+  },
+  {
+    "code": "PET000000",
+    "name": "ANIMALI DOMESTICI / Generale"
+  },
+  {
+    "code": "PET002000",
+    "name": "ANIMALI DOMESTICI / Uccelli"
+  },
+  {
+    "code": "PET003000",
+    "name": "ANIMALI DOMESTICI / Gatti / Generale"
+  },
+  {
+    "code": "PET003010",
+    "name": "ANIMALI DOMESTICI / Gatti / Razze"
+  },
+  {
+    "code": "PET004000",
+    "name": "ANIMALI DOMESTICI / Cani / Generale"
+  },
+  {
+    "code": "PET004010",
+    "name": "ANIMALI DOMESTICI / Cani / Razze"
+  },
+  {
+    "code": "PET004020",
+    "name": "ANIMALI DOMESTICI / Cani / Addestramento"
+  },
+  {
+    "code": "PET005000",
+    "name": "ANIMALI DOMESTICI / Pesci e Acquari"
+  },
+  {
+    "code": "PET006000",
+    "name": "ANIMALI DOMESTICI / Cavalli / Generale"
+  },
+  {
+    "code": "PET008000",
+    "name": "ANIMALI DOMESTICI / Riferimento"
+  },
+  {
+    "code": "PET009000",
+    "name": "ANIMALI DOMESTICI / Rettili, Anfibi e Terricoli\""
+  },
+  {
+    "code": "PET010000",
+    "name": "ANIMALI DOMESTICI / Saggi"
+  },
+  {
+    "code": "PET011000",
+    "name": "ANIMALI DOMESTICI / Conigli, Topi, Criceti, Porcellini d'India, ecc.\""
+  },
+  {
+    "code": "REF000000",
+    "name": "RIFERIMENTO / Generale"
+  },
+  {
+    "code": "REF001000",
+    "name": "RIFERIMENTO / Almanacchi"
+  },
+  {
+    "code": "REF002000",
+    "name": "RIFERIMENTO / Atlanti"
+  },
+  {
+    "code": "REF004000",
+    "name": "RIFERIMENTO / Bibliografie e Indici"
+  },
+  {
+    "code": "REF006000",
+    "name": "RIFERIMENTO / Cataloghi"
+  },
+  {
+    "code": "REF007000",
+    "name": "RIFERIMENTO / Curiosità e Stranezze"
+  },
+  {
+    "code": "REF008000",
+    "name": "RIFERIMENTO / Dizionari"
+  },
+  {
+    "code": "REF009000",
+    "name": "RIFERIMENTO / Elenchi"
+  },
+  {
+    "code": "REF010000",
+    "name": "RIFERIMENTO / Enciclopedie"
+  },
+  {
+    "code": "REF011000",
+    "name": "RIFERIMENTO / Galateo"
+  },
+  {
+    "code": "REF013000",
+    "name": "RIFERIMENTO / Genealogia ed Araldica"
+  },
+  {
+    "code": "REF015000",
+    "name": "RIFERIMENTO / Guide Personali e Pratiche"
+  },
+  {
+    "code": "REF018000",
+    "name": "RIFERIMENTO / Domande e Risposte"
+  },
+  {
+    "code": "REF019000",
+    "name": "RIFERIMENTO / Citazioni"
+  },
+  {
+    "code": "REF020000",
+    "name": "RIFERIMENTO / Ricerca"
+  },
+  {
+    "code": "REF022000",
+    "name": "RIFERIMENTO / Thesaurus"
+  },
+  {
+    "code": "REF023000",
+    "name": "RIFERIMENTO / Trivia"
+  },
+  {
+    "code": "REF024000",
+    "name": "RIFERIMENTO / Matrimoni"
+  },
+  {
+    "code": "REF025000",
+    "name": "RIFERIMENTO / Elenchi Parole"
+  },
+  {
+    "code": "REF026000",
+    "name": "RIFERIMENTO / Abilità di Scrittura"
+  },
+  {
+    "code": "REF027000",
+    "name": "RIFERIMENTO / Calendari e Annuari"
+  },
+  {
+    "code": "REF028000",
+    "name": "RIFERIMENTO / Guide e Manuali"
+  },
+  {
+    "code": "REF030000",
+    "name": "RIFERIMENTO / Guide per i Consumatori"
+  },
+  {
+    "code": "STU000000",
+    "name": "SUPPORTI DIDATTICI / Generale"
+  },
+  {
+    "code": "STU001000",
+    "name": "SUPPORTI DIDATTICI / LEGGE"
+  },
+  {
+    "code": "STU002000",
+    "name": "SUPPORTI DIDATTICI / Livello Avanzato"
+  },
+  {
+    "code": "STU003000",
+    "name": "SUPPORTI DIDATTICI / Forze Armate"
+  },
+  {
+    "code": "STU004000",
+    "name": "SUPPORTI DIDATTICI / Guide allo Studio (vedere anche NON-FICTION PER RAGAZZI / Supporti Didattici / Guide allo Studio)"
+  },
+  {
+    "code": "STU006000",
+    "name": "SUPPORTI DIDATTICI / Cittadinanza"
+  },
+  {
+    "code": "STU007000",
+    "name": "SUPPORTI DIDATTICI / Servizio Civile"
+  },
+  {
+    "code": "STU008000",
+    "name": "SUPPORTI DIDATTICI / CLEP (Programma d'Esame per l'Attestato del College)"
+  },
+  {
+    "code": "STU009000",
+    "name": "SUPPORTI DIDATTICI / Ammissione al College"
+  },
+  {
+    "code": "STU010000",
+    "name": "SUPPORTI DIDATTICI / Guide sui College"
+  },
+  {
+    "code": "STU011000",
+    "name": "SUPPORTI DIDATTICI / Commercialista Iscritto all'Albo"
+  },
+  {
+    "code": "STU012000",
+    "name": "SUPPORTI DIDATTICI / GED (General Educational Development Test)"
+  },
+  {
+    "code": "STU013000",
+    "name": "SUPPORTI DIDATTICI / GMAT (Graduate Management Admission Test)"
+  },
+  {
+    "code": "STU015000",
+    "name": "SUPPORTI DIDATTICI / Guide alle Scuole Universitarie"
+  },
+  {
+    "code": "STU016000",
+    "name": "SUPPORTI DIDATTICI / GRE (Graduate Record Examination)"
+  },
+  {
+    "code": "STU017000",
+    "name": "SUPPORTI DIDATTICI / LSAT (Test di Ammissione alla Scuola di Legge)"
+  },
+  {
+    "code": "STU018000",
+    "name": "SUPPORTI DIDATTICI / MAT (Test delle Analogie di Miller)"
+  },
+  {
+    "code": "STU019000",
+    "name": "SUPPORTI DIDATTICI / NTE (Esami Nazionali di Abilitazione per Insegnanti)"
+  },
+  {
+    "code": "STU021000",
+    "name": "SUPPORTI DIDATTICI / Professionale"
+  },
+  {
+    "code": "STU022000",
+    "name": "SUPPORTI DIDATTICI / Reggenti"
+  },
+  {
+    "code": "STU024000",
+    "name": "SUPPORTI DIDATTICI / SAT"
+  },
+  {
+    "code": "STU025000",
+    "name": "SUPPORTI DIDATTICI / Ammissione alla Scuola Superiore"
+  },
+  {
+    "code": "STU026000",
+    "name": "SUPPORTI DIDATTICI / Guide allo Studio"
+  },
+  {
+    "code": "STU027000",
+    "name": "SUPPORTI DIDATTICI / Test"
+  },
+  {
+    "code": "STU028000",
+    "name": "SUPPORTI DIDATTICI / TOEFL (Test of English as a Foreign Language)"
+  },
+  {
+    "code": "STU029000",
+    "name": "SUPPORTI DIDATTICI / Vocazionale"
+  },
+  {
+    "code": "STU031000",
+    "name": "SUPPORTI DIDATTICI / Aiuto Finanziario"
+  },
+  {
+    "code": "STU032000",
+    "name": "SUPPORTI DIDATTICI / MCAT (Test di Ammissione al College di Medicina)"
+  },
+  {
+    "code": "STU033000",
+    "name": "SUPPORTI DIDATTICI / PSAT & NMSQT (National Merit Scholarship Qualifying Test)"
+  },
+  {
+    "code": "TRA000000",
+    "name": "TRASPORTO / Generale"
+  },
+  {
+    "code": "TRA001000",
+    "name": "TRASPORTO / Automobilistico / Generale"
+  },
+  {
+    "code": "TRA001010",
+    "name": "TRASPORTO / Automobilistico / Antico e Classico"
+  },
+  {
+    "code": "TRA001020",
+    "name": "TRASPORTO / Automobilistico / Guide all'Acquisto"
+  },
+  {
+    "code": "TRA001030",
+    "name": "TRASPORTO / Automobilistico / Personalizzazione"
+  },
+  {
+    "code": "TRA001050",
+    "name": "TRASPORTO / Automobilistico / Storia"
+  },
+  {
+    "code": "TRA001060",
+    "name": "TRASPORTO / Automobilistico / Illustrazioni"
+  },
+  {
+    "code": "TRA001080",
+    "name": "TRASPORTO / Automobilistico / Educazione Stradale"
+  },
+  {
+    "code": "TRA001140",
+    "name": "TRASPORTO / Automobilistico / Riparazione e Manutenzione"
+  },
+  {
+    "code": "TRA001150",
+    "name": "TRASPORTO / Automobilistico / Autocarri"
+  },
+  {
+    "code": "TRA002000",
+    "name": "TRASPORTO / Aviazione / Generale"
+  },
+  {
+    "code": "TRA002010",
+    "name": "TRASPORTO / Aviazione / Storia"
+  },
+  {
+    "code": "TRA002030",
+    "name": "TRASPORTO / Aviazione / Riparazione e Manutenzione"
+  },
+  {
+    "code": "TRA002040",
+    "name": "TRASPORTO / Aviazione / Commerciale"
+  },
+  {
+    "code": "TRA002050",
+    "name": "TRASPORTO / Aviazione / Pilotaggio e Istruzioni di Volo"
+  },
+  {
+    "code": "TRA003000",
+    "name": "TRASPORTO / Motocicli / Generale"
+  },
+  {
+    "code": "TRA003010",
+    "name": "TRASPORTO / Motocicli / Storia"
+  },
+  {
+    "code": "TRA003020",
+    "name": "TRASPORTO / Motocicli / Illustrazioni"
+  },
+  {
+    "code": "TRA003030",
+    "name": "TRASPORTO / Motocicli / Riparazione e Manutenzione"
+  },
+  {
+    "code": "TRA004000",
+    "name": "TRASPORTO / Ferrovie / Generale"
+  },
+  {
+    "code": "TRA004010",
+    "name": "TRASPORTO / Ferrovie / Storia"
+  },
+  {
+    "code": "TRA004020",
+    "name": "TRASPORTO / Ferrovie / Illustrazioni"
+  },
+  {
+    "code": "TRA006000",
+    "name": "TRASPORTO / Navi e Costruzione Navale / Generale"
+  },
+  {
+    "code": "TRA006010",
+    "name": "TRASPORTO / Navi e Costruzione Navale / Storia"
+  },
+  {
+    "code": "TRA006020",
+    "name": "TRASPORTO / Navi e Costruzione Navale / Illustrazioni"
+  },
+  {
+    "code": "TRA006030",
+    "name": "TRASPORTO / Navi e Costruzione Navale / Riparazione e Manutenzione"
+  },
+  {
+    "code": "TRA008000",
+    "name": "TRASPORTO / Navigazione"
+  },
+  {
+    "code": "TRA009000",
+    "name": "TRASPORTO / Trasporto Pubblico"
+  },
+  {
+    "code": "SPO000000",
+    "name": "SPORT E SVAGO / Generale"
+  },
+  {
+    "code": "SPO001000",
+    "name": "SPORT E SVAGO / Sport Aerei"
+  },
+  {
+    "code": "SPO002000",
+    "name": "SPORT E SVAGO / Tiro con l'Arco"
+  },
+  {
+    "code": "SPO003000",
+    "name": "SPORT E SVAGO / Baseball / Generale"
+  },
+  {
+    "code": "SPO003010",
+    "name": "SPORT E SVAGO / Allenamento Sportivo / Baseball"
+  },
+  {
+    "code": "SPO003020",
+    "name": "SPORT E SVAGO / Baseball / Saggi e Articoli"
+  },
+  {
+    "code": "SPO003030",
+    "name": "SPORT E SVAGO / Baseball / Storia"
+  },
+  {
+    "code": "SPO003040",
+    "name": "SPORT E SVAGO / Baseball / Statistiche"
+  },
+  {
+    "code": "SPO004000",
+    "name": "SPORT E SVAGO / Pallacanestro"
+  },
+  {
+    "code": "SPO005000",
+    "name": "SPORT E SVAGO / Nautica"
+  },
+  {
+    "code": "SPO006000",
+    "name": "SPORT E SVAGO / Culturismo e Pesistica"
+  },
+  {
+    "code": "SPO007000",
+    "name": "SPORT E SVAGO / Bowling"
+  },
+  {
+    "code": "SPO008000",
+    "name": "SPORT E SVAGO / Pugilato"
+  },
+  {
+    "code": "SPO009000",
+    "name": "SPORT E SVAGO / Campeggio sportivo"
+  },
+  {
+    "code": "SPO010000",
+    "name": "SPORT E SVAGO / Canoa"
+  },
+  {
+    "code": "SPO011000",
+    "name": "SPORT E SVAGO / Ciclismo"
+  },
+  {
+    "code": "SPO012000",
+    "name": "SPORT E SVAGO / Saggi"
+  },
+  {
+    "code": "SPO014000",
+    "name": "SPORT E SVAGO / Pesca"
+  },
+  {
+    "code": "SPO015000",
+    "name": "SPORT E SVAGO / Football (americano)"
+  },
+  {
+    "code": "SPO016000",
+    "name": "SPORT E SVAGO / Golf"
+  },
+  {
+    "code": "SPO017000",
+    "name": "SPORT E SVAGO / Ginnastica"
+  },
+  {
+    "code": "SPO018000",
+    "name": "SPORT E SVAGO / Escursionismo"
+  },
+  {
+    "code": "SPO019000",
+    "name": "SPORT E SVAGO / Storia"
+  },
+  {
+    "code": "SPO020000",
+    "name": "SPORT E SVAGO / Hockey"
+  },
+  {
+    "code": "SPO021000",
+    "name": "SPORT E SVAGO / Corse Ippiche"
+  },
+  {
+    "code": "SPO022000",
+    "name": "SPORT E SVAGO / Caccia"
+  },
+  {
+    "code": "SPO023000",
+    "name": "SPORT E SVAGO / Pattinaggio su Ghiaccio e di Figura"
+  },
+  {
+    "code": "SPO024000",
+    "name": "SPORT E SVAGO / Giocoleria"
+  },
+  {
+    "code": "SPO025000",
+    "name": "SPORT E SVAGO / Kayak"
+  },
+  {
+    "code": "SPO026000",
+    "name": "SPORT E SVAGO / Lacrosse"
+  },
+  {
+    "code": "SPO027000",
+    "name": "SPORT E SVAGO / Arti Marziali e Autodifesa"
+  },
+  {
+    "code": "SPO028000",
+    "name": "SPORT E SVAGO / Sport Motoristici"
+  },
+  {
+    "code": "SPO029000",
+    "name": "SPORT E SVAGO / Alpinismo"
+  },
+  {
+    "code": "SPO030000",
+    "name": "SPORT E SVAGO / Attività all'Aria Aperta"
+  },
+  {
+    "code": "SPO031000",
+    "name": "SPORT E SVAGO / Sport con Racchette"
+  },
+  {
+    "code": "SPO032000",
+    "name": "SPORT E SVAGO / Racquetball"
+  },
+  {
+    "code": "SPO033000",
+    "name": "SPORT E SVAGO / Riferimento"
+  },
+  {
+    "code": "SPO034000",
+    "name": "SPORT E SVAGO / Pattinaggio a Rotelle e in Linea"
+  },
+  {
+    "code": "SPO035000",
+    "name": "SPORT E SVAGO / Corsa e Jogging"
+  },
+  {
+    "code": "SPO036000",
+    "name": "SPORT E SVAGO / Vela"
+  },
+  {
+    "code": "SPO037000",
+    "name": "SPORT E SVAGO / Tiro"
+  },
+  {
+    "code": "SPO038000",
+    "name": "SPORT E SVAGO / Skateboard"
+  },
+  {
+    "code": "SPO039000",
+    "name": "SPORT E SVAGO / Sci"
+  },
+  {
+    "code": "SPO040000",
+    "name": "SPORT E SVAGO / Calcio"
+  },
+  {
+    "code": "SPO041000",
+    "name": "SPORT E SVAGO / Psicologia dello Sport"
+  },
+  {
+    "code": "SPO042000",
+    "name": "SPORT E SVAGO / Squash"
+  },
+  {
+    "code": "SPO043000",
+    "name": "SPORT E SVAGO / Nuoto e Tuffi"
+  },
+  {
+    "code": "SPO044000",
+    "name": "SPORT E SVAGO / Tennis Tavolo"
+  },
+  {
+    "code": "SPO045000",
+    "name": "SPORT E SVAGO / Tennis"
+  },
+  {
+    "code": "SPO046000",
+    "name": "SPORT E SVAGO / Track & Field"
+  },
+  {
+    "code": "SPO047000",
+    "name": "SPORT E SVAGO / Allenamento"
+  },
+  {
+    "code": "SPO048000",
+    "name": "SPORT E SVAGO / Triathlon"
+  },
+  {
+    "code": "SPO049000",
+    "name": "SPORT E SVAGO / Pallavolo"
+  },
+  {
+    "code": "SPO050000",
+    "name": "SPORT E SVAGO / Passeggio"
+  },
+  {
+    "code": "SPO051000",
+    "name": "SPORT E SVAGO / Sport Acquatici"
+  },
+  {
+    "code": "SPO052000",
+    "name": "SPORT E SVAGO / Sport Invernali"
+  },
+  {
+    "code": "SPO053000",
+    "name": "SPORT E SVAGO / Wrestling"
+  },
+  {
+    "code": "SPO054000",
+    "name": "SPORT E SVAGO / Cricket"
+  },
+  {
+    "code": "SPO055000",
+    "name": "SPORT E SVAGO / Polo"
+  },
+  {
+    "code": "SPO056000",
+    "name": "SPORT E SVAGO / Rugby"
+  },
+  {
+    "code": "SPO057000",
+    "name": "SPORT E SVAGO / Equestre"
+  },
+  {
+    "code": "SPO058000",
+    "name": "SPORT E SVAGO / Olimpiadi"
+  },
+  {
+    "code": "SPO059000",
+    "name": "SPORT E SVAGO / Subacquea e Snorkeling"
+  },
+  {
+    "code": "SPO060000",
+    "name": "SPORT E SVAGO / Biliardo Americano, Biliardi, Biliardo Inglese\""
+  },
+  {
+    "code": "SPO061000",
+    "name": "SPORT E SVAGO / Allenamento Sportivo / Generale"
+  },
+  {
+    "code": "SPO061010",
+    "name": "SPORT E SVAGO / Allenamento Sportivo / Pallacanestro"
+  },
+  {
+    "code": "SPO061020",
+    "name": "SPORT E SVAGO / Allenamento Sportivo / Football (americano)"
+  },
+  {
+    "code": "SPO061030",
+    "name": "SPORT E SVAGO / Allenamento Sportivo / Calcio"
+  },
+  {
+    "code": "SPO062000",
+    "name": "SPORT E SVAGO / Corse di Cani"
+  },
+  {
+    "code": "SPO063000",
+    "name": "SPORT E SVAGO / Attrezzature e Forniture"
+  },
+  {
+    "code": "SPO064000",
+    "name": "SPORT E SVAGO / Sport Estremi"
+  },
+  {
+    "code": "SPO065000",
+    "name": "SPORT E SVAGO / Rodei"
+  },
+  {
+    "code": "SPO066000",
+    "name": "SPORT E SVAGO / Sociologia dello Sport"
+  },
+  {
+    "code": "SPO067000",
+    "name": "SPORT E SVAGO / Softball"
+  },
+  {
+    "code": "SPO068000",
+    "name": "SPORT E SVAGO / Aspetti Legati al Business"
+  },
+  {
+    "code": "SPO069000",
+    "name": "SPORT E SVAGO / Surf"
+  },
+  {
+    "code": "SPO070000",
+    "name": "SPORT E SVAGO / Cheerleading*"
+  },
+  {
+    "code": "SPO071000",
+    "name": "SPORT E SVAGO / Scherma*"
+  },
+  {
+    "code": "SPO072000",
+    "name": "SPORT E SVAGO / Snowboard*"
+  },
+  {
+    "code": "TRV000000",
+    "name": "VIAGGI / Generale"
+  },
+  {
+    "code": "TRV001000",
+    "name": "VIAGGI / Tematici / Avventura"
+  },
+  {
+    "code": "TRV002000",
+    "name": "VIAGGI / Africa / Generale"
+  },
+  {
+    "code": "TRV002010",
+    "name": "VIAGGI / Africa / Centrale"
+  },
+  {
+    "code": "TRV002020",
+    "name": "VIAGGI / Africa / Est"
+  },
+  {
+    "code": "TRV002030",
+    "name": "VIAGGI / Africa / Kenya"
+  },
+  {
+    "code": "TRV002040",
+    "name": "VIAGGI / Africa / Marocco"
+  },
+  {
+    "code": "TRV002050",
+    "name": "VIAGGI / Africa / Nord"
+  },
+  {
+    "code": "TRV002060",
+    "name": "VIAGGI / Africa / Repubblica Sud Africana"
+  },
+  {
+    "code": "TRV002070",
+    "name": "VIAGGI / Africa / Sud"
+  },
+  {
+    "code": "TRV002080",
+    "name": "VIAGGI / Africa / Ovest"
+  },
+  {
+    "code": "TRV003000",
+    "name": "VIAGGI / Asia / Generale"
+  },
+  {
+    "code": "TRV003010",
+    "name": "VIAGGI / Asia / Centrale"
+  },
+  {
+    "code": "TRV003020",
+    "name": "VIAGGI / Asia / Cina"
+  },
+  {
+    "code": "TRV003030",
+    "name": "VIAGGI / Asia / Estremo Oriente"
+  },
+  {
+    "code": "TRV003040",
+    "name": "VIAGGI / Asia / India"
+  },
+  {
+    "code": "TRV003050",
+    "name": "VIAGGI / Asia / Giappone"
+  },
+  {
+    "code": "TRV003060",
+    "name": "VIAGGI / Asia / Sud-Est"
+  },
+  {
+    "code": "TRV003070",
+    "name": "VIAGGI / Asia / Sud-Ovest"
+  },
+  {
+    "code": "TRV004000",
+    "name": "VIAGGI / Australia e Oceania"
+  },
+  {
+    "code": "TRV005000",
+    "name": "VIAGGI / Bed & Breakfast"
+  },
+  {
+    "code": "TRV006000",
+    "name": "VIAGGI / Canada / Generale"
+  },
+  {
+    "code": "TRV006010",
+    "name": "VIAGGI / Canada / Provincie Atlantiche (NB, NF, NS, PE)\""
+  },
+  {
+    "code": "TRV006020",
+    "name": "VIAGGI / Canada / Ontario (ON)"
+  },
+  {
+    "code": "TRV006030",
+    "name": "VIAGGI / Canada / Provincie delle Praterie (MB, SK)\""
+  },
+  {
+    "code": "TRV006040",
+    "name": "VIAGGI / Canada / Territori e Nunavut (NT, NU, YT)\""
+  },
+  {
+    "code": "TRV006050",
+    "name": "VIAGGI / Canada / Provincie Occidentali (AB, BC)\""
+  },
+  {
+    "code": "TRV006060",
+    "name": "VIAGGI / Canada / Quebec (QC)"
+  },
+  {
+    "code": "TRV007000",
+    "name": "VIAGGI / Indie Caraibiche e Occidentali"
+  },
+  {
+    "code": "TRV008000",
+    "name": "VIAGGI / America Centrale"
+  },
+  {
+    "code": "TRV009000",
+    "name": "VIAGGI / Europa / Generale"
+  },
+  {
+    "code": "TRV009010",
+    "name": "VIAGGI / Europa / Austria"
+  },
+  {
+    "code": "TRV009020",
+    "name": "VIAGGI / Europa / Paesi del Benelux (Belgio, Paesi Bassi, Lussemburgo)\""
+  },
+  {
+    "code": "TRV009030",
+    "name": "VIAGGI / Europa / Danimarca"
+  },
+  {
+    "code": "TRV009040",
+    "name": "VIAGGI / Europa / Orientale"
+  },
+  {
+    "code": "TRV009050",
+    "name": "VIAGGI / Europa / Francia"
+  },
+  {
+    "code": "TRV009060",
+    "name": "VIAGGI / Europa / Germania"
+  },
+  {
+    "code": "TRV009070",
+    "name": "VIAGGI / Europa / Gran Bretagna"
+  },
+  {
+    "code": "TRV009080",
+    "name": "VIAGGI / Europa / Grecia"
+  },
+  {
+    "code": "TRV009090",
+    "name": "VIAGGI / Europa / Islanda e Groenlandia"
+  },
+  {
+    "code": "TRV009100",
+    "name": "VIAGGI / Europa / Irlanda"
+  },
+  {
+    "code": "TRV009110",
+    "name": "VIAGGI / Europa / Italia"
+  },
+  {
+    "code": "TRV009120",
+    "name": "VIAGGI / Europa / Scandinavia"
+  },
+  {
+    "code": "TRV009130",
+    "name": "VIAGGI / Europa / Spagna e Portogallo"
+  },
+  {
+    "code": "TRV009140",
+    "name": "VIAGGI / Europa / Svizzera"
+  },
+  {
+    "code": "TRV009150",
+    "name": "VIAGGI / Europa / Occidentale"
+  },
+  {
+    "code": "TRV010000",
+    "name": "VIAGGI / Racconti e Documentari di Viaggio"
+  },
+  {
+    "code": "TRV011000",
+    "name": "VIAGGI / Tematici / Famiglia"
+  },
+  {
+    "code": "TRV012000",
+    "name": "VIAGGI / Ex Repubbliche Sovietiche"
+  },
+  {
+    "code": "TRV013000",
+    "name": "VIAGGI / Hotel, Locande e Ostelli\""
+  },
+  {
+    "code": "TRV014000",
+    "name": "VIAGGI / Messico"
+  },
+  {
+    "code": "TRV015000",
+    "name": "VIAGGI / Medio Oriente / Generale"
+  },
+  {
+    "code": "TRV015010",
+    "name": "VIAGGI / Medio Oriente / Egitto"
+  },
+  {
+    "code": "TRV015020",
+    "name": "VIAGGI / Medio Oriente / Israele"
+  },
+  {
+    "code": "TRV015030",
+    "name": "VIAGGI / Medio Oriente / Turchia*"
+  },
+  {
+    "code": "TRV016000",
+    "name": "VIAGGI / Musei, Tour, Punti di interesse\""
+  },
+  {
+    "code": "TRV018000",
+    "name": "VIAGGI / Parchi e Campeggi"
+  },
+  {
+    "code": "TRV019000",
+    "name": "VIAGGI / Illustrazioni (vedere anche FOTOGRAFIA / Argomenti e Temi / Regionale)"
+  },
+  {
+    "code": "TRV020000",
+    "name": "VIAGGI / Regioni Polari"
+  },
+  {
+    "code": "TRV021000",
+    "name": "VIAGGI / Riferimento"
+  },
+  {
+    "code": "TRV022000",
+    "name": "VIAGGI / Ristoranti"
+  },
+  {
+    "code": "TRV023000",
+    "name": "VIAGGI / Russia"
+  },
+  {
+    "code": "TRV024000",
+    "name": "VIAGGI / Sud America / Generale"
+  },
+  {
+    "code": "TRV024010",
+    "name": "VIAGGI / Sud America / Argentina"
+  },
+  {
+    "code": "TRV024020",
+    "name": "VIAGGI / Sud America / Brasile"
+  },
+  {
+    "code": "TRV024030",
+    "name": "VIAGGI / Sud America / Cile e Isola di Pasqua"
+  },
+  {
+    "code": "TRV024040",
+    "name": "VIAGGI / Sud America / Ecuador e Isole Galapagos"
+  },
+  {
+    "code": "TRV024050",
+    "name": "VIAGGI / Sud America / Perù"
+  },
+  {
+    "code": "TRV025000",
+    "name": "VIAGGI / Stati Uniti / Generale"
+  },
+  {
+    "code": "TRV025010",
+    "name": "VIAGGI / Stati Uniti / Midwest / Generale"
+  },
+  {
+    "code": "TRV025020",
+    "name": "VIAGGI / Stati Uniti / Midwest / East North Central (IL, IN, MI, OH, WI)\""
+  },
+  {
+    "code": "TRV025030",
+    "name": "VIAGGI / Stati Uniti / Midwest / West North Central (IA, KS, MN, MO, ND, NE, SD)\""
+  },
+  {
+    "code": "TRV025040",
+    "name": "VIAGGI / Stati Uniti / Northeast / Generale"
+  },
+  {
+    "code": "TRV025050",
+    "name": "VIAGGI / Stati Uniti / Northeast / Medio Atlantico (NJ, NY, PA)\""
+  },
+  {
+    "code": "TRV025060",
+    "name": "VIAGGI / Stati Uniti / Northeast / New England (CT, MA, ME, NH, RI, VT)\""
+  },
+  {
+    "code": "TRV025070",
+    "name": "VIAGGI / Stati Uniti / Sud / Generale"
+  },
+  {
+    "code": "TRV025080",
+    "name": "VIAGGI / Stati Uniti / Sud / East South Central (AL, KY, MS, TN)\""
+  },
+  {
+    "code": "TRV025090",
+    "name": "VIAGGI / Stati Uniti / Sud / Sud Atlantico (DC, DE, FL, GA, MD, NC, SC, VA, WV)\""
+  },
+  {
+    "code": "TRV025100",
+    "name": "VIAGGI / Stati Uniti / Sud / West South Central (AR, LA, OK, TX)\""
+  },
+  {
+    "code": "TRV025110",
+    "name": "VIAGGI / Stati Uniti / Ovest / Generale"
+  },
+  {
+    "code": "TRV025120",
+    "name": "VIAGGI / Stati Uniti / Ovest / Mountain (AZ, CO, ID, MT, NM, UT, WY)\""
+  },
+  {
+    "code": "TRV025130",
+    "name": "VIAGGI / Stati Uniti / Ovest / Pacifico (AK, CA, HI, NV, OR, WA)\""
+  },
+  {
+    "code": "TRV026000",
+    "name": "VIAGGI / Tematici / Generale"
+  },
+  {
+    "code": "TRV026010",
+    "name": "VIAGGI / Tematici / Affari"
+  },
+  {
+    "code": "TRV026020",
+    "name": "VIAGGI / Tematici / Ecoturismo"
+  },
+  {
+    "code": "TRV026030",
+    "name": "VIAGGI / Tematici / Disabili"
+  },
+  {
+    "code": "TRV026040",
+    "name": "VIAGGI / Tematici / Animali Domestici"
+  },
+  {
+    "code": "TRV026050",
+    "name": "VIAGGI / Tematici / Anziani"
+  },
+  {
+    "code": "TRV026060",
+    "name": "VIAGGI / Tematici / Religiosi"
+  },
+  {
+    "code": "TRV026070",
+    "name": "VIAGGI / Tematici / Gay e Lesbiche"
+  },
+  {
+    "code": "TRV026080",
+    "name": "VIAGGI / Tematici / Sport"
+  },
+  {
+    "code": "TRV026090",
+    "name": "VIAGGI / Tematici / Letterari*"
+  },
+  {
+    "code": "TRV026110",
+    "name": "VIAGGI / Tematici / Militare"
+  },
+  {
+    "code": "TRV027000",
+    "name": "VIAGGI / Mappe e Atlanti Stradali"
+  },
+  {
+    "code": "TRV028000",
+    "name": "VIAGGI / Crociere"
+  },
+  {
+    "code": "TRV029000",
+    "name": "VIAGGI / Parchi Divertimento e a Tema"
+  },
+  {
+    "code": "TRV030000",
+    "name": "VIAGGI / Resort e Spa"
+  },
+  {
+    "code": "TRV031000",
+    "name": "VIAGGI / Percorsi Stradali"
+  },
+  {
+    "code": "TRV032000",
+    "name": "VIAGGI / Shopping"
+  },
+  {
+    "code": "TRV033000",
+    "name": "VIAGGI / Economici*"
+  },
+  {
+    "code": "TRV034000",
+    "name": "VIAGGI / Escursioni e Passeggiate*"
+  },
+  {
+    "code": "TRV036000",
+    "name": "VIAGGI / Bed & Breakfast / Generale"
+  },
+  {
     "code": "TRU000000",
     "name": "CRIMINE REALE / Generale"
   },

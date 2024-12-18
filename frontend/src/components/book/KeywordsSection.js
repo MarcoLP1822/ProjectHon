@@ -37,6 +37,7 @@ const KeywordsSection = () => {
       generateButtonText="Genera Parole Chiave"
       onGenerate={handleGenerate}
       renderContent={renderContent}
+      contentType="keywords"
     />
   );
 };

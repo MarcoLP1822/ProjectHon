@@ -1,41 +1,68 @@
 const path = require('path');
 const fs = require('fs').promises;
 const Bisac = require('../models/bisac.model');
+const zlib = require('zlib');
+const { promisify } = require('util');
+
+const gzip = promisify(zlib.gzip);
 
 class BisacService {
-    async getOrganizedCategories() {
+    constructor() {
+        this.categoriesCache = null;
+        this.categoriesCacheCompressed = null;
+        this.lastCacheUpdate = null;
+        this.CACHE_TTL = 60 * 60 * 1000; // 1 ora
+    }
+
+    async getOrganizedCategories(compressed = false) {
         try {
+            if (this.isCacheValid()) {
+                return compressed ? 
+                    this.categoriesCacheCompressed : 
+                    this.categoriesCache;
+            }
+
             const fictionCategories = JSON.parse(
                 await fs.readFile(path.join(__dirname, '../data/fiction-categories.json'), 'utf8')
             );
-            const humanitiesCategories = JSON.parse(
-                await fs.readFile(path.join(__dirname, '../data/humanities-categories.json'), 'utf8')
-            );
-            const selfhelpCategories = JSON.parse(
-                await fs.readFile(path.join(__dirname, '../data/selfhelp-categories.json'), 'utf8')
+            const nonfictionCategories = JSON.parse(
+                await fs.readFile(path.join(__dirname, '../data/nonfiction-categories.json'), 'utf8')
             );
             const juvCategories = JSON.parse(
                 await fs.readFile(path.join(__dirname, '../data/juv-categories.json'), 'utf8')
             );
-            const artCategories = JSON.parse(
-                await fs.readFile(path.join(__dirname, '../data/art-categories.json'), 'utf8')
-            );  
-            const varieCategories = JSON.parse(
-                await fs.readFile(path.join(__dirname, '../data/varie.json'), 'utf8')
-            );  
             
-            return {
+            this.categoriesCache = {
                 fiction: fictionCategories,
-                humanities: humanitiesCategories,
-                selfhelp: selfhelpCategories,
+                nonfiction: nonfictionCategories,
                 juv: juvCategories,
-                art: artCategories,
-                varie: varieCategories
             };
+
+            // Pre-comprimi i dati per uso futuro
+            this.categoriesCacheCompressed = await gzip(JSON.stringify(this.categoriesCache));
+            this.lastCacheUpdate = Date.now();
+            
+            return compressed ? 
+                this.categoriesCacheCompressed : 
+                this.categoriesCache;
         } catch (error) {
             console.error('Errore nel caricamento delle categorie:', error);
             throw error;
         }
+    }
+
+    isCacheValid() {
+        return (
+            this.categoriesCache !== null &&
+            this.lastCacheUpdate !== null &&
+            Date.now() - this.lastCacheUpdate < this.CACHE_TTL
+        );
+    }
+
+    // Metodo per forzare il refresh della cache se necessario
+    async invalidateCache() {
+        this.categoriesCache = null;
+        this.lastCacheUpdate = null;
     }
 
     async searchBisacCodes(searchQuery) {
