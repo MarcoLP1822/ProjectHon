@@ -39,4 +39,5 @@ yarn-error.log*
 !public/*.png
 
 CATEGORIE.txt
+backend/docs/chunking-process.txt
 # altri file da ignorare...
