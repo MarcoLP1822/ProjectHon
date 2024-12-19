@@ -352,15 +352,15 @@
     "code": "JUV014000"
   },
   {
-    "name": "FICTION PER RAGAZZI / Salute e Quotidianit  / Generale",
+    "name": "FICTION PER RAGAZZI / Salute e Quotidianità / Generale",
     "code": "JUV015000"
   },
   {
-    "name": "FICTION PER RAGAZZI / Salute e Quotidianit  / Attivit  Quotidiane",
+    "name": "FICTION PER RAGAZZI / Salute e Quotidianità / Attività Quotidiane",
     "code": "JUV015010"
   },
   {
-    "name": "FICTION PER RAGAZZI / Salute e Quotidianit  / Malattie, Patologie e Infortuni",
+    "name": "FICTION PER RAGAZZI / Salute e Quotidianità / Malattie, Patologie e Infortuni",
     "code": "JUV015020"
   },
   {
@@ -524,7 +524,7 @@
     "code": "JUV022000"
   },
   {
-    "name": "FICTION PER RAGAZZI / Leggende, Miti, Fiabe / Re Art",
+    "name": "FICTION PER RAGAZZI / Leggende, Miti, Fiabe / Re Artù",
     "code": "JUV022010"
   },
   {
@@ -540,7 +540,7 @@
     "code": "JUV022040"
   },
   {
-    "name": "FICTION PER RAGAZZI / Stili di Vita / Vita di Citt",
+    "name": "FICTION PER RAGAZZI / Stili di Vita / Vita di Città",
     "code": "JUV023000"
   },
   {
@@ -724,7 +724,7 @@
     "code": "JUV032160"
   },
   {
-    "name": "FICTION PER RAGAZZI / Sport e Svago / Campeggio e Attivit  all'Aperto*",
+    "name": "FICTION PER RAGAZZI / Sport e Svago / Campeggio e Attività all'Aperto*",
     "code": "JUV032170"
   },
   {
@@ -788,7 +788,7 @@
     "code": "JUV033120"
   },
   {
-    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Salute e Quotidianit",
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Salute e Quotidianitàà",
     "code": "JUV033130"
   },
   {
@@ -832,7 +832,7 @@
     "code": "JUV033230"
   },
   {
-    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Valori e Virt",
+    "name": "FICTION PER RAGAZZI / Religiosa / Cristiana / Valori e Virtù",
     "code": "JUV033240"
   },
   {
@@ -884,11 +884,11 @@
     "code": "JUV039060"
   },
   {
-    "name": "FICTION PER RAGAZZI / Questioni Sociali / Senzatetto e Povert",
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Senzatetto e Povertà",
     "code": "JUV039070"
   },
   {
-    "name": "FICTION PER RAGAZZI / Questioni Sociali / Omosessualit",
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Omosessualità",
     "code": "JUV039080"
   },
   {
@@ -924,7 +924,7 @@
     "code": "JUV039160"
   },
   {
-    "name": "FICTION PER RAGAZZI / Salute e Quotidianit  / Educazione al Vasino",
+    "name": "FICTION PER RAGAZZI / Salute e Quotidianità / Educazione al Vasino",
     "code": "JUV039170"
   },
   {
@@ -944,7 +944,7 @@
     "code": "JUV039210"
   },
   {
-    "name": "FICTION PER RAGAZZI / Questioni Sociali / Valori e Virt",
+    "name": "FICTION PER RAGAZZI / Questioni Sociali / Valori e Virtù",
     "code": "JUV039220"
   },
   {
@@ -1044,7 +1044,7 @@
     "code": "JUV053000"
   },
   {
-    "name": "FICTION PER RAGAZZI / Libri di Attivit *",
+    "name": "FICTION PER RAGAZZI / Libri di Attività*",
     "code": "JUV054000"
   },
   {
@@ -1064,7 +1064,7 @@
     "code": "JNF000000"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Libri di Attivit",
+    "name": "NON-FICTION PER RAGAZZI / Libri di Attività",
     "code": "JNF001000"
   },
   {
@@ -1204,7 +1204,7 @@
     "code": "JNF003320"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Collezionismo e Antichit",
+    "name": "NON-FICTION PER RAGAZZI / Collezionismo e Antichità",
     "code": "JNF004000"
   },
   {
@@ -1388,7 +1388,7 @@
     "code": "JNF014000"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Hobby e Creativit",
+    "name": "NON-FICTION PER RAGAZZI / Hobby e Creatività",
     "code": "JNF015000"
   },
   {
@@ -1476,35 +1476,35 @@
     "code": "JNF020030"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Generale",
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attività / Generale",
     "code": "JNF021000"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Giochi da Tavolo",
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attività / Giochi da Tavolo",
     "code": "JNF021010"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Giochi di Carte",
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attività / Giochi di Carte",
     "code": "JNF021020"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Magia",
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attività / Magia",
     "code": "JNF021030"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Puzzle",
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attività / Puzzle",
     "code": "JNF021040"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Domande e Risposte",
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attività / Domande e Risposte",
     "code": "JNF021050"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Videogiochi e Giochi Elettronici",
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attività / Videogiochi e Giochi Elettronici",
     "code": "JNF021060"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Giochi e Attivit  / Giochi con le Parole",
+    "name": "NON-FICTION PER RAGAZZI / Giochi e Attività / Giochi con le Parole",
     "code": "JNF021070"
   },
   {
@@ -1516,55 +1516,55 @@
     "code": "JNF023000"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Generale",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Generale",
     "code": "JNF024000"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Dieta e Nutrizione",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Dieta e Nutrizione",
     "code": "JNF024010"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Malattie, Patologie e Infortuni",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Malattie, Patologie e Infortuni",
     "code": "JNF024020"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Prima Assistenza",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Prima Assistenza",
     "code": "JNF024030"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Fitness ed Esercizio",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Fitness ed Esercizio",
     "code": "JNF024040"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Maturazione",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Maturazione",
     "code": "JNF024050"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Igiene Personale",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Igiene Personale",
     "code": "JNF024060"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Minorazioni Fisiche",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Minorazioni Fisiche",
     "code": "JNF024070"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Sicurezza",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Sicurezza",
     "code": "JNF024080"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Sessualit  e Gravidanza",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Sessualit  e Gravidanza",
     "code": "JNF024090"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Abuso di Sostanze",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Abuso di Sostanze",
     "code": "JNF024100"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Educazione al Vasino",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Educazione al Vasino",
     "code": "JNF024110"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianit  / Attivit  Quotidiane",
+    "name": "NON-FICTION PER RAGAZZI / Salute e Quotidianità / Attività Quotidiane",
     "code": "JNF024120"
   },
   {
@@ -1776,7 +1776,7 @@
     "code": "JNF030000"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Stili di Vita / Vita di Citt",
+    "name": "NON-FICTION PER RAGAZZI / Stili di Vita / Vita di Città",
     "code": "JNF031000"
   },
   {
@@ -2044,7 +2044,7 @@
     "code": "JNF049040"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Religione / Cristianit",
+    "name": "NON-FICTION PER RAGAZZI / Religione / Cristianità",
     "code": "JNF049080"
   },
   {
@@ -2100,11 +2100,11 @@
     "code": "JNF049210"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Giochi e Attivit",
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Giochi e Attività",
     "code": "JNF049220"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Salute e Quotidianit",
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Salute e Quotidianitàà",
     "code": "JNF049230"
   },
   {
@@ -2136,7 +2136,7 @@
     "code": "JNF049300"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Valori e Virt",
+    "name": "NON-FICTION PER RAGAZZI / Religiosa / Cristiana / Valori e Virtù",
     "code": "JNF049310"
   },
   {
@@ -2272,11 +2272,11 @@
     "code": "JNF053060"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Senzatetto e Povert",
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Senzatetto e Povertà",
     "code": "JNF053070"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Omosessualit",
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Omosessualità",
     "code": "JNF053080"
   },
   {
@@ -2324,7 +2324,7 @@
     "code": "JNF053190"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Valori e Virt",
+    "name": "NON-FICTION PER RAGAZZI / Questioni Sociali / Valori e Virtù",
     "code": "JNF053200"
   },
   {
@@ -2364,7 +2364,7 @@
     "code": "JNF054020"
   },
   {
-    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Campeggio e Attivit  all'Aperto",
+    "name": "NON-FICTION PER RAGAZZI / Sport e Svago / Campeggio e Attività all'Aperto",
     "code": "JNF054030"
   },
   {
@@ -2527,4 +2527,4 @@
     "name": "NON-FICTION PER RAGAZZI / Tie-In",
     "code": "JNF064000"
   }
-] 
+]

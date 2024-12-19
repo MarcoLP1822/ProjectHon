@@ -295,6 +295,13 @@ const Dashboard = () => {
           {error}
         </Alert>
       </Snackbar>
+
+      {/* Aggiungo il copyright in fondo */}
+      <Box sx={{ mt: 4, textAlign: 'center' }}>
+        <Typography variant="body2" color="text.secondary">
+          Creato da Marco Luigi Palma
+        </Typography>
+      </Box>
     </Container>
   );
 };

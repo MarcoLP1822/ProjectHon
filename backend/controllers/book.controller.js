@@ -6,10 +6,10 @@ const { identifyStructure, createChunks } = require('../utils/chunkingUtils');
 
 // Utility functions
 const formatDate = (date) => {
-  return new Date(date).toLocaleString('en-US', { 
+  return new Date(date).toLocaleString('en-US', {
     day: 'numeric',
-    month: 'long', 
-    year: 'numeric' 
+    month: 'long',
+    year: 'numeric'
   }).toUpperCase();
 };
 
@@ -41,7 +41,7 @@ const initialMetadata = {
 const extractTextFromFile = async (filePath, fileType) => {
   try {
     const buffer = await fs.readFile(filePath);
-    
+
     if (fileType === '.pdf') {
       const pdfData = await pdf(buffer);
       console.log('PDF Text extracted, length:', pdfData.text.length);
@@ -75,7 +75,7 @@ exports.uploadBook = async (req, res, next) => {
     // Estrai il testo dal file
     const fileType = path.extname(req.file.originalname).toLowerCase();
     console.log('Attempting to extract text from:', req.file.path);
-    
+
     let extractedText;
     try {
       extractedText = await extractTextFromFile(req.file.path, fileType);
@@ -107,7 +107,7 @@ exports.uploadBook = async (req, res, next) => {
     });
 
     await book.save();
-    
+
     // Log dopo il salvataggio
     console.log('Book saved with text and chunks:', {
       id: book._id,
@@ -187,10 +187,10 @@ exports.resetBook = async (req, res, next) => {
 
     book.metadata = initialMetadata;
     await book.save();
-    
-    res.json({ 
-      success: true, 
-      book: mapBookToResponse(book) 
+
+    res.json({
+      success: true,
+      book: mapBookToResponse(book)
     });
   } catch (error) {
     next(error);

@@ -167,7 +167,7 @@ const generateCategories = async (bookContent) => {
             content: `Contesto generale del libro:\n${summary.summaryText}\n\nAnalizza questa parte specifica e suggerisci tre categorie.\n\nContenuto:\n${chunk.text}`
           }
         ],
-        temperature: 0.7,
+        temperature: 0.4,
         max_tokens: 150
       });
 
