@@ -37,3 +37,6 @@ yarn-error.log*
 !public/*.ico
 !public/*.svg
 !public/*.png
+
+CATEGORIE.txt
+# altri file da ignorare...
