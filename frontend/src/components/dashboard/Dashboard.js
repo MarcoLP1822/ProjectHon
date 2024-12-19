@@ -20,7 +20,6 @@ import {
   Alert,
   Snackbar
 } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
 import { useBooks } from '../../context/BookContext';
 import UploadFileIcon from '@mui/icons-material/UploadFile';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
@@ -29,8 +28,11 @@ import MenuItem from '@mui/material/MenuItem';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import RestartAltIcon from '@mui/icons-material/RestartAlt';
+// eslint-disable-next-line no-unused-vars
+import { useNavigate } from 'react-router-dom';
 
 const Dashboard = () => {
+  // eslint-disable-next-line no-unused-vars
   const navigate = useNavigate();
   const { books, addBook, removeBook, updateBook, resetBookData } = useBooks();
   const [isUploading, setIsUploading] = useState(false);
@@ -46,17 +48,27 @@ const Dashboard = () => {
     const file = event.target.files[0];
     if (!file) return;
 
+    // Sanitizziamo il nome del file
+    const sanitizedFileName = file.name
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')  // Rimuove gli accenti
+      .replace(/[^\w\s.'()-]/g, '');     // Mantiene solo caratteri sicuri
+
+    const renamedFile = new File([file], sanitizedFileName, {
+      type: file.type,
+    });
+
     // Validazione dell'estensione del file
     const validTypes = ['.pdf', '.doc', '.docx', '.epub'];
-    const fileExtension = file.name.substring(file.name.lastIndexOf('.')).toLowerCase();
+    const fileExtension = renamedFile.name.substring(renamedFile.name.lastIndexOf('.')).toLowerCase();
     if (!validTypes.includes(fileExtension)) {
-      setError('Formato file non supportato. Usa PDF, DOC, DOCX o EPUB.');
+      setError('Formato file non supportato. Usa PDF, DOC, DOCX o TXT.');
       return;
     }
 
     try {
       setIsUploading(true);
-      await addBook({ file });
+      await addBook({ file: renamedFile });
       setSuccess('Libro caricato con successo');
     } catch (error) {
       setError('Errore durante il caricamento del libro');
@@ -127,24 +139,38 @@ const Dashboard = () => {
     }
   };
 
-  const handleBookSelect = (book) => {
-    // Per ora non facciamo nulla quando si clicca sulla riga
-    // L'utente userà la sidebar per navigare tra le sezioni
-  };
-
   const handleCloseSnackbar = () => {
     setSuccess(null);
     setError(null);
+  };
+
+  const sanitizeTitle = (title) => {
+    return title
+      .replace(/[\u0080-\u00ff]/g, (char) => {
+        const specialChars = {
+          '\u00e0': 'à',
+          '\u00e8': 'è',
+          '\u00e9': 'é',
+          '\u00ec': 'ì',
+          '\u00f2': 'ò',
+          '\u00f9': 'ù',
+        };
+        return specialChars[char] || char;
+      })
+      .replace(/[\u2018\u2019\u201A\u201B\u2032\u2035\u20ac]/g, "'");
+  };
+
+  // eslint-disable-next-line no-unused-vars
+  const handleBookSelect = (book) => {
+    // Per ora non facciamo nulla quando si clicca sulla riga
+    // L'utente userà la sidebar per navigare tra le sezioni
   };
 
   return (
     <Container maxWidth="lg" sx={{ py: 4 }}>
       <Box sx={{ mb: 4, textAlign: 'center' }}>
         <Typography variant="h2" component="h1" gutterBottom>
-          Benvenuto!
-        </Typography>
-        <Typography variant="h5" color="text.secondary" gutterBottom>
-          Carica il tuo libro per iniziare a ottimizzare la tua presenza online
+          Benvenut<span style={{ fontSize: '0.7em' }}>Ə</span>!
         </Typography>
       </Box>
 
@@ -159,7 +185,7 @@ const Dashboard = () => {
       >
         <input
           type="file"
-          accept=".epub,.pdf,.doc,.docx"
+          accept=".txt,.pdf,.doc,.docx"
           style={{ display: 'none' }}
           id="file-upload"
           onChange={handleFileUpload}
@@ -177,7 +203,11 @@ const Dashboard = () => {
           </Button>
         </label>
         <Typography variant="body2" color="text.secondary" sx={{ mt: 2 }}>
-          Supporta file .epub, .pdf, .doc, .docx
+          Supporta file .doc, .docx, .pdf, .txt di max 10MB
+          <br />
+          File troppo grande? Se è un pdf, clicca qui per ridurlo di dimensioni: <a href="https://www.ilovepdf.com/it/comprimere_pdf" target="_blank" rel="noopener noreferrer">comprimi file</a>
+          <br />
+          Se il file è in formato word e supera i 10MB, prima <a href="https://www.ilovepdf.com/it/word_a_pdf" target="_blank" rel="noopener noreferrer">convertilo in pdf</a>, poi lo comprimi dal link qui sopra.
         </Typography>
       </Paper>
 
@@ -202,7 +232,7 @@ const Dashboard = () => {
                     }
                   }}
                 >
-                  <TableCell>{book.title}</TableCell>
+                  <TableCell>{sanitizeTitle(book.title)}</TableCell>
                   <TableCell>{book.date}</TableCell>
                   <TableCell align="right">
                     <IconButton

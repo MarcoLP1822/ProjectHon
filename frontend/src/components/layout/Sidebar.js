@@ -20,6 +20,7 @@ import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
 import { useBooks } from '../../context/BookContext';
 import BookMenuItem from './BookMenuItem';
+import honLogo from '../../assets/images/hon.png';
 
 const Sidebar = () => {
   const navigate = useNavigate();
@@ -104,7 +105,15 @@ const Sidebar = () => {
       }}
     >
       <Typography variant="h6" sx={{ mb: 3 }}>
-        Book Editor
+        <img 
+          src={honLogo} 
+          alt="hon" 
+          style={{ 
+            width: '100%', 
+            height: 'auto',
+            opacity: 0.3,
+          }} 
+        />
       </Typography>
 
       <List>

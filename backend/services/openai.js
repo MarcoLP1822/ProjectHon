@@ -239,7 +239,7 @@ const generateKeywords = async (bookContent) => {
           {
             role: "system",
             content: `Sei un esperto SEO. Analizza il testo fornito e proponi sette parole chiave rilevanti rispetto al contenuto del libro.
-                     Le keywords devono essere DIVERSE tra loro e pertinenti al contenuto del libro.
+                     Le keywords devono essere DIVERSE tra loro e pertinenti al contenuto del libro e iniziare TUTTE con la LETTERA MAIUSCOLA.
                      Considera anche il contesto generale del libro fornito nel summary.
                      Rispondi SOLO con un oggetto JSON con questa struttura: 
                      {
@@ -445,7 +445,7 @@ const generatePreface = async (bookContent) => {
       messages: [
         {
           role: "system",
-          content: `Sei un esperto editor specializzato nella scrittura di prefazioni.
+          content: `Sei un esperto editor e copywriter specializzato nella scrittura di prefazioni.
                    Analizza il testo e crea una prefazione seguendo questa struttura:
                    - Introduzione al Tema Principale
                    - Descrizione dei temi Specifici Affrontati
@@ -459,8 +459,7 @@ const generatePreface = async (bookContent) => {
                    - Chiaro e Accessibile
                    - Motivazionale e Ispirazionale
                    - Focalizzato sui Benefici per il Lettore
-                   - Diretto verso il lettore
-                   - Evitando ripetizioni
+                   - Se ti trovi a ripetere parole, utilizza sinonimi
                    
                    Rispondi SOLO con un oggetto JSON con questa struttura:
                    {

@@ -520,3 +520,34 @@
 {"level":"info","message":"Generating back cover for book: 67642e12dda7a1455e1e7454","timestamp":"2024-12-19T14:41:15.333Z"}
 {"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":6,"timestamp":"2024-12-19T14:41:16.663Z"}
 {"level":"info","message":"Successfully generated back cover for book 67642e12dda7a1455e1e7454","timestamp":"2024-12-19T14:41:22.135Z"}
+{"level":"info","message":"Generating keywords for book: 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:04:35.124Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":11,"timestamp":"2024-12-19T15:04:39.272Z"}
+{"level":"info","message":"Successfully generated keywords for book 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:05:08.321Z"}
+{"level":"info","message":"Generating synopsis for book: 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:13:43.945Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":11,"timestamp":"2024-12-19T15:13:47.716Z"}
+{"level":"info","message":"Successfully generated synopsis for book 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:14:12.977Z"}
+{"level":"info","message":"Generating categories for book: 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:33:59.228Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":11,"timestamp":"2024-12-19T15:34:03.679Z"}
+{"level":"info","message":"Successfully generated categories for book 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:34:36.801Z"}
+{"level":"info","message":"Generating scenes for book: 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:35:15.806Z"}
+{"level":"info","message":"Successfully generated scenes for book 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:35:35.719Z"}
+{"level":"info","message":"Generating cover images for book: 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:35:35.747Z"}
+{"bookId":"676435fac40bcb64e04582b9","level":"info","message":"Generating image for scene 1","sceneTitle":"L'Inizio della Rivoluzione","timestamp":"2024-12-19T15:35:36.378Z"}
+{"bookId":"676435fac40bcb64e04582b9","level":"info","message":"Generating image for scene 2","sceneTitle":"Tecnologia in Azione","timestamp":"2024-12-19T15:35:36.379Z"}
+{"bookId":"676435fac40bcb64e04582b9","level":"info","message":"Generating image for scene 3","sceneTitle":"Futuro Inclusivo","timestamp":"2024-12-19T15:35:36.379Z"}
+{"level":"info","message":"Successfully generated cover images for book 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:35:54.629Z"}
+{"level":"info","message":"Generating back cover for book: 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:40:06.641Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":11,"timestamp":"2024-12-19T15:40:13.920Z"}
+{"level":"info","message":"Successfully generated back cover for book 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:40:30.251Z"}
+{"level":"info","message":"Generating preface for book: 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:52:10.912Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":11,"timestamp":"2024-12-19T15:52:19.597Z"}
+{"level":"info","message":"Successfully generated preface for book 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:52:44.398Z"}
+{"level":"info","message":"Generating preface for book: 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:54:33.203Z"}
+{"level":"info","message":"Generating back cover for book: 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:54:41.911Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":11,"timestamp":"2024-12-19T15:54:50.753Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":11,"timestamp":"2024-12-19T15:54:52.715Z"}
+{"level":"info","message":"Successfully generated back cover for book 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:55:02.825Z"}
+{"level":"info","message":"Successfully generated preface for book 676435fac40bcb64e04582b9","timestamp":"2024-12-19T15:55:14.058Z"}
+{"level":"info","message":"Generating preface for book: 676435fac40bcb64e04582b9","timestamp":"2024-12-19T16:02:44.702Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":11,"timestamp":"2024-12-19T16:02:49.396Z"}
+{"level":"info","message":"Successfully generated preface for book 676435fac40bcb64e04582b9","timestamp":"2024-12-19T16:03:06.637Z"}
