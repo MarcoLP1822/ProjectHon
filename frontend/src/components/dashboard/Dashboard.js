@@ -28,6 +28,8 @@ import MenuItem from '@mui/material/MenuItem';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import RestartAltIcon from '@mui/icons-material/RestartAlt';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 // eslint-disable-next-line no-unused-vars
 import { useNavigate } from 'react-router-dom';
 
@@ -43,6 +45,8 @@ const Dashboard = () => {
   const [newBookName, setNewBookName] = useState('');
   const [success, setSuccess] = useState(null);
   const [error, setError] = useState(null);
+  const [apiKey, setApiKey] = useState('');
+  const [showApiKey, setShowApiKey] = useState(false);
 
   const handleFileUpload = async (event) => {
     const file = event.target.files[0];
@@ -166,6 +170,29 @@ const Dashboard = () => {
     // L'utente userà la sidebar per navigare tra le sezioni
   };
 
+  const handleSaveApiKey = async () => {
+    try {
+      const response = await fetch('http://localhost:5002/api/config/save-api-key', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ apiKey }),
+      });
+
+      if (response.ok) {
+        setSuccess('Chiave API OpenAI salvata con successo');
+        setApiKey('');
+      } else {
+        const data = await response.json();
+        setError(data.message || 'Errore nel salvare la chiave API');
+      }
+    } catch (error) {
+      console.error('Errore:', error);
+      setError('Errore nel salvare la chiave API');
+    }
+  };
+
   return (
     <Container maxWidth="lg" sx={{ py: 4 }}>
       <Box sx={{ mb: 4, textAlign: 'center' }}>
@@ -216,8 +243,8 @@ const Dashboard = () => {
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell>Titolo</TableCell>
-                <TableCell>Data</TableCell>
+                <TableCell>Nome file</TableCell>
+                <TableCell>Data caricamento</TableCell>
                 <TableCell align="right">Azioni</TableCell>
               </TableRow>
             </TableHead>
@@ -325,6 +352,41 @@ const Dashboard = () => {
           {error}
         </Alert>
       </Snackbar>
+
+      {/* Aggiungi questa sezione prima del copyright */}
+      <Paper sx={{ p: 4, mt: 4 }}>
+        <Typography variant="h6" gutterBottom>
+          Configurazione OpenAI
+        </Typography>
+        <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
+          <TextField
+            type={showApiKey ? "text" : "password"}
+            value={apiKey}
+            onChange={(e) => setApiKey(e.target.value)}
+            placeholder="Inserisci la chiave API di OpenAI"
+            fullWidth
+            size="small"
+            InputProps={{
+              endAdornment: (
+                <IconButton
+                  onClick={() => setShowApiKey(!showApiKey)}
+                  edge="end"
+                  sx={{ mr: -1 }}
+                >
+                  {showApiKey ? <VisibilityOffIcon /> : <VisibilityIcon />}
+                </IconButton>
+              ),
+            }}
+          />
+          <Button
+            variant="contained"
+            onClick={handleSaveApiKey}
+            sx={{ minWidth: 100 }}
+          >
+            Salva
+          </Button>
+        </Box>
+      </Paper>
 
       {/* Aggiungo il copyright in fondo */}
       <Box sx={{ mt: 4, textAlign: 'center' }}>

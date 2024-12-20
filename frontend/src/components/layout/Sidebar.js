@@ -22,6 +22,11 @@ import { useBooks } from '../../context/BookContext';
 import BookMenuItem from './BookMenuItem';
 import honLogo from '../../assets/images/hon.png';
 
+const formatFileName = (fileName) => {
+  const nameWithoutExtension = fileName.split('.')[0];
+  return nameWithoutExtension.replace(/_/g, ' ');
+};
+
 const Sidebar = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -104,7 +109,22 @@ const Sidebar = () => {
         overflowY: 'auto'
       }}
     >
-      <Typography variant="h6" sx={{ mb: 3 }}>
+      <Typography 
+        variant="h6" 
+        sx={{ 
+          mb: 3,
+          '& .filename': {
+            display: 'block',
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            maxWidth: '100%'
+          }
+        }}
+      >
+        <span className="filename">
+          {formatFileName(location.pathname.split('/').pop())}
+        </span>
         <img 
           src={honLogo} 
           alt="hon" 

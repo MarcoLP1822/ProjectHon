@@ -2,6 +2,8 @@ const OpenAI = require('openai');
 const { encoding_for_model } = require('@dqbd/tiktoken');
 const { validators } = require('../utils/validators');
 const { processRollingSummary, prepareChunksForProcessing } = require('../utils/chunkingUtils');
+const fs = require('fs');
+const path = require('path');
 
 // Costanti di configurazione
 const CONSTANTS = {
@@ -12,9 +14,27 @@ const CONSTANTS = {
   }
 };
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
-});
+// Funzione per ottenere la chiave API corrente
+const getApiKey = () => {
+  try {
+    const envPath = path.join(__dirname, '..', '.env');
+    const envContent = fs.readFileSync(envPath, 'utf-8');
+    const match = envContent.match(/OPENAI_API_KEY=(.+)/);
+    const apiKey = match ? match[1].trim() : process.env.OPENAI_API_KEY;
+    console.log('Using API Key:', apiKey.substring(0, 10) + '...'); // Mostra solo i primi 10 caratteri
+    return apiKey;
+  } catch (error) {
+    console.error('Error reading API key:', error);
+    return process.env.OPENAI_API_KEY;
+  }
+};
+
+// Crea una funzione per ottenere un'istanza aggiornata di OpenAI
+const getOpenAIInstance = () => {
+  return new OpenAI({
+    apiKey: getApiKey()
+  });
+};
 
 const logGeneration = (type, tokens) => {
   console.log(`[${type.toUpperCase()}] Generation stats:`);
@@ -125,6 +145,7 @@ const validateResponse = (type, result) => {
 
 const generateCategories = async (bookContent) => {
   return withRetry(async () => {
+    const openai = getOpenAIInstance(); // Usa l'istanza aggiornata
     const { chunks } = bookContent;
     
     // Prepara i chunks e verifica che siano validi
@@ -214,6 +235,7 @@ const combineCategories = (categoriesList) => {
 
 const generateKeywords = async (bookContent) => {
   return withRetry(async () => {
+    const openai = getOpenAIInstance(); // Usa l'istanza aggiornata
     const { chunks } = bookContent;
     
     // Prepara i chunks e verifica che siano validi
@@ -299,6 +321,7 @@ const combineKeywords = (keywordsList) => {
 
 const generateScenes = async (bookContent) => {
   return withRetry(async () => {
+    const openai = getOpenAIInstance(); // Usa l'istanza aggiornata
     const { chunks } = bookContent;
     
     // Prepara i chunks e verifica che siano validi
@@ -358,6 +381,7 @@ const generateScenes = async (bookContent) => {
 
 const generateCoverImage = async (sceneDescription) => {
   try {
+    const openai = getOpenAIInstance(); // Usa l'istanza aggiornata
     const response = await openai.images.generate({
       model: "dall-e-3",
       prompt: sceneDescription,
@@ -376,6 +400,7 @@ const generateCoverImage = async (sceneDescription) => {
 
 const generateBackCover = async (bookContent) => {
   return withRetry(async () => {
+    const openai = getOpenAIInstance(); // Usa l'istanza aggiornata
     const { chunks } = bookContent;
     
     // Prepara i chunks e verifica che siano validi
@@ -403,6 +428,7 @@ const generateBackCover = async (bookContent) => {
                    - Essere concisa ed efficace
                    - Avere un incipit forte (domanda, scena, problema o promessa)
                    - Creare suspense e desiderio di leggere
+                   - Evita di usare il titolo del libro
                    Rispondi SOLO con un oggetto JSON con questa struttura:
                    {
                      "backCover": "TESTO_QUARTA_DI_COPERTINA"
@@ -426,6 +452,7 @@ const generateBackCover = async (bookContent) => {
 
 const generatePreface = async (bookContent) => {
   return withRetry(async () => {
+    const openai = getOpenAIInstance(); // Usa l'istanza aggiornata
     const { chunks } = bookContent;
     
     // Prepara i chunks e verifica che siano validi
@@ -484,6 +511,7 @@ const generatePreface = async (bookContent) => {
 
 const generateStoreDescription = async (bookContent) => {
   return withRetry(async () => {
+    const openai = getOpenAIInstance(); // Usa l'istanza aggiornata
     const { chunks } = bookContent;
     
     // Prepara i chunks e verifica che siano validi
@@ -536,6 +564,7 @@ const generateStoreDescription = async (bookContent) => {
 
 const generateSynopsis = async (bookContent) => {
   return withRetry(async () => {
+    const openai = getOpenAIInstance(); // Usa l'istanza aggiornata
     const { chunks } = bookContent;
     
     // Prepara i chunks e verifica che siano validi
@@ -586,6 +615,7 @@ const generateSynopsis = async (bookContent) => {
 
 async function suggestBisacCodes(bookDescription) {
     const bisacService = require('./bisac.service');
+    const openai = getOpenAIInstance(); // Usa l'istanza aggiornata
     
     // Prima chiediamo a GPT di generare parole chiave per la ricerca
     const keywordsResponse = await openai.chat.completions.create({
