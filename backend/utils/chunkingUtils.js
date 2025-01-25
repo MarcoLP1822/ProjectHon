@@ -3,7 +3,7 @@ const { ValidationError } = require('./errors');
 
 const CHUNK_CONSTANTS = {
   // Limiti per i token
-  MAX_TOKENS_PER_CHUNK: 6000, // Lasciamo margine per il contesto
+  MAX_TOKENS_PER_CHUNK: 6000,
   MIN_TOKENS_PER_CHUNK: 1000,
   OVERLAP_TOKENS: 500,
   
@@ -16,8 +16,14 @@ const CHUNK_CONSTANTS = {
   
   // Configurazione per il rolling summary
   SUMMARY: {
-    MAX_LENGTH: 2000,
-    MIN_LENGTH: 500,
+    MAX_LENGTH: 6000,
+    MIN_LENGTH: 2000,
+  },
+
+  // Aggiungi questa nuova configurazione
+  PROCESSING: {
+    MAX_TOKENS_FOR_REQUEST: 120000, // ~90% del limite massimo di GPT-4
+    MAX_TOKENS_FOR_SUMMARY: 80000,  // Per il summary possiamo usare meno token
   }
 };
 
@@ -168,6 +174,47 @@ const createTokenBasedChunks = (text, encoder) => {
 };
 
 /**
+ * Crea chunks basati sulle sezioni
+ * @private
+ */
+const createSectionBasedChunks = (text, sectionMatches, encoder) => {
+  const chunks = [];
+  
+  for (let i = 0; i < sectionMatches.length; i++) {
+    const currentSection = sectionMatches[i];
+    const nextSection = sectionMatches[i + 1];
+    
+    const startIndex = currentSection.index;
+    const endIndex = nextSection ? nextSection.index : text.length;
+    
+    const sectionText = text.slice(startIndex, endIndex);
+    const tokens = encoder.encode(sectionText);
+    
+    if (tokens.length > CHUNK_CONSTANTS.MAX_TOKENS_PER_CHUNK) {
+      // Se la sezione è troppo grande, dividiamola ulteriormente
+      const subChunks = createTokenBasedChunks(sectionText, encoder);
+      subChunks.forEach((subChunk, index) => {
+        chunks.push({
+          ...subChunk,
+          sectionTitle: currentSection.title,
+          isSubChunk: true,
+          subChunkIndex: index
+        });
+      });
+    } else {
+      chunks.push({
+        text: sectionText,
+        tokens: tokens.length,
+        sectionTitle: currentSection.title,
+        isSubChunk: false
+      });
+    }
+  }
+  
+  return chunks;
+};
+
+/**
  * Gestisce il rolling summary dei chunks
  * @param {Array<Object>} chunks - Array di chunks da processare
  * @returns {string} Nuovo summary aggiornato
@@ -179,30 +226,32 @@ const processRollingSummary = async (chunks) => {
 
   // Concatena il testo di tutti i chunks
   let summaryText = chunks.map(chunk => {
-    // Se il chunk è un oggetto con proprietà text
-    if (typeof chunk === 'object' && chunk.text) {
-      return chunk.text;
-    }
-    // Se il chunk è direttamente una stringa
-    return chunk;
+    return typeof chunk === 'object' && chunk.text ? chunk.text : chunk;
   }).join('\n\n');
 
-  // Aggiungiamo una validazione del risultato
-  if (!summaryText || summaryText.trim().length === 0) {
-    throw new ValidationError('Failed to create summary from chunks');
+  // Limita la lunghezza del summary
+  const maxChars = CHUNK_CONSTANTS.SUMMARY.MAX_LENGTH;
+  if (summaryText.length > maxChars) {
+    // Prendi l'inizio, la parte centrale e la fine del testo
+    const partLength = Math.floor(maxChars / 3);
+    summaryText = 
+      summaryText.substring(0, partLength) + 
+      '\n...[contenuto intermedio omesso]...\n' +
+      summaryText.substring(summaryText.length - partLength, summaryText.length);
   }
 
   // Log per debugging
   console.log('Rolling Summary Stats:', {
     originalChunks: chunks.length,
-    totalLength: summaryText.length,
+    originalLength: summaryText.length,
+    finalLength: summaryText.length,
     preview: summaryText.substring(0, 200)
   });
 
   return {
     summaryText,
     processedChunks: chunks.length,
-    totalTokens: Math.ceil(summaryText.length / 4) // Stima approssimativa più sicura
+    totalTokens: Math.ceil(summaryText.length / 4) // Stima approssimativa
   };
 };
 
@@ -236,10 +285,57 @@ function prepareChunksForProcessing(chunks, type) {
   return chunks;
 }
 
+const limitChunksSize = (chunks, maxTokens = CHUNK_CONSTANTS.PROCESSING.MAX_TOKENS_FOR_REQUEST) => {
+  if (!chunks || !Array.isArray(chunks)) {
+    return [];
+  }
+
+  const enc = encoding_for_model('gpt-4o-mini');
+  let totalTokens = 0;
+  const limitedChunks = [];
+
+  try {
+    for (const chunk of chunks) {
+      const chunkText = typeof chunk === 'object' ? chunk.text : chunk;
+      const tokens = enc.encode(chunkText).length;
+      
+      // Aggiungi log per debugging
+      console.log('Processing chunk:', {
+        chunkLength: chunkText.length,
+        tokens: tokens,
+        totalTokensSoFar: totalTokens,
+        maxTokens: maxTokens
+      });
+      
+      if (totalTokens + tokens > maxTokens) {
+        console.log('Reached token limit, stopping at', totalTokens, 'tokens');
+        break;
+      }
+      
+      limitedChunks.push(chunk);
+      totalTokens += tokens;
+    }
+
+    // Log finale
+    console.log('Final chunks stats:', {
+      originalChunks: chunks.length,
+      limitedChunks: limitedChunks.length,
+      totalTokens: totalTokens,
+      maxTokens: maxTokens
+    });
+  } finally {
+    enc.free();
+  }
+
+  return limitedChunks;
+};
+
 module.exports = {
   CHUNK_CONSTANTS,
   identifyStructure,
   createChunks,
   processRollingSummary,
-  prepareChunksForProcessing
+  prepareChunksForProcessing,
+  limitChunksSize,
+  createSectionBasedChunks
 };

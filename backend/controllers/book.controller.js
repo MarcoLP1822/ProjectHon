@@ -2,7 +2,7 @@ const Book = require('../models/book.model');
 const path = require('path');
 const fs = require('fs').promises;
 const pdf = require('pdf-parse');
-const { identifyStructure, createChunks } = require('../utils/chunkingUtils');
+const { identifyStructure, createChunks, processRollingSummary } = require('../utils/chunkingUtils');
 
 // Utility functions
 const formatDate = (date) => {
@@ -43,7 +43,19 @@ const extractTextFromFile = async (filePath, fileType) => {
     const buffer = await fs.readFile(filePath);
 
     if (fileType === '.pdf') {
-      const pdfData = await pdf(buffer);
+      // Configurazione per pdf-parse per gestire i warning dei font
+      const options = {
+        // Ignora gli errori dei font TrueType
+        fontErrors: false,
+        // Opzionale: un handler personalizzato per i warning
+        onWarning: (warning) => {
+          if (!warning.includes('undefined function: 32')) {
+            console.warn('PDF Warning:', warning);
+          }
+        }
+      };
+
+      const pdfData = await pdf(buffer, options);
       console.log('PDF Text extracted, length:', pdfData.text.length);
       console.log('First 100 chars:', pdfData.text.substring(0, 100));
       return pdfData.text;
@@ -91,6 +103,9 @@ exports.uploadBook = async (req, res, next) => {
     // Identifica la struttura e crea i chunks
     const structure = identifyStructure(extractedText);
     const chunks = createChunks(extractedText, structure);
+    
+    // Genera il rolling summary durante l'upload
+    const summary = await processRollingSummary(chunks);
 
     const book = new Book({
       title: path.parse(req.file.originalname).name,
@@ -103,6 +118,10 @@ exports.uploadBook = async (req, res, next) => {
       lastTextExtraction: new Date(),
       chunks: chunks,
       structure: structure,
+      rollingSummary: {
+        text: summary.summaryText,
+        generatedAt: new Date()
+      },
       metadata: initialMetadata
     });
 
@@ -167,10 +186,18 @@ exports.deleteBook = async (req, res, next) => {
     const book = await Book.findById(id);
     if (!book) throw createError(404, 'Book not found');
 
-    try {
-      await fs.unlink(book.filePath);
-    } catch (fileError) {
-      console.warn(`File deletion failed for path: ${book.filePath}`, fileError);
+    if (book.filePath) {
+      try {
+        const fileExists = await fs.access(book.filePath)
+          .then(() => true)
+          .catch(() => false);
+          
+        if (fileExists) {
+          await fs.unlink(book.filePath);
+        }
+      } catch (fileError) {
+        console.warn(`File deletion failed for path: ${book.filePath}`, fileError);
+      }
     }
 
     await book.deleteOne();

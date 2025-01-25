@@ -54,6 +54,10 @@ const bookSchema = new mongoose.Schema({
       type: String,
       trim: true
     }
+  },
+  rollingSummary: {
+    text: String,
+    generatedAt: Date
   }
 });
 

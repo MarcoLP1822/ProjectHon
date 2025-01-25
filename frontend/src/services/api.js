@@ -1,7 +1,11 @@
 import axios from 'axios';
 
+const API_URL = process.env.NODE_ENV === 'production' 
+  ? '/api' 
+  : 'http://localhost:3000/api';
+
 const api = axios.create({
-  baseURL: 'http://localhost:5002/api'
+  baseURL: API_URL
 });
 
 export const bookService = {

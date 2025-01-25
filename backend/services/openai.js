@@ -1,7 +1,7 @@
 const OpenAI = require('openai');
 const { encoding_for_model } = require('@dqbd/tiktoken');
 const { validators } = require('../utils/validators');
-const { processRollingSummary, prepareChunksForProcessing } = require('../utils/chunkingUtils');
+const { processRollingSummary, prepareChunksForProcessing, limitChunksSize, CHUNK_CONSTANTS } = require('../utils/chunkingUtils');
 const fs = require('fs');
 const path = require('path');
 
@@ -145,19 +145,23 @@ const validateResponse = (type, result) => {
 
 const generateCategories = async (bookContent) => {
   return withRetry(async () => {
-    const openai = getOpenAIInstance(); // Usa l'istanza aggiornata
+    const openai = getOpenAIInstance();
     const { chunks } = bookContent;
     
-    // Prepara i chunks e verifica che siano validi
-    const preparedChunks = prepareChunksForProcessing(chunks, 'categories');
+    // Usa un limite più alto per le categorie
+    const limitedChunks = limitChunksSize(chunks, CHUNK_CONSTANTS.PROCESSING.MAX_TOKENS_FOR_REQUEST);
+    const preparedChunks = prepareChunksForProcessing(limitedChunks, 'categories');
     
     // Generiamo il rolling summary per il contesto generale
-    const summary = await processRollingSummary(preparedChunks);
-    
+    const summary = bookContent.rollingSummary?.text;
+    if (!summary) {
+      throw new Error('Rolling summary not found');
+    }
+
     console.log('Rolling Summary Stats:', {
       originalChunks: preparedChunks.length,
-      summaryLength: summary.summaryText.length,
-      processedChunks: summary.processedChunks
+      summaryLength: summary.length,
+      processedChunks: summary.length
     });
 
     // Array per raccogliere tutte le categorie suggerite
@@ -185,7 +189,7 @@ const generateCategories = async (bookContent) => {
           },
           {
             role: "user",
-            content: `Contesto generale del libro:\n${summary.summaryText}\n\nAnalizza questa parte specifica e suggerisci tre categorie.\n\nContenuto:\n${chunk.text}`
+            content: `Contesto generale del libro:\n${summary}\n\nAnalizza questa parte specifica e suggerisci tre categorie.\n\nContenuto:\n${chunk.text}`
           }
         ],
         temperature: 0.4,
@@ -242,12 +246,15 @@ const generateKeywords = async (bookContent) => {
     const preparedChunks = prepareChunksForProcessing(chunks, 'keywords');
     
     // Generiamo il rolling summary per il contesto generale
-    const summary = await processRollingSummary(preparedChunks);
-    
+    const summary = bookContent.rollingSummary?.text;
+    if (!summary) {
+      throw new Error('Rolling summary not found');
+    }
+
     console.log('Rolling Summary Stats:', {
       originalChunks: preparedChunks.length,
-      summaryLength: summary.summaryText.length,
-      processedChunks: summary.processedChunks
+      summaryLength: summary.length,
+      processedChunks: summary.length
     });
 
     // Array per raccogliere tutte le keywords suggerite
@@ -261,7 +268,8 @@ const generateKeywords = async (bookContent) => {
           {
             role: "system",
             content: `Sei un esperto SEO. Analizza il testo fornito e proponi sette parole chiave rilevanti rispetto al contenuto del libro.
-                     Le keywords devono essere DIVERSE tra loro e pertinenti al contenuto del libro e iniziare TUTTE con la LETTERA MAIUSCOLA.
+                     Le keywords devono essere DIVERSE tra loro e pertinenti al contenuto del libro e la prima lettera deve essere MAIUSCOLA.
+                     Due categorie dovranno essere inerenti alla categoria del libro, per esempio "Romanzo thriller" oppure "gialli e thriller".
                      Considera anche il contesto generale del libro fornito nel summary.
                      Rispondi SOLO con un oggetto JSON con questa struttura: 
                      {
@@ -278,7 +286,7 @@ const generateKeywords = async (bookContent) => {
           },
           {
             role: "user",
-            content: `Contesto generale del libro:\n${summary.summaryText}\n\nAnalizza questa parte specifica e suggerisci keywords.\n\nContenuto:\n${chunk.text}`
+            content: `Contesto generale del libro:\n${summary}\n\nAnalizza questa parte specifica e suggerisci keywords.\n\nContenuto:\n${chunk.text}`
           }
         ],
         temperature: 1,
@@ -328,12 +336,15 @@ const generateScenes = async (bookContent) => {
     const preparedChunks = prepareChunksForProcessing(chunks, 'scenes');
     
     // Generiamo il rolling summary per il contesto generale
-    const summary = await processRollingSummary(preparedChunks);
-    
+    const summary = bookContent.rollingSummary?.text;
+    if (!summary) {
+      throw new Error('Rolling summary not found');
+    }
+
     console.log('Rolling Summary Stats:', {
       originalChunks: preparedChunks.length,
-      summaryLength: summary.summaryText.length,
-      processedChunks: summary.processedChunks
+      summaryLength: summary.length,
+      processedChunks: summary.length
     });
 
     // Per le scene usiamo solo il summary perché vogliamo una visione d'insieme
@@ -365,7 +376,7 @@ const generateScenes = async (bookContent) => {
         },
         {
           role: "user",
-          content: `Analizza questo libro e suggerisci tre scene per la copertina. Testo del libro: ${summary.summaryText}`
+          content: `Analizza questo libro e suggerisci tre scene per la copertina. Testo del libro: ${summary}`
         }
       ],
       temperature: 0.7,
@@ -407,12 +418,15 @@ const generateBackCover = async (bookContent) => {
     const preparedChunks = prepareChunksForProcessing(chunks, 'backcover');
     
     // Generiamo il rolling summary per il contesto generale
-    const summary = await processRollingSummary(preparedChunks);
-    
+    const summary = bookContent.rollingSummary?.text;
+    if (!summary) {
+      throw new Error('Rolling summary not found');
+    }
+
     console.log('Rolling Summary Stats:', {
       originalChunks: preparedChunks.length,
-      summaryLength: summary.summaryText.length,
-      processedChunks: summary.processedChunks
+      summaryLength: summary.length,
+      processedChunks: summary.length
     });
 
     // Per la quarta di copertina usiamo solo il summary perché vogliamo una visione d'insieme
@@ -425,7 +439,7 @@ const generateBackCover = async (bookContent) => {
                    Analizza il testo e crea una quarta di copertina accattivante in italiano.
                    La quarta di copertina deve:
                    - Mettersi nei panni del lettore
-                   - Essere concisa ed efficace
+                   - Essere concisa ed efficace e idiomatica in italiano
                    - Avere un incipit forte (domanda, scena, problema o promessa)
                    - Creare suspense e desiderio di leggere
                    - Evita di usare il titolo del libro
@@ -436,7 +450,7 @@ const generateBackCover = async (bookContent) => {
         },
         {
           role: "user",
-          content: `Analizza questo libro e crea una quarta di copertina efficace. Testo del libro: ${summary.summaryText}`
+          content: `Analizza questo libro e crea una quarta di copertina efficace. Testo del libro: ${summary}`
         }
       ],
       temperature: 0.7,
@@ -452,19 +466,23 @@ const generateBackCover = async (bookContent) => {
 
 const generatePreface = async (bookContent) => {
   return withRetry(async () => {
-    const openai = getOpenAIInstance(); // Usa l'istanza aggiornata
+    const openai = getOpenAIInstance();
     const { chunks } = bookContent;
     
-    // Prepara i chunks e verifica che siano validi
-    const preparedChunks = prepareChunksForProcessing(chunks, 'preface');
+    // Per la prefazione possiamo usare un limite più basso
+    const limitedChunks = limitChunksSize(chunks, CHUNK_CONSTANTS.PROCESSING.MAX_TOKENS_FOR_SUMMARY);
+    const preparedChunks = prepareChunksForProcessing(limitedChunks, 'preface');
     
     // Generiamo il rolling summary per il contesto generale
-    const summary = await processRollingSummary(preparedChunks);
-    
+    const summary = bookContent.rollingSummary?.text;
+    if (!summary) {
+      throw new Error('Rolling summary not found');
+    }
+
     console.log('Rolling Summary Stats:', {
       originalChunks: preparedChunks.length,
-      summaryLength: summary.summaryText.length,
-      processedChunks: summary.processedChunks
+      summaryLength: summary.length,
+      processedChunks: summary.length
     });
 
     const completion = await openai.chat.completions.create({
@@ -474,7 +492,7 @@ const generatePreface = async (bookContent) => {
           role: "system",
           content: `Sei un esperto editor e copywriter specializzato nella scrittura di prefazioni.
                    Analizza il testo e crea una prefazione seguendo questa struttura:
-                   - Introduzione al Tema Principale
+                   - Introduzione al Tema Principale e alla storia del libro
                    - Descrizione dei temi Specifici Affrontati
                    - Tono e ruolo dell'autore, contesto e prospettive uniche
                    - Il messaggio chiave del libro
@@ -482,11 +500,12 @@ const generatePreface = async (bookContent) => {
                    - Chiusura Motivazionale
                    
                    Usa uno stile:
-                   - Descrittivo e Analitico
-                   - Chiaro e Accessibile
+                   - Diretto, chiaro e Accessibile
                    - Motivazionale e Ispirazionale
                    - Focalizzato sui Benefici per il Lettore
                    - Se ti trovi a ripetere parole, utilizza sinonimi
+                   - Evita di usare il titolo del libro nel testo e 
+                   - NON USARE LE SEGUENTI parole (e varianti di queste parole) come: "in un mondo in cui [...] si inserisce", "immergersi", "ergersi", "snodare", "nel cuore di", "attraverso", "viaggio"
                    
                    Rispondi SOLO con un oggetto JSON con questa struttura:
                    {
@@ -495,7 +514,7 @@ const generatePreface = async (bookContent) => {
         },
         {
           role: "user",
-          content: `Analizza questo libro e crea una prefazione efficace. Testo del libro: ${summary.summaryText}`
+          content: `Analizza questo libro e crea una prefazione efficace. Testo del libro: ${summary}`
         }
       ],
       temperature: 0.7,
@@ -518,12 +537,15 @@ const generateStoreDescription = async (bookContent) => {
     const preparedChunks = prepareChunksForProcessing(chunks, 'store');
     
     // Generiamo il rolling summary per il contesto generale
-    const summary = await processRollingSummary(preparedChunks);
-    
+    const summary = bookContent.rollingSummary?.text;
+    if (!summary) {
+      throw new Error('Rolling summary not found');
+    }
+
     console.log('Rolling Summary Stats:', {
       originalChunks: preparedChunks.length,
-      summaryLength: summary.summaryText.length,
-      processedChunks: summary.processedChunks
+      summaryLength: summary.length,
+      processedChunks: summary.length
     });
 
     const completion = await openai.chat.completions.create({
@@ -534,12 +556,12 @@ const generateStoreDescription = async (bookContent) => {
           content: `Sei un esperto copywriter specializzato in descrizioni per store online.
                    Analizza il testo e crea una descrizione che:
                    - Sia semplice, avvincente e professionale
-                   - Usi un linguaggio diretto e circostanziato
-                   - Eviti parole come: immergersi, snodare, nel cuore di, attraverso, viaggio
+                   - Usi un linguaggio diretto e circostanziato (non "in questo libro succede...")
+                   - Eviti di usare il titolo del libro nel testo e parole come: immergersi, snodare, nel cuore di, attraverso, viaggio 
                    - Si concentri solo sulla trama o idea principale
                    - Catturi l'attenzione con una prima frase d'impatto
                    - Indichi il genere del libro
-                   - Sia grammaticalmente perfetta
+                   - Sia grammaticalmente perfetta e idiomatica in italiano
                    
                    Rispondi SOLO con un oggetto JSON con questa struttura:
                    {
@@ -548,7 +570,7 @@ const generateStoreDescription = async (bookContent) => {
         },
         {
           role: "user",
-          content: `Analizza questo libro e crea una descrizione efficace per gli store online. Testo del libro: ${summary.summaryText}`
+          content: `Analizza questo libro e crea una descrizione efficace per gli store online. Testo del libro: ${summary}`
         }
       ],
       temperature: 0.7,
@@ -564,20 +586,13 @@ const generateStoreDescription = async (bookContent) => {
 
 const generateSynopsis = async (bookContent) => {
   return withRetry(async () => {
-    const openai = getOpenAIInstance(); // Usa l'istanza aggiornata
-    const { chunks } = bookContent;
+    const openai = getOpenAIInstance();
     
-    // Prepara i chunks e verifica che siano validi
-    const preparedChunks = prepareChunksForProcessing(chunks, 'synopsis');
-    
-    // Generiamo il rolling summary per il contesto generale
-    const summary = await processRollingSummary(preparedChunks);
-    
-    console.log('Rolling Summary Stats:', {
-      originalChunks: preparedChunks.length,
-      summaryLength: summary.summaryText.length,
-      processedChunks: summary.processedChunks
-    });
+    // Usa il rolling summary salvato invece di rigenerarlo
+    const summary = bookContent.rollingSummary?.text;
+    if (!summary) {
+      throw new Error('Rolling summary not found');
+    }
 
     const completion = await openai.chat.completions.create({
       model: CONSTANTS.MODEL,
@@ -599,7 +614,7 @@ const generateSynopsis = async (bookContent) => {
         },
         {
           role: "user",
-          content: `Analizza questo libro e crea una sinossi efficace. Testo del libro: ${summary.summaryText}`
+          content: `Analizza questo libro e crea una sinossi efficace. Testo del libro: ${summary}`
         }
       ],
       temperature: 0.7,

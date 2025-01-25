@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "textract": "^2.5.0"
+  }
+}

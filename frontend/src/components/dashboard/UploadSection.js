@@ -22,10 +22,33 @@ const UploadSection = ({ onUpload, isUploading, error }) => {
    * Gestisce la selezione del file
    * @param {Event} event - Evento change dell'input file
    */
-  const handleUpload = (event) => {
-    const file = event.target.files[0];
-    if (file) {
-      onUpload(file);
+  const handleUpload = async (event) => {
+    event.preventDefault();
+    setIsLoading(true);
+    setError(null);
+
+    try {
+      const formData = new FormData();
+      formData.append('book', selectedFile);
+      
+      const response = await fetch('/api/upload', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        if (errorData.code === 'LIMIT_FILE_SIZE') {
+          throw new Error('Il file è troppo grande. La dimensione massima consentita è 10MB.');
+        }
+        throw new Error(errorData.message || 'Si è verificato un errore durante il caricamento');
+      }
+
+      // ... resto del codice per gestire il successo
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setIsLoading(false);
     }
   };
 

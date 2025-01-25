@@ -6,64 +6,8 @@ const { ValidationError } = require('../utils/errors');
 const { validators } = require('../utils/validators');
 const logger = require('../utils/logger');
 const errorMessages = require('../utils/errorMessages');
-const { validateAndGetBook, validateBookContent, extractAndSaveText } = require('../utils/bookUtils');
-
-/**
- * Cleans and normalizes text extracted from PDF
- * @param {string} text - Raw text extracted from PDF
- * @returns {string} Cleaned and normalized text
- */
-const cleanExtractedText = (text) => {
-  return text
-    // Rimuove caratteri non stampabili
-    .replace(/[\x00-\x1F\x7F-\x9F]/g, '')
-    // Normalizza gli spazi multipli
-    .replace(/\s+/g, ' ')
-    // Rimuove spazi all'inizio e alla fine
-    .trim()
-    // Rimuove header/footer numerici tipici dei PDF
-    .replace(/^\d+\s*|\s*\d+$/gm, '')
-    // Rimuove linee vuote multiple
-    .replace(/\n{3,}/g, '\n\n')
-    // Rimuove trattini di sillabazione
-    .replace(/(\w+)-\n(\w+)/g, '$1$2')
-    // Rimuove riferimenti bibliografici
-    .replace(/\[\d+\]/g, '')
-    // Rimuove note a piè di pagina
-    .replace(/\b[Nn]ota\s+\d+\s*[:\.]/g, '')
-    // Rimuove numeri di pagina isolati
-    .replace(/^[\d]+$/gm, '')
-    // Rimuove indici e sommari (opzionale, valuta se ti serve)
-    .replace(/^(?:Indice|Sommario|Contents)[\s\S]*?\n\n/i, '')
-    // Rimuove copyright e informazioni editoriali (opzionale)
-    .replace(/©.*?\d{4}.*?\n/g, '');
-};
-
-/**
- * Extracts text content from a PDF buffer
- * @param {Buffer} pdfBuffer - Buffer containing PDF data
- * @throws {Error} If text extraction fails
- * @returns {Promise<string>} Extracted and cleaned text
- */
-const extractTextFromPDF = async (pdfBuffer) => {
-  try {
-    const data = await pdf(pdfBuffer);
-    if (!data || !data.text) {
-      throw new Error('Failed to extract text from PDF');
-    }
-    
-    const cleanedText = cleanExtractedText(data.text);
-    
-    logger.info('Text extracted and cleaned from PDF', {
-      previewLength: 200,
-      preview: cleanedText.substring(0, 200)
-    });
-    return cleanedText;
-  } catch (error) {
-    logger.error('PDF text extraction failed', { error: error.message });
-    throw new Error(`Error extracting text from PDF: ${error.message}`);
-  }
-};
+const { validateAndGetBook, validateBookContent } = require('../utils/bookUtils');
+const openaiService = require('../services/openai');
 
 /**
  * Generates categories for a book based on its content
@@ -73,41 +17,30 @@ const extractTextFromPDF = async (pdfBuffer) => {
  * @returns {Promise<void>}
  */
 exports.generateCategories = async (req, res, next) => {
+  const bookId = req.params.bookId;
+  
   try {
-    const { bookId } = req.params;
-    
-    logger.info(`Generating categories for book: ${bookId}`);
-    
-    const book = await validateAndGetBook(bookId);
-    const bookContent = await validateBookContent(book);
-    
-    logger.info(`Book content prepared for processing:`, {
-      hasChunks: !!bookContent.chunks,
-      numChunks: bookContent.chunks?.length,
-      hasStructure: !!bookContent.structure
+    const book = await Book.findById(bookId);
+    if (!book) {
+      throw new Error('Book not found');
+    }
+
+    if (!book.rollingSummary?.text) {
+      throw new Error('Book has no rolling summary. Please re-upload the book.');
+    }
+
+    const result = await openaiService.generateCategories({
+      chunks: book.chunks,
+      rollingSummary: book.rollingSummary
     });
-    
-    const categories = await generateCategories(bookContent);
-    if (!validators.categories.validateResult(categories)) {
-      throw new ValidationError(errorMessages.INVALID_GENERATED_DATA('categories'));
-    }
-    
-    const updatedBook = await Book.findByIdAndUpdate(
-      bookId,
-      { $set: { 'metadata.categories': categories } },
-      { new: true, runValidators: true }
-    );
 
-    if (!updatedBook) {
-      logger.error(`Failed to update book ${bookId} with categories`);
-      throw new ValidationError(errorMessages.UPDATE_FAILED, 500);
-    }
+    book.metadata.categories = result;
+    await book.save();
 
-    logger.info(`Successfully generated categories for book ${bookId}`);
-    res.json(categories);
+    res.json(result);
   } catch (error) {
-    logger.error(`Error generating categories: ${error.message}`, {
-      bookId: req.params.bookId,
+    logger.error('Error generating categories:', {
+      bookId,
       error: error.stack
     });
     next(error);
@@ -122,40 +55,42 @@ exports.generateCategories = async (req, res, next) => {
  * @returns {Promise<void>}
  */
 exports.generateKeywords = async (req, res, next) => {
+  const bookId = req.params.bookId;
+  
   try {
-    const { bookId } = req.params;
-    
-    logger.info(`Generating keywords for book: ${bookId}`);
-    
-    const book = await validateAndGetBook(bookId);
-    const bookContent = await validateBookContent(book);
-    
-    logger.info(`Book content prepared for keywords generation:`, {
-      hasChunks: !!bookContent.chunks,
-      numChunks: bookContent.chunks?.length
-    });
-    
-    const keywords = await generateKeywords(bookContent);
-    if (!validators.keywords.validateResult(keywords)) {
-      throw new ValidationError(errorMessages.INVALID_GENERATED_DATA('keywords'));
+    const book = await Book.findById(bookId);
+    if (!book) {
+      throw new Error('Book not found');
     }
-    
-    const updatedBook = await Book.findByIdAndUpdate(
-      bookId,
-      { $set: { 'metadata.keywords': keywords.keywords } },
-      { new: true, runValidators: true }
+
+    if (!book.rollingSummary?.text) {
+      throw new Error('Book has no rolling summary. Please re-upload the book.');
+    }
+
+    const result = await openaiService.generateKeywords({
+      chunks: book.chunks,
+      rollingSummary: book.rollingSummary
+    });
+
+    const updatedBook = await Book.findOneAndUpdate(
+      { _id: bookId },
+      { 
+        'metadata.keywords': result.keywords 
+      },
+      { 
+        new: true,
+        runValidators: true 
+      }
     );
 
     if (!updatedBook) {
-      logger.error(`Failed to update book ${bookId} with keywords`);
-      throw new ValidationError(errorMessages.UPDATE_FAILED, 500);
+      throw new Error('Failed to update book keywords');
     }
 
-    logger.info(`Successfully generated keywords for book ${bookId}`);
-    res.json(keywords);
+    res.json(result);
   } catch (error) {
-    logger.error(`Error generating keywords: ${error.message}`, {
-      bookId: req.params.bookId,
+    logger.error('Error generating keywords:', {
+      bookId,
       error: error.stack
     });
     next(error);
@@ -170,40 +105,31 @@ exports.generateKeywords = async (req, res, next) => {
  * @returns {Promise<void>}
  */
 exports.generateScenes = async (req, res, next) => {
+  const bookId = req.params.bookId;
+  
   try {
-    const { bookId } = req.params;
-    
-    logger.info(`Generating scenes for book: ${bookId}`);
-    
-    const book = await validateAndGetBook(bookId);
-    const bookContent = await validateBookContent(book);
-    
-    const scenes = await generateScenes(bookContent);
-    if (!validators.scenes.validateScenes(scenes.scenes)) {
-      throw new ValidationError(errorMessages.INVALID_GENERATED_DATA('scenes'));
-    }
-    
-    const updatedBook = await Book.findByIdAndUpdate(
-      bookId,
-      { 
-        $set: { 
-          'metadata.covers.scenes': scenes.scenes,
-          'metadata.covers.selectedScene': null
-        }
-      },
-      { new: true, runValidators: true }
-    );
-
-    if (!updatedBook) {
-      logger.error(`Failed to update book ${bookId} with scenes`);
-      throw new ValidationError(errorMessages.UPDATE_FAILED, 500);
+    const book = await Book.findById(bookId);
+    if (!book) {
+      throw new Error('Book not found');
     }
 
-    logger.info(`Successfully generated scenes for book ${bookId}`);
-    res.json(scenes);
+    if (!book.rollingSummary?.text) {
+      throw new Error('Book has no rolling summary. Please re-upload the book.');
+    }
+
+    const result = await openaiService.generateScenes({
+      chunks: book.chunks,
+      rollingSummary: book.rollingSummary
+    });
+
+    book.metadata.covers.scenes = result.scenes;
+    book.metadata.covers.selectedScene = null;
+    await book.save();
+
+    res.json(result);
   } catch (error) {
-    logger.error(`Error generating scenes: ${error.message}`, {
-      bookId: req.params.bookId,
+    logger.error('Error generating scenes:', {
+      bookId,
       error: error.stack
     });
     next(error);
@@ -288,39 +214,30 @@ exports.generateCoverImages = async (req, res, next) => {
 };
 
 exports.generateBackCover = async (req, res, next) => {
+  const bookId = req.params.bookId;
+  
   try {
-    const { bookId } = req.params;
-    logger.info(`Generating back cover for book: ${bookId}`);
+    const book = await Book.findById(bookId);
+    if (!book) {
+      throw new Error('Book not found');
+    }
 
-    const book = await validateAndGetBook(bookId);
-    const bookContent = await validateBookContent(book);
-    
-    logger.info(`Book content prepared for back cover generation:`, {
-      hasChunks: !!bookContent.chunks,
-      numChunks: bookContent.chunks?.length
+    if (!book.rollingSummary?.text) {
+      throw new Error('Book has no rolling summary. Please re-upload the book.');
+    }
+
+    const result = await openaiService.generateBackCover({
+      chunks: book.chunks,
+      rollingSummary: book.rollingSummary
     });
 
-    const backCover = await generateBackCover(bookContent);
-    if (!validators.backCover.validateResult(backCover)) {
-      throw new ValidationError(errorMessages.INVALID_GENERATED_DATA('back cover'));
-    }
+    book.metadata.backCover = result.backCover;
+    await book.save();
 
-    const updatedBook = await Book.findByIdAndUpdate(
-      bookId,
-      { $set: { 'metadata.backCover': backCover.backCover } },
-      { new: true, runValidators: true }
-    );
-
-    if (!updatedBook) {
-      logger.error(`Failed to update book ${bookId} with back cover`);
-      throw new ValidationError(errorMessages.UPDATE_FAILED, 500);
-    }
-
-    logger.info(`Successfully generated back cover for book ${bookId}`);
-    res.json(backCover);
+    res.json(result);
   } catch (error) {
-    logger.error(`Error generating back cover: ${error.message}`, {
-      bookId: req.params.bookId,
+    logger.error('Error generating back cover:', {
+      bookId,
       error: error.stack
     });
     next(error);
@@ -328,39 +245,30 @@ exports.generateBackCover = async (req, res, next) => {
 };
 
 exports.generatePreface = async (req, res, next) => {
+  const bookId = req.params.bookId;
+  
   try {
-    const { bookId } = req.params;
-    logger.info(`Generating preface for book: ${bookId}`);
+    const book = await Book.findById(bookId);
+    if (!book) {
+      throw new Error('Book not found');
+    }
 
-    const book = await validateAndGetBook(bookId);
-    const bookContent = await validateBookContent(book);
-    
-    logger.info(`Book content prepared for preface generation:`, {
-      hasChunks: !!bookContent.chunks,
-      numChunks: bookContent.chunks?.length
+    if (!book.rollingSummary?.text) {
+      throw new Error('Book has no rolling summary. Please re-upload the book.');
+    }
+
+    const result = await openaiService.generatePreface({
+      chunks: book.chunks,
+      rollingSummary: book.rollingSummary
     });
 
-    const preface = await generatePreface(bookContent);
-    if (!validators.preface.validateResult(preface)) {
-      throw new ValidationError(errorMessages.INVALID_GENERATED_DATA('preface'));
-    }
+    book.metadata.preface = result.preface;
+    await book.save();
 
-    const updatedBook = await Book.findByIdAndUpdate(
-      bookId,
-      { $set: { 'metadata.preface': preface.preface } },
-      { new: true, runValidators: true }
-    );
-
-    if (!updatedBook) {
-      logger.error(`Failed to update book ${bookId} with preface`);
-      throw new ValidationError(errorMessages.UPDATE_FAILED, 500);
-    }
-
-    logger.info(`Successfully generated preface for book ${bookId}`);
-    res.json(preface);
+    res.json(result);
   } catch (error) {
-    logger.error(`Error generating preface: ${error.message}`, {
-      bookId: req.params.bookId,
+    logger.error('Error generating preface:', {
+      bookId,
       error: error.stack
     });
     next(error);
@@ -368,39 +276,30 @@ exports.generatePreface = async (req, res, next) => {
 };
 
 exports.generateStoreDescription = async (req, res, next) => {
+  const bookId = req.params.bookId;
+  
   try {
-    const { bookId } = req.params;
-    logger.info(`Generating store description for book: ${bookId}`);
+    const book = await Book.findById(bookId);
+    if (!book) {
+      throw new Error('Book not found');
+    }
 
-    const book = await validateAndGetBook(bookId);
-    const bookContent = await validateBookContent(book);
-    
-    logger.info(`Book content prepared for store description generation:`, {
-      hasChunks: !!bookContent.chunks,
-      numChunks: bookContent.chunks?.length
+    if (!book.rollingSummary?.text) {
+      throw new Error('Book has no rolling summary. Please re-upload the book.');
+    }
+
+    const result = await openaiService.generateStoreDescription({
+      chunks: book.chunks,
+      rollingSummary: book.rollingSummary
     });
 
-    const storeDescription = await generateStoreDescription(bookContent);
-    if (!validators.storeDescription.validateResult(storeDescription)) {
-      throw new ValidationError(errorMessages.INVALID_GENERATED_DATA('store description'));
-    }
+    book.metadata.storeDescription = result.storeDescription;
+    await book.save();
 
-    const updatedBook = await Book.findByIdAndUpdate(
-      bookId,
-      { $set: { 'metadata.storeDescription': storeDescription.storeDescription } },
-      { new: true, runValidators: true }
-    );
-
-    if (!updatedBook) {
-      logger.error(`Failed to update book ${bookId} with store description`);
-      throw new ValidationError(errorMessages.UPDATE_FAILED, 500);
-    }
-
-    logger.info(`Successfully generated store description for book ${bookId}`);
-    res.json(storeDescription);
+    res.json(result);
   } catch (error) {
-    logger.error(`Error generating store description: ${error.message}`, {
-      bookId: req.params.bookId,
+    logger.error('Error generating store description:', {
+      bookId,
       error: error.stack
     });
     next(error);
@@ -408,41 +307,49 @@ exports.generateStoreDescription = async (req, res, next) => {
 };
 
 exports.generateSynopsis = async (req, res, next) => {
+  const bookId = req.params.bookId;
+  
   try {
-    const { bookId } = req.params;
-    logger.info(`Generating synopsis for book: ${bookId}`);
+    const book = await Book.findById(bookId);
+    if (!book) {
+      throw new Error('Book not found');
+    }
 
-    const book = await validateAndGetBook(bookId);
-    const bookContent = await validateBookContent(book);
-    
-    logger.info(`Book content prepared for synopsis generation:`, {
-      hasChunks: !!bookContent.chunks,
-      numChunks: bookContent.chunks?.length
+    if (!book.rollingSummary?.text) {
+      throw new Error('Book has no rolling summary. Please re-upload the book.');
+    }
+
+    const result = await openaiService.generateSynopsis({
+      chunks: book.chunks,
+      rollingSummary: book.rollingSummary
     });
 
-    const synopsis = await generateSynopsis(bookContent);
-    if (!validators.synopsis.validateResult(synopsis)) {
-      throw new ValidationError(errorMessages.INVALID_GENERATED_DATA('synopsis'));
-    }
+    book.metadata.synopsis = result.synopsis;
+    await book.save();
 
-    const updatedBook = await Book.findByIdAndUpdate(
-      bookId,
-      { $set: { 'metadata.synopsis': synopsis.synopsis } },
-      { new: true, runValidators: true }
-    );
-
-    if (!updatedBook) {
-      logger.error(`Failed to update book ${bookId} with synopsis`);
-      throw new ValidationError(errorMessages.UPDATE_FAILED, 500);
-    }
-
-    logger.info(`Successfully generated synopsis for book ${bookId}`);
-    res.json(synopsis);
+    res.json(result);
   } catch (error) {
-    logger.error(`Error generating synopsis: ${error.message}`, {
-      bookId: req.params.bookId,
+    logger.error('Error generating synopsis:', {
+      bookId,
       error: error.stack
     });
     next(error);
+  }
+};
+
+const upload = async (req, res) => {
+  try {
+    // ... codice esistente
+  } catch (error) {
+    if (error.code === 'LIMIT_FILE_SIZE') {
+      return res.status(413).json({
+        code: 'LIMIT_FILE_SIZE',
+        message: 'Il file è troppo grande. La dimensione massima consentita è 10MB.'
+      });
+    }
+    
+    return res.status(500).json({
+      message: 'Si è verificato un errore durante il caricamento del file'
+    });
   }
 }; 

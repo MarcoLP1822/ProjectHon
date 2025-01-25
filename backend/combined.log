@@ -687,3 +687,218 @@
 {"level":"info","message":"Successfully generated preface for book 676530c65e389e7edc57dc00","timestamp":"2024-12-20T08:54:51.939Z"}
 {"level":"info","message":"Successfully generated cover images for book 676530c65e389e7edc57dc00","timestamp":"2024-12-20T08:55:04.473Z"}
 {"level":"info","message":"Successfully generated categories for book 676530c65e389e7edc57dc00","timestamp":"2024-12-20T08:55:10.332Z"}
+{"level":"info","message":"Generating keywords for book: 676530c65e389e7edc57dc00","timestamp":"2024-12-20T10:07:59.212Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":2,"timestamp":"2024-12-20T10:08:02.104Z"}
+{"level":"info","message":"Successfully generated keywords for book 676530c65e389e7edc57dc00","timestamp":"2024-12-20T10:08:06.517Z"}
+{"level":"info","message":"Generating keywords for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:28:17.705Z"}
+{"level":"info","message":"Generating synopsis for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:28:19.169Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":24,"timestamp":"2024-12-20T10:28:21.164Z"}
+{"level":"info","message":"Generating back cover for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:28:21.215Z"}
+{"level":"info","message":"Generating preface for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:28:22.358Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":24,"timestamp":"2024-12-20T10:28:23.585Z"}
+{"level":"info","message":"Generating categories for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:28:24.019Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":24,"timestamp":"2024-12-20T10:28:25.906Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":24,"timestamp":"2024-12-20T10:28:27.502Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":24,"timestamp":"2024-12-20T10:28:28.683Z"}
+{"bookId":"676546bbff60993ad199efe0","error":"Error: 400 This model's maximum context length is 128000 tokens. However, your messages resulted in 157518 tokens. Please reduce the length of the messages.\n    at APIError.generate (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/error.js:45:20)\n    at OpenAI.makeStatusError (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:293:33)\n    at OpenAI.makeRequest (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:337:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:258:26\n    at async withRetry (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:67:14)\n    at async exports.generateKeywords (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:138:22)","level":"error","message":"Error generating keywords: 400 This model's maximum context length is 128000 tokens. However, your messages resulted in 157518 tokens. Please reduce the length of the messages.","timestamp":"2024-12-20T10:28:28.706Z"}
+{"bookId":"676546bbff60993ad199efe0","error":"Error: 400 This model's maximum context length is 128000 tokens. However, your messages resulted in 150970 tokens. Please reduce the length of the messages.\n    at APIError.generate (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/error.js:45:20)\n    at OpenAI.makeStatusError (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:293:33)\n    at OpenAI.makeRequest (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:337:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:582:24\n    at async withRetry (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:67:14)\n    at async exports.generateSynopsis (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:423:22)","level":"error","message":"Error generating synopsis: 400 This model's maximum context length is 128000 tokens. However, your messages resulted in 150970 tokens. Please reduce the length of the messages.","timestamp":"2024-12-20T10:28:29.744Z"}
+{"bookId":"676546bbff60993ad199efe0","error":"Error: 400 This model's maximum context length is 128000 tokens. However, your messages resulted in 151003 tokens. Please reduce the length of the messages.\n    at APIError.generate (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/error.js:45:20)\n    at OpenAI.makeStatusError (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:293:33)\n    at OpenAI.makeRequest (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:337:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:419:24\n    at async withRetry (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:67:14)\n    at async exports.generateBackCover (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:303:23)","level":"error","message":"Error generating back cover: 400 This model's maximum context length is 128000 tokens. However, your messages resulted in 151003 tokens. Please reduce the length of the messages.","timestamp":"2024-12-20T10:28:31.289Z"}
+{"bookId":"676546bbff60993ad199efe0","error":"Error: 400 This model's maximum context length is 128000 tokens. However, your messages resulted in 151061 tokens. Please reduce the length of the messages.\n    at APIError.generate (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/error.js:45:20)\n    at OpenAI.makeStatusError (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:293:33)\n    at OpenAI.makeRequest (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:337:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:470:24\n    at async withRetry (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:67:14)\n    at async exports.generatePreface (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:343:21)","level":"error","message":"Error generating preface: 400 This model's maximum context length is 128000 tokens. However, your messages resulted in 151061 tokens. Please reduce the length of the messages.","timestamp":"2024-12-20T10:28:33.007Z"}
+{"bookId":"676546bbff60993ad199efe0","error":"Error: 400 This model's maximum context length is 128000 tokens. However, your messages resulted in 157515 tokens. Please reduce the length of the messages.\n    at APIError.generate (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/error.js:45:20)\n    at OpenAI.makeStatusError (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:293:33)\n    at OpenAI.makeRequest (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/openai/core.js:337:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:168:26\n    at async withRetry (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:67:14)\n    at async exports.generateCategories (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:90:24)","level":"error","message":"Error generating categories: 400 This model's maximum context length is 128000 tokens. However, your messages resulted in 157515 tokens. Please reduce the length of the messages.","timestamp":"2024-12-20T10:28:33.973Z"}
+{"level":"info","message":"Generating keywords for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:35:33.375Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":24,"timestamp":"2024-12-20T10:35:37.239Z"}
+{"level":"info","message":"Generating synopsis for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:35:38.404Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":24,"timestamp":"2024-12-20T10:35:41.325Z"}
+{"level":"info","message":"Successfully generated synopsis for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:35:46.798Z"}
+{"level":"info","message":"Successfully generated keywords for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:36:14.718Z"}
+{"level":"info","message":"Generating synopsis for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:38:53.938Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":24,"timestamp":"2024-12-20T10:38:59.022Z"}
+{"level":"info","message":"Successfully generated synopsis for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:39:04.521Z"}
+{"level":"info","message":"Generating synopsis for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:39:59.288Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":24,"timestamp":"2024-12-20T10:40:02.691Z"}
+{"level":"info","message":"Successfully generated synopsis for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:40:08.353Z"}
+{"level":"info","message":"Generating back cover for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:40:40.980Z"}
+{"level":"info","message":"Generating categories for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:40:42.918Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":24,"timestamp":"2024-12-20T10:40:44.110Z"}
+{"level":"info","message":"Generating preface for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:40:44.414Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":24,"timestamp":"2024-12-20T10:40:46.759Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":24,"timestamp":"2024-12-20T10:40:48.486Z"}
+{"level":"info","message":"Successfully generated back cover for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:40:49.139Z"}
+{"level":"info","message":"Successfully generated preface for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:40:58.202Z"}
+{"level":"info","message":"Successfully generated categories for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:41:08.042Z"}
+{"level":"info","message":"Generating preface for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:41:46.907Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":24,"timestamp":"2024-12-20T10:41:50.673Z"}
+{"level":"info","message":"Successfully generated preface for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:41:59.029Z"}
+{"level":"info","message":"Generating keywords for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:42:53.205Z"}
+{"level":"info","message":"Generating synopsis for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:42:54.565Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":24,"timestamp":"2024-12-20T10:42:56.919Z"}
+{"level":"info","message":"Generating back cover for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:42:56.949Z"}
+{"level":"info","message":"Generating categories for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:42:57.432Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":24,"timestamp":"2024-12-20T10:42:58.280Z"}
+{"level":"info","message":"Generating preface for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:42:59.116Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":24,"timestamp":"2024-12-20T10:43:00.131Z"}
+{"level":"info","message":"Generating scenes for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:43:00.900Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":24,"timestamp":"2024-12-20T10:43:01.699Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":24,"timestamp":"2024-12-20T10:43:03.553Z"}
+{"level":"info","message":"Successfully generated back cover for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:43:04.344Z"}
+{"level":"info","message":"Successfully generated synopsis for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:43:04.362Z"}
+{"level":"info","message":"Successfully generated preface for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:43:10.661Z"}
+{"level":"info","message":"Successfully generated scenes for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:43:17.307Z"}
+{"level":"info","message":"Generating cover images for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:43:17.368Z"}
+{"bookId":"676546bbff60993ad199efe0","level":"info","message":"Generating image for scene 1","sceneTitle":"Il sorriso enigmatico","timestamp":"2024-12-20T10:43:17.581Z"}
+{"bookId":"676546bbff60993ad199efe0","level":"info","message":"Generating image for scene 2","sceneTitle":"La solitudine dello studio","timestamp":"2024-12-20T10:43:17.582Z"}
+{"bookId":"676546bbff60993ad199efe0","level":"info","message":"Generating image for scene 3","sceneTitle":"Il protocollo dell'autopsia psicologica","timestamp":"2024-12-20T10:43:17.583Z"}
+{"level":"info","message":"Successfully generated keywords for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:43:29.164Z"}
+{"level":"info","message":"Successfully generated categories for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:43:44.548Z"}
+{"level":"info","message":"Successfully generated cover images for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:43:48.557Z"}
+{"level":"info","message":"Generating keywords for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:45:40.695Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":24,"timestamp":"2024-12-20T10:45:47.268Z"}
+{"level":"info","message":"Successfully generated keywords for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:46:26.419Z"}
+{"level":"info","message":"Generating back cover for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:51:09.453Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":24,"timestamp":"2024-12-20T10:51:13.493Z"}
+{"level":"info","message":"Successfully generated back cover for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:51:17.787Z"}
+{"level":"info","message":"Generating back cover for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:59:36.726Z"}
+{"level":"info","message":"Generating synopsis for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:59:39.636Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":24,"timestamp":"2024-12-20T10:59:41.286Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":24,"timestamp":"2024-12-20T10:59:44.413Z"}
+{"level":"info","message":"Successfully generated back cover for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:59:45.638Z"}
+{"level":"info","message":"Successfully generated synopsis for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T10:59:49.530Z"}
+{"level":"info","message":"Generating preface for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T11:07:05.308Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":24,"timestamp":"2024-12-20T11:07:12.579Z"}
+{"level":"info","message":"Successfully generated preface for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T11:07:25.677Z"}
+{"level":"info","message":"Generating preface for book: 676546bbff60993ad199efe0","timestamp":"2024-12-20T11:11:22.567Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":24,"timestamp":"2024-12-20T11:11:28.563Z"}
+{"level":"info","message":"Successfully generated preface for book 676546bbff60993ad199efe0","timestamp":"2024-12-20T11:11:42.636Z"}
+{"level":"info","message":"Generating keywords for book: 676530c65e389e7edc57dc00","timestamp":"2024-12-20T11:59:25.417Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":2,"timestamp":"2024-12-20T11:59:27.698Z"}
+{"level":"info","message":"Generating synopsis for book: 676530c65e389e7edc57dc00","timestamp":"2024-12-20T11:59:27.719Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":2,"timestamp":"2024-12-20T11:59:29.630Z"}
+{"level":"info","message":"Generating back cover for book: 676530c65e389e7edc57dc00","timestamp":"2024-12-20T11:59:29.638Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":2,"timestamp":"2024-12-20T11:59:31.476Z"}
+{"level":"info","message":"Successfully generated keywords for book 676530c65e389e7edc57dc00","timestamp":"2024-12-20T11:59:32.273Z"}
+{"level":"info","message":"Successfully generated synopsis for book 676530c65e389e7edc57dc00","timestamp":"2024-12-20T11:59:34.387Z"}
+{"level":"info","message":"Successfully generated back cover for book 676530c65e389e7edc57dc00","timestamp":"2024-12-20T11:59:36.027Z"}
+{"level":"info","message":"Generating preface for book: 676530c65e389e7edc57dc00","timestamp":"2024-12-20T11:59:44.475Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":2,"timestamp":"2024-12-20T11:59:46.692Z"}
+{"level":"info","message":"Generating scenes for book: 676530c65e389e7edc57dc00","timestamp":"2024-12-20T11:59:58.924Z"}
+{"level":"info","message":"Successfully generated scenes for book 676530c65e389e7edc57dc00","timestamp":"2024-12-20T12:00:07.647Z"}
+{"level":"info","message":"Generating cover images for book: 676530c65e389e7edc57dc00","timestamp":"2024-12-20T12:00:07.672Z"}
+{"bookId":"676530c65e389e7edc57dc00","level":"info","message":"Generating image for scene 1","sceneTitle":"IL VIAGGIO INTERIORE","timestamp":"2024-12-20T12:00:07.752Z"}
+{"bookId":"676530c65e389e7edc57dc00","level":"info","message":"Generating image for scene 2","sceneTitle":"LA SOLITUDINE MODERNA","timestamp":"2024-12-20T12:00:07.752Z"}
+{"bookId":"676530c65e389e7edc57dc00","level":"info","message":"Generating image for scene 3","sceneTitle":"LA DINAMICA DELLA RELAZIONE","timestamp":"2024-12-20T12:00:07.753Z"}
+{"level":"info","message":"Successfully generated preface for book 676530c65e389e7edc57dc00","timestamp":"2024-12-20T12:00:09.618Z"}
+{"level":"info","message":"Successfully generated cover images for book 676530c65e389e7edc57dc00","timestamp":"2024-12-20T12:00:23.305Z"}
+{"level":"info","message":"Generating keywords for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:13:35.924Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":12,"timestamp":"2024-12-20T12:13:37.499Z"}
+{"level":"info","message":"Generating synopsis for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:13:38.374Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":12,"timestamp":"2024-12-20T12:13:39.934Z"}
+{"level":"info","message":"Generating back cover for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:13:40.405Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":12,"timestamp":"2024-12-20T12:13:41.911Z"}
+{"level":"info","message":"Generating categories for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:13:41.972Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":12,"timestamp":"2024-12-20T12:13:43.459Z"}
+{"level":"info","message":"Generating preface for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:13:43.748Z"}
+{"level":"info","message":"Successfully generated synopsis for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:13:44.573Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":12,"timestamp":"2024-12-20T12:13:45.337Z"}
+{"level":"info","message":"Generating scenes for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:13:45.636Z"}
+{"level":"info","message":"Successfully generated back cover for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:13:46.007Z"}
+{"level":"info","message":"Successfully generated scenes for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:13:53.631Z"}
+{"level":"info","message":"Generating cover images for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:13:53.676Z"}
+{"bookId":"67655f6ae35cb0f62ab1a20f","level":"info","message":"Generating image for scene 1","sceneTitle":"LA RICERCA DEL CUCCIOLO","timestamp":"2024-12-20T12:13:53.834Z"}
+{"bookId":"67655f6ae35cb0f62ab1a20f","level":"info","message":"Generating image for scene 2","sceneTitle":"LO SGUARDO VERSO LA LUNA","timestamp":"2024-12-20T12:13:53.836Z"}
+{"bookId":"67655f6ae35cb0f62ab1a20f","level":"info","message":"Generating image for scene 3","sceneTitle":"IL MESSAGGIO DEL CUORE","timestamp":"2024-12-20T12:13:53.837Z"}
+{"level":"info","message":"Successfully generated preface for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:13:59.223Z"}
+{"level":"info","message":"Successfully generated cover images for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:14:08.803Z"}
+{"level":"info","message":"Successfully generated keywords for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:14:12.140Z"}
+{"level":"info","message":"Successfully generated categories for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:14:15.588Z"}
+{"level":"info","message":"Generating back cover for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:23:25.949Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":12,"timestamp":"2024-12-20T12:23:29.691Z"}
+{"level":"info","message":"Successfully generated back cover for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:23:35.857Z"}
+{"level":"info","message":"Generating preface for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:23:59.650Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":12,"timestamp":"2024-12-20T12:24:03.054Z"}
+{"level":"info","message":"Successfully generated preface for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:24:19.990Z"}
+{"level":"info","message":"Generating preface for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:25:27.342Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":12,"timestamp":"2024-12-20T12:25:30.945Z"}
+{"level":"info","message":"Successfully generated preface for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:25:43.546Z"}
+{"level":"info","message":"Generating preface for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:26:30.861Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":12,"timestamp":"2024-12-20T12:26:34.321Z"}
+{"level":"info","message":"Successfully generated preface for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:26:46.430Z"}
+{"level":"info","message":"Generating synopsis for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:42:23.158Z"}
+{"level":"info","message":"Generating back cover for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:42:24.921Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":12,"timestamp":"2024-12-20T12:42:26.874Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":12,"timestamp":"2024-12-20T12:42:28.521Z"}
+{"level":"info","message":"Successfully generated back cover for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:42:35.331Z"}
+{"level":"info","message":"Successfully generated synopsis for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:42:37.323Z"}
+{"level":"info","message":"Generating synopsis for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:44:44.714Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":12,"timestamp":"2024-12-20T12:44:48.197Z"}
+{"level":"info","message":"Successfully generated synopsis for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:44:56.770Z"}
+{"level":"info","message":"Generating back cover for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:45:36.112Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":12,"timestamp":"2024-12-20T12:45:39.484Z"}
+{"level":"info","message":"Successfully generated back cover for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:45:49.301Z"}
+{"level":"info","message":"Generating synopsis for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:47:33.744Z"}
+{"level":"info","message":"Generating back cover for book: 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:47:35.791Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":12,"timestamp":"2024-12-20T12:47:36.557Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":12,"timestamp":"2024-12-20T12:47:38.732Z"}
+{"level":"info","message":"Successfully generated synopsis for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:47:45.847Z"}
+{"level":"info","message":"Successfully generated back cover for book 67655f6ae35cb0f62ab1a20f","timestamp":"2024-12-20T12:47:54.214Z"}
+{"level":"info","message":"Generating keywords for book: 67652d9f1e3ae54359cd44f4","timestamp":"2024-12-20T13:02:39.981Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":8,"timestamp":"2024-12-20T13:02:43.964Z"}
+{"level":"info","message":"Successfully generated keywords for book 67652d9f1e3ae54359cd44f4","timestamp":"2024-12-20T13:02:56.957Z"}
+{"level":"info","message":"Generating keywords for book: 67656b5ecadad13c67eace22","timestamp":"2024-12-20T13:06:35.002Z"}
+{"bookId":"67656b5ecadad13c67eace22","error":"Error: Failed to extract text: File at path [[ uploads\\1734699867599-102842357.docx ]] does not exist.\n    at extractAndSaveText (/Users/marcolp/AI/CURSOR projects/Lose/backend/utils/bookUtils.js:63:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async validateBookContent (/Users/marcolp/AI/CURSOR projects/Lose/backend/utils/bookUtils.js:142:21)\n    at async exports.generateKeywords (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:131:25)","level":"error","message":"Error generating keywords: Failed to extract text: File at path [[ uploads\\1734699867599-102842357.docx ]] does not exist.","timestamp":"2024-12-20T13:06:36.987Z"}
+{"level":"info","message":"Generating keywords for book: 67658f3dc6f98296858a52d4","timestamp":"2024-12-20T15:37:38.078Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":12,"timestamp":"2024-12-20T15:37:41.293Z"}
+{"level":"info","message":"Successfully generated keywords for book 67658f3dc6f98296858a52d4","timestamp":"2024-12-20T15:38:04.242Z"}
+{"level":"info","message":"Generating synopsis for book: 67658f3dc6f98296858a52d4","timestamp":"2024-12-20T15:38:10.431Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":12,"timestamp":"2024-12-20T15:38:12.307Z"}
+{"level":"info","message":"Successfully generated synopsis for book 67658f3dc6f98296858a52d4","timestamp":"2024-12-20T15:38:18.270Z"}
+{"level":"info","message":"Generating keywords for book: 67686871c6fba22779d82283","timestamp":"2024-12-22T19:29:10.450Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":23,"timestamp":"2024-12-22T19:29:21.110Z"}
+{"level":"info","message":"Successfully generated keywords for book 67686871c6fba22779d82283","timestamp":"2024-12-22T19:30:18.483Z"}
+{"level":"info","message":"Generating synopsis for book: 67686871c6fba22779d82283","timestamp":"2024-12-22T19:30:32.340Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":23,"timestamp":"2024-12-22T19:30:39.550Z"}
+{"level":"info","message":"Successfully generated synopsis for book 67686871c6fba22779d82283","timestamp":"2024-12-22T19:30:46.179Z"}
+{"level":"info","message":"Generating keywords for book: 67686871c6fba22779d82283","timestamp":"2024-12-22T19:33:18.810Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":35,"timestamp":"2024-12-22T19:33:26.661Z"}
+{"level":"info","message":"Successfully generated keywords for book 67686871c6fba22779d82283","timestamp":"2024-12-22T19:34:40.103Z"}
+{"level":"info","message":"Generating synopsis for book: 67686871c6fba22779d82283","timestamp":"2024-12-22T19:34:46.585Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":35,"timestamp":"2024-12-22T19:34:51.295Z"}
+{"level":"info","message":"Successfully generated synopsis for book 67686871c6fba22779d82283","timestamp":"2024-12-22T19:35:03.775Z"}
+{"level":"info","message":"Generating keywords for book: 67719fb73bf26de9e1c5d576","timestamp":"2024-12-29T19:15:45.060Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":60,"timestamp":"2024-12-29T19:16:54.967Z"}
+{"level":"info","message":"Generating synopsis for book: 67719fb73bf26de9e1c5d576","timestamp":"2024-12-29T19:18:18.859Z"}
+{"level":"info","message":"Generating back cover for book: 67719fb73bf26de9e1c5d576","timestamp":"2024-12-29T19:18:23.158Z"}
+{"level":"info","message":"Generating categories for book: 67719fb73bf26de9e1c5d576","timestamp":"2024-12-29T19:18:25.573Z"}
+{"level":"info","message":"Generating preface for book: 67719fb73bf26de9e1c5d576","timestamp":"2024-12-29T19:18:27.460Z"}
+{"level":"info","message":"Successfully generated keywords for book 67719fb73bf26de9e1c5d576","timestamp":"2024-12-29T19:19:09.297Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":60,"timestamp":"2024-12-29T19:19:15.237Z"}
+{"hasChunks":true,"hasStructure":true,"level":"info","message":"Book content prepared for processing:","numChunks":60,"timestamp":"2024-12-29T19:19:34.665Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":60,"timestamp":"2024-12-29T19:19:36.842Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":60,"timestamp":"2024-12-29T19:19:38.528Z"}
+{"level":"info","message":"Successfully generated preface for book 67719fb73bf26de9e1c5d576","timestamp":"2024-12-29T19:19:54.518Z"}
+{"level":"info","message":"Successfully generated synopsis for book 67719fb73bf26de9e1c5d576","timestamp":"2024-12-29T19:19:55.151Z"}
+{"level":"info","message":"Successfully generated back cover for book 67719fb73bf26de9e1c5d576","timestamp":"2024-12-29T19:19:56.807Z"}
+{"level":"info","message":"Generating synopsis for book: 67719fb73bf26de9e1c5d576","timestamp":"2024-12-29T19:20:42.558Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":60,"timestamp":"2024-12-29T19:21:47.067Z"}
+{"level":"info","message":"Successfully generated synopsis for book 67719fb73bf26de9e1c5d576","timestamp":"2024-12-29T19:22:23.568Z"}
+{"level":"info","message":"Generating keywords for book: 6771a2ef5971e1dc5bae13e3","timestamp":"2024-12-29T19:29:09.014Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for keywords generation:","numChunks":60,"timestamp":"2024-12-29T19:30:00.326Z"}
+{"bookId":"6771a2ef5971e1dc5bae13e3","error":"Error: Rolling summary not found\n    at /Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:251:13\n    at withRetry (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:67:20)\n    at async exports.generateKeywords (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:81:22)","level":"error","message":"Error generating keywords: Rolling summary not found","timestamp":"2024-12-29T19:30:03.350Z"}
+{"level":"info","message":"Generating synopsis for book: 6771a3cec664dc76f2a5c184","timestamp":"2024-12-29T19:34:54.382Z"}
+{"level":"info","message":"Generating back cover for book: 6771a3cec664dc76f2a5c184","timestamp":"2024-12-29T19:35:43.159Z"}
+{"level":"info","message":"Generating preface for book: 6771a3cec664dc76f2a5c184","timestamp":"2024-12-29T19:35:46.409Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for synopsis generation:","numChunks":60,"timestamp":"2024-12-29T19:35:57.570Z"}
+{"bookId":"6771a3cec664dc76f2a5c184","error":"Error: Rolling summary not found\n    at /Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:594:13\n    at withRetry (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:67:20)\n    at async exports.generateSynopsis (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:346:22)","level":"error","message":"Error generating synopsis: Rolling summary not found","timestamp":"2024-12-29T19:36:00.577Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for back cover generation:","numChunks":60,"timestamp":"2024-12-29T19:36:38.677Z"}
+{"hasChunks":true,"level":"info","message":"Book content prepared for preface generation:","numChunks":60,"timestamp":"2024-12-29T19:36:43.229Z"}
+{"bookId":"6771a3cec664dc76f2a5c184","error":"Error: Rolling summary not found\n    at /Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:423:13\n    at withRetry (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:67:20)\n    at async exports.generateBackCover (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:226:23)","level":"error","message":"Error generating back cover: Rolling summary not found","timestamp":"2024-12-29T19:36:43.580Z"}
+{"bookId":"6771a3cec664dc76f2a5c184","error":"Error: Rolling summary not found\n    at /Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:479:13\n    at withRetry (/Users/marcolp/AI/CURSOR projects/Lose/backend/services/openai.js:67:20)\n    at async exports.generatePreface (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:266:21)","level":"error","message":"Error generating preface: Rolling summary not found","timestamp":"2024-12-29T19:36:47.253Z"}
+{"level":"info","message":"Generating cover images for book: 6771a52ec05a450ab498b620","timestamp":"2024-12-29T19:39:11.773Z"}
+{"bookId":"6771a52ec05a450ab498b620","level":"info","message":"Generating image for scene 1","sceneTitle":"Il Giudice e la Bilancia","timestamp":"2024-12-29T19:39:34.411Z"}
+{"bookId":"6771a52ec05a450ab498b620","level":"info","message":"Generating image for scene 2","sceneTitle":"Il Dilemma Etico","timestamp":"2024-12-29T19:39:34.415Z"}
+{"bookId":"6771a52ec05a450ab498b620","level":"info","message":"Generating image for scene 3","sceneTitle":"Le Ombre del Crimine","timestamp":"2024-12-29T19:39:34.415Z"}
+{"level":"info","message":"Generating cover images for book: 6794ba6acb044fc74d23b1ee","timestamp":"2025-01-25T10:18:40.009Z"}
+{"bookId":"6794ba6acb044fc74d23b1ee","level":"info","message":"Generating image for scene 1","sceneTitle":"RIFLESSIONE INTERIORE","timestamp":"2025-01-25T10:18:40.234Z"}
+{"bookId":"6794ba6acb044fc74d23b1ee","level":"info","message":"Generating image for scene 2","sceneTitle":"IL CAMBIAMENTO","timestamp":"2025-01-25T10:18:40.235Z"}
+{"bookId":"6794ba6acb044fc74d23b1ee","level":"info","message":"Generating image for scene 3","sceneTitle":"IL VIAGGIO DELLA CRESCITA","timestamp":"2025-01-25T10:18:40.235Z"}
+{"bookId":"6794ba6acb044fc74d23b1ee","error":"VersionError: No matching document found for id \"6794ba6acb044fc74d23b1ee\" version 0 modifiedPaths \"metadata, metadata.keywords\"\n    at generateVersionError (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/mongoose/lib/model.js:465:10)\n    at model.save (/Users/marcolp/AI/CURSOR projects/Lose/backend/node_modules/mongoose/lib/model.js:522:28)\n    at exports.generateKeywords (/Users/marcolp/AI/CURSOR projects/Lose/backend/controllers/ai.controller.js:76:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","level":"error","message":"Error generating keywords:","timestamp":"2025-01-25T10:18:44.186Z"}
+{"level":"info","message":"Successfully generated cover images for book 6794ba6acb044fc74d23b1ee","timestamp":"2025-01-25T10:19:03.342Z"}

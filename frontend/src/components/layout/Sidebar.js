@@ -122,9 +122,7 @@ const Sidebar = () => {
           }
         }}
       >
-        <span className="filename">
-          {formatFileName(location.pathname.split('/').pop())}
-        </span>
+        
         <img 
           src={honLogo} 
           alt="hon" 

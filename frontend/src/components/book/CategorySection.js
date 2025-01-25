@@ -160,7 +160,7 @@ const CategorySection = () => {
       
       const searchTerm = searchTerms[type];
       if (!searchTerm) {
-        result[type] = categories[type].slice(0, 100);
+        result[type] = categories[type].slice(0, 200);
         return;
       }
 

@@ -13,7 +13,6 @@ import CategorySection from './components/book/CategorySection';
 import CoverSection from './components/book/CoverSection';
 import BackCoverSection from './components/book/BackCoverSection';
 import PrefaceSection from './components/book/PrefaceSection';
-import StoreDescriptionSection from './components/book/StoreDescriptionSection';
 import KeywordsSection from './components/book/KeywordsSection';
 
 function App() {
@@ -32,7 +31,6 @@ function App() {
                 <Route path="/book/:id/cover" element={<CoverSection />} />
                 <Route path="/book/:id/backcover" element={<BackCoverSection />} />
                 <Route path="/book/:id/preface" element={<PrefaceSection />} />
-                <Route path="/book/:id/store" element={<StoreDescriptionSection />} />
                 <Route path="/book/:id/keywords" element={<KeywordsSection />} />
                 <Route path="/admin/storage" element={<StorageManager />} />
               </Routes>
