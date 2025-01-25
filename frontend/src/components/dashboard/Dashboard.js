@@ -238,7 +238,7 @@ const Dashboard = () => {
         </Typography>
       </Paper>
 
-      {books && books.length > 0 ? (
+      {Array.isArray(books) && books.length > 0 ? (
         <TableContainer component={Paper}>
           <Table>
             <TableHead>

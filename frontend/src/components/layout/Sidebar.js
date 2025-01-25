@@ -196,7 +196,7 @@ const Sidebar = () => {
         <Divider sx={{ my: 2 }} />
 
         {/* Books with their sections */}
-        {books.map((book) => (
+        {Array.isArray(books) && books.map((book) => (
           <BookMenuItem
             key={book.id}
             book={book}
