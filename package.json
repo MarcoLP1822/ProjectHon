@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "textract": "^2.5.0"
+  },
+  "scripts": {
+    "start": "npm run build --prefix frontend && npm run start --prefix backend"
   }
 }
