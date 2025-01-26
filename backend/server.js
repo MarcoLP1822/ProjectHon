@@ -41,10 +41,7 @@ app.use((req, res, next) => {
   next(error);
 });
 
-const PORT = process.env.PORT || 5002;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+module.exports = app;
 
 // Gestione errori non catturati
 process.on('unhandledRejection', (error) => {
